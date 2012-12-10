@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Game-of-life : JavaScript implementation for Conway's Game of Life (demo)" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/life.css">
+
+    <title>Game-of-life :: Demo</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/Lexxus/game-of-life">View on GitHub</a>
+
+          <h1 id="project_title">Game-of-life</h1>
+          <h2 id="project_tagline">JavaScript implementation for Conway's Game of Life</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/Lexxus/game-of-life/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/Lexxus/game-of-life/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+	<div id="main_content_wrap" class="outer">
+		<canvas id="life"></canvas>
+
+		<div class="controls">
+			<button id="btnStart">&gt;&gt;Start</button>
+			<button id="btnStep">Step</button>
+			<button id="btnClear">Clear</button>
+			<button id="btnRnd">Rnd</button>
+			<div class="info">
+				<label>Life cycle:</label><span id="life-cycle"></span><br/>
+				<label title="live / total">Cells:</label><span id="cells"></span><br/>
+				<label>Max cells:</label><span id="max-cells"></span><br/>
+				<label>FPS:</label><span id="time"></span>
+			</div>
+			<div class="zoom">
+				<button id="btnZoomSub" style="border-radius: 5px 0 0 5px;">-</button>
+					<span id="zoomValue">6</span>
+				<button id="btnZoomAdd" style="border-radius: 0 5px 5px 0;">+</button>
+			</div>
+		</div>
+	</div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Game-of-life maintained by <a href="https://github.com/Lexxus">Lexxus</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+	<script src="javascripts/gdi.js"></script>
+	<script src="javascripts/life.js"></script>
+	<script src="javascripts/main.js"></script>
+
+  </body>
+</html>
