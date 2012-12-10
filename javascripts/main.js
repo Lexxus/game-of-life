@@ -36,16 +36,17 @@ setTimeout(function(){
 
 	Life.init(gd);
 	
-	/*
-	var x = 25, y = 25;
-	Life.createCell(x, y, true, gd);
-	Life.createCell(x, y+1, true, gd);
-	Life.createCell(x, y+2, true, gd);
-	Life.createCell(x+1, y+2, true, gd);
-	Life.createCell(x+2, y+2, true, gd);
-	Life.createCell(x+2, y+1, true, gd);
-	Life.createCell(x+2, y, true, gd);
-	*/
+	
+	Life.createCell(0, 0, true);
+	Life.createCell(0, 1, true);
+	Life.createCell(0, 2, true);
+	Life.createCell(1, 2, true);
+	Life.createCell(2, 2, true);
+	Life.createCell(2, 1, true);
+	Life.createCell(2, 0, true);
+	
+	isReady = true;
+	
 	//Life.testCycle();
 
 	document.getElementById('btnStep').onclick = function(e){
