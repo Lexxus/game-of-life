@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>LIFE</title>
+	<style>
+		html, body{
+			height: 100%;
+			margin: 0;
+			overflow: hidden;
+		}
+		.controls {
+			position: absolute;
+			right: 10px;
+			top: 10px;
+		}
+		.info {
+			background: white;
+			font-family: Calibri, Tahoma, Arial, sans-serif;
+			font-size: 12px;
+			position: relative;
+		}
+		.info label {
+			display: inline-block;
+			width: 65px;
+		}
+		.info span {
+			font-weight: bold;
+		}
+		.zoom {
+			float: right;
+		}
+		.zoom span {
+			display: inline-block;
+			width: 20px;
+			text-align: center;
+			background: white;
+		}
+		.zoom button {
+			font-size: 17px;
+			width: 20px;
+			height: 20px;
+			line-height: 14px;
+			padding: 0;
+		}
+	</style>
+</head>
+<body>
+	<canvas id="life"></canvas>
+
+	<div class="controls">
+		<button id="btnStart">&gt;&gt;Start</button>
+		<button id="btnStep">Step</button>
+		<button id="btnClear">Clear</button>
+		<button id="btnRnd">Rnd</button>
+		<div class="info">
+			<label>Life cycle:</label><span id="life-cycle"></span><br/>
+			<label title="live / total">Cells:</label><span id="cells"></span><br/>
+			<label>Max cells:</label><span id="max-cells"></span><br/>
+			<label>FPS:</label><span id="time"></span>
+		</div>
+		<div class="zoom">
+			<button id="btnZoomSub" style="border-radius: 5px 0 0 5px;">-</button>
+				<span id="zoomValue">6</span>
+			<button id="btnZoomAdd" style="border-radius: 0 5px 5px 0;">+</button>
+		</div>
+	</div>
+	<script src="gdi.js"></script>
+	<script src="life.js"></script>
+	<script src="life-exec.js"></script>
+</body>
+</html>
