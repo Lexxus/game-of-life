@@ -262,6 +262,18 @@ img {
   max-width: 100%;
 }
 
+.demo-button {
+  background: #0090FF;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.demo-button:hover {
+  color: #99EEFF !important;
+}
+
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
