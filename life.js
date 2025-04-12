@@ -10,11 +10,14 @@
  * Life, static control object
  */
 var Life = {
+  // graphic driver
+  gd: null,
+
   // array of cells
   cells: [],
 
-  // hash of links by cell ID to cell in the cells array
-  hash: {},
+  // pool of links by cell ID to cell in the cells array
+  pool: {},
 
   // array of indexes in cells array for dead cells
   holes: [],
@@ -29,7 +32,7 @@ var Life = {
   init: function (graphicDriver) {
     if (graphicDriver) this.gd = graphicDriver;
     this.cells = [];
-    this.hash = {};
+    this.pool = {};
     this.holes = [];
     this.removed = 0;
     this.isReady = false;
@@ -43,15 +46,18 @@ var Life = {
     }
   },
 
-  createCell: function (x, y, live, link) {
-    var id = x + 'n' + y,
-      i = this.hash[id],
-      cell;
+  createCell(x, y, live, link) {
+    const id = x + 'n' + y;
+    let i = this.pool[id];
+    let cell;
 
     if (i >= 0) {
       cell = this.cells[i];
+
+      if (!cell) throw new Error('Cell not found in pool: ' + id);
+
       if (live) {
-        if (!cell.live || link) {
+        if (!cell.isLive || link) {
           cell.alive();
         } else {
           cell.die();
@@ -65,9 +71,8 @@ var Life = {
         i = this.holes.shift();
       } else {
         i = this.cells.length;
-        this.cells[i] = null;
       }
-      this.hash[id] = i;
+      this.pool[id] = i;
       cell = new Cell(x, y, live, link);
       this.cells[i] = cell;
       cell.update(live);
@@ -77,24 +82,23 @@ var Life = {
     return cell;
   },
 
-  cycle: function () {
-    //console.time('cycle');
-    var t = Date.now();
+  cycle() {
+    const t = Date.now();
 
     if (!this.isReady) {
       this.impact();
     }
-    var cells = this.cells, nLive = 0, rem;
-    for (var i = 0, n = cells.length; i < n; ++i) {
+    const cells = this.cells;
+    let nLive = 0
+
+    for (let i = 0, n = cells.length; i < n; ++i) {
       if (cells[i]) {
         cells[i].lifeCycle();
-        if (cells[i] && cells[i].live) ++nLive;
+        if (cells[i]?.isLive) ++nLive;
       }
     }
     this.currentCycle++;
-    //console.log('Step '+this.currentCycle);
-    //console.log('count: '+n +', removed: '+this.removed);
-    rem = this.removed;
+    const removedCells = this.removed;
 
     this.impact();
 
@@ -104,167 +108,184 @@ var Life = {
       this.maxLiveCells = nLive;
     }
 
-    //console.timeEnd('cycle');
-
     return {
       cycle: this.currentCycle,
       liveCells: nLive,
-      totalCells: n - this.holes.length,
-      removedCells: rem,
+      totalCells: cells.length - this.holes.length,
+      removedCells,
       maxLiveCells: this.maxLiveCells,
       time: Date.now() - t
     }
   },
 
-  testCycle: function () {
+  testCycle() {
     if (!this.isReady) {
       this.impact();
     }
-    var cells = this.cells, n = 0;
+    const cells = this.cells
+    let n = 0;
+
     for (var id in cells) {
       if (cells.hasOwnProperty(id)) {
         cells[id].testCycle();
         ++n;
       }
     }
-    console.log('count: ' + n);
+    // console.log('count: ' + n);
   },
 
-  impact: function () {
-    var cell, cells = this.cells;
-    for (var i = 0, n = cells.length; i < n; ++i) {
+  impact() {
+    const cells = this.cells;
+
+    for (let i = 0, n = cells.length; i < n; ++i) {
       if (cells[i]) {
-        cell = cells[i];
-        if (cell.live) cell.impact();
+        const cell = cells[i];
+
+        if (cell.isLive) cell.impact();
       }
     }
     this.isReady = true;
   },
 
-  remove: function (cell) {
-    var i;
+  remove(cell) {
     if (cell.nbh) {
-      for (i = 0; i < 8; ++i) {
+      for (let i = 0; i < 8; ++i) {
         cell.nbh[i].linksCount--;
       }
-      delete (cell.nbh);
+      cell.nbh = null;
     }
-    if (cell.linksCount == 0) {
+    if (cell.linksCount === 0) {
       if (cell.toDel++ > 5) {
-        var id = cell.id;
-        i = this.hash[id];
-        //console.log('x Remove cell '+cell.id);
+        const id = cell.id;
+        const i = this.pool[id];
+
         this.gd.drawText(cell.x, cell.y, '+', '#FF8888');
         this.holes.push(i);
-        delete (this.hash[id]);
-        this.cells[i] = null;
+        this.pool[id] = undefined;
+        this.cells[i] = undefined;
         this.removed++;
       }
     }
   },
 
-  refresh: function (zoom) {
+  refresh(zoom) {
     this.gd.drawGrid(zoom);
-    var cell, cells = this.cells;
-    for (var i = 0, n = cells.length; i < n; ++i) {
+    const cells = this.cells;
+
+    for (let i = 0, n = cells.length; i < n; ++i) {
       if (cells[i]) {
-        cell = cells[i];
-        if (cell.live) this.gd.drawCell(cell.x, cell.y);
+        const cell = cells[i];
+        if (cell.isLive) this.gd.drawCell(cell.x, cell.y);
       }
     }
   }
 };
 
-
 /**
  * Cell class
  */
-var Cell = function (x, y, live, link) {
-  this.x = x;
-  this.y = y;
-  this.id = x + 'n' + y;
-  this.live = false;
-  this.points = 0;
-  this.linksCount = link ? 1 : 0;
-  this.toDel = 0;
+class Cell {
+  x = 0;
+  y = 0;
+  id = '';
+  isLive = false;
+  points = 0;
+  linksCount = 0;
+  nbh = null;
 
-  //if(live) this.alive();
-  //else this.die();
-}
+  constructor(x, y, live, link) {
+    this.x = x;
+    this.y = y;
+    this.id = x + 'n' + y;
+    this.isLive = false;
+    this.points = 0;
+    this.linksCount = link ? 1 : 0;
+    this.toDel = 0;
 
-Cell.prototype.update = function (live) {
-  if (live)
-    this.alive();
-  else
-    this.die();
-}
-
-Cell.prototype.alive = function () {
-  if (this.live) return;
-
-  if (!this.nbh) {
-    var x = this.x, y = this.y;
-    // neighborhood
-    var nbh = [];
-    nbh[0] = Life.createCell(x, y + 1, false, true);
-    nbh[1] = Life.createCell(x + 1, y + 1, false, true);
-    nbh[2] = Life.createCell(x + 1, y, false, true);
-    nbh[3] = Life.createCell(x + 1, y - 1, false, true);
-    nbh[4] = Life.createCell(x, y - 1, false, true);
-    nbh[5] = Life.createCell(x - 1, y - 1, false, true);
-    nbh[6] = Life.createCell(x - 1, y, false, true);
-    nbh[7] = Life.createCell(x - 1, y + 1, false, true);
-    this.nbh = nbh;
-  }
-  this.live = true;
-
-  Life.gd.drawCell(this.x, this.y);
-}
-Cell.prototype.die = function () {
-  this.live = false;
-
-  Life.gd.clearCell(this.x, this.y);
-}
-
-Cell.prototype.impact = function () {
-  for (var i = 0; i < 8; ++i) {
-    this.nbh[i].points++;
-  }
-}
-
-Cell.prototype.testCycle = function () {
-  var colors = [
-    '#FF0000',
-    '#AAAAAA',
-    '#4444FF',
-    '#44FF44',
-    '#884444',
-    '#CC4444',
-    '#DDDD44',
-    '#BBBB00',
-    '#888800',
-    '#444400'
-  ], color;
-  if (this.live) {
-    Life.gd.drawCell(this.x, this.y);
-    color = '#FFFFFF';
-  } else {
-    Life.gd.clearCell(this.x, this.y);
-    color = this.nbh ? 'red' : '#777777';
+    //if(live) this.alive();
+    //else this.die();
   }
 
-  Life.gd.drawText(this.x, this.y, this.linksCount, color);
-}
+  update(live) {
+    if (live)
+      this.alive();
+    else
+      this.die();
+  }
 
-Cell.prototype.lifeCycle = function () {
-  var p = this.points;
-  if (p < 2 || p > 3) {
-    if (this.live) this.die();
-    if (p == 0) {
-      Life.remove(this);
+  alive() {
+    if (this.isLive) return;
+
+    if (!this.nbh) {
+      const x = this.x;
+      const y = this.y;
+      // neighborhood
+      const nbh = [];
+
+      nbh[0] = Life.createCell(x, y + 1, false, true);
+      nbh[1] = Life.createCell(x + 1, y + 1, false, true);
+      nbh[2] = Life.createCell(x + 1, y, false, true);
+      nbh[3] = Life.createCell(x + 1, y - 1, false, true);
+      nbh[4] = Life.createCell(x, y - 1, false, true);
+      nbh[5] = Life.createCell(x - 1, y - 1, false, true);
+      nbh[6] = Life.createCell(x - 1, y, false, true);
+      nbh[7] = Life.createCell(x - 1, y + 1, false, true);
+      this.nbh = nbh;
     }
-  } else if (p == 3) {
-    this.alive();
+    this.isLive = true;
+
+    Life.gd.drawCell(this.x, this.y);
   }
-  this.points = 0;
+
+  die() {
+    this.isLive = false;
+
+    Life.gd.clearCell(this.x, this.y);
+  }
+
+  impact() {
+    for (let i = 0; i < 8; ++i) {
+      this.nbh[i].points++;
+    }
+  }
+
+  testCycle() {
+    const colors = [
+      '#FF0000',
+      '#AAAAAA',
+      '#4444FF',
+      '#44FF44',
+      '#884444',
+      '#CC4444',
+      '#DDDD44',
+      '#BBBB00',
+      '#888800',
+      '#444400'
+    ];
+    let color;
+
+    if (this.isLive) {
+      Life.gd.drawCell(this.x, this.y);
+      color = '#FFFFFF';
+    } else {
+      Life.gd.clearCell(this.x, this.y);
+      color = this.nbh ? 'red' : '#777777';
+    }
+
+    Life.gd.drawText(this.x, this.y, this.linksCount, color);
+  }
+
+  lifeCycle() {
+    const p = this.points;
+
+    if (p < 2 || p > 3) {
+      if (this.isLive) this.die();
+      if (p === 0) {
+        Life.remove(this);
+      }
+    } else if (p === 3) {
+      this.alive();
+    }
+    this.points = 0;
+  }
 }

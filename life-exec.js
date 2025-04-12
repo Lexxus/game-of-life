@@ -5,29 +5,50 @@
  * @version 2.0
  */
 setTimeout(function () {
-  var zoom = 6,
-    gd = new GDI('life', { step: zoom }),
-    w = document.body.clientWidth,
-    h = document.body.clientHeight,
-    elLifeCycle = document.getElementById('life-cycle'),
-    elCells = document.getElementById('cells'),
-    elMaxCells = document.getElementById('max-cells'),
-    elTime = document.getElementById('time'),
-    elZoom = document.getElementById('zoomValue'),
-    allowDrawing = true,
-    isReady = false,
-    allowCycle = true,
-    isMoving = false,
-    isPaused = true,
-    startX, startY,
-    fps = { min: 1000, max: 0 };
+  let runDelay = 2;
+  let zoom = 6;
+  const gd = new GDI('life', { step: zoom });
 
-  elZoom.innerHTML = zoom;
+  const $LifeCycle = document.getElementById('life-cycle');
+  const $Cells = document.getElementById('cells');
+  const $MaxCells = document.getElementById('max-cells');
+  const $Time = document.getElementById('time');
+  const $Zoom = document.getElementById('zoomValue');
+
+  const fps = { min: 1000, max: 0 };
+
+  let w = document.body.clientWidth;
+  let h = document.body.clientHeight;
+  let allowDrawing = true;
+  let isReady = false;
+  let allowCycle = true;
+  let isMoving = false;
+  let isPaused = true;
+  let startX, startY;
+
+  function zoomIn() {
+    allowCycle = false;
+    zoom++;
+    $Zoom.innerHTML = zoom;
+    Life.refresh(zoom);
+    allowCycle = true;
+  }
+
+  function zoomOut() {
+    if (zoom > 2) {
+      allowCycle = false;
+      zoom--;
+      $Zoom.innerHTML = zoom;
+      Life.refresh(zoom);
+      allowCycle = true;
+    }
+  }
+
+  $Zoom.innerHTML = zoom;
 
   gd.canvas.width = w;
   gd.canvas.height = h;
   gd.setX0Y0(Math.round(w / 2), Math.round(h / 2));
-  //gd.drawGrid();
 
   document.onselectstart = function (e) {
     return false;
@@ -35,17 +56,15 @@ setTimeout(function () {
 
   Life.init(gd);
 
-  /*
-  var x = 25, y = 25;
-  Life.createCell(x, y, true, gd);
-  Life.createCell(x, y+1, true, gd);
-  Life.createCell(x, y+2, true, gd);
-  Life.createCell(x+1, y+2, true, gd);
-  Life.createCell(x+2, y+2, true, gd);
-  Life.createCell(x+2, y+1, true, gd);
-  Life.createCell(x+2, y, true, gd);
-  */
-  //Life.testCycle();
+  // var x = 25, y = 25;
+  // Life.createCell(x, y, true, gd);
+  // Life.createCell(x, y+1, true, gd);
+  // Life.createCell(x, y+2, true, gd);
+  // Life.createCell(x+1, y+2, true, gd);
+  // Life.createCell(x+2, y+2, true, gd);
+  // Life.createCell(x+2, y+1, true, gd);
+  // Life.createCell(x+2, y, true, gd);
+  // Life.testCycle();
 
   document.getElementById('btnStep').onclick = function (e) {
     if (!isReady) return;
@@ -60,73 +79,71 @@ setTimeout(function () {
     allowDrawing = false;
 
     if (isPaused) {
-      var live = 0, n0 = 5, n = n0, that = this;
-      this.innerHTML = '|| Pause';
-      document.getElementById('btnStep').disabled = true;
-      document.getElementById('btnRnd').disabled = true;
-      allowCycle = true;
-      isPaused = false;
-      setTimeout(function () {
+      let live = 0
+      let n0 = 5
+      let n = n0;
+
+      function runCycle() {
         if (isPaused) return;
         if (allowCycle) {
-          var info = Life.cycle();
+          const info = Life.cycle();
+
           showInfo(info);
+
           if (info.liveCells < 3) stopLife();
-          if (info.liveCells == live) {
-            if (--n == 0) {
+          if (info.liveCells === live) {
+            if (--n === 0) {
               stopLife();
             }
           } else {
             n = n0;
             live = info.liveCells;
           }
-          setTimeout(arguments.callee, 2);
+          setTimeout(runCycle, runDelay);
         } else {
-          setTimeout(arguments.callee, 500);
+          setTimeout(runCycle, 500);
         }
-      }, 200);
+      }
+
+      e.target.textContent = '|| Pause';
+      document.getElementById('btnStep').disabled = true;
+      document.getElementById('btnRnd').disabled = true;
+      allowCycle = true;
+      isPaused = false;
+      setTimeout(runCycle, 200);
     } else {
       stopLife();
     }
   };
 
-  document.getElementById('btnClear').onclick = function (e) {
+  document.getElementById('btnClear').onclick = function () {
     stopLife();
-    //gd.drawGrid();
     Life.init();
     allowDrawing = true;
     isReady = false;
     showInfo();
   }
 
-  document.getElementById('btnRnd').onclick = function (e) {
-    var ww = 100, hh = 100;
-    for (var j = 0; j < 2000; ++j) {
+  document.getElementById('btnRnd').onclick = function () {
+    const ww = 100, hh = 100;
+
+    for (let j = 0; j < 2000; ++j) {
       Life.createCell(Math.round(Math.random() * ww) - 50, Math.round(Math.random() * hh) - 50, true);
     }
     isReady = true;
   }
 
-  document.getElementById('btnZoomSub').onclick = function (e) {
-    if (zoom > 2) {
-      allowCycle = false;
-      zoom--;
-      elZoom.innerHTML = zoom;
-      Life.refresh(zoom);
-      allowCycle = true;
-    }
-  }
-  document.getElementById('btnZoomAdd').onclick = function (e) {
-    allowCycle = false;
-    zoom++;
-    elZoom.innerHTML = zoom;
-    Life.refresh(zoom);
-    allowCycle = true;
-  }
+  document.getElementById('btnZoomIn').onclick = zoomIn;
+  document.getElementById('btnZoomOut').onclick = zoomOut;
+
+  document.addEventListener('wheel', function (e) {
+    if (e.wheelDelta > 0) zoomIn();
+    else zoomOut();
+  });
 
   gd.canvas.onmousedown = function (e) {
-    if (allowDrawing) {
-      var xy = gd.convertXY(e.pageX - this.offsetLeft, e.pageY - this.offsetTop);
+    if (!e.ctrlKey && allowDrawing) {
+      const xy = gd.convertXY(e.pageX - this.offsetLeft, e.pageY - this.offsetTop);
 
       Life.createCell(xy.x, xy.y, true);
 
@@ -140,8 +157,8 @@ setTimeout(function () {
   }
   gd.canvas.onmousemove = function (e) {
     if (isMoving) {
-      if (allowDrawing) {
-        var xy = gd.convertXY(e.pageX - this.offsetLeft, e.pageY - this.offsetTop);
+      if (!e.ctrlKey && allowDrawing) {
+        const xy = gd.convertXY(e.pageX - this.offsetLeft, e.pageY - this.offsetTop);
 
         Life.createCell(xy.x, xy.y, true, true);
       } else {
@@ -151,10 +168,11 @@ setTimeout(function () {
   }
   gd.canvas.onmouseup = function (e) {
     isMoving = false;
-    if (allowDrawing) return;
-    var byX = e.pageX - startX,
-      byY = e.pageY - startY;
-    if (byX != 0 || byY != 0) {
+    if (!e.ctrlKey && allowDrawing) return;
+    const byX = e.pageX - startX;
+    const byY = e.pageY - startY;
+
+    if (byX !== 0 || byY !== 0) {
       gd.moveComplete(byX, byY);
       Life.refresh();
     }
@@ -162,22 +180,21 @@ setTimeout(function () {
   }
 
   function showInfo(info) {
-    elLifeCycle.innerHTML = info ? info.cycle : 0;
-    elCells.innerHTML = info ? info.liveCells + ' / ' + info.totalCells : 0;
-    elMaxCells.innerHTML = info ? info.maxLiveCells : 0;
+    $LifeCycle.innerHTML = info ? info.cycle : 0;
+    $Cells.innerHTML = info ? info.liveCells + ' / ' + info.totalCells : 0;
+    $MaxCells.innerHTML = info ? info.maxLiveCells : 0;
 
-    if (info) {
-      var fc = Math.round(1000 / (info.time || 1));
-      if (fps.min > fc) fps.min = fc;
-      if (fps.max < fc) fps.max = fc;
-    }
-    elTime.innerHTML = info ? fps.min + '/' + fc + '/' + fps.max : '';
+    const fc = Math.round(1000 / (info?.time || 1));
+
+    if (fps.min > fc) fps.min = fc;
+    if (fps.max < fc) fps.max = fc;
+    $Time.innerHTML = info ? fps.min + '/' + fc + '/' + fps.max : '';
   }
 
   function stopLife() {
     isPaused = true;
-    document.getElementById('btnStart').innerHTML = '&gt;&gt;Start';
-    //allowDrawing = true;
+    document.getElementById('btnStart').textContent = '>> Start';
+    allowDrawing = true;
     document.getElementById('btnStep').disabled = false;
     document.getElementById('btnRnd').disabled = false;
   }
