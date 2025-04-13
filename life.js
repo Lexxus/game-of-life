@@ -9,7 +9,7 @@
 /**
  * Life, static control object
  */
-var Life = {
+const Life = {
   // graphic driver
   gd: null,
 
@@ -92,9 +92,11 @@ var Life = {
     let nLive = 0
 
     for (let i = 0, n = cells.length; i < n; ++i) {
-      if (cells[i]) {
-        cells[i].lifeCycle();
-        if (cells[i]?.isLive) ++nLive;
+      const cell = cells[i];
+
+      if (cell) {
+        cell.lifeCycle();
+        if (cell?.isLive) ++nLive;
       }
     }
     this.currentCycle++;
@@ -116,6 +118,16 @@ var Life = {
       maxLiveCells: this.maxLiveCells,
       time: Date.now() - t
     }
+  },
+
+  getInfo() {
+    return {
+      cycle: this.currentCycle,
+      liveCells: this.cells.reduce((n, c) => n + (c?.isLive ? 1 : 0), 0),
+      totalCells: this.cells.length - this.holes.length,
+      removedCells: this.removed,
+      maxLiveCells: this.maxLiveCells
+    };
   },
 
   testCycle() {
@@ -159,7 +171,8 @@ var Life = {
         const id = cell.id;
         const i = this.pool[id];
 
-        this.gd.drawText(cell.x, cell.y, '+', '#FF8888');
+        // highlight removed cell
+        // this.gd.drawText(cell.x, cell.y, '+', '#FF8888');
         this.holes.push(i);
         this.pool[id] = undefined;
         this.cells[i] = undefined;
@@ -178,6 +191,13 @@ var Life = {
         if (cell.isLive) this.gd.drawCell(cell.x, cell.y);
       }
     }
+  },
+
+  save() {
+    const pattern = this.cells.filter((c) => c?.isLive)
+      .map((c) => [c.x, c.y]);
+
+    console.log(pattern);
   }
 };
 

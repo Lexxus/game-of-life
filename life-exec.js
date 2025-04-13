@@ -4,8 +4,8 @@
  * @author Oleksii Teterin
  * @version 2.0
  */
-setTimeout(function () {
-  let runDelay = 2;
+document.addEventListener('DOMContentLoaded', () => {
+  const MAX_SPEED = 100;
   let zoom = 6;
   const gd = new GDI('life', { step: zoom });
 
@@ -14,17 +14,22 @@ setTimeout(function () {
   const $MaxCells = document.getElementById('max-cells');
   const $Time = document.getElementById('time');
   const $Zoom = document.getElementById('zoomValue');
+  const $Speed = document.getElementById('speed');
 
   const fps = { min: 1000, max: 0 };
 
   let w = document.body.clientWidth;
   let h = document.body.clientHeight;
   let allowDrawing = true;
-  let isReady = false;
   let allowCycle = true;
   let isMoving = false;
   let isPaused = true;
   let startX, startY;
+
+  let speed = $Speed.value;
+  let runDelay = MAX_SPEED / speed;
+
+  document.getElementById('speedValue').innerHTML = speed;
 
   function zoomIn() {
     allowCycle = false;
@@ -56,26 +61,13 @@ setTimeout(function () {
 
   Life.init(gd);
 
-  // var x = 25, y = 25;
-  // Life.createCell(x, y, true, gd);
-  // Life.createCell(x, y+1, true, gd);
-  // Life.createCell(x, y+2, true, gd);
-  // Life.createCell(x+1, y+2, true, gd);
-  // Life.createCell(x+2, y+2, true, gd);
-  // Life.createCell(x+2, y+1, true, gd);
-  // Life.createCell(x+2, y, true, gd);
-  // Life.testCycle();
-
   document.getElementById('btnStep').onclick = function (e) {
-    if (!isReady) return;
     allowDrawing = false;
 
     showInfo(Life.cycle());
-    //Life.testCycle();
   };
 
   document.getElementById('btnStart').onclick = function (e) {
-    if (!isReady) return;
     allowDrawing = false;
 
     if (isPaused) {
@@ -105,7 +97,11 @@ setTimeout(function () {
         }
       }
 
-      e.target.textContent = '|| Pause';
+      const btn = e.target;
+
+      btn.textContent = 'Pause';
+      btn.classList.remove('icon-play');
+      btn.classList.add('icon-pause');
       document.getElementById('btnStep').disabled = true;
       document.getElementById('btnRnd').disabled = true;
       allowCycle = true;
@@ -120,17 +116,26 @@ setTimeout(function () {
     stopLife();
     Life.init();
     allowDrawing = true;
-    isReady = false;
     showInfo();
   }
 
-  document.getElementById('btnRnd').onclick = function () {
-    const ww = 100, hh = 100;
+  document.getElementById('btnRnd').onclick = () => {
+    const w = 100;
+    const w2 = w / 2;
+    const h = 100;
+    const h2 = h / 2;
 
     for (let j = 0; j < 2000; ++j) {
-      Life.createCell(Math.round(Math.random() * ww) - 50, Math.round(Math.random() * hh) - 50, true);
+      Life.createCell(Math.round(Math.random() * w) - w2, Math.round(Math.random() * h) - h2, true);
     }
-    isReady = true;
+  }
+
+  $Speed.oninput = (e) => {
+    document.getElementById('speedValue').innerHTML = e.target.value;
+  }
+  $Speed.onchange = (e) => {
+    speed = e.target.value;
+    runDelay = MAX_SPEED / speed;
   }
 
   document.getElementById('btnZoomIn').onclick = zoomIn;
@@ -146,8 +151,7 @@ setTimeout(function () {
       const xy = gd.convertXY(e.pageX - this.offsetLeft, e.pageY - this.offsetTop);
 
       Life.createCell(xy.x, xy.y, true);
-
-      isReady = true;
+      showInfo(Life.getInfo());
     } else {
       allowCycle = false;
       startX = e.pageX;
@@ -161,6 +165,7 @@ setTimeout(function () {
         const xy = gd.convertXY(e.pageX - this.offsetLeft, e.pageY - this.offsetTop);
 
         Life.createCell(xy.x, xy.y, true, true);
+        showInfo(Life.getInfo());
       } else {
         gd.moveBy(e.pageX - startX, e.pageY - startY);
       }
@@ -192,10 +197,15 @@ setTimeout(function () {
   }
 
   function stopLife() {
+    const btn = document.getElementById('btnStart');
+
+    btn.textContent = 'Start';
+    btn.classList.remove('icon-pause');
+    btn.classList.add('icon-play');
+
     isPaused = true;
-    document.getElementById('btnStart').textContent = '>> Start';
     allowDrawing = true;
     document.getElementById('btnStep').disabled = false;
     document.getElementById('btnRnd').disabled = false;
   }
-}, 100);
+});

@@ -77,6 +77,15 @@ class GDI {
     }
     ctx.stroke();
 
+    // draw axios
+    ctx.strokeStyle = '#E7E7E7';
+    ctx.beginPath();
+    ctx.moveTo(0, this.y0);
+    ctx.lineTo(w, this.y0);
+    ctx.moveTo(this.x0, 0);
+    ctx.lineTo(this.x0, h);
+    ctx.stroke();
+
     this.step = step;
   }
 

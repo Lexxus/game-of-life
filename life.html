@@ -4,73 +4,23 @@
 <head>
   <meta charset="utf-8" />
   <title>LIFE</title>
-  <style>
-    html,
-    body {
-      font-family: Calibri, Tahoma, Arial, sans-serif;
-      font-size: 12px;
-      height: 100%;
-      margin: 0;
-      overflow: hidden;
-    }
-
-    .controls {
-      position: absolute;
-      right: 10px;
-      top: 10px;
-    }
-
-    .info {
-      background: white;
-      position: relative;
-    }
-
-    .info label {
-      display: inline-block;
-      width: 65px;
-    }
-
-    .info span {
-      font-weight: bold;
-    }
-
-    .zoom {
-      float: right;
-    }
-
-    .zoom span {
-      display: inline-block;
-      width: 20px;
-      text-align: center;
-      background: white;
-    }
-
-    .zoom button {
-      font-size: 17px;
-      width: 20px;
-      height: 20px;
-      line-height: 14px;
-      padding: 0;
-    }
-
-    .footer {
-      position: absolute;
-      bottom: 10px;
-      left: 10px;
-      right: 10px;
-      text-align: right;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
   <canvas id="life"></canvas>
 
-  <div class="controls">
-    <button id="btnStart">&gt;&gt; Start</button>
-    <button id="btnStep">&gt; Step</button>
-    <button id="btnClear">Clear</button>
-    <button id="btnRnd">Rnd</button>
+  <div class="panel">
+    <div class="controls">
+      <button id="btnStart" class="btn icon-play">Start</button>
+      <button id="btnStep" class="btn icon-next">Step</button>
+      <button id="btnClear" class="btn icon-clear">Clear</button>
+      <button id="btnRnd" class="btn">Rnd</button>
+    </div>
+    <div class="control-speed">
+      <label>Speed: </label><input type="range" id="speed" min="1" max="100" value="100" />
+      <div class="speed-value" id="speedValue">100</div>
+    </div>
     <div class="info">
       <label>Life cycle:</label><span id="life-cycle"></span><br />
       <label title="live / total">Cells:</label><span id="cells"></span><br />
@@ -83,11 +33,17 @@
       <span id="zoomValue">6</span>
       <button id="btnZoomIn" style="border-radius: 0 5px 5px 0;">+</button>
     </div>
+    <div class="patterns">
+      <button id="btnSave" class="btn">Save pattern</button>
+      <button id="btnPatterns" class="btn">Patterns...</button>
+      <ol id="patterns" class="list collapsed"></ol>
+    </div>
   </div>
   <footer class="footer">Ctrl+LMouse to move the field</footer>
   <script src="gdi.js"></script>
   <script src="life.js"></script>
   <script src="life-exec.js"></script>
+  <script src="patterns.js"></script>
 </body>
 
 </html>
