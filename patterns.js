@@ -210,6 +210,11 @@ const patterns = [
 document.addEventListener('DOMContentLoaded', () => {
   const container = document.getElementById('patterns');
   const PREVIEW_SIZE = 100;
+  const canvas = document.createElement('canvas');
+
+  canvas.width = PREVIEW_SIZE;
+  canvas.height = PREVIEW_SIZE;
+  const gd = new GDI(canvas);
 
   patterns.forEach((pattern) => {
     const patternDiv = document.createElement('li');
@@ -223,22 +228,28 @@ document.addEventListener('DOMContentLoaded', () => {
       },
       [Infinity, -Infinity, Infinity, -Infinity]
     );
-    const maxSize = Math.min(PREVIEW_SIZE, Math.max(maxX - minX, maxY - minY));
-    const scale = Math.min(10, Math.round(PREVIEW_SIZE / maxSize));
-    const shiftX = Math.round((PREVIEW_SIZE - (maxX - minX) * scale) / 2);
-    const shiftY = Math.round((PREVIEW_SIZE - (maxY - minY) * scale) / 2);
+    const dx = maxX - minX;
+    const dy = maxY - minY;
+    const maxSize = Math.min(PREVIEW_SIZE, Math.max(dx, dy));
+    const scale = Math.max(1, Math.min(10, Math.round(PREVIEW_SIZE / maxSize)));
+    const x0 = PREVIEW_SIZE / 2 - Math.round((dx * scale) / 2) - (minX * scale);
+    const previewHeight = dy > PREVIEW_SIZE ? dy : PREVIEW_SIZE;
+    const y0 = previewHeight / 2 + Math.round((dy * scale) / 2) + (minY * scale);
 
-    console.log(pattern.id, minX, maxX, minY, maxY, scale, shiftX, shiftY);
+    canvas.height = previewHeight;
     patternDiv.className = 'pattern';
     patternDiv.dataset.id = pattern.id;
     patternDiv.title = pattern.description;
+    gd.clear();
+    gd.step = scale;
+    gd.setX0Y0(x0, y0);
     patternDiv.innerHTML = `
       <h3 class="pattern-title">${pattern.name}</h3>
-      <svg width="100" height="100">
-        <rect width="100" height="100" fill="white" stroke="black"/>
-        ${pattern.cells.map(([x, y]) => `<rect x="${(x - minX) * scale + shiftX}" y="${PREVIEW_SIZE - (y - minY) * scale - shiftY}" width="${scale}" height="${scale}" fill="black"${scale > 3 ? 'stroke="#f1f1f1"' : ''}/>`).join('')}
-      </svg>
+      <img width="${PREVIEW_SIZE}" height="${previewHeight}" alt="${pattern.description}" />
     `;
+    pattern.cells.forEach(([x, y]) => gd.drawCell(x, y));
+    const img = patternDiv.querySelector('img');
+    img.src = canvas.toDataURL();
     container.appendChild(patternDiv);
   });
 

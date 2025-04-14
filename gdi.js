@@ -6,13 +6,19 @@
  */
 
 class GDI {
-  constructor(canvas, options) {
-    if (typeof canvas === 'string') {
-      canvas = document.getElementById(canvas);
-    }
+  step = 1;
+  x0 = 0;
+  y0 = 0;
+  color = 'black';
+  imgData = undefined;
+  context2d = undefined;
+
+  constructor(canvasOrId, options) {
+    const canvas = typeof canvasOrId === 'string' ? document.getElementById(canvasOrId) : canvasOrId;
+
     if (canvas) {
       this.canvas = canvas;
-      this.context = canvas.getContext('2d');
+      this.context2d = canvas.getContext('2d');
     } else {
       throw new Error('Canvas not found');
     }
@@ -24,7 +30,7 @@ class GDI {
     this.y0 = options.y0 || 0;
     this.color = options.color || 'black';
 
-    this.context.fillStyle = this.color;
+    this.context2d.fillStyle = this.color;
   }
 
   setX0Y0(x, y) {
@@ -44,11 +50,15 @@ class GDI {
     }
   }
 
+  clear() {
+    this.context2d.clearRect(0, 0, this.canvas.width, this.canvas.height);
+  }
+
   drawGrid(zoom) {
     const step = zoom || this.step;
     const w = this.canvas.width;
     const h = this.canvas.height;
-    const ctx = this.context;
+    const ctx = this.context2d;
     let x = this.x0 % step;
     let y = this.y0 % step;
     let xx = 0, yy = Math.floor(this.y0 / step) - 1;
@@ -63,7 +73,7 @@ class GDI {
     while (x < w) {
       ctx.moveTo(x, 0);
       ctx.lineTo(x, h);
-      //this.context.fillText(xx, x+1, step-1);
+      //this.context2d.fillText(xx, x+1, step-1);
       x += step;
       xx++;
     }
@@ -71,7 +81,7 @@ class GDI {
     while (y < h) {
       ctx.moveTo(0, y);
       ctx.lineTo(w, y);
-      //this.context.fillText(yy, 1, y + step - 1);
+      //this.context2d.fillText(yy, 1, y + step - 1);
       y += step;
       yy--;
     }
@@ -98,23 +108,23 @@ class GDI {
 
   drawCell(x, y, color) {
     const xy = this.getRealXY(x, y);
-    const wh = this.step - 1;
+    const wh = this.step > 1 ? this.step - 1 : 1;
 
-    if (color) this.context.fillStyle = color;
+    if (color) this.context2d.fillStyle = color;
 
-    this.context.fillRect(
+    this.context2d.fillRect(
       xy.x, xy.y,
       wh, wh
     );
 
-    if (color) this.context.fillStyle = this.color;
+    if (color) this.context2d.fillStyle = this.color;
   }
 
   clearCell(x, y) {
     const xy = this.getRealXY(x, y);
-    const wh = this.step - 1;
+    const wh = this.step > 1 ? this.step - 1 : 1;
 
-    this.context.clearRect(
+    this.context2d.clearRect(
       xy.x, xy.y,
       wh, wh
     );
@@ -123,22 +133,24 @@ class GDI {
   drawText(x, y, text, color) {
     const xy = this.getRealXY(x, y);
     const sh = this.step / 3;
+    const ctx = this.context2d;
 
-    this.context.font = Math.round(sh + sh) + 'px Arial';
-    if (color) this.context.fillStyle = color;
-    this.context.fillText(text, xy.x + sh, xy.y + sh + sh);
-    if (color) this.context.fillStyle = this.color;
+    ctx.font = Math.round(sh + sh) + 'px Arial';
+    if (color) ctx.fillStyle = color;
+    ctx.fillText(text, xy.x + sh, xy.y + sh + sh);
+    if (color) ctx.fillStyle = this.color;
   }
 
   moveBy(byX, byY) {
     const w = this.canvas.width;
     const h = this.canvas.height;
+    const ctx = this.context2d;
 
     if (!this.imgData) {
-      this.imgData = this.context.getImageData(0, 0, w, h);
+      this.imgData = ctx.getImageData(0, 0, w, h);
     }
-    this.context.clearRect(0, 0, w, h);
-    this.context.putImageData(this.imgData, byX, byY);
+    ctx.clearRect(0, 0, w, h);
+    ctx.putImageData(this.imgData, byX, byY);
   }
 
   moveComplete(byX, byY) {
