@@ -9,7 +9,7 @@
 /**
  * Life, static control object
  */
-const Life = {
+export const Life = {
   // graphic driver
   gd: null,
 
@@ -309,3 +309,5 @@ class Cell {
     this.points = 0;
   }
 }
+
+export default Life;

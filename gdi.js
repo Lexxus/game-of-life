@@ -5,7 +5,7 @@
  * @version 2.0
  */
 
-class GDI {
+export class GDI {
   step = 1;
   x0 = 0;
   y0 = 0;
@@ -158,3 +158,5 @@ class GDI {
     this.imgData = undefined;
   }
 }
+
+export default GDI;

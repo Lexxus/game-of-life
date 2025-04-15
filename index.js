@@ -1,3 +1,7 @@
+import GDI from './gdi.js';
+import Life from './life.js';
+import patternsPanel from './patterns-panel.js';
+
 /**
  * Conway's Game of Life execution
  *
@@ -5,7 +9,7 @@
  * @version 2.0
  */
 document.addEventListener('DOMContentLoaded', () => {
-  const MAX_SPEED = 100;
+  const MAX_SPEED = 1000;
   let zoom = 6;
   const gd = new GDI('life', { step: zoom });
 
@@ -30,24 +34,6 @@ document.addEventListener('DOMContentLoaded', () => {
   let runDelay = MAX_SPEED / speed;
 
   document.getElementById('speedValue').innerHTML = speed;
-
-  function zoomIn() {
-    allowCycle = false;
-    zoom++;
-    $Zoom.innerHTML = zoom;
-    Life.refresh(zoom);
-    allowCycle = true;
-  }
-
-  function zoomOut() {
-    if (zoom > 2) {
-      allowCycle = false;
-      zoom--;
-      $Zoom.innerHTML = zoom;
-      Life.refresh(zoom);
-      allowCycle = true;
-    }
-  }
 
   $Zoom.innerHTML = zoom;
 
@@ -146,6 +132,11 @@ document.addEventListener('DOMContentLoaded', () => {
     else zoomOut();
   });
 
+  patternsPanel({
+    onSave: handleSave,
+    onPaste: handlePaste,
+  });
+
   gd.canvas.onmousedown = function (e) {
     if (!e.ctrlKey && allowDrawing) {
       const xy = gd.convertXY(e.pageX - this.offsetLeft, e.pageY - this.offsetTop);
@@ -207,5 +198,33 @@ document.addEventListener('DOMContentLoaded', () => {
     allowDrawing = true;
     document.getElementById('btnStep').disabled = false;
     document.getElementById('btnRnd').disabled = false;
+  }
+
+  function zoomIn() {
+    allowCycle = false;
+    zoom++;
+    $Zoom.innerHTML = zoom;
+    Life.refresh(zoom);
+    allowCycle = true;
+  }
+
+  function zoomOut() {
+    if (zoom > 2) {
+      allowCycle = false;
+      zoom--;
+      $Zoom.innerHTML = zoom;
+      Life.refresh(zoom);
+      allowCycle = true;
+    }
+  }
+
+  function handleSave() {
+    Life.save();
+  }
+
+  function handlePaste(cells) {
+    cells.forEach(([x, y]) => {
+      Life.createCell(x, y, true);
+    });
   }
 });

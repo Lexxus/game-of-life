@@ -1,4 +1,70 @@
-const patterns = [
+export const patterns = [
+  {
+    id: 'acorn',
+    name: 'Acorn',
+    description: 'A methuselah with lifespan 5206',
+    // bo5b$3bo3b$2o2b3o!
+    cells: [
+      [2, -1],
+      [0, 0],
+      [1, -1],
+      [3, -1],
+      [-2, -1],
+      [-3, -1],
+      [-2, 1]
+    ]
+  },
+  {
+    id: 'acorn-synth',
+    name: 'Acorn Synth',
+    description: 'Glider synthesis of an acorn. https://conwaylife.com/wiki/Acorn',
+    cells: [
+      [-4, 4], [-3, 3],
+      [-5, 2], [-4, 2],
+      [-3, 2], [4, 0],
+      [2, -1], [3, -1],
+      [-3, -2], [-2, -2],
+      [-1, -2], [3, -2],
+      [4, -2], [-1, -3],
+      [-2, -4]
+    ]
+  },
+  {
+    id: 'average',
+    name: 'Average',
+    description: 'A period 5 oscillator in which the average number of live rotor cells is five (V), which is also the period.',
+    cells: [
+      [-3, 5], [-2, 5], [-2, 4], [-1, 4],
+      [0, 4], [-4, 3], [1, 3], [-5, 2],
+      [-3, 2], [-2, 2], [-1, 2], [0, 2],
+      [2, 2], [-5, 1], [-3, 1], [2, 1],
+      [5, 1], [-6, 0], [-5, 0], [-3, 0],
+      [-2, 0], [-1, 0], [2, 0], [4, 0],
+      [6, 0], [-5, -1], [-3, -1], [2, -1],
+      [5, -1], [-5, -2], [-3, -2], [-2, -2],
+      [-1, -2], [0, -2], [2, -2], [-4, -3],
+      [1, -3], [-2, -4], [-1, -4], [0, -4],
+      [-3, -5], [-2, -5]
+    ]
+  },
+  {
+    id: 'ariesbetwixttwoblocks',
+    name: 'Aries Betwixt Two Blocks',
+    description: 'The most common naturally-occurring 31-bit still life',
+    cells: [
+      [-3, 4], [-2, 4], [2, 4],
+      [3, 4], [-4, 3], [-1, 3],
+      [1, 3], [4, 3], [-4, 2],
+      [-3, 2], [-1, 2], [1, 2],
+      [3, 2], [4, 2], [-1, 1],
+      [1, 1], [-1, 0], [1, 0],
+      [-4, -1], [-3, -1], [-1, -1],
+      [1, -1], [3, -1], [4, -1],
+      [-4, -2], [-3, -2], [-1, -2],
+      [1, -2], [3, -2], [4, -2],
+      [0, -3]
+    ]
+  },
   {
     id: 'glider',
     name: 'Glider',
@@ -207,77 +273,4 @@ const patterns = [
   // }
 ];
 
-document.addEventListener('DOMContentLoaded', () => {
-  const container = document.getElementById('patterns');
-  const PREVIEW_SIZE = 100;
-  const canvas = document.createElement('canvas');
-
-  canvas.width = PREVIEW_SIZE;
-  canvas.height = PREVIEW_SIZE;
-  const gd = new GDI(canvas);
-
-  patterns.forEach((pattern) => {
-    const patternDiv = document.createElement('li');
-    const [ minX, maxX, minY, maxY ] = pattern.cells.reduce(
-      (acc, [x, y]) => {
-        acc[0] = Math.min(acc[0], x);
-        acc[1] = Math.max(acc[1], x);
-        acc[2] = Math.min(acc[2], y);
-        acc[3] = Math.max(acc[3], y);
-        return acc;
-      },
-      [Infinity, -Infinity, Infinity, -Infinity]
-    );
-    const dx = maxX - minX;
-    const dy = maxY - minY;
-    const maxSize = Math.min(PREVIEW_SIZE, Math.max(dx, dy));
-    const scale = Math.max(1, Math.min(10, Math.round(PREVIEW_SIZE / maxSize)));
-    const x0 = PREVIEW_SIZE / 2 - Math.round((dx * scale) / 2) - (minX * scale);
-    const previewHeight = dy > PREVIEW_SIZE ? dy : PREVIEW_SIZE;
-    const y0 = previewHeight / 2 + Math.round((dy * scale) / 2) + (minY * scale);
-
-    canvas.height = previewHeight;
-    patternDiv.className = 'pattern';
-    patternDiv.dataset.id = pattern.id;
-    patternDiv.title = pattern.description;
-    gd.clear();
-    gd.step = scale;
-    gd.setX0Y0(x0, y0);
-    patternDiv.innerHTML = `
-      <h3 class="pattern-title">${pattern.name}</h3>
-      <img width="${PREVIEW_SIZE}" height="${previewHeight}" alt="${pattern.description}" />
-    `;
-    pattern.cells.forEach(([x, y]) => gd.drawCell(x, y));
-    const img = patternDiv.querySelector('img');
-    img.src = canvas.toDataURL();
-    container.appendChild(patternDiv);
-  });
-
-  document.getElementById('btnPatterns').onclick = (e) => {
-    container.classList.toggle('collapsed');
-    e.currentTarget.classList.toggle('btn-active');
-  };
-
-  document.getElementById('btnSave').onclick = () => {
-    Life.save();
-  }
-
-  container.addEventListener('click', (e) => {
-    const patternDiv = e.target.classList.contains('pattern') ? e.target : e.target.closest('.pattern');
-
-    if (patternDiv) {
-      const patternId = patternDiv.dataset.id;
-      const pattern = patterns.find((p) => p.id === patternId);
-
-      if (pattern) {
-        pattern.cells.forEach(([x, y]) => {
-          Life.createCell(x, y, true);
-        });
-      }
-    }
-  });
-
-  container.addEventListener('wheel', (e) => {
-    e.stopImmediatePropagation();
-  });
-});
+export default patterns;
