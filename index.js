@@ -90,6 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
       btn.classList.add('icon-pause');
       document.getElementById('btnStep').disabled = true;
       document.getElementById('btnRnd').disabled = true;
+      gd.canvas.classList.add('movable');
       allowCycle = true;
       isPaused = false;
       setTimeout(runCycle, 200);
@@ -147,6 +148,7 @@ document.addEventListener('DOMContentLoaded', () => {
       allowCycle = false;
       startX = e.pageX;
       startY = e.pageY;
+      this.classList.add('moving');
     }
     isMoving = true;
   }
@@ -163,7 +165,10 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
   gd.canvas.onmouseup = function (e) {
-    isMoving = false;
+    if (isMoving) {
+      this.classList.remove('moving');
+      isMoving = false;
+    }
     if (!e.ctrlKey && allowDrawing) return;
     const byX = e.pageX - startX;
     const byY = e.pageY - startY;
@@ -173,6 +178,17 @@ document.addEventListener('DOMContentLoaded', () => {
       Life.refresh();
     }
     allowCycle = true;
+  }
+  document.onkeydown = function (e) {
+    console.log('keydown', e);
+    if (e.ctrlKey && allowDrawing) {
+      gd.canvas.classList.add('movable');
+    }
+  }
+  document.onkeyup = function (e) {
+    if (!e.ctrlKey && allowDrawing) {
+      gd.canvas.classList.remove('movable');
+    }
   }
 
   function showInfo(info) {
@@ -198,6 +214,7 @@ document.addEventListener('DOMContentLoaded', () => {
     allowDrawing = true;
     document.getElementById('btnStep').disabled = false;
     document.getElementById('btnRnd').disabled = false;
+    gd.canvas.classList.remove('movable');
   }
 
   function zoomIn() {

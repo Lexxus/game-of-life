@@ -3,273 +3,114 @@ export const patterns = [
     id: 'acorn',
     name: 'Acorn',
     description: 'A methuselah with lifespan 5206',
-    // bo5b$3bo3b$2o2b3o!
-    cells: [
-      [2, -1],
-      [0, 0],
-      [1, -1],
-      [3, -1],
-      [-2, -1],
-      [-3, -1],
-      [-2, 1]
-    ]
+    data: "2o2b3o$3bo$bo!",
   },
   {
     id: 'acorn-synth',
     name: 'Acorn Synth',
     description: 'Glider synthesis of an acorn. https://conwaylife.com/wiki/Acorn',
-    cells: [
-      [-4, 4], [-3, 3],
-      [-5, 2], [-4, 2],
-      [-3, 2], [4, 0],
-      [2, -1], [3, -1],
-      [-3, -2], [-2, -2],
-      [-1, -2], [3, -2],
-      [4, -2], [-1, -3],
-      [-2, -4]
-    ]
+    data: "3bo$4bo$2b3o3b2o$7b2o$9bo2$3o$2bo$bo!",
+  },
+  {
+    id: '101',
+    name: '101',
+    description: "A period 5 oscillator that was found by Achim Flammenkamp in 1994.",
+    data: "4b2o6b2o4b$3bobo6bobo3b$3bo10bo3b$2obo10bob2o$2obobo2b2o2bobob2o$3bobobo2bobobo3b$3bobobo2bobobo3b$2obobo2b2o2bobob2o$2obo10bob2o$3bo10bo3b$3bobo6bobo3b$4b2o6b2o!",
+  },
+  {
+    id: 'a-for-all',
+    name: 'A for All',
+    description: 'A period 6 oscillator found by Dean Hickerson in 1994.',
+    data: "4b2o4b$3bo2bo3b$3b4o3b$bobo2bobob$o8bo$o8bo$bobo2bobob$3b4o3b$3bo2bo3b$4b2o!"
   },
   {
     id: 'average',
     name: 'Average',
     description: 'A period 5 oscillator in which the average number of live rotor cells is five (V), which is also the period.',
-    cells: [
-      [-3, 5], [-2, 5], [-2, 4], [-1, 4],
-      [0, 4], [-4, 3], [1, 3], [-5, 2],
-      [-3, 2], [-2, 2], [-1, 2], [0, 2],
-      [2, 2], [-5, 1], [-3, 1], [2, 1],
-      [5, 1], [-6, 0], [-5, 0], [-3, 0],
-      [-2, 0], [-1, 0], [2, 0], [4, 0],
-      [6, 0], [-5, -1], [-3, -1], [2, -1],
-      [5, -1], [-5, -2], [-3, -2], [-2, -2],
-      [-1, -2], [0, -2], [2, -2], [-4, -3],
-      [1, -3], [-2, -4], [-1, -4], [0, -4],
-      [-3, -5], [-2, -5]
-    ]
+    data: "3b2o$4b3o$2bo4bo$bob4obo$bobo4bo2bo$2ob3o2bobobo$bobo4bo2bo$bob4obo$2bo4bo$4b3o$3b2o!",
   },
   {
     id: 'ariesbetwixttwoblocks',
     name: 'Aries Betwixt Two Blocks',
     description: 'The most common naturally-occurring 31-bit still life',
-    cells: [
-      [-3, 4], [-2, 4], [2, 4],
-      [3, 4], [-4, 3], [-1, 3],
-      [1, 3], [4, 3], [-4, 2],
-      [-3, 2], [-1, 2], [1, 2],
-      [3, 2], [4, 2], [-1, 1],
-      [1, 1], [-1, 0], [1, 0],
-      [-4, -1], [-3, -1], [-1, -1],
-      [1, -1], [3, -1], [4, -1],
-      [-4, -2], [-3, -2], [-1, -2],
-      [1, -2], [3, -2], [4, -2],
-      [0, -3]
-    ]
+    data: "4bo$2obobob2o$2obobob2o$3bobo$3bobo$2obobob2o$o2bobo2bo$b2o3b2o!",
   },
   {
     id: 'glider',
     name: 'Glider',
     description: 'A small pattern that moves diagonally across the grid.',
-    cells: [
-      [1, 2],
-      [2, 0],
-      [1, 0],
-      [0, 0],
-      [0, 1]
-    ]
-  },
-  {
-    id: 'toad',
-    name: 'Toad',
-    description: 'A period-2 oscillator that flips between two states.',
-    cells: [
-      [0, 1],
-      [1, 0],
-      [1, 1],
-      [1, 2],
-      [2, 1]
-    ]
-  },
-{
-    id: 'beacon',
-    name: 'Beacon',
-    description: 'A period-2 oscillator that flips between two states.',
-    cells: [
-      [0, 0],
-      [0, 1],
-      [1, 0],
-      [2, 2],
-      [2, 3],
-      [3, 2]
-    ]
-  },
-  {
-    id: 'pulsar',
-    name: 'Pulsar',
-    description: 'A larger oscillator that creates a pulsating effect.',
-    cells: [
-      [0, 2],
-      [0, 3],
-      [0, 4],
-      [2, 0],
-      [2, 1],
-      [2, 4],
-      [2, 5],
-      [3, 0],
-      [3, 1],
-      [3, 4],
-      [3, 5],
-      [4, 2],
-      [4, 3],
-      [5, 2],
-      [5, 3]
-    ]
+    data: "3o$o$bo!",
   },
   {
     id: 'spaceship',
     name: 'Spaceship',
     description: 'A pattern that moves across the grid.',
-    cells: [
-      [0, 1],
-      [0, 2],
-      [0, 3],
-      [1, 0],
-      [1, 3],
-      [2, 1],
-      [2, 2],
-      [2, 3]
-    ]
+    data: "33bo$16bo15bobo$6bobo6bo5b2o8bo$6bo4bo4bob6o4b2o$6bob8o10bo2bob3o$9bo5bo7b4o4b3o$4b2o17b3obo$bo2b2o7b2o8b2o$bo2bo$o$bo2bo$bo2b2o7b2o8b2o$4b2o17b3obo$9bo5bo7b4o4b3o$6bob8o10bo2bob3o$6bo4bo4bob6o4b2o$6bobo6bo5b2o8bo$16bo15bobo$33bo!",
+  },
+  {
+    id: 'anura',
+    name: 'Anura',
+    description: "A sparky 3c/7 orthogonal spaceship found by Dylan Chen on December 28, 2020.[1] It is the second elementary 3c/7 orthogonal spaceship, and the first not based on the spaghetti monster.",
+    data: "9bo11bo$8b3o9b3o$10bo9bo$6bob2o11b2obo$6bo4b3o3b3o4bo$5bob3ob3o3b3ob3obo2$4b3ob4obo3bob4ob3o$4b2o7bo3bo7b2o$4b3o2bob2o5b2obo2b3o2$9bo2bo5bo2bo$9bo11bo$7b2o2bobo3bobo2b2o$7bo3b3o3b3o3bo$5b2o4bo2bobo2bo4b2o$3bob2obob2o2bobo2b2obob2obo$2b2obo3bo3bo3bo3bo3bob2o$bobo3b2o13b2o3bobo$b2o8bo7bo8b2o$2bo7b3o5b3o7bo$10b2obo3bob2o$2o2b2o5b3o3b3o5b2o2b2o$obo3bo5b2o3b2o5bo3bobo$4bob2o15b2obo$8bo13bo$bo5b3o11b3o5bo$7b2o13b2o$3bo23bo$5b2o17b2o$5b6o9b6o$6bobo13bobo$2b3o4b2o4bo4b2o4b3o$2b2o4b3o3b3o3b3o4b2o$3b2obo6bo3bo6bob2o$12bobobobo$11bob2ob2obo$11bob5obo$9b2o9b2o$8b2o11b2o$8bo13bo2$6bobo13bobo$9bo11bo$5bo3bo11bo3bo$5bo4bo9bo4bo$5bo4bo9bo4bo$6bo17bo$8b3o9b3o$8bo13bo2$8bo13bo$6bo17bo$8bo13bo!"
+  },
+  {
+    id: 'beacon',
+    name: 'Beacon',
+    description: 'A period-2 oscillator that flips between two states.',
+    data: "2o$o$2b2o$2bo!",
+  },
+  {
+    id: 'pulsar',
+    name: 'Pulsar',
+    description: 'A larger oscillator that creates a pulsating effect.',
+    data: "2b2o$2b2o$o3b2o$o3b2o$ob2o$2b2o!",
+  },
+  {
+    id: 'undefined',
+    name: '?',
+    description: 'A pattern that moves across the grid.',
+    data: "bo$obo$obo$3o!",
+  },
+  {
+    id: 'achimsp16',
+    name: 'Achims p16',
+    description: 'A period-16 oscillator that was found in July 1994 by Achim Flammenkamp. It is a 16-cell oscillator that has a period of 16 generations.',
+    data: "7b2o4b$7bobo3b$2bo4bob2o2b$b2o5bo4b$o2bo9b$3o10b2$10b3o$9bo2bo$4bo5b2ob$2b2obo4bo2b$3bobo7b$4b2o!",
   },
   {
     id: 'pentadecathlon',
     name: 'Pentadecathlon',
     description: 'A period-15 oscillator that creates a complex pattern.',
-    cells: [
-      [0, 1],
-      [0, 2],
-      [0, 3],
-      [1, 0],
-      [1, 4],
-      [2, 1],
-      [2, 2],
-      [2, 3],
-      [3, 0],
-      [3, 4],
-      [4, 1],
-      [4, 2],
-      [4, 3]
-    ]
-  },
-  {
-    id: 'caterpillar',
-    name: 'Caterpillar',
-    description: 'A long pattern that moves across the grid.',
-    cells: [
-      [0, 0],
-      [0, 1],
-      [0, 2],
-      [0, 3],
-      [0, 4],
-      [1, 2]
-    ]
+    data: "bobo$obobo$obobo$obobo$bobo!",
   },
   {
     id: 'bHeptomino',
     name: 'B-Heptomino',
     description: 'A somewhat vigorous, commonly seen bit of fluff, which lends to Life\'s growth tendencies.  This piece is used in PUFTRAIN, RAKE, RAKE2, RAKE3, BHEPTPUF, GUN46, TRACK, GUNSTAR, GUNSTAR2, GUNSTAR3, BI-GUN, and the p46, p54, and p100 shuttles in OSCSPN2 and OSCSPN3, and in many other patterns.',
-    cells: [
-      [0, 0],
-      [0, 1],
-      [1, 1],
-      [1, 2],
-      [2, 0],
-      [2, 1],
-      [3, 0]
-    ]
+    data: "ob2o$3o$bo!",
   },
   {
     id: 'biGun',
     name: 'Bi-Gun',
     description: 'Two-barrelled p46 glider gun',
-    cells: [
-      [-9, -7], [-8, -7], [-7, -7],
-      [-7, -6], [-7, -5], [-8, -4],
-      [-8, -2], [-7, -1], [-7, 0],
-      [-9, 1], [-8, 1], [-7, 1],
-      [6, -3], [7, -3], [8, -3],
-      [6, -2], [6, -1], [7, 0],
-      [7, 2], [6, 3], [6, 4],
-      [6, 5], [7, 5], [8, 5],
-      [23, -3], [24, -3], [24, -2],
-      [-25, 0], [-25, 1], [-24, 1]
-    ]
+    data: "16b3o$18bo$18bo$17bo$31b3o14b2o$17bo13bo17bo$18bo12bo$o17bo13bo$2o14b3o$32bo$31bo$31bo$31b3o!",
   },
   {
     id: 'bHeptpuff',
     name: 'B-Heptomino puffer',
     description: "An extension of PUFTRAIN, but at these lengths, the ends need to be hit by rakes. Even with the rakes, there are only a finite number of lengths that don\'t eventually self-destruct. For a stable dirty puffer, see LINEPUF.",
-    cells: [
-      [8, -53], [8, -52], [9, -52], [9, -51], [10, -51], [8, -50],
-      [9, -50], [8, -46], [9, -46], [9, -45], [10, -45], [8, -44],
-      [9, -44], [8, -43], [8, -41], [8, -40], [9, -40], [9, -39],
-      [10, -39], [8, -38], [9, -38], [8, -34], [9, -34], [9, -33],
-      [10, -33], [8, -32], [9, -32], [8, -31], [8, -29], [8, -28],
-      [9, -28], [9, -27], [10, -27], [8, -26], [9, -26], [8, -22],
-      [9, -22], [9, -21], [10, -21], [8, -20], [9, -20], [8, -19],
-      [8, -17], [8, -16], [9, -16], [9, -15], [10, -15], [8, -14],
-      [9, -14], [8, -10], [9, -10], [9, -9], [10, -9], [8, -8],
-      [9, -8], [8, -7], [8, -5], [8, -4], [9, -4], [9, -3],
-      [10, -3], [8, -2], [9, -2], [8, 2], [9, 2], [9, 3],
-      [10, 3], [8, 4], [9, 4], [8, 5], [8, 7], [8, 8],
-      [9, 8], [9, 9], [10, 9], [8, 10], [9, 10], [8, 14],
-      [9, 14], [9, 15], [10, 15], [8, 16], [9, 16], [8, 17],
-      [8, 19], [8, 20], [9, 20], [9, 21], [10, 21], [8, 22],
-      [9, 22], [8, 26], [9, 26], [9, 27], [10, 27], [8, 28],
-      [9, 28], [8, 29], [8, 31], [8, 32], [9, 32], [9, 33],
-      [10, 33], [8, 34], [9, 34], [8, 38], [9, 38], [9, 39],
-      [10, 39], [8, 40], [9, 40], [8, 41], [8, 43], [8, 44],
-      [9, 44], [9, 45], [10, 45], [8, 46], [9, 46], [8, 50],
-      [9, 50], [9, 51], [10, 51], [8, 52], [9, 52], [8, 53],
-      [32, -73], [35, -73], [36, -72], [32, -71], [36, -71], [33, -70],
-      [34, -70], [35, -70], [36, -70], [32, -66], [33, -65], [34, -65],
-      [34, -64], [34, -63], [33, -62], [32, -59], [35, -59], [36, -58],
-      [32, -57], [36, -57], [33, -56], [34, -56], [35, -56], [36, -56],
-      [29, -67], [30, -67], [27, -65], [28, -65], [26, -64], [27, -64],
-      [25, -63], [26, -63], [26, -62], [30, -62], [31, -61], [25, -59],
-      [26, -59], [24, -58], [25, -58], [26, -58], [27, -58], [24, -57],
-      [25, -57], [27, -57], [28, -57], [26, -56], [27, -56], [16, -74],
-      [17, -74], [18, -74], [19, -74], [15, -73], [19, -73], [19, -72],
-      [15, -71], [18, -71], [12, -69], [13, -69], [14, -69], [11, -67],
-      [14, -67], [11, -66], [13, -66], [10, -59], [11, -59], [8, -58],
-      [9, -58], [11, -58], [12, -58], [8, -57], [9, -57], [10, -57],
-      [11, -57], [9, -56], [10, -56], [6, -65], [7, -64], [5, -63],
-      [6, -63], [7, -63], [1, -60], [2, -59], [0, -58], [1, -58],
-      [2, -58], [33, 56], [34, 56], [35, 56], [36, 56], [32, 57],
-      [36, 57], [36, 58], [32, 59], [35, 59], [33, 62], [34, 63],
-      [34, 64], [33, 65], [34, 65], [32, 66], [33, 70], [34, 70],
-      [35, 70], [36, 70], [32, 71], [36, 71], [36, 72], [32, 73],
-      [35, 73], [26, 56], [27, 56], [24, 57], [25, 57], [27, 57],
-      [28, 57], [24, 58], [25, 58], [26, 58], [27, 58], [25, 59],
-      [26, 59], [31, 61], [26, 62], [30, 62], [25, 63], [26, 63],
-      [26, 64], [27, 64], [27, 65], [28, 65], [29, 67], [30, 67],
-      [15, 71], [18, 71], [19, 72], [15, 73], [19, 73], [16, 74],
-      [17, 74], [18, 74], [19, 74], [11, 66], [13, 66], [11, 67],
-      [14, 67], [12, 69], [13, 69], [14, 69], [5, 63], [6, 63],
-      [7, 63], [7, 64], [6, 65], [0, 58], [1, 58], [2, 58],
-      [2, 59], [1, 60], [9, 56], [10, 56], [8, 57], [9, 57],
-      [10, 57], [11, 57], [8, 58], [9, 58], [11, 58], [12, 58],
-      [10, 59], [11, 59]
-    ]
+    data: "16b4o$15bo3bo12bo2bo$19bo16bo$15bo2bo13bo3bo$33b4o$12b3o2$11bo2bo14b2o$11bobo18bo$6bo20b2o4b2o$7bo18b2o6bo$5b3o17b2o7bo$26bo3bo2bo$31bo$bo$2bo7b2o13b2o5bo2bo$3o5b2ob2o11b4o8bo$8b4o12b2ob2o3bo3bo$9b2o15b2o5b4o3$8bo$8b2o$9b2o$8b2o4$8b2o$9b2o$8b2o$8bo2$8bo$8b2o$9b2o$8b2o4$8b2o$9b2o$8b2o$8bo2$8bo$8b2o$9b2o$8b2o4$8b2o$9b2o$8b2o$8bo2$8bo$8b2o$9b2o$8b2o4$8b2o$9b2o$8b2o$8bo2$8bo$8b2o$9b2o$8b2o4$8b2o$9b2o$8b2o$8bo2$8bo$8b2o$9b2o$8b2o4$8b2o$9b2o$8b2o$8bo2$8bo$8b2o$9b2o$8b2o4$8b2o$9b2o$8b2o$8bo2$8bo$8b2o$9b2o$8b2o4$8b2o$9b2o$8b2o$8bo2$8bo$8b2o$9b2o$8b2o4$8b2o$9b2o$8b2o$8bo3$9b2o15b2o5b4o$8b4o12b2ob2o3bo3bo$3o5b2ob2o11b4o8bo$2bo7b2o13b2o5bo2bo$bo$31bo$26bo3bo2bo$5b3o17b2o7bo$7bo18b2o6bo$6bo20b2o4b2o$11bobo18bo$11bo2bo14b2o2$12b3o$33b4o$15bo2bo13bo3bo$19bo16bo$15bo3bo12bo2bo$16b4o!",
   }
   // Add more patterns as needed
   // {
   //   id: 'newPattern',
   //   name: 'New Pattern',
   //   description: 'Description of the new pattern.',
-  //   cells: [
-  //     [x1, y1],
-  //     [x2, y2],
-  //     // Add more coordinates as needed
-  //   ]
+  //   data: "data string representing the pattern in RLE format",
+  //     #b - blank cell, # is number of cells, if no number, it is 1
+  //     #o - live cell
+  //     $ - new line
+  //     ! - end of pattern
   // }
 ];
 

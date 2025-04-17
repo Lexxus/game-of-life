@@ -197,8 +197,62 @@ export const Life = {
     const pattern = this.cells.filter((c) => c?.isLive)
       .map((c) => [c.x, c.y]);
 
-    console.log(pattern);
+    console.log(this.convertCellsToData(pattern));
+  },
+
+  convertCellsToData(cells) {
+    const minX = cells.reduce((min, cell) => Math.min(min, cell[0]), Infinity);
+    const sCells = cells.sort(([x1, y1], [x2, y2]) => {
+      if (y1 === y2) {
+        return x1 - x2;
+      }
+      return y1 - y2;
+    });
+
+    let data = "";
+    let x = minX;
+
+    let i = 0;
+    let cell = sCells[i];
+    let y = cell[1];
+    let xLen = 0;
+
+    while (cell) {
+      const dy = cell[1] - y;
+
+      if (dy > 0) {
+        if (xLen > 0) {
+          data += (xLen > 1 ? xLen : "") + "o";
+          xLen = 0;
+        }
+        data += (dy > 1 ? dy : "") + "$";
+        y = cell[1];
+        x = minX;
+      }
+      const dx = cell[0] - x;
+
+      if (dx > 0) {
+        if (xLen > 0) {
+          data += (xLen > 1 ? xLen : "") + "o";
+        }
+        data += (dx > 1 ? dx : "") + "b";
+        x = cell[0] + 1;
+        xLen = 1;
+      } else {
+        x++;
+        xLen++;
+      }
+
+      cell = sCells[++i];
+    }
+
+    if (xLen > 0) {
+      data += (xLen > 1 ? xLen : "") + "o";
+    }
+
+    return data + "!";
   }
+
 };
 
 /**

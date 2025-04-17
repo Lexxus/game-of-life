@@ -21,29 +21,23 @@ export function patternsPanel({ onSave, onPaste }) {
   const gd = new GDI(canvas);
 
   patterns.forEach((pattern) => {
+    if (!pattern.data) return;
     const patternDiv = document.createElement('li');
-    const [ minX, maxX, minY, maxY ] = pattern.cells.reduce(
-      (acc, [x, y]) => {
-        acc[0] = Math.min(acc[0], x);
-        acc[1] = Math.max(acc[1], x);
-        acc[2] = Math.min(acc[2], y);
-        acc[3] = Math.max(acc[3], y);
-        return acc;
-      },
-      [Infinity, -Infinity, Infinity, -Infinity]
-    );
-    const dx = maxX - minX;
-    const dy = maxY - minY;
-    const maxSize = Math.min(PREVIEW_SIZE, Math.max(dx, dy));
-    const scale = Math.max(1, Math.min(10, Math.round(PREVIEW_SIZE / maxSize)));
-    const x0 = PREVIEW_SIZE / 2 - Math.round((dx * scale) / 2) - (minX * scale);
-    const previewHeight = dy > PREVIEW_SIZE ? dy : PREVIEW_SIZE;
-    const y0 = previewHeight / 2 + Math.round((dy * scale) / 2) + (minY * scale);
+
+    const { cells, width, height } = convertToCells(pattern.data);
+    const w = Math.min(PREVIEW_SIZE, width);
+    const scale = Math.max(1, Math.min(10, Math.floor(PREVIEW_SIZE / w)));
+    const x0 = PREVIEW_SIZE / 2 - Math.floor((w * scale) / 2);
+    const previewHeight = height > PREVIEW_SIZE ? height : PREVIEW_SIZE;
+    const y0 = previewHeight / 2 - (Math.floor(height / 2) - 1) * scale;
+
+    console.log(pattern.id, w, scale, previewHeight, x0, y0);
 
     canvas.height = previewHeight;
     patternDiv.className = 'pattern';
     patternDiv.dataset.id = pattern.id;
     patternDiv.title = pattern.description;
+
     gd.clear();
     gd.step = scale;
     gd.setX0Y0(x0, y0);
@@ -51,8 +45,10 @@ export function patternsPanel({ onSave, onPaste }) {
       <h3 class="pattern-title">${pattern.name}</h3>
       <img width="${PREVIEW_SIZE}" height="${previewHeight}" alt="${pattern.description}" />
     `;
-    pattern.cells.forEach(([x, y]) => gd.drawCell(x, y));
+
+    cells.forEach(([x, y]) => gd.drawCell(x, y));
     const img = patternDiv.querySelector('img');
+
     img.src = canvas.toDataURL();
     container.appendChild(patternDiv);
   });
@@ -74,10 +70,9 @@ export function patternsPanel({ onSave, onPaste }) {
       const pattern = patterns.find((p) => p.id === patternId);
 
       if (pattern) {
-        onPaste(pattern.cells);
-        // pattern.cells.forEach(([x, y]) => {
-        //   Life.createCell(x, y, true);
-        // });
+        const { cells } = convertToCells(pattern.data);
+
+        onPaste(cells);
       }
     }
   });
@@ -85,6 +80,45 @@ export function patternsPanel({ onSave, onPaste }) {
   container.addEventListener('wheel', (e) => {
     e.stopImmediatePropagation();
   });
+}
+
+function convertToCells(data, baseX = 0, baseY = 0, flipY = true) {
+  const cells = [];
+  let x = baseX || 0;
+  let y = baseY || 0;
+  let buff = '';
+  let width = 0;
+  let height = 1;
+
+  for (let i = 0; i < data.length; ++i) {
+    switch (data[i]) {
+      case '$':
+        y = y + (flipY ? -1 : 1) * (+buff || 1);
+        width = Math.max(width, x - baseX);
+        height += 1;
+        x = baseX;
+        buff = '';
+        break;
+      case 'b':
+        x += (+buff || 1);
+        buff = '';
+        break;
+      case 'o':
+        for (let j = 0, n = (+buff || 1); j < n; ++j) {
+          cells.push([ x, y ]);
+          x++;
+        }
+        buff = '';
+        break;
+      case '!':
+        break;
+      default:
+        buff += data[i];
+        break;
+    }
+  }
+
+  return { cells, width, height };
 }
 
 export default patternsPanel;

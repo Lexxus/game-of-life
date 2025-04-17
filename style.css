@@ -15,11 +15,18 @@ body {
   cursor: pointer;
 }
 
-.btn-active, .btn:active {
+.btn-active, .btn:active:not(:disabled) {
   background: #aaa;
   box-shadow: none;
   top: 1px;
   left: 1px;
+}
+
+.btn:disabled {
+  background: #eee;
+  color: #888;
+  cursor: not-allowed !important;
+  opacity: 0.8;
 }
 
 .icon-play {
@@ -77,6 +84,14 @@ body {
 .icon-clear::before {
   content: "⨉ ";
   color: #c00;
+}
+
+.movable {
+  cursor: grab;
+}
+
+.moving, .movable.moving {
+  cursor: grabbing;
 }
 
 .panel {
