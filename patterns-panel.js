@@ -27,9 +27,9 @@ export function patternsPanel({ onSave, onPaste }) {
     const { cells, width, height } = convertToCells(pattern.data);
     const w = Math.min(PREVIEW_SIZE, width);
     const scale = Math.max(1, Math.min(10, Math.floor(PREVIEW_SIZE / w)));
-    const x0 = PREVIEW_SIZE / 2 - Math.floor((w * scale) / 2);
+    const x0 = Math.floor(PREVIEW_SIZE / 2 - w * scale / 2);
     const previewHeight = height > PREVIEW_SIZE ? height : PREVIEW_SIZE;
-    const y0 = previewHeight / 2 - (Math.floor(height / 2) - 1) * scale;
+    const y0 = previewHeight / 2 - Math.floor((height / 2 - 1) * scale);
 
     console.log(pattern.id, w, scale, previewHeight, x0, y0);
 
@@ -43,7 +43,7 @@ export function patternsPanel({ onSave, onPaste }) {
     gd.setX0Y0(x0, y0);
     patternDiv.innerHTML = `
       <h3 class="pattern-title">${pattern.name}</h3>
-      <img width="${PREVIEW_SIZE}" height="${previewHeight}" alt="${pattern.description}" />
+      <img class="preview" width="${PREVIEW_SIZE}" height="${previewHeight}" alt="${pattern.description}" />
     `;
 
     cells.forEach(([x, y]) => gd.drawCell(x, y));
@@ -111,6 +111,7 @@ function convertToCells(data, baseX = 0, baseY = 0, flipY = true) {
         buff = '';
         break;
       case '!':
+        width = Math.max(width, x - baseX);
         break;
       default:
         buff += data[i];

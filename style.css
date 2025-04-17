@@ -171,6 +171,11 @@ body {
   font-size: 14px;
 }
 
+.preview {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 1px gray;
+}
+
 .collapsed {
   right: -130px !important;
 }

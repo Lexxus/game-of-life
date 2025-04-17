@@ -3,7 +3,7 @@ export const patterns = [
     id: 'acorn',
     name: 'Acorn',
     description: 'A methuselah with lifespan 5206',
-    data: "2o2b3o$3bo$bo!",
+    data: "bo$3bo$2o2b3o!",
   },
   {
     id: 'acorn-synth',
@@ -30,6 +30,12 @@ export const patterns = [
     data: "3b2o$4b3o$2bo4bo$bob4obo$bobo4bo2bo$2ob3o2bobobo$bobo4bo2bo$bob4obo$2bo4bo$4b3o$3b2o!",
   },
   {
+    id: 'airforce',
+    name: 'Airforce',
+    description: "A period 7 oscillator in which the rotor consists of two copies of that used in the burloaferimeter",
+    data: "7bo6b$6bobo5b$7bo6b2$5b5o4b$4bo5bob2o$3bob2o3bob2o$3bobo2bobo3b$2obo3b2obo3b$2obo5bo4b$4b5o5b2$6bo7b$5bobo6b$6bo!"
+  },
+  {
     id: 'ariesbetwixttwoblocks',
     name: 'Aries Betwixt Two Blocks',
     description: 'The most common naturally-occurring 31-bit still life',
@@ -39,7 +45,13 @@ export const patterns = [
     id: 'glider',
     name: 'Glider',
     description: 'A small pattern that moves diagonally across the grid.',
-    data: "3o$o$bo!",
+    data: "bo$o$3o!",
+  },
+  {
+    id: 'ants',
+    name: 'Ants',
+    description: "An orthogonal period 5 lightspeed wick.",
+    data: "2o3b2o3b2o3b2o3b2o3b2o3b2o3b2o3b2o2b$2b2o3b2o3b2o3b2o3b2o3b2o3b2o3b2o3b2o$2b2o3b2o3b2o3b2o3b2o3b2o3b2o3b2o3b2o$2o3b2o3b2o3b2o3b2o3b2o3b2o3b2o3b2o!"
   },
   {
     id: 'spaceship',
@@ -52,6 +64,12 @@ export const patterns = [
     name: 'Anura',
     description: "A sparky 3c/7 orthogonal spaceship found by Dylan Chen on December 28, 2020.[1] It is the second elementary 3c/7 orthogonal spaceship, and the first not based on the spaghetti monster.",
     data: "9bo11bo$8b3o9b3o$10bo9bo$6bob2o11b2obo$6bo4b3o3b3o4bo$5bob3ob3o3b3ob3obo2$4b3ob4obo3bob4ob3o$4b2o7bo3bo7b2o$4b3o2bob2o5b2obo2b3o2$9bo2bo5bo2bo$9bo11bo$7b2o2bobo3bobo2b2o$7bo3b3o3b3o3bo$5b2o4bo2bobo2bo4b2o$3bob2obob2o2bobo2b2obob2obo$2b2obo3bo3bo3bo3bo3bob2o$bobo3b2o13b2o3bobo$b2o8bo7bo8b2o$2bo7b3o5b3o7bo$10b2obo3bob2o$2o2b2o5b3o3b3o5b2o2b2o$obo3bo5b2o3b2o5bo3bobo$4bob2o15b2obo$8bo13bo$bo5b3o11b3o5bo$7b2o13b2o$3bo23bo$5b2o17b2o$5b6o9b6o$6bobo13bobo$2b3o4b2o4bo4b2o4b3o$2b2o4b3o3b3o3b3o4b2o$3b2obo6bo3bo6bob2o$12bobobobo$11bob2ob2obo$11bob5obo$9b2o9b2o$8b2o11b2o$8bo13bo2$6bobo13bobo$9bo11bo$5bo3bo11bo3bo$5bo4bo9bo4bo$5bo4bo9bo4bo$6bo17bo$8b3o9b3o$8bo13bo2$8bo13bo$6bo17bo$8bo13bo!"
+  },
+  {
+    id: "alternatewickstretcher",
+    name: "Alternate Wick Stretcher",
+    description: "A slightly smaller form of wickstretcher",
+    data: "26bobo9b$26bo2bo8b$10bo15bo3bo7b$9bobo18b2o6b$2bo4b3obo5bo14bo5b$bobo2bo4b2o3bobo7b2o2bob2o4b$bobo2bob2o3bo3bo8b3o2b3o3bo$2ob2obobob2o8bo12bo2b2o$bo4b2o4b2o3bob2o12b2o2bo$bob2o2bo3bobob2o2bob2ob3o11b$2bo3b3obobo2bo4bo3b3o11b$3b2o3bobo2bo5b2o12b2o2bo$5b2obob2obobo3bo13bo2b2o$5bob2obo2bob2o4bo4b3o2b3o3bo$11b2o7b2o4b2o2bob2o4b$32bo5b$30b2o6b$26bo3bo7b$26bo2bo8b$26bobo!"
   },
   {
     id: 'beacon',
