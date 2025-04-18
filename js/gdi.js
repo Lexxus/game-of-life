@@ -50,8 +50,18 @@ export class GDI {
     }
   }
 
-  clear() {
-    this.context2d.clearRect(0, 0, this.canvas.width, this.canvas.height);
+  clear(color) {
+    const ctx = this.context2d;
+
+    if (color) {
+      const bColor = ctx.fillStyle;
+
+      ctx.fillStyle = color;
+      ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
+      ctx.fillStyle = bColor;
+    } else {
+      ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
+    }
   }
 
   drawGrid(zoom) {

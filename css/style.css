@@ -1,0 +1,108 @@
+html,
+body {
+  font-family: Calibri, Tahoma, Arial, sans-serif;
+  font-size: 12px;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.control-panel {
+  position: absolute;
+  right: var(--pt-grid-size);
+  top: var(--pt-grid-size);
+}
+
+.control-speed {
+  margin-top: 5px;
+}
+
+.control-speed > label {
+  line-height: 1;
+  position: relative;
+  top: -8px;
+}
+
+.speed-value {
+  line-height: 0;
+  text-align: center;
+}
+
+.info {
+  background: #ffffff44;
+  margin-top: 5px;
+  ;
+  position: relative;
+}
+
+.info label {
+  display: inline-block;
+  width: 65px;
+}
+
+.info span {
+  font-weight: bold;
+}
+
+.zoom {
+  text-align: right;
+  margin-bottom: var(--pt-grid-size);
+}
+
+.zoom span {
+  display: inline-block;
+  width: 20px;
+  text-align: center;
+  background: white;
+}
+
+.zoom button {
+  font-size: 17px;
+  width: 20px;
+  height: 20px;
+  line-height: 14px;
+  padding: 0;
+}
+
+#btnPatterns {
+  position: absolute;
+  left: var(--pt-grid-size);
+  top: var(--pt-grid-size);
+}
+
+.patterns-panel {
+  background-color: #fffff7;
+}
+
+.patterns-panel-body {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: var(--pt-grid-size);
+  height: calc(100% - 33px);
+  padding: var(--pt-grid-size);
+}
+
+.pattern {
+  cursor: pointer;
+  width: 102px;
+}
+
+.pattern-title {
+  margin: 10px 0 0 0;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.preview {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 1px gray;
+}
+
+.footer {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}

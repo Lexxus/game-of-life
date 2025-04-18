@@ -77,7 +77,6 @@ export const Life = {
       this.cells[i] = cell;
       cell.update(live);
     }
-    //if(live) console.log('set '+x+', '+y);
 
     return cell;
   },
@@ -143,7 +142,6 @@ export const Life = {
         ++n;
       }
     }
-    // console.log('count: ' + n);
   },
 
   impact() {
@@ -206,7 +204,7 @@ export const Life = {
       if (y1 === y2) {
         return x1 - x2;
       }
-      return y1 - y2;
+      return y2 - y1;
     });
 
     let data = "";
@@ -220,7 +218,7 @@ export const Life = {
     while (cell) {
       const dy = cell[1] - y;
 
-      if (dy > 0) {
+      if (dy !== 0) {
         if (xLen > 0) {
           data += (xLen > 1 ? xLen : "") + "o";
           xLen = 0;

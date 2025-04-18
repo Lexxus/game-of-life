@@ -4,13 +4,14 @@
 <head>
   <meta charset="utf-8" />
   <title>LIFE</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/ui.css" />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 
-<body>
+<body class="theme-default">
   <canvas id="life"></canvas>
 
-  <div class="panel">
+  <div class="control-panel">
     <div class="controls">
       <button id="btnStart" class="btn icon-play">Start</button>
       <button id="btnStep" class="btn icon-next">Step</button>
@@ -33,14 +34,24 @@
       <span id="zoomValue">6</span>
       <button id="btnZoomIn" style="border-radius: 0 5px 5px 0;">+</button>
     </div>
-    <div class="patterns">
-      <button id="btnSave" class="btn">Save pattern</button>
-      <button id="btnPatterns" class="btn">Patterns...</button>
-      <ol id="patterns" class="list collapsed"></ol>
+    <button id="btnSave" class="btn" title="Print current structure into browser's console in RLE format">Save pattern</button>
+  </div>
+  <button id="btnPatterns" class="btn">Show Patterns</button>
+  <div id="patternsPanel" class="patterns-panel drawer drawer-left">
+    <div class="drawer-header">
+      <h2 class="title">PATTERNS</h2>
+      <button id="btnClose" class="btn icon-close" />
+    </div>
+    <div class="patterns-panel-body">
+      <form id="patternForm">
+        <div id="patternCategories" class="btn-group"></div>
+      </form>
+      <div id="categoryDescription" class="patterns-category-description"></div>
+      <ul id="patterns" class="collection"></ul>
     </div>
   </div>
   <footer class="footer">Ctrl+LMouse to move the field</footer>
-  <script type="module" src="index.js"></script>
+  <script type="module" src="js/index.js"></script>
 </body>
 
 </html>

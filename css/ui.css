@@ -1,0 +1,181 @@
+:root {
+  --pt-grid-size: 10px;
+}
+
+.theme-default {
+  --btn-border-color: #888;
+  --btn-active-bg-color: #aaa;
+  --btn-disabled-bg-color: #eee;
+  --btn-disabled-color: #888;
+  --btn-padding: 2px 7px;
+  --btn-shadow: 1px 1px 1px #888;
+  --btn-radio-active-bg-color: #888;
+  --btn-radio-active-color: #fff;
+
+  --drawer-width: 25vw;
+  --drawer-min-width: 225px;
+}
+
+.btn {
+  border: 1px solid var(--btn-border-color);
+  padding: var(--btn-padding);
+  box-shadow: var(--btn-shadow);
+  position: relative;
+  cursor: pointer;
+}
+
+.btn-active, .btn:active:not(:disabled) {
+  background-color: var(--btn-active-bg-color);
+  box-shadow: none;
+  top: 1px;
+  left: 1px;
+}
+
+.btn:disabled {
+  background-color: var(--btn-disabled-bg-color);
+  color: var(--btn-disabled-color);
+  cursor: not-allowed !important;
+  opacity: 0.8;
+}
+
+.btn-radio {
+  border: 1px solid var(--btn-border-color);
+  padding: var(--btn-padding);
+  box-shadow: var(--btn-shadow);
+  cursor: pointer;
+}
+
+.btn-radio > input[type="radio"] {
+  display: none;
+}
+
+.btn-radio:has(> input:checked) {
+  background-color: var(--btn-radio-active-bg-color);
+  color: var(--btn-radio-active-color);
+  cursor: default;
+}
+
+.btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 1.5;
+}
+
+.icon-play {
+  padding-left: 16px;
+}
+
+.icon-play::before {
+  content: "";
+  border: 5px black solid;
+  position: absolute;
+  border-color: transparent transparent transparent #00e;
+  top: 6px;
+  left: 7px;
+}
+
+.icon-next {
+  padding-left: 18px;
+}
+
+.icon-next::before {
+  content: "";
+  border: 5px black solid;
+  position: absolute;
+  border-color: transparent transparent transparent #00e;
+  top: 6px;
+  left: 7px;
+}
+
+.icon-next::after {
+  content: ".";
+  border-left: 2px #00e solid;
+  position: absolute;
+  top: 6px;
+  left: 12px;
+  font-size: 8px;
+  color: #eee;
+}
+
+.icon-pause {
+  padding-left: 18px;
+}
+
+.icon-pause::before {
+  content: ".";
+  border-left: 3px #00e solid;
+  border-right: 3px #00e solid;
+  width: 2px;
+  position: absolute;
+  top: 6px;
+  left: 7px;
+  font-size: 8px;
+  color: #eee;
+}
+
+.icon-close::before,
+.icon-clear::before {
+  content: "⨉ ";
+  color: #c00;
+}
+
+.movable {
+  cursor: grab;
+}
+
+.moving, .movable.moving {
+  cursor: grabbing;
+}
+
+.collection {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: var(--pt-grid-size);
+  overflow: auto;
+}
+
+.drawer {
+  width: var(--drawer-width);
+  min-width: var(--drawer-min-width);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1000;
+}
+
+.drawer.drawer-left {
+  left: calc(0px - max(var(--drawer-width), var(--drawer-min-width)));
+  transition: left 0.3s ease-in-out;
+}
+
+.drawer.drawer-left.opened {
+  box-shadow: 1px 0 5px #888;
+  left: 0;
+}
+
+.drawer.drawer-right {
+  right: calc(0px - max(var(--drawer-width), var(--drawer-min-width)));
+  transition: right 0.3s ease-in-out;
+}
+
+.drawer.drawer-right.opened {
+  box-shadow: -1px 0 5px #888;
+  right: 0;
+}
+
+.drawer-header {
+  display: flex;
+  justify-content: space-between;
+  color: #337;
+  padding: 5px;
+  border-bottom: 1px solid #ccf;
+}
+
+.drawer-header > .title {
+  font-size: 18px;
+  padding-left: var(--pt-grid-size);
+  margin: 0;
+}

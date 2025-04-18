@@ -180,7 +180,6 @@ document.addEventListener('DOMContentLoaded', () => {
     allowCycle = true;
   }
   document.onkeydown = function (e) {
-    console.log('keydown', e);
     if (e.ctrlKey && allowDrawing) {
       gd.canvas.classList.add('movable');
     }
