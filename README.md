@@ -1,11 +1,12 @@
-game-of-life
-============
+# Conway's Game-of-Life
+=======================
 
 ## JavaScript implementation for Conway's Game of Life ##
-http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
 
-### Advantages ###
+* https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
+* https://conwaylife.com/wiki/
 
-- Unlimited grid size.
+## Feature
 
-- Fast!
+* Unlimited grid size.
+* Library of cells structure patterns.
