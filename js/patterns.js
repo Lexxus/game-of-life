@@ -160,7 +160,7 @@ export const patterns = [
   {
     id: 'beacon',
     name: 'Beacon',
-    category: [ categories.basics.id ],
+    category: [ categories.basics.id, categories.oscillators.id ],
     description: 'A period-2 oscillator that flips between two states.',
     data: "2o2b$o3b$3bo$2b2o!",
   },
@@ -496,8 +496,8 @@ export const patterns = [
   //   description: 'Description of the new pattern.',
   //   data: "data string representing the pattern in RLE format",
   //     #b - blank cell, # is number of cells, if no number, it is 1
-  //     #o - live cell
-  //     $ - new line
+  //     #o - live cell, # is number of cells, if no number, it is 1
+  //     #$ - new line, # is number of cells, if no number, it is 1
   //     ! - end of pattern
   // }
 ];
