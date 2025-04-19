@@ -1,68 +1,82 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Game-of-life : JavaScript implementation for Conway's Game of Life (demo)" />
+<head>
+  <meta charset="utf-8" />
+  <title>LIFE</title>
+  <link rel="stylesheet" href="css/ui.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <meta name="version" content="2.0" />
+</head>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/life.css">
+<body class="theme-default">
+  <canvas id="life"></canvas>
 
-    <title>Game-of-life :: Demo</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/Lexxus/game-of-life">View on GitHub</a>
-
-          <h1 id="project_title">Game-of-life</h1>
-          <h2 id="project_tagline">JavaScript implementation for Conway's Game of Life</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/Lexxus/game-of-life/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/Lexxus/game-of-life/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
+  <div id="controlPanel" class="control-panel opened">
+    <div class="controls">
+      <button id="btnCtrlClose" class="btn mini icon-close m-right-05" />
+      <button class="btn icon-play action-start" title="Start/Stop">Start</button>
+      <button class="btn icon-next action-step" title="Step">Step</button>
+      <button class="btn icon-clear action-clear" title="Clear">Clear</button>
+      <button id="btnRnd" class="btn">Rnd</button>
     </div>
-
-    <!-- MAIN CONTENT -->
-	<div id="main_content_wrap" class="outer">
-		<canvas id="life"></canvas>
-
-		<div class="controls">
-			<button id="btnStart">&gt;&gt;Start</button>
-			<button id="btnStep">Step</button>
-			<button id="btnClear">Clear</button>
-			<button id="btnRnd">Rnd</button>
-			<div class="info">
-				<label>Life cycle:</label><span id="life-cycle"></span><br/>
-				<label title="live / total">Cells:</label><span id="cells"></span><br/>
-				<label>Max cells:</label><span id="max-cells"></span><br/>
-				<label>FPS:</label><span id="time"></span>
-			</div>
-			<div class="zoom">
-				<button id="btnZoomSub" style="border-radius: 5px 0 0 5px;">-</button>
-					<span id="zoomValue">6</span>
-				<button id="btnZoomAdd" style="border-radius: 0 5px 5px 0;">+</button>
-			</div>
-		</div>
-	</div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Game-of-life maintained by <a href="https://github.com/Lexxus">Lexxus</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
+    <div class="control-speed">
+      <label>Speed: </label><input type="range" id="speed" min="1" max="50" value="3" />
+      <div class="speed-value" id="speedValue">50</div>
     </div>
+    <div class="info">
+      <label>Life cycle:</label><span id="life-cycle"></span><br />
+      <label title="live / total">Cells:</label><span id="cells"></span><br />
+      <label>Max cells:</label><span id="max-cells"></span><br />
+      <label>FPS:</label><span id="time"></span>
+    </div>
+    <div class="zoom">
+      Zoom:
+      <button id="btnZoomOut" class="btn" style="border-radius: 6px 0 0 6px;">-</button>
+      <span id="zoomValue">6</span>
+      <button id="btnZoomIn" class="btn" style="border-radius: 0 6px 6px 0;">+</button>
+    </div>
+    <div class="other-controls">
+      <button id="btnSave" class="btn" title="Print current structure into browser's console in RLE format">Print pattern</button>
+    </div>
+  </div>
+  <div id="controlPanelMini" class="control-panel-mini hidden">
+    <button id="btnCtrlOpen" class="btn mini icon-shift-left m-bottom-05" />
+    <button class="btn icon-play action-start" title="Start/Stop" />
+    <button class="btn icon-next action-step" title="Step" />
+    <button class="btn icon-clear action-clear" title="Clear" />
+  </div>
+  <button id="btnPatterns" class="btn">Patterns</button>
+  <div id="patternsPanel" class="patterns-panel drawer drawer-left">
+    <div class="drawer-header">
+      <h2 class="title">PATTERNS</h2>
+      <button id="btnClose" class="btn icon-close" />
+    </div>
+    <div class="patterns-panel-body">
+      <form id="patternForm">
+        <div id="patternCategories" class="btn-group">
+          <label class="btn-radio" title="Search">
+            <input type="radio" name="category" value="" checked />
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 48 48">
+              <path
+                d="M 20.5 6 C 12.509634 6 6 12.50964 6 20.5 C 6 28.49036 12.509634 35 20.5 35 C 23.956359 35 27.133709 33.779044 29.628906 31.75 L 39.439453 41.560547 A 1.50015 1.50015 0 1 0 41.560547 39.439453 L 31.75 29.628906 C 33.779044 27.133709 35 23.956357 35 20.5 C 35 12.50964 28.490366 6 20.5 6 z M 20.5 9 C 26.869047 9 32 14.130957 32 20.5 C 32 23.602612 30.776198 26.405717 28.791016 28.470703 A 1.50015 1.50015 0 0 0 28.470703 28.791016 C 26.405717 30.776199 23.602614 32 20.5 32 C 14.130953 32 9 26.869043 9 20.5 C 9 14.130957 14.130953 9 20.5 9 z">
+              </path>
+            </svg>
+          </label>
+        </div>
+        <div id="patternSearch" class="search">
+          <input type="text" id="search" class="input-text" placeholder="Search..." />
+        </div>
+      </form>
+      <div id="categoryDescription" class="patterns-category-description"></div>
+      <ul id="patterns" class="collection"></ul>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="help">Ctrl+LMouse to move the field</div>
+    <div class="about"><strong>Conway's Game of Life</strong> v2.0 <small>(by Oleksii Teterin, 2025)</small></div>
+  </footer>
+  <script type="module" src="js/index.js"></script>
+</body>
 
-	<script src="javascripts/gdi.js"></script>
-	<script src="javascripts/life.js"></script>
-	<script src="javascripts/main.js"></script>
-
-  </body>
 </html>
