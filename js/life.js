@@ -216,7 +216,7 @@ export const Life = {
     let xLen = 0;
 
     while (cell) {
-      const dy = cell[1] - y;
+      const dy = Math.abs(cell[1] - y);
 
       if (dy !== 0) {
         if (xLen > 0) {

@@ -13,6 +13,8 @@ document.addEventListener('DOMContentLoaded', () => {
   let zoom = 6;
   const gd = new GDI('life', { step: zoom });
 
+  const $CtrlPanel = document.getElementById('controlPanel');
+  const $CtrlPanelMini = document.getElementById('controlPanelMini');
   const $LifeCycle = document.getElementById('life-cycle');
   const $Cells = document.getElementById('cells');
   const $MaxCells = document.getElementById('max-cells');
@@ -41,70 +43,34 @@ document.addEventListener('DOMContentLoaded', () => {
   gd.canvas.height = h;
   gd.setX0Y0(Math.round(w / 2), Math.round(h / 2));
 
-  document.onselectstart = function (e) {
+  document.onselectstart = function () {
     return false;
   }
 
   Life.init(gd);
 
-  document.getElementById('btnStep').onclick = function (e) {
-    allowDrawing = false;
+  window.addEventListener('resize', function () {
+    gd.canvas.width = document.body.clientWidth;
+    gd.canvas.height = document.body.clientHeight;
 
-    showInfo(Life.cycle());
-  };
+    Life.refresh();
+  });
 
-  document.getElementById('btnStart').onclick = function (e) {
-    allowDrawing = false;
-
-    if (isPaused) {
-      let live = 0
-      let n0 = 5
-      let n = n0;
-
-      function runCycle() {
-        if (isPaused) return;
-        if (allowCycle) {
-          const info = Life.cycle();
-
-          showInfo(info);
-
-          if (info.liveCells < 3) stopLife();
-          if (info.liveCells === live) {
-            if (--n === 0) {
-              stopLife();
-            }
-          } else {
-            n = n0;
-            live = info.liveCells;
-          }
-          setTimeout(runCycle, runDelay);
-        } else {
-          setTimeout(runCycle, 500);
-        }
-      }
-
-      const btn = e.target;
-
-      btn.textContent = 'Pause';
-      btn.classList.remove('icon-play');
-      btn.classList.add('icon-pause');
-      document.getElementById('btnStep').disabled = true;
-      document.getElementById('btnRnd').disabled = true;
-      gd.canvas.classList.add('movable');
-      allowCycle = true;
-      isPaused = false;
-      setTimeout(runCycle, 200);
-    } else {
-      stopLife();
-    }
-  };
-
-  document.getElementById('btnClear').onclick = function () {
-    stopLife();
-    Life.init();
-    allowDrawing = true;
-    showInfo();
+  document.getElementById('btnCtrlClose').onclick = function () {
+    $CtrlPanel.classList.remove('opened');
+    setTimeout(() => {
+      $CtrlPanelMini.classList.remove('hidden');
+    }, 300);
   }
+
+  document.getElementById('btnCtrlOpen').onclick = function () {
+    $CtrlPanelMini.classList.add('hidden');
+    $CtrlPanel.classList.add('opened');
+  }
+
+  Array.from(document.getElementsByClassName('action-step')).forEach((e) => e.onclick = handleStep);
+  Array.from(document.getElementsByClassName('action-start')).forEach((e) => e.onclick = handleStart);
+  Array.from(document.getElementsByClassName('action-clear')).forEach((e) => e.onclick = handleClear);
 
   document.getElementById('btnRnd').onclick = () => {
     const w = 100;
@@ -190,6 +156,65 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
+  function handleStep() {
+    showInfo(Life.cycle());
+  }
+
+  function handleStart(e) {
+    allowDrawing = false;
+
+    if (isPaused) {
+      let live = 0
+      let n0 = 5
+      let n = n0;
+
+      function runCycle() {
+        if (isPaused) return;
+        if (allowCycle) {
+          const info = Life.cycle();
+
+          showInfo(info);
+
+          if (info.liveCells < 1) stopLife();
+          if (info.liveCells === live) {
+            if (--n === 0) {
+              stopLife();
+            }
+          } else {
+            n = n0;
+            live = info.liveCells;
+          }
+          setTimeout(runCycle, runDelay);
+        } else {
+          setTimeout(runCycle, 500);
+        }
+      }
+
+      const btns = document.getElementsByClassName('action-start');
+
+      for (let btn of btns) {
+        if (btn.textContent === 'Start') btn.textContent = 'Pause';
+        btn.classList.remove('icon-play');
+        btn.classList.add('icon-pause');
+      }
+      Array.from(document.getElementsByClassName('action-step')).forEach((e) => e.disabled = true);
+      document.getElementById('btnRnd').disabled = true;
+      gd.canvas.classList.add('movable');
+      allowCycle = true;
+      isPaused = false;
+      setTimeout(runCycle, 200);
+    } else {
+      stopLife();
+    }
+  }
+
+  function handleClear() {
+    stopLife();
+    Life.init();
+    allowDrawing = true;
+    showInfo();
+  }
+
   function showInfo(info) {
     $LifeCycle.innerHTML = info ? info.cycle : 0;
     $Cells.innerHTML = info ? info.liveCells + ' / ' + info.totalCells : 0;
@@ -203,15 +228,17 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function stopLife() {
-    const btn = document.getElementById('btnStart');
+    const btns = document.getElementsByClassName('action-start');
 
-    btn.textContent = 'Start';
-    btn.classList.remove('icon-pause');
-    btn.classList.add('icon-play');
+    for (let btn of btns) {
+      if (btn.textContent === 'Pause') btn.textContent = 'Start';
+      btn.classList.remove('icon-pause');
+      btn.classList.add('icon-play');
+    }
+    Array.from(document.getElementsByClassName('action-step')).forEach((e) => e.disabled = false);
 
     isPaused = true;
     allowDrawing = true;
-    document.getElementById('btnStep').disabled = false;
     document.getElementById('btnRnd').disabled = false;
     gd.canvas.classList.remove('movable');
   }

@@ -15,7 +15,9 @@ export function patternsPanel({ onSave, onPaste }) {
   const $Panel = document.getElementById('patternsPanel');
   const $Form = document.getElementById('patternForm');
   const $Categories = document.getElementById('patternCategories');
+  const $Search = document.getElementById('patternSearch');
   const $Patterns = document.getElementById('patterns');
+
   const PREVIEW_SIZE = 100;
   const canvas = document.createElement('canvas');
 
@@ -23,6 +25,8 @@ export function patternsPanel({ onSave, onPaste }) {
   canvas.height = PREVIEW_SIZE;
   const gd = new GDI(canvas);
 
+  const $SearchBtn = $Categories.firstElementChild;
+  $Categories.innerHTML = '';
   // create category selector
   Object.entries(categories).forEach(([id, cat], i) => {
     const $label = document.createElement('label');
@@ -30,11 +34,12 @@ export function patternsPanel({ onSave, onPaste }) {
     $label.className = 'btn-radio';
     $label.title = cat.description || '';
     $label.innerHTML = `
-      <input type="radio" name="category" value="${id}"${i === 0 ? ' checked' : ''} />
+      <input type="radio" name="category" value="${id}" />
       ${cat.name}
     `;
     $Categories.appendChild($label);
   });
+  $Categories.appendChild($SearchBtn);
 
   renderPatterns($Form.elements.category.value);
 
@@ -53,6 +58,7 @@ export function patternsPanel({ onSave, onPaste }) {
   }
 
   $Patterns.addEventListener('click', (e) => {
+    if (e.target.tagName === 'A') return;
     const patternDiv = e.target.classList.contains('pattern') ? e.target : e.target.closest('.pattern');
 
     if (patternDiv) {
@@ -67,28 +73,45 @@ export function patternsPanel({ onSave, onPaste }) {
     }
   });
 
-  $Patterns.addEventListener('wheel', (e) => {
-    e.stopImmediatePropagation();
-  });
-
   $Form.addEventListener('change', (e) => {
     if (e.target.name === 'category') {
       const categoryId = e.target.value;
-      const category = categories[categoryId];
+
+      $Search.style.display = categoryId ? 'none' : 'block';
       renderPatterns(categoryId);
       $Patterns.scrollTop = 0;
     }
   });
 
-  function renderPatterns(categoryId) {
+  let searchTimeout;
+  document.getElementById('search').addEventListener('input', (e) => {
+    clearTimeout(searchTimeout);
+    const query = e.target.value;
+
+    searchTimeout = setTimeout(() => renderPatterns('', query), 500);
+  });
+
+  $Patterns.addEventListener('wheel', (e) => {
+    e.stopImmediatePropagation();
+  });
+
+  function renderPatterns(categoryId, query = '') {
     const $description = document.getElementById('categoryDescription');
     const category = categories[categoryId];
+    const queryLc = query.toLowerCase() || '';
 
     $Patterns.innerHTML = '';
+    const foundPatterns = category
+      ? patterns.filter((p) => ((Array.isArray(p.category) ? p.category.includes(categoryId) : p.category === categoryId) || (categoryId === 'other' && !p.category)))
+      : patterns.filter((p) => query.length > 1 && p.name.toLowerCase().includes(queryLc));
 
-    $description.innerHTML = category.link ? `${category.description} <a href="${category.link}" target="_blank" rel="noreferrer">wiki</a>` : '';
-    patterns
-      .filter((p) => (p.category === categoryId || (categoryId === 'other' && !p.category)))
+    if (!category) {
+      $description.innerHTML = `Search result for "<b>${query}</b>". Found <b>${foundPatterns.length}</b> patterns.`;
+    } else {
+      $description.innerHTML = category.link ? `${category.description} <a href="${category.link}" target="_blank" rel="noreferrer">wiki</a>` : '';
+    }
+    foundPatterns
+      .sort((a, b) => a.name.localeCompare(b.name))
       .forEach((pattern) => {
         if (!pattern.data) return;
         const $li = document.createElement('li');
@@ -108,8 +131,10 @@ export function patternsPanel({ onSave, onPaste }) {
         gd.clear('white');
         gd.step = scale;
         gd.setX0Y0(x0, y0);
+
+        const patternName = pattern.link ? `<a href="${pattern.link}" target="_blank" rel="noreferrer">${pattern.name}</a>` : pattern.name;
         $li.innerHTML = `
-          <h3 class="pattern-title" title="${pattern.name}">${pattern.name}</h3>
+          <h3 class="pattern-title" title="${pattern.name}">${patternName}</h3>
           <img class="preview" width="${PREVIEW_SIZE}" height="${previewHeight}" alt="${pattern.description}" />
         `;
 
@@ -131,20 +156,21 @@ function convertToCells(data, baseX = 0, baseY = 0, flipY = true) {
   let height = 1;
 
   for (let i = 0; i < data.length; ++i) {
+    const dxy = +buff || 1;
     switch (data[i]) {
       case '$':
-        y = y + (flipY ? -1 : 1) * (+buff || 1);
+        y = y + (flipY ? -1 : 1) * dxy;
         width = Math.max(width, x - baseX);
-        height += 1;
+        height += dxy;
         x = baseX;
         buff = '';
         break;
       case 'b':
-        x += (+buff || 1);
+        x += dxy;
         buff = '';
         break;
       case 'o':
-        for (let j = 0, n = (+buff || 1); j < n; ++j) {
+        for (let j = 0; j < dxy; ++j) {
           cells.push([ x, y ]);
           x++;
         }

@@ -5,12 +5,33 @@ body {
   height: 100%;
   margin: 0;
   overflow: hidden;
+
+  --control-panel-width: 255px;
+}
+
+#life {
+  width: 100%;
+  height: 100%;
 }
 
 .control-panel {
   position: absolute;
-  right: var(--pt-grid-size);
+  right: calc(-10px - var(--control-panel-width));
   top: var(--pt-grid-size);
+  transition: right 0.3s ease-in-out;
+  min-width: var(--control-panel-width);
+}
+
+.control-panel.opened {
+  right: var(--pt-grid-size) !important;
+}
+
+.control-panel-mini {
+  position: absolute;
+  top: var(--pt-grid-size);
+  right: var(--pt-grid-size);
+  display: flex;
+  flex-direction: column;
 }
 
 .control-speed {
@@ -64,7 +85,12 @@ body {
   padding: 0;
 }
 
+.other-controls {
+  text-align: right;
+}
+
 #btnPatterns {
+  background-color: #ffd;
   position: absolute;
   left: var(--pt-grid-size);
   top: var(--pt-grid-size);
@@ -89,7 +115,7 @@ body {
 }
 
 .pattern-title {
-  margin: 10px 0 0 0;
+  margin: var(--pt-grid-size) 0 0 0;
   font-size: 14px;
   white-space: nowrap;
   overflow: hidden;
@@ -103,6 +129,9 @@ body {
 
 .footer {
   position: absolute;
-  bottom: 10px;
-  left: 10px;
+  bottom: 5px;
+  left: var(--pt-grid-size);
+  right: var(--pt-grid-size);
+  display: flex;
+  justify-content: space-between;
 }

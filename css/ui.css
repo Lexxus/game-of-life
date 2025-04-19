@@ -3,12 +3,15 @@
 }
 
 .theme-default {
+  --btn-bg-color: #f0f0f0;
+  --btn-hover-bg-color: #ddd;
   --btn-border-color: #888;
   --btn-active-bg-color: #aaa;
-  --btn-disabled-bg-color: #eee;
+  --btn-disabled-bg-color: #ccc;
   --btn-disabled-color: #888;
   --btn-padding: 2px 7px;
   --btn-shadow: 1px 1px 1px #888;
+  --btn-shadow-hover: 1px 1px 2px #444;
   --btn-radio-active-bg-color: #888;
   --btn-radio-active-color: #fff;
 
@@ -17,11 +20,19 @@
 }
 
 .btn {
+  background-color: var(--btn-bg-color);
   border: 1px solid var(--btn-border-color);
   padding: var(--btn-padding);
   box-shadow: var(--btn-shadow);
   position: relative;
   cursor: pointer;
+  min-height: 22px;
+  line-height: 1.2;
+}
+
+.btn:hover:not(:disabled) {
+  background-color: var(--btn-hover-bg-color);
+  box-shadow: var(--btn-shadow-hover);
 }
 
 .btn-active, .btn:active:not(:disabled) {
@@ -35,11 +46,12 @@
   background-color: var(--btn-disabled-bg-color);
   color: var(--btn-disabled-color);
   cursor: not-allowed !important;
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 .btn-radio {
   border: 1px solid var(--btn-border-color);
+  display: inline-flex;
   padding: var(--btn-padding);
   box-shadow: var(--btn-shadow);
   cursor: pointer;
@@ -61,8 +73,13 @@
   line-height: 1.5;
 }
 
+.btn.mini:not(:hover) {
+  border-color: transparent;
+  box-shadow: none;
+}
+
 .icon-play {
-  padding-left: 16px;
+  padding-left: 20px;
 }
 
 .icon-play::before {
@@ -70,12 +87,12 @@
   border: 5px black solid;
   position: absolute;
   border-color: transparent transparent transparent #00e;
-  top: 6px;
-  left: 7px;
+  top: 5px;
+  left: 11px;
 }
 
 .icon-next {
-  padding-left: 18px;
+  padding-left: 21px;
 }
 
 .icon-next::before {
@@ -83,22 +100,22 @@
   border: 5px black solid;
   position: absolute;
   border-color: transparent transparent transparent #00e;
-  top: 6px;
-  left: 7px;
+  top: 5px;
+  left: 9px;
 }
 
 .icon-next::after {
   content: ".";
   border-left: 2px #00e solid;
   position: absolute;
-  top: 6px;
-  left: 12px;
+  top: 5px;
+  left: 15px;
   font-size: 8px;
   color: #eee;
 }
 
 .icon-pause {
-  padding-left: 18px;
+  padding-left: 21px;
 }
 
 .icon-pause::before {
@@ -108,7 +125,7 @@
   width: 2px;
   position: absolute;
   top: 6px;
-  left: 7px;
+  left: 10px;
   font-size: 8px;
   color: #eee;
 }
@@ -117,6 +134,23 @@
 .icon-clear::before {
   content: "⨉ ";
   color: #c00;
+}
+
+.icon-shift-left::before {
+  content: "≪";
+  color: #040;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.m-right-05 {
+  margin-right: calc(var(--pt-grid-size) * 0.5);
+}
+
+.m-bottom-05 {
+  margin-bottom: calc(var(--pt-grid-size) * 0.5);
 }
 
 .movable {
