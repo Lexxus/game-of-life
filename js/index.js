@@ -1,6 +1,6 @@
 import GDI from './gdi.js';
 import Life from './life.js';
-import patternsPanel from './patterns-panel.js';
+import { renderPatternsPanel } from './patterns-panel.js';
 
 /**
  * Conway's Game of Life execution
@@ -43,27 +43,27 @@ document.addEventListener('DOMContentLoaded', () => {
   gd.canvas.height = h;
   gd.setX0Y0(Math.round(w / 2), Math.round(h / 2));
 
-  document.onselectstart = function () {
+  document.onselectstart = function() {
     return false;
   }
 
   Life.init(gd);
 
-  window.addEventListener('resize', function () {
+  window.addEventListener('resize', function() {
     gd.canvas.width = document.body.clientWidth;
     gd.canvas.height = document.body.clientHeight;
 
     Life.refresh();
   });
 
-  document.getElementById('btnCtrlClose').onclick = function () {
+  document.getElementById('btnCtrlClose').onclick = function() {
     $CtrlPanel.classList.remove('opened');
     setTimeout(() => {
       $CtrlPanelMini.classList.remove('hidden');
     }, 300);
   }
 
-  document.getElementById('btnCtrlOpen').onclick = function () {
+  document.getElementById('btnCtrlOpen').onclick = function() {
     $CtrlPanelMini.classList.add('hidden');
     $CtrlPanel.classList.add('opened');
   }
@@ -94,17 +94,17 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('btnZoomIn').onclick = zoomIn;
   document.getElementById('btnZoomOut').onclick = zoomOut;
 
-  document.addEventListener('wheel', function (e) {
+  document.addEventListener('wheel', function(e) {
     if (e.wheelDelta > 0) zoomIn();
     else zoomOut();
   });
 
-  patternsPanel({
+  renderPatternsPanel({
     onSave: handleSave,
     onPaste: handlePaste,
   });
 
-  gd.canvas.onmousedown = function (e) {
+  gd.canvas.onmousedown = function(e) {
     if (!e.ctrlKey && allowDrawing) {
       const xy = gd.convertXY(e.pageX - this.offsetLeft, e.pageY - this.offsetTop);
 
@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     isMoving = true;
   }
-  gd.canvas.onmousemove = function (e) {
+  gd.canvas.onmousemove = function(e) {
     if (isMoving) {
       if (!e.ctrlKey && allowDrawing) {
         const xy = gd.convertXY(e.pageX - this.offsetLeft, e.pageY - this.offsetTop);
@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
   }
-  gd.canvas.onmouseup = function (e) {
+  gd.canvas.onmouseup = function(e) {
     if (isMoving) {
       this.classList.remove('moving');
       isMoving = false;
@@ -145,12 +145,12 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     allowCycle = true;
   }
-  document.onkeydown = function (e) {
+  document.onkeydown = function(e) {
     if (e.ctrlKey && allowDrawing) {
       gd.canvas.classList.add('movable');
     }
   }
-  document.onkeyup = function (e) {
+  document.onkeyup = function(e) {
     if (!e.ctrlKey && allowDrawing) {
       gd.canvas.classList.remove('movable');
     }
@@ -265,9 +265,11 @@ document.addEventListener('DOMContentLoaded', () => {
     Life.save();
   }
 
-  function handlePaste(cells) {
+  function handlePaste(cells, width, height) {
+    const xShift = Math.floor(width / 2);
+    const yShift = Math.floor(height / 2);
     cells.forEach(([x, y]) => {
-      Life.createCell(x, y, true);
+      Life.createCell(x - xShift, y + yShift, true);
     });
   }
 });

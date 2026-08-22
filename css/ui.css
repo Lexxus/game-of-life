@@ -127,7 +127,7 @@
   top: 6px;
   left: 10px;
   font-size: 8px;
-  color: #eee;
+  color: transparent;
 }
 
 .icon-close::before,
@@ -213,3 +213,4 @@
   padding-left: var(--pt-grid-size);
   margin: 0;
 }
+
