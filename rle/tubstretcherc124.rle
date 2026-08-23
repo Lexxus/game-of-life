@@ -1,0 +1,39 @@
+#N tubstretcherc124.rle
+#C https://conwaylife.com/wiki/Boatstretcher
+#C https://www.conwaylife.com/patterns/tubstretcherc124.rle
+#C A slide gun and a backward Corder-rake can stretch a tub
+#C at c/124.
+#C Jason Summers, 6 Apr 1999
+x = 152, y = 159, rule = B3/S23
+124b3o$124b3o2$123b2obo$122bo3bo$122b3o$108b2o$108b2o3$125bo$124bobo$
+125bo$125b2o$100b2o23b2o$100b2o23bo$124b2obo$107bobo11bob2obo$106b2o
+13bo4bo10bo$105bo15bobo13b2o$106bob2o25b5o$108bobo29bo$92b2o14bo11b2o
+12bo5b2o$92b2o14b2obo8b2o15b2ob3o$110b2o20b2o2b2obobo$133b2o2bo2bo$
+137b2o$107b2o24bob2o10b3o$107b2o24bo13bo2bo$146bo4bo$84b2o60b3o2bo$84b
+2o40b2o17bo5bo$125bo2bo15b7o$87b2o37b2o16bo$86b3o4b2o3bo45bo$85bo6bo2b
+2obo46b2o$85b4o2b5o2bo$86b3o3b3o$93b3o$94b2o35b2o14bo$95bo35b2o13bobo$
+112bo33bob2o$111bobo21b2o11b2o$19b2o89b2ob2o19bo2bo8b3o$19b2o92b2o19bo
+bo10bo$44b2o61b2o26bo7bo2bo$44b2o63bo2b3o27bo6bo$20bo81b2o3b2obo31bo6b
+o$19b3o23bo55bo2bo4bo2bo29b3o4bo$18bo3bo21bobo55b2o5bo$20bo23bobo63b2o
+$17bo5bo21bo$17bo5bo87bo$18bo3bo86b2ob2o$19b3o20b2obob2o61bo$8b2o32bo
+5bo45b2o17bo29b2o$8b2o33bo3bo45bo2bo14bo31b2o$44b3o47b2o2$22bo55b2o$
+78b2o35b3o$114bo3bo$22bo91b2o3bo$20bobo95bo16b2o$21b2o20bo70b4o17b2o$
+42bo69b2obo$7b3o32b3o67bo2bo$6bo3bo102b2o$5bo5bo3b2o3b2o$6bo3bo18bo$7b
+3o6bo3bo9bo32b3o$7b3o7b3o8b3o14b5o15bo61b2o$17b3o15bo8bob3obo13bo5b2o
+55b2o$37bo7bo3bo19bobo$33bo2bo9b3o22bo$47bo$5b3o25b2o$4b2ob2o3bo5b2o6b
+2o$4b2ob2o4b2o3b2o5bo2bo$4b5o3b2o14bo17b2o$3b2o3b2o18bo17b2o$25b2obo$
+19bo5b2o$18b2o$18bobo23bo40bo$19bo6b2o17bo10bo27bobo$16b2ob2o5b2o8bo6b
+3o10b2o27bo$16bo3bo10b3ob2o2b2o14bobo$18b2o11b4o4b2o$35b2o2$19bo$2b3o
+6b3o5b3o$bo3bo7bo8bo$o5bo5bo8b2o$2obob2o49b2o$56b2o$24bo$6bo15b2ob2o$
+5b2o$21bo5bo5b3o$4bob2o27bo$3bo2b2o13b2obob2o6bo$3b4o2$43b3o$2b2o3b2o
+36bo6bo$5bo38bo6bobo$2bo5bo41bo3b2o$3b2ob2o42bo3b2o3b2o$4bobo14b2o27bo
+3b2o3b2o$5bo16bo17b2o9bobo$5bo13b3o17bobo10bo$19bo19bo$38b2o$2b2o8b4o
+10bo$3bo7bo7b2o5b2o19bobo$3o8bo3b2o2b2o4bobo18bo$o5b2o4bo2b2o24b2o2bo
+4bo$6b2o33b2obo2bob2o$29bo15b2o7b2o$6bo20b3o24b2o$5bobo18bo5bo$5bobo
+18b2o4b3o$6bo28bo$34b2o20b2o2$3b2obob2o14bo12bo$3bo5bo12b2ob2o9b3o$4bo
+3bo26bo3bo$5b3o3bo9bo5bo9bo14b2o3b2o$11b2o21bo5bo7b2o3b5o$10bobo8b2obo
+b2o6bo5bo6b2o4b2ob2o$35bo3bo9bo3b2ob2o$36b3o15b3o$20b2o$20bobo18b2o$
+21bo20b2o$8bo12b2o18bo$8bo11b3o29b3o$7bobo10b2o30b3o$6b2ob2o12bo27bo3b
+o$5bo5bo38bo5bo$8bo42bo3bo$5b2o3b2o27bo12b3o$22bo15b3o$21b3o14b3o$9bo
+10b5o$9bo9b2o3b2o10b2o3b2o$10bo9b5o11b2o3b2o$20bo3bo$21bobo$7b2o13bo
+16bo$7b2o29bobo$37b2o14b2o$21b2o14b2o14b2o$21b2o14b3o$38bobo$39b2o!

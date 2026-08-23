@@ -1,0 +1,30 @@
+#N fireship_rake.rle
+#C https://conwaylife.com/wiki/Fireship
+#C https://www.conwaylife.com/patterns/fireship_rake.rle
+
+
+x = 172, y = 152, rule = B3/S23
+22$54b2o84b2o$53b4o82b4o2$52b6o80b6o$53b4o82b4o2$52b2o2b2o80b2o2b2o$50b
+2obo2bob2o76b2obo2bob2o$37b2o14bo2bo82bo2bo14b2o$36b4o116b4o2$35b6o13b
+2o84b2o13b6o$36b4o14b2o84b2o14b4o2$35b2o2b2o10bobo2bobo78bobo2bobo10b
+2o2b2o$33b2obo2bob2o7bo2bo2bo2bo76bo2bo2bo2bo7b2obo2bob2o$36bo2bo10bo
+8bo76bo8bo10bo2bo$50bo8bo76bo8bo$50b2o6b2o76b2o6b2o$37b2o13b6o80b6o13b
+2o$37b2o118b2o2$34bobo2bobo112bobo2bobo$33bo2bo2bo2bo95b2o13bo2bo2bo2b
+o$33bo8bo96b2o12bo8bo$33bo8bo95bo14bo8bo$33b2o6b2o110b2o6b2o$35b6o114b
+6o12$47b2o$47b2o4$55b2o$55b2o$45b2o$45bobo48b2o$45bo49b2o$36b2o59bo60b
+2o$35b4o118b4o2$34b6o15b2o99b6o$35b4o16b2o100b4o2$34b2o2b2o107b2o7b2o
+2b2o$32b2obo2bob2o105b2o5b2obo2bob2o$35bo2bo14b2o102bo2bo$51bo2bo$52b
+2o$36b2o101b2o17b2o$36b2o12b2o87b2o17b2o$50bo2b2o$33bobo2bobo9bo3bo100b
+obo2bobo$32bo2bo2bo2bo9b3o100bo2bo2bo2bo$32bo8bo112bo8bo$32bo8bo112bo
+8bo$32b2o6b2o112b2o6b2o$34b6o99b2o15b6o$139b2o2$47b2o$39b2o6b2o106b2o
+$38b4o112b4o2$37b6o110b6o$38b4o13b2o97b4o$55b2o11b2o56b2o19b2o$37b2o2b
+2o24b4o54b4o18b2o4b2o2b2o$35b2obo2bob2o89b2o15b2obo2bob2o$38bo2bo24b6o
+52b6o4b2o18bo2bo$67b4o54b4o2$39b2o25b2o2b2o52b2o2b2o25b2o$39b2o14b2o7b
+2obo2bob2o48b2obo2bob2o23b2o$55b2o10bo2bo54bo2bo$36bobo2bobo108bobo2b
+obo$35bo2bo2bo2bo106bo2bo2bo2bo$35bo8bo23b2o56b2o23bo8bo$35bo8bo23b2o
+56b2o23bo8bo$35b2o6b2o106b2o6b2o$37b6o22bobo2bobo50bobo2bobo22b6o$64b
+o2bo2bo2bo48bo2bo2bo2bo7b2o$47b2o15bo8bo48bo8bo7b2o6b2o$46b4o14bo8bo48b
+o8bo14b4o$64b2o6b2o48b2o6b2o$45b6o15b6o52b6o15b6o$46b4o96b4o2$45b2o2b
+2o94b2o2b2o$43b2obo2bob2o86b2o2b2obo2bob2o$46bo2bo89b2o5bo2bo3$47b2o98b
+2o$47b2o98b2o2$44bobo2bobo92bobo2bobo$43bo2bo2bo2bo90bo2bo2bo2bo$43bo
+8bo90bo8bo$43bo8bo90bo8bo$43b2o6b2o90b2o6b2o$45b6o94b6o!

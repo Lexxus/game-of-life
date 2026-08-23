@@ -1,0 +1,16 @@
+#N p192octomino2hassler.rle
+#C https://conwaylife.com/wiki/Octomino_II_hasslers
+#C https://www.conwaylife.com/patterns/p192octomino2hassler.rle
+x = 65, y = 54, rule = B3/S23
+28b2o$28b2o8b2o$38bo$15b2o22bo$15b2o13bo7b2o$30bo6bo$30bo6b3o$40bo$39b
+2o$23b2o19bo6bo6bo3b2o$11b2o9bobo19b3o4bobo2b2o4b2o$11bo10bo10b2o12bo
+2bobo5b2o$12b3o7bobo7b4o10b2o4bo4bo$14bo8b2o6b2obobo24bob2o$12b2o17bo
+bob2o24bobo$12bo18b3o28bo$13bo18b2o28b2o$12b2o8b2o22bo3bo11b2o$22b2o21b
+o4b2o10b2o$44b2o4b2o4b2o$5b2o35b6o6b2o2bo$5bo3bob2o29bo5bob5o$b2o3b5o
+bo29b2obob3ob2obo5b2o$bo2bobo37bo4bob2o7bobo$3b2o2b2ob2o35bo5bo8bo$5b
+ob2ob2o50b2o$5bob2o49bo$6bo49b2obo$b2o27b2o21b2ob2obo$2bo8bo5bo12bo2b
+o19b2ob2o2b2o$2bobo7b2obo4bo9bo2bo24bobo2bo$3b2o5bob2ob3obob2o8b3o18b
+ob5o3b2o$10b5obo5bo29b2obo3bo$6bo2b2o6b6o35b2o$7b2o4b2o4b2o$b2o10b2o4b
+o21b2o$b2o11bo3bo22b2o8b2o$b2o48bo$2bo49bo$bobo24b2o13bo7b2o$2obo24b2o
+13bo6bo$7bo4bo4b2o24bo6b3o$5b2o5bobo2bo35bo$b2o4b2o2bobo4b3o31b2o$b2o
+3bo6bo6bo15b2o$24b2o9bobo$24bo10bo$25b3o7bobo7b2o$27bo8b2o6b3o$25b2o17bobob2o$25bo18b2obobo$26bo18b4o$25b2o8b2o9b2o$35b2o!

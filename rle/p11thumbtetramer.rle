@@ -1,0 +1,35 @@
+#N p11thumbtetramer.rle
+#C https://conwaylife.com/wiki/P11_thumb
+#C https://www.conwaylife.com/patterns/p11thumbtetramer.rle
+x = 31, y = 31, rule = B3/S23
+bobbbbboobbbbbobobbbbboobbbbbob$
+obobobbooobobbbobbbobooobbobobo$
+bobobobbbbbbbbooobbbbbbbbobobob$
+boobooobbbbooobbbooobbbboooboob$
+bobobobooboboooooooboboobobobob$
+obbbbobbbbbobbbobbbobbbbbobbbbo$
+obobooooooooobobobooooooooobobo$
+oobbbobboboboobbboobobobbobbboo$
+obobbbbbobbboobbboobbbobbbbbobo$
+obbbbbbobbbbobooobobbbbobbbbbbo$
+ooobbbbbooboobbobbooboobbbbbooo$
+ooboboboboobobobobobooboboboboo$
+bobboobbbbooooobooooobbbboobbob$
+obobobobobbbooboboobbbobobobobo$
+oobbobbbboobobbobboboobbbbobboo$
+obbboooobobbbooboobbboboooobbbo$
+oobbobbbboobobbobboboobbbbobboo$
+obobobobobbbooboboobbbobobobobo$
+bobboobbbbooooobooooobbbboobbob$
+ooboboboboobobobobobooboboboboo$
+ooobbbbbooboobbobbooboobbbbbooo$
+obbbbbbobbbbobooobobbbbobbbbbbo$
+obobbbbbobbboobbboobbbobbbbbobo$
+oobbbobboboboobbboobobobbobbboo$
+obobooooooooobobobooooooooobobo$
+obbbbobbbbbobbbobbbobbbbbobbbbo$
+bobobobooboboooooooboboobobobob$
+boobooobbbbooobbbooobbbboooboob$
+bobobobbbbbbbbooobbbbbbbbobobob$
+obobobbooobobbbobbbobooobbobobo$
+bobbbbboobbbbbobobbbbboobbbbbob!

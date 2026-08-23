@@ -1,0 +1,14 @@
+#N p300trafficlighthassler.rle
+#C https://conwaylife.com/wiki/Century_hasslers
+#C https://www.conwaylife.com/patterns/p300trafficlighthassler.rle
+x = 72, y = 52, rule = B3/S23
+16b2o36b2o$16b2o36b2o3$17bo36bo$16b3o9bo14bo9b3o$15bo3bo6bobo14bobo6bo
+3bo$17bo9bobo12bobo9bo$14bo5bo6bo16bo6bo5bo$14bo5bo30bo5bo$15bo3bo32bo
+3bo$16b3o11bo10bo11b3o$29bobo8bobo$29bobo8bobo$30bo10bo4$8b2o52b2o$6bo
+3bo50bo3bo$5bo5bo48bo5bo$2o2b2obo3bo13b2o18b2o13bo3bob2o2b2o$2o3bo5bo
+13bo2bo14bo2bo13bo5bo3b2o$6bo3bo15bobo14bobo15bo3bo$8b2o16b3o14b3o16b
+2o3$8b2o52b2o$6bo3bo50bo3bo$2o3bo5bo48bo5bo3b2o$2o2b2obo3bo48bo3bob2o
+2b2o$5bo5bo48bo5bo$6bo3bo50bo3bo$8b2o52b2o4$30bo10bo$29bobo8bobo$29bob
+o8bobo$16b3o11bo10bo11b3o$15bo3bo32bo3bo$14bo5bo30bo5bo$14bo5bo6bo16bo
+6bo5bo$17bo9bobo12bobo9bo$15bo3bo6bobo14bobo6bo3bo$16b3o9bo14bo9b3o$
+17bo36bo3$16b2o36b2o$16b2o36b2o!

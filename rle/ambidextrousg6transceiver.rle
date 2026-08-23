@@ -1,0 +1,16 @@
+#N ambidextrousg6transceiver.rle
+#C https://conwaylife.com/wiki/Ambidextrous
+#C https://www.conwaylife.com/patterns/ambidextrousg6transceiver.rle
+x = 140, y = 104, rule = B3/S23
+111b2o$112bo$112b3o6$105b2o$104bobo$104bo$103b2o7$113b2o$113b2o2$120bo
+b2o$120b2obo7$118bo$117bobo$118b2o11$45b2o$45b2o$73bo$71b3o20b2o$47b2o
+21bo23b2o$47b2o21b2o26b2o$60b2o36b2o$60bo51b2o$58bobo51b2o$11bo46b2o$
+9b3o$8bo59bo$8b2o57bobo$66bo2bo$67b2o55b2o$62b2o7b2o51b2o$61bo2bo6bobo
+28b2o$o61b2o9bo29bo$3o46b2o22b2o25b3o$2bo15b2o29b2o49bo9bo$2bo15b2o89b
+obo$109bobo$110bo$30bo$29bobo75bo$30b2o74bobo$21b2o82bo2bo$22bo83b2o$
+21bo76b2o$21b2o74bobo9b2o$56b2o39bo11bo$56b2o38b2o12b3o$112bo2$76b2o
+59b2o$76b2o59b2o2$55b2o59b2o$56bo60bo$56bobo58bobo$57b2o59b2o5$76b2o
+59b2o$76b2o59b2o$57bo60bo$57bobo58bobo$57b3o58b3o$59bo60bo3$75b2o59b2o
+$75bobo58bobo$50b2o12bob2o9bo33b2o12bob2o9bo$51bo10b3ob2o9b2o33bo10b3o
+b2o9b2o$48b3o10bo47b3o10bo$48bo13b3ob2o41bo13b3ob2o$64bobo58bobo$64bob
+o58bobo$65bo60bo!

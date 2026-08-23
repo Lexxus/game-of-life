@@ -1,0 +1,11 @@
+#N p52gun6.rle
+#C https://conwaylife.com/wiki/Period-52_glider_gun
+#C https://www.conwaylife.com/patterns/p52gun6.rle
+x = 45, y = 31, rule = B3/S23
+33b2obo$27bob2obobob3o$27b2obobobo4bo$31bobobobobo$33bobob2o4b2o$16bo
+8b2o5bobo8bo$14b3o8b2o6bo7bobo$6b2o5bo27b2o$6b2o5b2o$30bo$29bobo$5bo
+26bo$4bobo22bobo$5bo18bo$2b3o18bobo3bo14bo$2bo17b4o18bobo$14bo3bobo22b
+2o$19bo18b2o$12bobo22bobo$11bo26bo$2o10bobo$2o11bo$26b2o11bo$26bo2b6o
+3bobo$10bo6b2o8b2o6b4obo$9bobo5b2o5b3o13bob2o$5b2obobo13bo2bobo5b2o2b
+2ob2o$4bobobobobo12b2o13bo$4bo4bobobob2o15b2o4bobo$5b3obobob2obo15b2o
+4b2o$7bob2o!

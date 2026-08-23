@@ -1,0 +1,15 @@
+#N period34glidergun.rle
+#O Nico Brown, 2022
+#C https://conwaylife.com/wiki/Period-34_glider_gun
+#C https://www.conwaylife.com/patterns/period34glidergun.rle
+x = 55, y = 42, rule = B3/S23
+35bo$34bobo$32b3obo$31bo4bob2o$31bobobobobo$26bo5b2obobo$26b3o7bobo$
+29bo7bo$28bo$27bo$27b2o4bobo$32b3obobo5bo$32bo2b3o5bobo$41b2o2b2o$28b
+2o11b2ob2o$5b2o22bo11b2ob2o$6bo2b2o18bobo11bo$6bobobo3bo15b2o4b2o$7bo
+6b3o19bo2bo$17bo19b3o$3b2o11bo21bo3bo$2bo2bo10b2obo21b3o$2bob2o13b2o
+20bo2bo$b2o40b2o4b2o$o3b2o31bo11bobo$b3o2bo28b2ob2o11bo$4b2obo3b3o4bob
+o14b2ob2o11b2o$3bo2bo3bo3bo4b2o13b2o2b2o$3b2o4bo5bo3bo7b3o5bobo5b3o2bo
+$10bo3bo11bo3bo5bo5bobob3o$11b3o7bo3bo5bo13bobo4b2o$20b2o4bo3bo22bo$
+20bobo4b3o3b2o17bo$33bobo7bo7bo$35bo6bobo7b3o$35b2o6bobob2o5bo$20b2o
+19bobobobobo$21bob2o16b2obo4bo$24bo19bob3o$23bo9bo10bobo$24b3o7bo10bo$
+26bo5b3o!

@@ -1,0 +1,14 @@
+#N p66rpentominodiagonalflipper.rle
+#C https://conwaylife.com/wiki/R-pentomino_hasslers
+#C https://www.conwaylife.com/patterns/p66rpentominodiagonalflipper.rle
+x = 50, y = 50, rule = B3/S23
+17b2o$13b2obobo$14bobo$14bobo$13b2o3bob2ob2o$12bo3b4obobo$13b3o3bo3bo$
+16b4ob2o$13b2obo$12bobo2bo2b5o$12bo3bo3bo4bo$13b3o6b3o$10bo4bob4obo$4b
+o4bobo4b6o$4b3o2bobo5b4o$7bobob2o$4b2obobo2bo$4bo4bobo$5b3obobo14bo$2o
+2b2obobobo12b2ob2o$o4bobobobo12bo2bo$b3obobo4bo12b2o$6bo2bob2o17b3o$b
+4obob2obo$bo2bobobo2bo3bobo14bobo4b2o3bo$5bo3b2o4bobo14bobo3bo2bobobo
+2bo$38bob2obob4o$17b3o17b2obo2bo$23b2o12bo4bobob3o$22bo2bo12bobobobo4b
+o$21b2ob2o12bobobob2o2b2o$23bo14bobob3o$38bobo4bo$37bo2bobob2o$37b2obo
+bo$29b4o5bobo2b3o$28b6o4bobo4bo$27bob4obo4bo$25b3o6b3o$24bo4bo3bo3bo$
+25b5o2bo2bobo$33bob2o$27b2ob4o$26bo3bo3b3o$26bobob4o3bo$25b2ob2obo3b2o
+$33bobo$33bobo$31bobob2o$31b2o!

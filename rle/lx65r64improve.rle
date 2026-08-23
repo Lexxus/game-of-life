@@ -1,0 +1,15 @@
+#N lx65r64improve.rle
+#C https://conwaylife.com/wiki/Lx65_duplicator
+#C https://www.conwaylife.com/patterns/lx65r64improve.rle
+x = 62, y = 65, rule = B3/S23
+53b2o$52bo2bo$53b2o5$37bo$37b3o$40bo2b2o$39bo2bobo3b2o$35bo2bob2o7bo$
+35b4obo8b3o$31b2o7bo2bo$32bo2b2o3bobobo$32bobobo2b2ob2o15bo$19bo13bo
+23b3o$17b3o36bo$16bo18bo20b2o$16b2o16bobo$35bo$3b2o27b3o21bo$4bo27bo
+22bobo$4bobo47bo2bo2b2o$5b2o48b2o3b2o$15b2o2b2o15bo$8b2o5bo3b2o15bo$8b
+obo2b3o20b3o15b2o$10bo27bo15b2o$6b4o$5bo$5b2ob2o$6bobo29b2ob2o$6bobo
+19bob2o4bo2bobobo$7bo18b3ob2o4b2obo2bo$25bo13bo8b3o$25b4ob2o7b2o7bo$4b
+2o9b2o11bobo6b2o2bobo3b2o$3bobo2b2o5b2o6b4obobo5bo2bo2b2o$2bo2bobobo
+12bo3bobob2o5b2o$2b2obobo14b2o4bobo$5bob2o19bobo$2b2obo20bobob2o$o2bob
+o20b2o$2o2bo4b2o$8bo2bo11b2o27b2o$2o2bo4b2o11bo2bo25bo2bo$o2bobo12b2o
+2bobo27b2o$2b2obo13b2o2bo$5bob2o9bo$2b2obobo$2bo2bobobo14b2o$3bobo2b2o
+14bo2bobob2o$4b2o19b3ob2obo$28bo$25b2obo$25bobo6$3b2o$2bobo$4bo!

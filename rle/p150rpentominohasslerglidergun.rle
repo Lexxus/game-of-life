@@ -1,0 +1,10 @@
+#N p150rpentominohasslerglidergun.rle
+#C https://conwaylife.com/wiki/R-pentomino_hasslers
+#C https://www.conwaylife.com/patterns/p150rpentominohasslerglidergun.rle
+x = 65, y = 55, rule = B3/S23
+24bo$24bo$23b3o3$23b3o$24bo$24bo$24bo$24bo$23b3o$34bo$34b3o$5b3o15b3o
+11bo$24bo11b2o$24bo4$5bo$3bobo6b2o$25bo$2bobo3b2ob2o12b2o37bo$2b2o5b3o
+12bo2bo34b3o$10bo14bobo33bo$25b2o34b2o4$2b2o34b2o$3bo33bobo14bo$3o34bo
+2bo12b3o5b2o$o37b2o12b2ob2o3bobo$39bo$51b2o6bobo$59bo4$40bo$27b2o11bo$
+27bo11b3o15b3o$28b3o$30bo$39b3o$40bo$40bo$40bo$40bo$39b3o3$39b3o$40bo$
+40bo!

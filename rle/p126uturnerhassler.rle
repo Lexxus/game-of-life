@@ -1,0 +1,53 @@
+#N p126uturnerhassler.rle
+#C https://conwaylife.com/wiki/P126_R-pentomino_hassler
+#C https://www.conwaylife.com/patterns/p126uturnerhassler.rle
+x = 86, y = 242, rule = B3/S23
+33b2o12b2o$33bobo4b2o4bobo$35bo3bo2bo3bo$35b2o3b2o3b2o$37bo6bo$35b3o6b
+3o$34bo12bo$32bo2b2ob6ob2o2bo$32b2obobo6bobob2o$33bobo10bobo$33bo6b2o
+6bo$34b2o10b2o4$34b2o4b4o4b2o$34bobo2bob2obo2bobo$36b4o4b4o$35bo4bo2b
+o4bo$35bob3o4b3obo$36bo3bo2bo3bo$39b6o$40b4o$39b2o2b2o$38bo6bo$39bo4b
+o$38b2o4b2o$38b2ob2ob2o$37b2o6b2o$37b3o4b3o3$34b2ob2o6b2ob2o$34bo4bo4b
+o4bo$35b5ob2ob5o$40bo2bo$37bo2bo2bo2bo$36bobo6bobo$33bo2b2ob6ob2o2bo$
+33b3o2bo6bo2b3o$36b3o6b3o$35bo3bo4bo3bo$35b2ob2o4b2ob2o$33b2o14b2o$32b
+o2b4o6b4o2bo$32b3o5b4o5b3o$35bo2b8o2bo$34bo4b6o4bo$34bo14bo$31b2obobo
+10bobob2o$31b2obob2o2b4o2b2obob2o$34bo3b3o2b3o3bo$34bo4bo4bo4bo$31b2o
+bobo4b2o4bobob2o$31bo2bob4ob2ob4obo2bo$32b3o4b2o2b2o4b3o$35b4o6b4o$34b
+o2bo2bo2bo2bo2bo$34b2o2b2o4b2o2b2o$38b2o4b2o$39bob2obo$31b2o5bo6bo5b2o
+$31bobo3b2o6b2o3bobo$33bo4b2o4b2o4bo$33b2o2b3o4b3o2b2o$36bo10bo$33b2o
+bobobo2bobobob2o$33bo6bo2bo6bo$34b2obo3b2o3bob2o$35bobobob2obobobo$35b
+o2b3o2b3o2bo$33bobo12bobo$32bobob4o4b4obobo$32bobo3b2o4b2o3bobo$31b2o
+bo2bobob2obobo2bob2o$34bob2ob2o2b2ob2obo$34bobo10bobo$33b2o5bo2bo5b2o
+$35bo12bo$35bobob2o2b2obobo$32b2obobobob2obobobob2o$32bo2bobob2o2b2ob
+obo2bo$33b2obo10bob2o$36bob2ob2ob2obo$33b2o2bobo4bobo2b2o$32bob2obo8b
+ob2obo$31bo5bo8bo5bo$32b3obo2bo4bo2bob3o$34bob4ob2ob4obo$34bo6b2o6bo$
+36b2ob2o2b2ob2o$30bo5b2o3b2o3b2o5bo$30b3o5bo6bo5b3o$33bo4bo2b2o2bo4bo
+$32bo2bo3b2o2b2o3bo2bo$30bo2b3o3b6o3b3o2bo$30b3o6bo4bo6b3o$33bo5b2o2b
+2o5bo$32bo4bob2o2b2obo4bo$32b6o8b6o$36bo10bo$34b2o5b2o5b2o$34bo2bo3b2o
+3bo2bo$9bo25b4o6b4o$7bobo27b2ob4ob2o$8bobo29b4o$8bo$39b6o$22b3o14b6o$
+20bobo17b4o11bo$19bob2o3b2o26bob4o$18bo3bo3b2o25bobob3o$19bo3bo28bobo
+$21bo31bo$41bo11b2o$2o19bobo17bo11b2o$o2bob2o14b2o17bo12b2o$b3obobo$5b
+obo$3b2obo10b2o23b3o25bo$2bobobobo9bo23b3o23b3o6b2o3bo$3bo3b2o6b3o23b
+obo23bo9bobobobo$15bo25b2o24b2o10bob2o$78bobo$78bobob3o$31b2o38bo7b2o
+bo2bo$31bo2bo35bobo11b2o$70bobo$65b2o4bo$31bob2o29bobob2o$26b2o2bobo31b
+o4bo$26bo4bo33b3o2bo$30bo11b4o21bob2o$27bo2bo10b6o20bo2bo$41b6o21b2o$
+76bo$42b4o31b2o$39b2ob4ob2o26b2o$37b4o6b4o26bo$36bo2bo3b2o3bo2bo$36b2o
+5b2o5b2o$38bo10bo$34b6o8b6o$34bo4bob2o2b2obo4bo$35bo5b2o2b2o5bo$32b3o
+6bo4bo6b3o$32bo2b3o3b6o3b3o2bo$34bo2bo3b2o2b2o3bo2bo$35bo4bo2b2o2bo4b
+o$32b3o5bo6bo5b3o$32bo5b2o3b2o3b2o5bo$38b2ob2o2b2ob2o$36bo6b2o6bo$36b
+ob4ob2ob4obo$34b3obo2bo4bo2bob3o$33bo5bo8bo5bo$34bob2obo8bob2obo$35b2o
+2bobo4bobo2b2o$38bob2ob2ob2obo$35b2obo10bob2o$34bo2bobob2o2b2obobo2bo
+$34b2obobobob2obobobob2o$37bobob2o2b2obobo$37bo12bo$35b2o5bo2bo5b2o$36b
+obo10bobo$36bob2ob2o2b2ob2obo$33b2obo2bobob2obobo2bob2o$34bobo3b2o4b2o
+3bobo$34bobob4o4b4obobo$35bobo12bobo$37bo2b3o2b3o2bo$37bobobob2obobob
+o$36b2obo3b2o3bob2o$35bo6bo2bo6bo$35b2obobobo2bobobob2o$38bo10bo$35b2o
+2b3o4b3o2b2o$35bo4b2o4b2o4bo$33bobo3b2o6b2o3bobo$33b2o5bo6bo5b2o$41bo
+b2obo$40b2o4b2o$36b2o2b2o4b2o2b2o$36bo2bo2bo2bo2bo2bo$37b4o6b4o$34b3o
+4b2o2b2o4b3o$33bo2bob4ob2ob4obo2bo$33b2obobo4b2o4bobob2o$36bo4bo4bo4b
+o$36bo3b3o2b3o3bo$33b2obob2o2b4o2b2obob2o$33b2obobo10bobob2o$36bo14bo
+$36bo4b6o4bo$37bo2b8o2bo$34b3o5b4o5b3o$34bo2b4o6b4o2bo$35b2o14b2o$37b
+2ob2o4b2ob2o$37bo3bo4bo3bo$38b3o6b3o$35b3o2bo6bo2b3o$35bo2b2ob6ob2o2b
+o$38bobo6bobo$39bo2bo2bo2bo$42bo2bo$37b5ob2ob5o$36bo4bo4bo4bo$36b2ob2o
+6b2ob2o3$39b3o4b3o$39b2o6b2o$40b2ob2ob2o$40b2o4b2o$41bo4bo$40bo6bo$41b
+2o2b2o$42b4o$41b6o$38bo3bo2bo3bo$37bob3o4b3obo$37bo4bo2bo4bo$38b4o4b4o
+$36bobo2bob2obo2bobo$36b2o4b4o4b2o4$38b2o10b2o$37bo6b2o6bo$37bobo10bo
+bo$36b2obobo6bobob2o$36bo2b2ob6ob2o2bo$38bo12bo$39b3o6b3o$41bo6bo$39b2o3b2o3b2o$39bo3bo2bo3bo$37bobo4b2o4bobo$37b2o12b2o!

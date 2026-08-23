@@ -1,0 +1,12 @@
+#N backrake1-2.rle
+#C https://conwaylife.com/wiki/Backrake_1
+#C https://www.conwaylife.com/patterns/backrake1-2.rle
+x = 126, y = 41, rule = B3/S23
+2$b2o119b2o$bobo117bobo$2bo12b2o91b2o12bo$14bo2bo89bo2bo$15bobo39b2o7b
+2o39bobo$12bo3bob2o37b2o7b2o37b2obo3bo$11bobo3bo2bo83bo2bo3bobo$11bo2b
+o3bobo83bobo3bo2bo$12b2obo3bo85bo3bob2o$14bobo19b2o18bo11bo18b2o19bob
+o$14bo2bo18b2o17bobo9bobo17b2o18bo2bo$15b2o6b2o18b2o10bobo9bobo10b2o18b
+2o6b2o$23b2o18b2o11bo11bo11b2o18b2o2$58b3o3b3o2$56bo11bo$56bo11bo$37b
+3o16bo11bo16b3o6$53b2o15b2o$43b3o7b2o15b2o7b3o$o6bo109bo6bo$o5bobo107b
+obo5bo$o5bo2bo43b2o15b2o43bo2bo5bo$7b2o44b2o15b2o44b2o5$35bo6b2o37b2o
+6bo$34bobo5b2o37b2o5bobo$34bobo51bobo$35bo53bo!

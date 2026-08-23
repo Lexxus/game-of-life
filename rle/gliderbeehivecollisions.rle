@@ -1,0 +1,11 @@
+#N gliderbeehivecollisions.rle
+#C https://conwaylife.com/wiki/Collisions_of_a_glider_with_common_objects
+#C https://www.conwaylife.com/patterns/gliderbeehivecollisions.rle
+x = 63, y = 38, rule = B3/S23
+2bo13bo13bo13bo13bo$2o12b2o12b2o12b2o12b2o$b2o12b2o12b2o12b2o12b2o4$b
+o12bo12bo12bo12bo$obo10bobo10bobo10bobo10bobo$obo10bobo10bobo10bobo10b
+obo$bo12bo12bo12bo12bo6$6bo13bo13bo13bo13bo$4b2o12b2o12b2o12b2o12b2o$
+5b2o12b2o12b2o12b2o12b2o3$bo12bo12bo12bo12bo$obo10bobo10bobo10bobo10b
+obo$obo10bobo10bobo10bobo10bobo$bo12bo12bo12bo12bo8$22bo$20b2o13bo13b
+o$21b2o10b2o12b2o$14bo12bo6b2o4bo7b2o$13bobo10bobo10bobo$13bobo10bobo
+10bobo$14bo12bo12bo!

@@ -1,0 +1,19 @@
+#N strictlyvolatilep4.rle
+#O Dongook Lee, 2021
+#C https://conwaylife.com/wiki/Strictly_volatile_p4
+#C https://www.conwaylife.com/patterns/strictlyvolatilep4.rle
+x = 68, y = 68, rule = B3/S23
+23bo9b3o$23b3o3b2o$8b2o15bo2b2o2bo3bo$9bo8b3o3b3o$6bo2b4o5b2o2b2o5bo2b
+o3bo11bo$6b3o2b3ob3o3b3o6bob3o2b3obo4b3o$8bo7bo18bo3bo2bo3bo15b2o$8b2o
+6b3o26b3o3b3o8bo$8b2o8bo16bo3bo2b2o4b2o2b2o5b4o2bo$9bo31b2o5b3o3b3ob3o
+2b3o$36b3o16bo7bo$9bo43b3o6b2o$9b3o41bo8b2o$9bobo50bo$7b2o2b2o$7b2o53b
+o$7bo52b3o$9bo50bobo$8b2o49b2o2b2o$4b2o2b2o53b2o$5bobo56bo$5b3o54bo$7b
+o54b2o$62b2o2b2o$8bo55bobo$6bob2o54b3o$5bo3bo54bo2$5b2obo56bo$5bo4bo
+52bob2o$5bo4bo51bo3bo$2bobo5bo$o5bobo53b2obo$o4bo56bo4bo$o4bo56bo4bo$
+2bob2o53bobo5bo$57bo5bobo$bo3bo51bo4bo$b2obo52bo4bo$2bo56bob2o2$3bo54b
+o3bo$b3o54b2obo$bobo55bo$2o2b2o$4b2o54bo$5bo54b3o$3bo56bobo$3b2o53b2o
+2b2o$3b2o2b2o49b2o$5bobo50bo$5b3o52bo$5bo53b2o$55b2o2b2o$5bo50bobo$4b
+2o8bo41b3o$4b2o6b3o43bo$4bo7bo16b3o$2b3o2b3ob3o3b3o5b2o31bo$2bo2b4o5b
+2o2b2o4b2o2bo3bo16bo8b2o$5bo8b3o3b3o26b3o6b2o$4b2o15bo3bo2bo3bo18bo7bo
+$19b3o4bob3o2b3obo6b3o3b3ob3o2b3o$19bo11bo3bo2bo5b2o2b2o5b4o2bo$41b3o
+3b3o8bo$31bo3bo2b2o2bo15b2o$37b2o3b3o$32b3o9bo!

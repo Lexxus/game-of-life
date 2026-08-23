@@ -1,0 +1,11 @@
+#N beehivewire.rle
+#C https://conwaylife.com/wiki/Wire
+#C https://www.conwaylife.com/patterns/beehivewire.rle
+x = 173, y = 8, rule = B3/S23
+3bo$bo3bo$bo4bo4b2ob2o155bo$o6bo3b6o3b2o3b2o3b2o3b2o3b2o3b2o3b2o3b2o3b
+2o3b2o3b2o3b2o3b2o3b2o3b2o3b2o3b2o3b2o3b2o3b2o3b2o3b2o3b2o3b2o3b2o3b2o
+3b2o3b2o3b2o3b2o3bobo$o6bo2bo6bobo2bobo2bobo2bobo2bobo2bobo2bobo2bobo
+2bobo2bobo2bobo2bobo2bobo2bobo2bobo2bobo2bobo2bobo2bobo2bobo2bobo2bobo
+2bobo2bobo2bobo2bobo2bobo2bobo2bobo2bobo2bo2bobo$2o5bo3b6o3b2o3b2o3b2o
+3b2o3b2o3b2o3b2o3b2o3b2o3b2o3b2o3b2o3b2o3b2o3b2o3b2o3b2o3b2o3b2o3b2o3b
+2o3b2o3b2o3b2o3b2o3b2o3b2o3b2o3b2o3b2o4bo$6bo4b2ob2o$4bo!

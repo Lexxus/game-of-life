@@ -1,0 +1,25 @@
+#N p34loop.rle
+#C https://conwaylife.com/wiki/74P34
+#C https://www.conwaylife.com/patterns/p34loop.rle
+x = 73, y = 73, rule = B3/S23
+14bo11bo$14b3o7b3o$17bo5bo$16b2o5b2o6bo$29b3o$28bo$28b2o$19b3o$18bo4bo
+b3o$17bo10bo32bo$12b2o4b2o8bo30b3o$3b2o6bo2bo5bo3bo3bo20b2o7bo$4bo6bo
+3bo4bo2bob3o2b2o18bo7b2o$4bobo5b2ob2o3b2ob2o5bobo17bobo$5b2o2b3obo2bo
+4bo3bo6bo18b2o$8bo3bo3bo5bo2bo6b2o21b3o$8bo8b2o4b2o15bo5b2o$8bo10bo7bo
+10b3o6bo7bobo$9b3obo4bo7bobo8bo9bobo6bo3b3o$15b3o8bobo8b2o9b2o$7b2o18b
+o31bo11b2o$8bo24bo21b2o2bo11bo$5b3o24bobo16b2obobo2bo8b2obo$5bo6b2o5b
+2o5b2o3bo2bo15bo3b2o4b2o4bo3bo$13bo5bo6b2o4b2o$10b3o7b3o25bo3bo4b2o4b
+2o3bo$10bo5b2o4bo11b2o11bob2o8bo2bobob2o$17bo16bobo10bo11bo2b2o$17bob
+2o2bo10bo11b2o11bo$18bo5bo44b2o$56b3o3bo6bobo$25bo35bobo7bo$20b2o26b2o
+3b2o16b2o$15bo32b2o2bo2bo5b3o$13b3o6b3o28b2o11b2o$3b2o7bo16bo36bobo$4b
+o7b2o16bo28b2o7bo$4bobo21b3o18bo10bo7b2o$5b2o11b2o28bobo6b3o$9b3o5bo2b
+o2b2o23bo2bo5bo$2o16b2o3b2o24b2o$bo7bobo$bobo6bo3b3o$2b2o49b2o$13bo11b
+2o11bo14bobo$9b2o2bo11bo10bobo16bo$5b2obobo2bo8b2obo11b2o11bo4b2o5bo$
+4bo3b2o4b2o4bo3bo25b3o7b3o$39b2o4b2o6bo5bo$2bo3bo4b2o4b2o3bo15bo2bo3b
+2o5b2o5b2o6bo$bob2o8bo2bobob2o16bobo24b3o$bo11bo2b2o21bo24bo$2o11bo31b
+o18b2o$23b2o9b2o8bobo8b3o$10b3o3bo6bobo9bo8bobo7bo4bob3o$15bobo7bo6b3o
+10bo7bo10bo$25b2o5bo15b2o4b2o8bo$15b3o21b2o6bo2bo5bo3bo3bo$20b2o18bo6b
+o3bo4bo2bob3o2b2o$20bobo17bobo5b2ob2o3b2ob2o5bobo$13b2o7bo18b2o2b3obo
+2bo4bo3bo6bo$14bo7b2o20bo3bo3bo5bo2bo6b2o$11b3o30bo8b2o4b2o$11bo32bo
+10bo$45b3obo4bo$51b3o$43b2o$44bo$41b3o$41bo6b2o5b2o$49bo5bo$46b3o7b3o$
+46bo11bo!

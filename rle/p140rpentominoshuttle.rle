@@ -1,0 +1,14 @@
+#N p140rpentominoshuttle.rle
+#C https://conwaylife.com/wiki/R-pentomino_hasslers
+#C https://www.conwaylife.com/patterns/p140rpentominoshuttle.rle
+x = 53, y = 45, rule = B3/S23
+47b2o$48bo$45b2o$44b2ob4o$47bo3bo$46bo2bo2bo$47b5o$24b2o4b2o14bo$24bob
+o2bobo11b2o3b2o$26b4o14bobo2b3o$24bo2b2o2bo13bobo4bo$4b2o18bo2b2o2bo
+13bo2b5o$4bo21bo2bo15bo3bo$6b2o31b2o4b2ob2ob2o$2b4ob2o31b2o3bo3bob2o$b
+o3bo34bo5b2obo$o2bo2bo34bobo3bobo$b5o19bo15bobo3bobob2o$6bo16b2ob2o12b
+o5b2obobo$3b2o3b2o14bo2bo12b2o3bo3bobo$b3o2bobo16b2o12b2o4b2ob2ob2o$o
+4bobo37bo3bo$5o2bo37bo2b5o$3bo3bo37bobo4bo$2ob2ob2o4b2o30bobo2b3o$bobo
+3bo3b2o30b2o3b2o$bobob2o5bo33bo$2obobo3bobo35b5o$3bobo3bobo34bo2bo2bo$
+3bob2o5bo34bo3bo$2obo3bo3b2o31b2ob4o$2ob2ob2o4b2o31b2o$3bo3bo15bo2bo
+21bo$5o2bo13bo2b2o2bo18b2o$o4bobo13bo2b2o2bo$b3o2bobo14b4o$3b2o3b2o11b
+obo2bobo$6bo14b2o4b2o$b5o$o2bo2bo$bo3bo$2b4ob2o$6b2o$4bo$4b2o!

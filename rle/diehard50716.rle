@@ -1,0 +1,23 @@
+#N diehard50716.rle
+#C https://conwaylife.com/wiki/Die_hard
+#C https://www.conwaylife.com/patterns/diehard50716.rle
+x = 87, y = 86, rule = B3/S23
+64bo9b2o$63bobo7bobo$44b2o18b2o7bo$44bo27b2o2$53bo25b2o$51b3o24bo2bo$
+50bo28bobo$42b2o6b2o28bo2b3o$42bobo38bo$43bo40bo2$49bo$48b2o5b2o$56bo$
+51bo$50bobo$38b2o11bo$39bo8bo10bo$47bobo9bo$48bo4b2o4bo$45bo7bobo3bo$
+44bobo8bo$45bo9b2o$42bo$34bo6bobo$34b2o6bo7bo$39bo10b2o$38bobo13bo30bo
+$39bo13bobo29b2o$36bo17bo$35bobo19bo$25b2o9bo11b2o6bobo$26bo6bo15b2o6b
+o23bo$32bobo15bo9bo3b4o13b2o$15b4o14bo19b2o4bobo$30bo22bo6bo$29bobo19b
+obo18bo$10b2o8bo9bo20b2o10b2o7b2o$10bo7b3o6bo6bo28bobo14bobo3bo$17bo8b
+obo4bo30b2o14b2o3bo$2b2o13b2o8bo5b3o3bo40bo4b2o$3bo9bo9b2o13bobo27bo
+11b2o3b2o$3bobo6bobo9bo14bo14bo6bo5bobo9bobo4bo$4b2o7bo40b2o5b2o5bo12b
+o4bo$9bo6bo25b2o6bo34b2o$9b2o4bobo23bobo6b2o5bo13bo13b2o$16bo21b2o2bo
+14b2o11bobo4bo7bo$o18bo17b2o32bo5b2o7bo$2o16bobo18bo23bo10bo7b2o$2o4bo
+12bo34bo8b2o8bobo6bobo$o4bobo14bo11bo19b2o18bo9bo$5b2o14bobo10b2o25bo
+7b2o13b2o$22bo37bobo7bo$30bo6bo12b2o9bo5b3o6bo$14b2o9bo4b2o5b2o12bo6bo
+8bo8b2o$14bo9bobo30bobo$25bo32bo$20bo24bo9bo13b4o$19b2o7b2o15b2o7bobo$
+28bobo24bo5b2o$29b2o9b2o10bo9bo14bo$39bobo6bo2bobo23b3o$39b2o6b2o3bo
+27bo$25b2o9bo42b2o$26bo8bobo$22bo3bobo7bo16b2o$22bo4b2o4bo20bo19bo$22b
+o9bobo38bobo$22bo10bo8b2o28bo2bo$30bo12bo4b2o23b2o$29bobo17b2o$30bo19b
+o20b2o$25b2o43bobo$26bo5bo39bo$32b2o$49bo$38bo10b2o$37bobo10b2o$30b2o
+6b2o$31bo$28b3o13bo$28bo14bobo$43b2o$36b2o$37bo!

@@ -1,0 +1,18 @@
+#N p180rpentominohassler.rle
+#C https://conwaylife.com/wiki/Lumps_of_muck_hasslers
+#C https://www.conwaylife.com/patterns/p180rpentominohassler.rle
+x = 76, y = 39, rule = B3/S23
+33bo8bo$33bobo4bobo$32bobo6bobo$4b2o28bo6bo28b2o$4bobo62bobo$6b3o58b3o
+$2b4ob2o22bo12bo22b2ob4o$bo3bobo22bobo10bobo22bobo3bo$o2bo2bo23bobo10b
+obo23bo2bo2bo$b6o24bo12bo24b6o2$3b3o2b2o56b2o2b3o$b3ob2ob2o56b2ob2ob3o
+$o4bob2o58b2obo4bo$5o2b2o58b2o2b5o$5bob2o4bo48bo4b2obo$2ob2ob3o3bobo
+46bobo3b3ob2ob2o$bobo3bo4bo50bo4bo3bobo$bobob2o5bo50bo5b2obobo$2obobo
+6bo3bo16bo8bo16bo3bo6bobob2o$3bobo6bo3bo14b3o8b3o14bo3bo6bobo$3bob2o5b
+o19bo10bo19bo5b2obo$2obo3bo4bo50bo4bo3bob2o$2ob2ob3o3bobo46bobo3b3ob2o
+b2o$5bob2o4bo48bo4b2obo$5o2b2o58b2o2b5o$o4bob2o58b2obo4bo$b3ob2ob2o56b
+2ob2ob3o$3b3o2b2o27b2o27b2o2b3o$21bob3o3b3obo3b2o3bob3o3b3obo$b6o13bob
+ob2o3b2obobo6bobob2o3b2obobo13b6o$o2bo2bo11b3o3bobobobo3b8o3bobobobo3b
+3o11bo2bo2bo$bo3bobo9bo4bo3bobo3bo10bo3bobo3bo4bo9bobo3bo$2b4ob2o9b5ob
+obobobob12obobobobob5o9b2ob4o$6b3o14b2obobob2o12b2obobob2o14b3o$4bobo
+13b2o5bo5b2o2b2o2b2o5bo5b2o13bobo$4b2o14bo13bo2b2o2bo13bo14b2o$21bo11b
+o8bo11bo$20b2o11b2o6b2o11b2o!

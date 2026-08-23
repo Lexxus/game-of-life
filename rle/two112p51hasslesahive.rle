@@ -1,0 +1,16 @@
+#N two112p51hasslesahive.rle
+#C https://conwaylife.com/wiki/Beluchenko%27s_p51
+#C https://www.conwaylife.com/patterns/two112p51hasslesahive.rle
+x = 87, y = 55, rule = B3/S23
+5$58bo11bo$52b2o3bob2o7b2obo3b2o$52b2o5b2o7b2o5b2o$57bob2o7b2obo$49b2o
+6b2o11b2o6b2o$49b2o6b2o3bo3bo3b2o6b2o$61b3ob3o$63bobo2$49bob3o21b3obo$
+12bo11bo23bo3b2o21b2o3bo$6b2o3bob2o7b2obo3b2o18b3o25b3o$6b2o5b2o7b2o5b
+2o18b3o25b3o$11bob2o7b2obo28bo19bo$3b2o6b2o11b2o6b2o19b2o19b2o$3b2o6b
+2o3bo3bo3b2o6b2o20b2o17b2o$15b3ob3o$17bobo34b2o17b2o$53b2o19b2o$3bob3o
+21b3obo20bo19bo$2bo3b2o21b2o3bo6bo7b3o25b3o$3b3o25b3o6bobo6b3o25b3o$3b
+3o25b3o6bobo5bo3b2o21b2o3bo$8bo19bo12bo7bob3o21b3obo$7b2o19b2o$8b2o17b
+2o34bobo$61b3ob3o$8b2o17b2o20b2o6b2o3bo3bo3b2o6b2o$7b2o19b2o19b2o6b2o
+11b2o6b2o$8bo19bo28bob2o7b2obo$3b3o25b3o18b2o5b2o7b2o5b2o$3b3o25b3o18b
+2o3bob2o7b2obo3b2o$2bo3b2o21b2o3bo23bo11bo$3bob3o21b3obo2$17bobo$15b3o
+b3o$3b2o6b2o3bo3bo3b2o6b2o$3b2o6b2o11b2o6b2o$11bob2o7b2obo$6b2o5b2o7b
+2o5b2o$6b2o3bob2o7b2obo3b2o$12bo11bo!

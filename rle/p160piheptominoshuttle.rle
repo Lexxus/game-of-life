@@ -1,0 +1,14 @@
+#N p160piheptominoshuttle.rle
+#C https://conwaylife.com/wiki/Pi-heptomino_hasslers
+#C https://www.conwaylife.com/patterns/p160piheptominoshuttle.rle
+x = 47, y = 47, rule = B3/S23
+9bo$8bobo$8bobo$3bob2obob2o17b2o11b2o$3b2obobo3bo17bo11bo$8b4o13b2o2bo
+13bo$7bo2bo15bo2b2o5bo5b2o$7b3o13b3o6b2obobob2o$10bo11bo3b6obobobobob
+5o$7b4o11b2o2bo4bobobobobobo4bo$6bo20b3ob2ob2ob2ob2ob3o$7b4o18bobo9bob
+o$10bo19bo11bo$7b3o$7bo2bo$8b4o7b3o$3b2obobo3bo5bo2bo$3bob2obob2o5bo$
+8bobo7bo2bo$8bobo8b3o$5b2ob2o$5bobo$7bo29b2o$7bobo27bobo$8b2o29bo$39bo
+bo$37b2ob2o$36bobo$36bobo$35b2obob2obo$34bo3bobob2o$35b4o$36bo2bo$37b
+3o$4bo11bo19bo$3bobo9bobo18b4o$b3ob2ob2ob2ob2ob3o20bo$o4bobobobobobo4b
+o2b2o11b4o$b5obobobobob6o3bo11bo$6b2obobob2o6b3o13b3o$3b2o5bo5b2o2bo
+15bo2bo$3bo13bo2b2o13b4o$4bo11bo17bo3bobob2o$3b2o11b2o17b2obob2obo$36b
+obo$36bobo$37bo!

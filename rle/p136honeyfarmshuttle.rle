@@ -1,0 +1,16 @@
+#N p136honeyfarmshuttle.rle
+#C https://conwaylife.com/wiki/Honey_farm_shuttles
+#C https://www.conwaylife.com/patterns/p136honeyfarmshuttle.rle
+x = 51, y = 38, rule = B3/S23
+24bo10b2o$16b2o4b3o11bo$17bo3bo10b2o2bob2o$17bobo2b5o4bo2bobo2bo$16b2o
+b3o2bo2bo3b2obobobo$15bo6bo3b2o4bobobo$b4o9bob5obo9b3o$4b2o8bobobobo
+11bo5bo$obobo8b2obobobo12bobobobo$2ob3o9bob2obo12bo4bo$3bobobobo5bobo
+2bo25b4o$4obobo2bo5bo28b2o$o3b2o4b2o34bobobo$b2o4b2ob2o33b3ob2o$3b4o5b
+o28bobobobo$3bo2bob3o2bo4b3o19bo2bobob4o$8bo4bo3bo3bo17b2o4b2o3bo$8bo
+4bo2bo5bo16b2ob2o4b2o$3bo2bob3o2bo2bo5bo15bo5b4o$3b4o5bo3bo5bo14bo2b3o
+bo2bo$b2o4b2ob2o5bo3bo15bo4bo$o3b2o4b2o6b3o16bo4bo$4obobo2bo26bo2b3obo
+2bo$3bobobobo28bo5b4o$2ob3o33b2ob2o4b2o$obobo34b2o4b2o3bo$4b2o28bo5bo
+2bobob4o$b4o25bo2bobo5bobobobo$12bo4bo12bob2obo9b3ob2o$11bobobobo12bob
+obob2o8bobobo$12bo5bo11bobobobo8b2o$16b3o9bob5obo9b4o$14bobobo4b2o3bo
+6bo$12bobobob2o3bo2bo2b3ob2o$11bo2bobo2bo4b5o2bobo$11b2obo2b2o10bo3bo$
+14bo11b3o4b2o$14b2o10bo!

@@ -1,0 +1,11 @@
+#N p28pondfactory.rle
+#C https://conwaylife.com/wiki/Honey_farm_hasslers
+#C https://www.conwaylife.com/patterns/p28pondfactory.rle
+x = 35, y = 37, rule = B3/S23
+14b2o10b2o$13bo2bo8bo2bo$13b3o10b3o$16b10o$15bo2b6o2bo3b2o$15b2o2b4o2b
+2o3b2o2$28b6o$27bo3bo2bo$3b2o23b2o3b2o$3b2o24bo$29bobo$b6o5b2o15bobo$o
+2bo3bo4b2o14bo$2o3b2o21bo4b2o$5bo7bo7bo6bo5bo$3bobo6bobo5bobo5bo4bo$3b
+obo5bo3bo3bo3bo4bo4b2o$6bo4bo3bo3bo3bo4bo$2o4bo4bo3bo3bo3bo5bobo$bo4bo
+5bobo5bobo6bobo$o5bo6bo7bo7bo$2o4bo21b2o3b2o$6bo14b2o4bo3bo2bo$3bobo
+15b2o5b6o$3bobo$5bo24b2o$2o3b2o23b2o$o2bo3bo$b6o2$3b2o3b2o2b4o2b2o$3b
+2o3bo2b6o2bo$9b10o$6b3o10b3o$6bo2bo8bo2bo$7b2o10b2o!

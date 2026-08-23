@@ -1,0 +1,10 @@
+#N flyon60p3h1v0dot3.rle
+#C https://conwaylife.com/wiki/Fly
+#C https://www.conwaylife.com/patterns/flyon60P3H1V0dot3.rle
+x = 34, y = 33, rule = B3/S23
+3bo$2bobo$2bobo$2bo2$b2o$2bobo$bobo$b3o2$2bobo$2b2o$3bo$3bobo$3b2o$b3o
+22bobo3bo$obo22b2obobo2bo$o2bo7b3o8bo9bo$ob2o7b2o2bob2o3bo2b4o$3bo9b4o
+2bobo2b2o4b2o$o2bo7bo2bo3b3o5b3o$b2o7bo4bo2b2o2b2o2bo2bo$2bo3bo3bo4bo
+2b3obobo4b2o$3b2o2bob2o4bo2b4o5bo$3b2o4b2o4bo2b4o5bo$4bo5bo4bo2b3obobo
+4b2o$3b2o5bo4bo2b2o2b2o2bo2bo$2bo3bo4bo2bo3b3o5b3o$b2ob2o7b4o2bobo2b2o
+4b2o$2bo8b2o2bob2o3bo2b4o$2b2o7b3o8bo9bo$3bo21b2obobo2bo$4bo21bobo3bo!

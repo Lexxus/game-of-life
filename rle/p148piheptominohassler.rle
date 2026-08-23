@@ -1,0 +1,15 @@
+#N p148piheptominohassler.rle
+#C https://conwaylife.com/wiki/Pi-heptomino_hasslers
+#C https://www.conwaylife.com/patterns/p148piheptominohassler.rle
+x = 71, y = 63, rule = B3/S23
+28b2o5b2o$28bo2bo3bo$29b5obo$34bob3o$31bo2bo2b3o$30bobobo$30b2o$19b2o
+3b3o4b2o23bo5bo$18bobo10b2o23b2o3b2o$18bo12bo24b2o3b2o7bo$16bob2o2b2o
+5b2o26bo3bo6b3o$14b3obo48bo$13bo4bob4o5bo6b2o29b2o$8b2o4bo3bobo3b5o4b
+2o2bo$8b3ob2obo3bo13bo3bobo$8b2obobobo15bobo4b2o$14bo16b2o$11b3o$10b3o
+$10b3o$10b3o$11bo3$12bo$11bobo26b2o$14b3o23bobo$11bo3b3o24bo$13b3obo
+22bobo$12bob3o23b2o$11b2ob2o$12b3o41b3o$55b2ob2o$29b2o23b3obo$28bobo
+22bob3o$28bo24b3o3bo$28bobo23b3o$29b2o26bobo$58bo3$59bo$58b3o$58b3o$
+58b3o$57b3o$38b2o16bo$31b2o4bobo15bobobob2o$31bobo3bo13bo3bob2ob3o$33b
+o2b2o4b5o3bobo3bo4b2o$2b2o29b2o6bo5b4obo4bo$3bo48bob3o$3o6bo3bo26b2o5b
+2o2b2obo$o7b2o3b2o24bo12bo$8b2o3b2o23b2o10bobo$8bo5bo23b2o4b3o3b2o$39b
+2o$36bobobo$31b3o2bo2bo$32b3obo$35bob5o$35bo3bo2bo$34b2o5b2o!

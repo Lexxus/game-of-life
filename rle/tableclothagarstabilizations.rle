@@ -1,0 +1,15 @@
+#N tableclothagarstabilizations.rle
+#C https://conwaylife.com/wiki/Tablecloth
+#C https://www.conwaylife.com/patterns/tableclothagarstabilizations.rle
+x = 55, y = 30, rule = B3/S23
+25b2obo2bobo2bobo2bobo2bobo2bob2o$25b2ob4ob4ob4ob4ob4ob2o2$25b2ob4ob4o
+b4ob4ob4ob2o$26bobo2bobo2bobo2bobo2bobo2bobo$26bobo2bobo2bobo2bobo2bob
+o2bobo$25b2ob4ob4ob4ob4ob4ob2o2$25b2ob4ob4ob4ob4ob4ob2o$26bobo2bobo2bo
+bo2bobo2bobo2bobo$5bo2bo2bo2bo11bobo2bobo2bobo2bobo2bobo2bobo$5b4o2b4o
+10b2ob4ob4ob4ob4ob4ob2o2$5b2ob4ob2o10b2ob4ob4ob4ob4ob4ob2o$6bobo2bobo
+12bobo2bobo2bobo2bobo2bobo2bobo$6bobo2bobo12bobo2bobo2bobo2bobo2bobo2b
+obo$5b2ob4ob2o10b2ob4ob4ob4ob4ob4ob2o2$5b4o2b4o10b2ob4ob4ob4ob4ob4ob2o
+$5bo2bo2bo2bo11bobo2bobo2bobo2bobo2bobo2bobo$26bobo2bobo2bobo2bobo2bob
+o2bobo$25b2ob4ob4ob4ob4ob4ob2o2$25b2ob4ob4ob4ob4ob4ob2o$26bobo2bobo2bo
+bo2bobo2bobo2bobo$26bobo2bobo2bobo2bobo2bobo2bobo$25b2ob4ob4ob4ob4ob4o
+b2o2$25b2ob4ob4ob4ob4ob4ob2o$25b2obo2bobo2bobo2bobo2bobo2bob2o!

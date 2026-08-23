@@ -1,0 +1,11 @@
+#N flybydeletionpond2.rle
+#C https://conwaylife.com/wiki/Fly-by_deletion
+#C https://www.conwaylife.com/patterns/flybydeletionpond2.rle
+x = 84, y = 20, rule = B3/S23
+7b2o$6bo2bo$6bo2bo$7b2o4$17bo9bo$16b3o7b3o$15bo2b2o5b2o2bo5b3o3b3o$16b
+4o5bo2b3o4bo2bo2bo2bo12b3o$14bo2bo2bo4bobo3bo2bo3bo2bo2bo12bo2bo13b3o$
+14b2o5b3obo3b7ob2o3bo7bo6bo7b3o5bo2bo4b3o$13bo3bo4b2obobo15b3o3b3o5bo
+3bo2bo2bo8bo3bo2bo$13bobo2bo8bo2bob4ob2obo5bobo2b2o2bobo3bo6bo3bo3bo6b
+o$bo12b2o3b5o6bo4bobobo3b4obobobob3o4bobo6b3o3bo6bo$3o11bo2b3o4bo5bo
+12b2ob5o3bo7b3o5b2o2b3ob2o2bo$ob2o10bo4b11o10bo8b3o4bo3bo4b2o4bo6bo$b
+3o18b2o4bo2bo6b2o11bo5bo16bo2bo$b2o11b2o3b2o4b2o47bo!

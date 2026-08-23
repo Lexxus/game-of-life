@@ -1,0 +1,11 @@
+#N 16x16maxdensity.rle
+#C https://conwaylife.com/wiki/Density
+#C https://www.conwaylife.com/patterns/16x16maxdensity.rle
+x = 36, y = 16, rule = B3/S23
+2ob2obo2bob2ob2o4b2ob2ob2obob2ob2o$2obob6obob2o4b2ob2obob3obob2o$3bo8b
+o13bo5bo$3ob8ob3o4b4obob6ob2o$o2bo8bo2bo4bo2bobobo6b2o$bobob6obobo6bo
+bobobob4o$2obobo4bobob2o4b2obobobobo3b3o$bobobob2obobobo5bo2bobobo2b3o
+2bo$bobobob2obobobo6bobobob3o2bobo$2obobo4bobob2o4b2obobo4bobob2o$bob
+ob6obobo6bobob6obobo$o2bo8bo2bo4bo2bo8bo2bo$3ob8ob3o4b3ob8ob3o$3bo8bo
+10bo8bo$2obob6obob2o4b2obob2ob3obob2o$2ob2obo2bob2ob2o4b2ob2ob2obob2o
+b2o!

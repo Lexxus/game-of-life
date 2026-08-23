@@ -1,0 +1,12 @@
+#N p93rpentominohassler.rle
+#O iNoMed, 2023
+#C https://conwaylife.com/wiki/P93_R-pentomino_hassler
+#C https://www.conwaylife.com/patterns/p93rpentominohassler.rle
+x = 61, y = 57, rule = B3/S23
+4b2o7b2o$4b2o7b2o3$4bo9bo$2b2ob2o5b2ob2o$5b2o5b2o$bo4bo5bo4bo$bo3bo7bo
+3bo$o17bo$bo4bo5bo4bo3$bo4bo5bo4bo$o17bo$bo3bo7bo3bo$bo4bo5bo4bo$5b2o
+5b2o$2b2ob2o5b2ob2o$4bo9bo2$22b2o$4b2o7b2o6bo2bo$4b2o7b2o6b2ob2o$23bo
+2$17b2o$18bo26bo$15b3o25b3o$15bo26bo$42b2o2$37bo$35b2ob2o6b2o7b2o$36bo
+2bo6b2o7b2o$37b2o2$46bo9bo$44b2ob2o5b2ob2o$47b2o5b2o$43bo4bo5bo4bo$43b
+o3bo7bo3bo$42bo17bo$43bo4bo5bo4bo3$43bo4bo5bo4bo$42bo17bo$43bo3bo7bo3b
+o$43bo4bo5bo4bo$47b2o5b2o$44b2ob2o5b2ob2o$46bo9bo3$46b2o7b2o$46b2o7b2o!

@@ -1,0 +1,13 @@
+#N p58lwssgun.rle
+#C https://conwaylife.com/wiki/Gliderless_gun
+#C https://www.conwaylife.com/patterns/p58lwssgun.rle
+x = 30, y = 68, rule = B3/S23
+18bo$18bo$17bobo$13bo9bo$13bo9b2o$5b2o4b4ob2ob2obob2o$5b2o3b2o4bobob4o
+$9bo5bo2bo4bo$10b2o2b3o3bo2bo$13bo2bo3bo5b2o$13bobo5b2o3bobo$13bobo5b
+3o4bo$28b2o2$3bo$3b3o17b2o$6bo16bo$5b2o17b3o$26bo2$2o$bo4b3o5bobo$bobo
+3b2o5bobo$2b2o5bo3bo2bo$6bo2bo3b3o2b2o$6bo4bo2bo5bo$6b4obobo4b2o3b2o$
+4b2obob2ob2ob4o4b2o$5b2o9bo$6bo9bo$10bobo$11bo$11bo11b4o$22bo3bo$26bo$
+22bo2bo4$10b3o$11bo2$5b3o7b3o5b2o$4bobo3b3o3bobo4b2o$18bo$7b2o5b2ob2o$
+2bo3bo3bobo3bo$bob2ob3o5b3o$bo$2o2$26bo$5b2o17b3o$6bo16bo$3b3o17b2o$3b
+o2$28b2o$28bo$13b3o5b3ob2obo$13bo3bobo3bo3bo$11b2ob2o5b2o$11bo$5b2o4bo
+bo3b3o3bobo$5b2o5b3o7b3o2$18bo$17b3o!

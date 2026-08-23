@@ -1,0 +1,31 @@
+#N p216gunstar.rle
+#C https://conwaylife.com/wiki/Gunstar
+#C https://www.conwaylife.com/patterns/p216gunstar.rle
+x = 149, y = 149, rule = B3/S23
+40b2o$40b2o$40b2o$40bo$39bobo$39bob2o2$46b2o$40b2o4b2o$40b2o$49b2o$48b
+ob2o8bo26b2o$51bo8b3o24bo$63bo21bobo$62b2o21b2o4b2o$91b2o2$92bo$48b2o
+41bobo$47b3o40bo2bo$40b2o5b3ob2o36bo2bo$40b2o3b5ob2o$40b2o7bobo12b2o
+23bo2bo$41bo7b3ob3o8b2o25b2o$40bobo10bo$39b2obo11bo3$40b2o$40b2o2$73b
+2o22bo$74bo21bobo$71b3o18bob3o3b2o$71bo20bo2bobo2b2o$92b2o5b3o$99bo$
+87b2o11bo$87b2o10b2o$43b2o32bo21bo23bo19b2o$43b2o32bobo39b2o2b2ob3o10b
+2o4b4o$77b2o23b2o15b2o4b4o10b2o2b2ob3o$84b2o15b3o19b2o18bo$43b3o34b2o
+2b2o2b2o10bobo2bo2b2o$44b2o34bobo2bo2b2o10b2o2b2o2b2o$41b2o38b3o20b2o
+21bo$41b3o38b2o43bo12b2o$33b3o6bobo82b3o10b2o$33b3ob2o4b2o82b4o6bo$35b
+2ob2o85b6o7bo$32bo92bo11b2o$31bo2bo90b4o7b2o$32b2o93b2o$33b2o89b2o$33b
+o89bobo$18b2o15bo89bo$14b2obo2bob2o9b3o$14b2o2bo4bo$19bo$20bobo20b2o$
+11bo25b2o4b2o91b2o$11b3o23b2o97bo$14bo119bobo$13b2o27b3o89b2o$42b2o81b
+2o$45b2o78b2o$44b3o$43bobo$43b2o$40bo$41bo$39b3o72b2o$115bo$115bobo$
+31b2o83b2o$31bobo$33bo$33b2o72b3o$107bo$108bo$104b2o$103bobo$102b3o$
+22b2o78b2o$22b2o81b2o$13b2o89b3o27b2o$12bobo119bo$12bo97b2o23b3o$11b2o
+91b2o4b2o25bo$104b2o20bobo$129bo$125bo4bo2b2o$113b3o9b2obo2bob2o$23bo
+89bo15b2o$23bobo89bo$23b2o89b2o$20b2o93b2o$11b2o7b4o90bo2bo$10b2o11bo
+92bo$10bo7b6o85b2ob2o$11bo6b4o82b2o4b2ob3o$7b2o10b3o82bobo6b3o$7b2o12b
+o43b2o38b3o$21bo21b2o20b3o38b2o$39b2o2b2o2b2o10b2o2bo2bobo34b2o$39b2o
+2bo2bobo10b2o2b2o2b2o34b3o$5bo18b2o19b3o15b2o$3ob2o2b2o10b4o4b2o15b2o
+23b2o$4o4b2o10b3ob2o2b2o39bobo32b2o$4b2o19bo23bo21bo32b2o$48b2o10b2o$
+48bo11b2o$49bo$47b3o5b2o$47b2o2bobo2bo20bo$47b2o3b3obo18b3o$50bobo21bo
+$51bo22b2o2$107b2o$107b2o3$94bo11bob2o$95bo10bobo$56b2o25b2o8b3ob3o7bo
+$56bo2bo23b2o12bobo7b2o$96b2ob5o3b2o$56bo2bo36b2ob3o5b2o$55bo2bo40b3o$
+55bobo41b2o$56bo2$56b2o$56b2o4b2o21b2o$61bobo21bo$61bo24b3o8bo$60b2o
+26bo8b2obo$98b2o$107b2o$101b2o4b2o$101b2o2$106b2obo$107bobo$108bo$107b
+2o$107b2o$107b2o!

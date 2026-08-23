@@ -1,0 +1,10 @@
+#N glidersbythedozenfinal.rle
+#C https://conwaylife.com/wiki/Gliders_by_the_dozen
+#C https://www.conwaylife.com/patterns/glidersbythedozenfinal.rle
+x = 69, y = 89, rule = B3/S23
+3bo61bo$2b2o61b2o$2bobo59bobo5$20b3o23b3o$20bo27bo$21bo25bo7$bo20b2o21b
+2o20bo$2o20b2o21b2o20b2o$obo63bobo6$22b2o21b2o$21bo2bo19bo2bo$22b2o21b
+2o11$25bo17bo$25bo17bo$25bo17bo3$22b3o19b3o4$22b3o19b3o3$25bo17bo$25b
+o17bo$25bo17bo11$22b2o21b2o$21bo2bo19bo2bo$22b2o21b2o6$obo63bobo$2o20b
+2o21b2o20b2o$bo20b2o21b2o20bo7$21bo25bo$20bo27bo$20b3o23b3o5$2bobo59b
+obo$2b2o61b2o$3bo61bo!

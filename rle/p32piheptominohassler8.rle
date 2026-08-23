@@ -1,0 +1,16 @@
+#N p32piheptominohassler8.rle
+#C https://conwaylife.com/wiki/Period-32_pi-heptomino_hasslers
+#C https://www.conwaylife.com/patterns/p32piheptominohassler8.rle
+x = 61, y = 61, rule = B3/S23
+27bo2bo$26bo4bo$25bo5bo$24b2ob2o$23bo7bo$22bo2b3obobo$23b3obob2o2$23b
+3obob2o$22bo2b3obobo$23bo7bo$24b2ob2o8bo3b2o$25bo5bo3b3o2bo2bo$26bo4b
+o2bo8bo$27bo2bo3b2o7bo$40b2obo$40b2o$12b4o$11bo7b2o$11bo3b2o2b2o20b2o
+$12bo2b2o24b2o2$32b3o16bo3bo$11b2o19bo17bobobobo$12bo19b3o14bo2bobo2b
+o$12bobo33b2ob2ob2ob2o$13b2o7bobo22bo3bo3bo3bo$22bobo21bo2bob2ob2obo2b
+o$22b3o24bo7bo$b2ob2o3b2ob2o37b2ob2o$o5bobo5bo31bo5bobo5bo$5b2ob2o37b
+2ob2o3b2ob2o$3bo7bo24b3o$o2bob2ob2obo2bo21bobo$bo3bo3bo3bo22bobo7b2o$
+2b2ob2ob2ob2o33bobo$3bo2bobo2bo14b3o19bo$4bobobobo17bo19b2o$5bo3bo16b
+3o2$18b2o24b2o2bo$18b2o20b2o2b2o3bo$40b2o7bo$45b4o$19b2o$17bob2o$17bo
+7b2o3bo2bo$17bo8bo2bo4bo$17bo2bo2b3o3bo5bo$18b2o3bo8b2ob2o$29bo7bo$29b
+obob3o2bo$30b2obob3o2$30b2obob3o$29bobob3o2bo$29bo7bo$32b2ob2o$29bo5b
+o$29bo4bo$30bo2bo!

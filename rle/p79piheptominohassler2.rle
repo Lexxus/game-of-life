@@ -1,0 +1,11 @@
+#N p79piheptominohassler2.rle
+#C https://conwaylife.com/wiki/Odd_traffic_stop
+#C https://www.conwaylife.com/patterns/p79piheptominohassler2.rle
+x = 52, y = 41, rule = B3/S23
+44b2o$44bobob2o$35bo10bobo$35b3o7b2obo$38bo9bob2o$14bo22b2o6b4o2bo$14b
+3o28bo3b2o$17bo28b3o$16b2o13b2o15bo$30bo2bo2b3o3b3o3bobo$31bobo15b2o$
+32bo7bo$40bo$40bo3b2o$18b2o24bobo$18bobo25bo$10bo9bo25b2o$9bo2bo5bobo$
+13bo4b2o$10bo2bo$13bo24bo$38bo2bo$32b2o4bo$31bobo5bo2bo$4b2o25bo9bo$5b
+o25bobo$5bobo24b2o$6b2o3bo$11bo$11bo7bo$b2o15bobo$bobo3b3o3b3o2bo2bo$
+3bo15b2o13b2o$3b3o28bo$b2o3bo28b3o$o2b4o6b2o22bo$2obo9bo$3bob2o7b3o$3b
+obo10bo$2b2obobo$6b2o!

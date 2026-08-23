@@ -1,0 +1,12 @@
+#N p40prepulsarhassler.rle
+#C https://conwaylife.com/wiki/P40_pre-pulsar_hassler
+#C https://www.conwaylife.com/patterns/p40prepulsarhassler.rle
+x = 47, y = 47, rule = B3/S23
+18b3o5b3o$21bo3bo$17bo3bo3bo3bo$16bobo2bo3bo2bobo$14bo2bobo7bobo2bo$
+14bo3bo9bo3bo$14bo17bo$15b3o11b3o4$19b3o3b3o$19bobo3bobo$19b3o3b3o$4b
+3o33b3o$7bo31bo$3bo3bo31bo3bo$2bobo2bo31bo2bobo$o2bobo35bobo2bo$o3bo6b
+3o19b3o6bo3bo$o10bobo19bobo10bo$b3o7b3o19b3o7b3o4$b3o7b3o19b3o7b3o$o
+10bobo19bobo10bo$o3bo6b3o19b3o6bo3bo$o2bobo35bobo2bo$2bobo2bo31bo2bobo
+$3bo3bo31bo3bo$7bo31bo$4b3o33b3o$19b3o3b3o$19bobo3bobo$19b3o3b3o4$15b
+3o11b3o$14bo17bo$14bo3bo9bo3bo$14bo2bobo7bobo2bo$16bobo2bo3bo2bobo$17b
+o3bo3bo3bo$21bo3bo$18b3o5b3o!

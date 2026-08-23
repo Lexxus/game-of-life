@@ -1,0 +1,23 @@
+#N puffer2debris.rle
+#C https://conwaylife.com/wiki/Puffer_2
+#C https://www.conwaylife.com/patterns/puffer2debris.rle
+x = 175, y = 70, rule = B3/S23
+70bo5bo88b2o$28b2ob2o37bo5bo20b3o65bobo$28b2ob2o37bo5bo89bo$152bo$72b
+3o8b2o18bo48bo10bo$65b2o16b2o17bobo47bo9bobo$64bo2bo34bobo57bobo$65b2o
+36bo59bo$152b3o2b3o2$69bo15bo39b2o$68bobo13bobo37bo2bo$68bobo13b2o15b
+o22bobo$69bo30bobo22bo12b3o$7bo92bo2bo$6bobo92b2o33bo5bo$6bobo25bo62b
+o17b2o7b3o9bo5bo$7bo25bobo51b2o7bobo15bo2bo18bo5bo$33bobo50bo2bo6bobo
+16b2o$34bo10b2o39bobo8bo40b2o$45b2o40bo49bo2bo$29b2o7b2o85b2o11bobo25b
+3o$28bo2bo5bo2bo13b3o67bo2bo11bo$29b2o7b2o85b2o$22b2o28bo5bo$22b2o10b
+o17bo5bo100bo$33bobo16bo5bo100bo$33bobo45bo77bo$18b2o14bo19b3o24bo$18b
+2o61bo80bo5b2o$144b2o16bo5b2o$55bo87bo2bo15bo$54bobo32b3o18bo33b2o$54b
+obo43b3o7bo47b2o$55bo54bo47b2o$8b2o88bo5bo$7bobo65b3o20bo5bo37b2ob2o$
+8bo89bo5bo37b2ob2o$22bo$11bo10bo48bo18b2o8b3o$10bobo9bo47bobo17b2o16b
+2o$10bobo57bobo34bo2bo$11bo59bo36b2o$15b3o2b3o2$48b2o39bo15bo$47bo2bo
+37bobo13bobo$48bobo22bo15b2o13bobo$34b3o12bo22bobo30bo$71bo2bo92bo$32b
+o5bo33b2o92bobo$32bo5bo9b3o7b2o17bo62bo25bobo$32bo5bo18bo2bo15bobo7b2o
+51bobo25bo$58b2o16bobo6bo2bo50bobo$35b2o40bo8bobo39b2o10bo$34bo2bo49b
+o40b2o$6b3o25bobo11b2o85b2o7b2o$35bo11bo2bo67b3o13bo2bo5bo2bo$48b2o85b
+2o7b2o$116bo5bo28b2o$15bo100bo5bo17bo10b2o$15bo100bo5bo16bobo$15bo77b
+o45bobo$93bo24b3o19bo14b2o$5b2o5bo80bo61b2o$5b2o5bo16b2o$12bo15bo2bo87b
+o$29b2o33bo18b3o32bobo$15b2o47bo7b3o43bobo$15b2o47bo54bo!

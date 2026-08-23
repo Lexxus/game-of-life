@@ -1,0 +1,14 @@
+#N unconstructiblestilllife2.rle
+#C https://conwaylife.com/wiki/Unique_father_problem
+#C https://www.conwaylife.com/patterns/unconstructiblestilllife2.rle
+x = 34, y = 28, rule = B3/S23
+12b2o4b2o$12bo5bo$7b2o5bo5bo7b2o$6bobo4b2o4b2o4b2o2bo$2b2obo2bob2o2bob
+2o2bob2o2bobo$2bob2obo2b2obo2b2obo2b2obo2b2o$7b2o4b2o4b2o4b2o3bo$3b2ob
+o2b2obo2b2obo2b2obo2b2o2bo$3bob2o2bob2o2bob2o2bob2o2bob3o$7b2o4b2o4b2o
+4b2o$4b2o2bob2o2bob2o2bob2o2bob2o$4b2obo2b2obo2b2obo2b2obo2b2o$7b2o4b
+2o4b2o4b2o5b2o$2b3obo2b2obo2b2obo2b2obo2b2obo2bo$o2bob2o2bob2o2bob2o2b
+ob2o2bob3o$2o5b2o4b2o4b2o4b2o$4b2o2bob2o2bob2o2bob2o2bob2o$4b2obo2b2ob
+o2b2obo2b2obo2b2o$7b2o4b2o4b2o4b2o$2b3obo2b2obo2b2obo2b2obo2b2obo$2bo
+2b2o2bob2o2bob2o2bob2o2bob2o$3bo3b2o4b2o4b2o4b2o$4b2o2bob2o2bob2o2bob
+2o2bob2obo$5bobo2b2obo2b2obo2b2obo2bob2o$4bo2b2o4b2o4b2o4bobo$4b2o7bo
+5bo5b2o$15bo5bo$14b2o4b2o!

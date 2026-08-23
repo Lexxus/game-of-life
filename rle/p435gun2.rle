@@ -1,0 +1,23 @@
+#N p435gun2.rle
+#C https://conwaylife.com/wiki/Karel%27s_p15
+#C https://www.conwaylife.com/patterns/p435gun2.rle
+x = 112, y = 61, rule = B3/S23
+52b2o14bo25bo$27b2o24bo14b3o21b3o$28bo13b2o6b3o18bo19bo9bo$28bobo11b2o
+6bo19b2o19b2o6b5o$14b2o13b2o67bo5bo$14b2o57bo24bob2o2bo$42bo54b2obobob
+3obo$40bo3bo44bo12bo4b2o$8b2o30bo3bo43b3o10b2ob2o$8b2o30b2o3bo41b2obo
+8bo2bobob5o$12b2o29b2o15b2o36bobo3bo6bo$12b2o25bo3b2o15b2o36bob2ob5o2b
+2o$90bob2o4b2o$39bo2bo47bo7b3o4b2o$40bob2o39bobo7bo4b3o4b2o$7b2o33b3o
+38bobo3bo3bo4b2o$7b2o34b2o34b2o3bo4bo2bo5bob2ob5o2b2o$57b2o20b2o8b3o6b
+obo3bo6bo$27bo3b2o24bo41bo2bobob5o$26bobo3bo5b2o3b2o13bo42b2ob2o$26b2o
+3bo7bo3bo13b2o43bo4b2o$30bo5b3o5b3o50b2obobob3obo$26b5obo3bo9bo51bob2o
+2bo$26bo4b2o65bo5bo$27b3o69b5o$29bob2o68bo$30bobo$79bobo$10bo68b2obo$
+8b5o69b3o$7bo5bo65b2o4bo$7bo2b2obo51bo9bo3bob5o$3bob3obobob2o50b3o5b3o
+5bo$3b2o4bo43b2o13bo3bo7bo3b2o$6b2ob2o42bo13b2o3b2o5bo3bobo$b5obobo2bo
+41bo24b2o3bo$o6bo3bobo6b3o8b2o20b2o$2o2b5ob2obo5bo2bo4bo3b2o34b2o34b2o
+$12b2o4bo3bo3bobo38b3o33b2o$5b2o4b3o4bo7bobo39b2obo$5b2o4b3o7bo47bo2bo
+$12b2o4b2obo$2o2b5ob2obo36b2o15b2o3bo25b2o$o6bo3bobo36b2o15b2o29b2o$b
+5obobo2bo8bob2o41bo3b2o30b2o$6b2ob2o10b3o43bo3bo30b2o$3b2o4bo12bo44bo
+3bo$3bob3obobob2o54bo$7bo2b2obo82b2o$7bo5bo22b2o43b2o13b2o$8b5o6b2o40b
+o6b2o11bobo$10bo9bo7bo30b3o6b2o13bo$17b3o7b3o5bo22bo24b2o$17bo8b2ob2o
+3b3o21b2o$25b3ob3o$25b3ob3o2b3o$25b3ob3o2b3o$25b3ob3o$26b2ob2o3b3o$27b
+3o5bo$28bo!

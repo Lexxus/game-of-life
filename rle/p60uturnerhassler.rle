@@ -1,0 +1,17 @@
+#N p60uturnerhassler.rle
+#C https://conwaylife.com/wiki/U-turner_hasslers
+#C https://www.conwaylife.com/patterns/p60uturnerhassler.rle
+x = 72, y = 39, rule = B3/S23
+12b3o$12b3o$13bo9b3o18bo7bo$13bo9bobo18bo7bo6bo$13bo9b3o17bobo5bobo5b
+3o$12bobo8b3o4b2o4b2o6bo7bo9bo$23b3o4bobo2bobo6bo7bo8b2o$23b3o6b4o8bo
+7bo$12bobo8bobo4bo2b2o2bo6bo7bo11b2o$13bo9b3o4bo2b2o2bo5bobo5bobo9bob
+o$13bo18bo2bo8bo7bo10b2o$13bo30bo7bo$bo10b3o$bo10b3o19b2o25b3o$obo7b4o
+19bo2bo15bob3o4b3o$bo6b2ob4o17bo2bo16bo6bo4bo$bo6b2obo3bo16bo2bo16bo8b
+o$bo7b2ob2obo16b3o16b2o10bo6bo$bo6b2o2bob3ob2o31bo5b2o2bo8bo$obo4bobo
+3bo6bo22bo7bo6bo3bobo4bobo$bo8bo2b2o5bo21b3o7b2ob3obo2b2o6bo$bo6bo10b
+2o19bo3bo11bob2ob2o7bo$10bo8bo20bob3obo9bo3bob2o6bo$7bo4bo6bo25b2o10b
+4ob2o6bo$8b3o4b3obo25b2o11b4o7bobo$8b3o46b3o10bo$57b3o10bo$19bo7bo30b
+o$7b2o10bo7bo8bo2bo18bo$6bobo9bobo5bobo5bo2b2o2bo4b3o9bo$6b2o11bo7bo6b
+o2b2o2bo4bobo8bobo$19bo7bo8b4o6b3o$9b2o8bo7bo6bobo2bobo4b3o$9bo9bo7bo
+6b2o4b2o4b3o8bobo$10b3o5bobo5bobo17b3o9bo$12bo6bo7bo18bobo9bo$19bo7bo
+18b3o9bo$57b3o$57b3o!

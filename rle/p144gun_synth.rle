@@ -1,0 +1,22 @@
+#N Period-144 glider gun synthesis
+#O iNoMed and MathAndCode, November 2021
+#C 35-glider synthesis of period-144 glider gun.
+#C https://www.conwaylife.com/forums/viewtopic.php?p=137563#p137563
+#C https://www.conwaylife.com/wiki/Period-144_glider_gun
+x = 443, y = 108, rule = B3/S23
+440bobo$440b2o$441bo16$358bobo$359b2o$359bo19$375bobo$376b2o$376bo$
+385bo$383bobo$384b2o12bo$397bo$397b3o2$200bo183bobo$199bo185b2o$199b3o
+183bo7$245bo56bo70bo23bo$244bobo54bobo69b2o21bobo$244bobo54bobo68bobo
+21bobo$132bo112bo56bo94bo$130bobo$22bobo37bo68b2o3bobo$22b2o39bo13bo
+41bobo4bobo7b2o$23bo37b3o13bobo40b2o5b2o8bo115bo$77b2o41bo6bo123b2o$
+252b2o52b2o93b2o$299bo6bo94bo$192bobo46b3o55bo4bobo86b3o3bobo$17bo174b
+2o105bo4b2o93b2o$16bo103bo6bo44b2o13bobo3bo41b2o55b2o93b2o$16b3o99bobo
+5bobo43bo15b2o45bo56bo94bo$79b2o38b2o5bobo40b2obo15bo43b2obo53b2obo91b
+2obo$71b2o5b2o33bo13b2ob2o37bob2ob2o56bob2ob2o50bob2ob2o88bob2ob2o$2bo
+14bo44b2o6bo2bo6bo30bobo16bo43bo62bo56bo94bo$obo13bo46b2o5bobo39b2o4b
+2o10bo43bo62bo56bo94bo$b2o13b3o43bo4b2ob2o47b2o6b2ob2o39b2ob2o58b2ob2o
+18b2o32b2ob2o90b2ob2o$58b2o7bobo48bo8bobo41bobo60bobo19b2o33bobo92bobo
+$57bobo9bo59bo43bo62bo21bo34bo94bo5b2o$59bo9b2o58b2o42b2o61b2o55b2o93b
+2o4bo$395b3o$240bo156bo$240b2o$239bobo5$289b3o$25b2o264bo$24b2o264bo$
+26bo272b3o6bo$301bo5b2o$300bo6bobo3$307bo$306b2o$306bobo7$341bo$341b2o
+$340bobo!

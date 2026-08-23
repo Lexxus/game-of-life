@@ -1,0 +1,11 @@
+#N toadinductioncoil2.rle
+#C https://conwaylife.com/wiki/Toad
+#C https://www.conwaylife.com/patterns/toadinductioncoil2.rle
+x = 40, y = 19, rule = B3/S23
+10bo18bo$9bobo6b2o8bobo$6bo2bobo5bo10bobo2bo$5bobobob2o7bo6b2obobobo$
+4bobobobo7b2o9bobobobo$4bo3bo2b3o12b3o2bo3bo$2bobobobob2o16b2obobobobo
+$bobobob2o4bo5b2o5bo4b2obobobo$bobobobo2bo3bo4b2o4bo3bo2bobobobo$2ob2o
+b2obo4bo4b2o4bo4bob2ob2ob2o$bobobobo2bo3bo3b4o3bo3bo2bobobobo$bobobob
+2o4bo4b4o4bo4b2obobobo$2bobobobob2o6b4o6b2obobobobo$4bo3bo2b3o12b3o2bo
+3bo$4bobobobo9b2o7bobobobo$5bobobob2o6bo7b2obobobo$6bo2bobo10bo5bobo2b
+o$9bobo8b2o6bobo$10bo18bo!

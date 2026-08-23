@@ -1,0 +1,19 @@
+#N originalp49glidershuttle.rle
+#C https://conwaylife.com/wiki/P49_glider_shuttle
+#C https://www.conwaylife.com/patterns/originalp49glidershuttle.rle
+x = 65, y = 65, rule = B3/S23
+14bo2bo2bo$14b7o2bo$21b3o$16b4o$15bobo2b2o$15bo6bo$14b2ob5obo$15bo5bob
+o$15bobo2bo2b2o$13bobo2bobobo$13b2ob2o2bobo10bo$16bo3bob2o7b3o$16bob2o
+bo8bo$13b2obo4bo8b2o$13bobo3bob2o$16b4o2bo5bo$20b2o5bobo$16b4o2bo5b2o
+2b2o$16bo2bob2o9b2o$21bo$19bobo28b2o2b2o$19b2o5bo24bo2bo3bo4b2o$25bo
+24bo4b6o2bo$25b3o18b2obob4o6bobo$10b2o5b2o28bobo4bobobob2ob2o$11bo5b2o
+28bobo2bo2bo2bo2bobo$11bobo29b2ob2ob2obo5bo2bobo$12b2o29bo4bo4b4obobo
+2b2o$16b2o26b3obob3o4b2obobo$15bobo19b3o6b2ob2o2b3o3bo2bo$16bo20bo15bo
+2b3o3b2o$38bo17bo2$8bo17bo$b2o3b3o2bo15bo20bo$2bo2bo3b3o2b2ob2o6b3o19b
+obo$2bobob2o4b3obob3o26b2o$2o2bobob4o4bo4bo29b2o$bobo2bo5bob2ob2ob2o
+29bobo$bobo2bo2bo2bo2bobo28b2o5bo$2ob2obobobo4bobo28b2o5b2o$bobo6b4obo
+b2o18b3o$bo2b6o4bo24bo$2o4bo3bo2bo24bo5b2o$9b2o2b2o28bobo$43bo$31b2o9b
+2obo2bo$31b2o2b2o5bo2b4o$35bobo5b2o$36bo5bo2b4o$42b2obo3bobo$33b2o8bo
+4bob2o$34bo8bob2obo$31b3o7b2obo3bo$31bo10bobo2b2ob2o$42bobobo2bobo$40b
+2o2bo2bobo$41bobo5bo$41bob5ob2o$42bo6bo$43b2o2bobo$45b4o$41b3o$41bo2b
+7o$44bo2bo2bo!

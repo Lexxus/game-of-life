@@ -1,7 +1,7 @@
 import GDI from './gdi.js';
 
 // maximum patterns per page
-const MAX_PATTERNS = 27;
+const MAX_PATTERNS = 25;
 // maximum pages in page-nav panel
 const MAX_PAGES = 7;
 const PREVIEW_SIZE = 100;

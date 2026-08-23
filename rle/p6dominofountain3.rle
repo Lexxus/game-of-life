@@ -1,0 +1,13 @@
+#N p6dominofountain3.rle
+#C https://conwaylife.com/wiki/P6_domino_fountain
+#C https://www.conwaylife.com/patterns/p6dominofountain3.rle
+x = 44, y = 24, rule = B3/S23
+33b2o$23b2o8bo$11b2o11bo10bo$12bo3b2o4bo4bo5bob3o$11bo4bobo2bob5o4bobo
+3bo$10bob3obobo2bobo4b2o2bobob3o$4bo4bobo2bobo2b3o2bob2o2bobo$4b3o2bob
+o3b2obo3b3o2bobo2bo7bo$7bobob2o4b2ob2o3bobo2b3o6bobo$4b2obobo3bo3bo3b
+3o3bo2bo7b2o$4bo4b2ob3o2b4o3b6obo3bob2o$5b3o4b3o2b2o6bo3bobo3bo2bo4bo$
+2o2b2obo4b3o2b2o6bo3bobo3bo2bo4bo$o4bobobo2b3o2b4o3b6obo3bob2o$b3obob
+2obo2bo3bo3b3o3bo2bo7b2o$6bo4b2o4b2ob2o3bobo2b3o6bobo$b4obob2obo3b2obo
+3b3o2bobo2bo7bo$bo2bobobo2bo2bobo2b3o2bob2o2bobo$5bo4bob3obobo2bobo4b
+2o2bobob3o$11bo4bobo2bob5o4bobo3bo$12bo3b2o4bo4bo5bob3o$11b2o11bo10bo$
+23b2o8bo$33b2o!

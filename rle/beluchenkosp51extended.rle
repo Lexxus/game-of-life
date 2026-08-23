@@ -1,0 +1,18 @@
+#N beluchenkosp51extended.rle
+#C https://conwaylife.com/wiki/Beluchenko%27s_p51
+#C https://www.conwaylife.com/patterns/beluchenkosp51extended.rle
+x = 64, y = 64, rule = B3/S23
+15b2o3b2o3$6b2o21b2o$6b2o21b2o2$3b2o27b2o$3b2o9b2o5b2o9b2o$9b3ob2o7b2o
+b3o$8bobo15bobo$8b2o17b2o$8bo19bo2$8bo19bo$7b2o19b2o$o6bo21bo6bo$o35bo
+4$o35bo$o6bo21bo6bo$7b2o19b2o$8bo19bo2$8bo19bo10bo9bo$8b2o17b2o10b2o7b
+2o$8bobo15bobo8b5o5b5o$9b3ob2o7b2ob3o14bo3bo$3b2o9b2o5b2o9b2o7b3ob3o7b
+2o$3b2o27b2o2b2o3b2o3b2o3b2o2b2o$38bo2b3ob3o2bo$6b2o21b2o6b2o2bo5bo2b
+2o6b2o$6b2o21b2o8b2o7b2o8b2o$39b3o5b3o$40bo7bo$15b2o3b2o8bo8b2ob2ob2ob
+2o8bo$27bo2bobo6b2ob2ob2ob2o6bobo2bo$27bo3b2o8bo5bo8b2o3bo$25b3o5b2ob
+2o13b2ob2o5b3o$26b2o5b5o13b5o5b2o$27bob4obo3bo11bo3bob4obo$28b4o4b2o
+13b2o4b4o$29bobo4b2o13b2o4bobo2$29bobo4b2o13b2o4bobo$28b4o4b2o13b2o4b
+4o$27bob4obo3bo11bo3bob4obo$26b2o5b5o13b5o5b2o$25b3o5b2ob2o13b2ob2o5b
+3o$27bo3b2o8bo5bo8b2o3bo$27bo2bobo6b2ob2ob2ob2o6bobo2bo$30bo8b2ob2ob2o
+b2o8bo$40bo7bo$39b3o5b3o$29b2o8b2o7b2o8b2o$29b2o6b2o2bo5bo2b2o6b2o$38b
+o2b3ob3o2bo$32b2o2b2o3b2o3b2o3b2o2b2o$32b2o7b3ob3o7b2o$42bo3bo$37b5o5b
+5o$39b2o7b2o$39bo9bo!

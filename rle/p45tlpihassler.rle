@@ -1,0 +1,11 @@
+#N p45tlpihassler.rle
+#C https://conwaylife.com/wiki/Period-45_pi-heptomino_hasslers
+#C https://www.conwaylife.com/patterns/p45tlpihassler.rle
+x = 57, y = 45, rule = B3/S23
+17bo21bo$16b3o19b3o3$16b3o19b3o2$16bobo19bobo$16bobo19bobo2$16b3o4b2o
+7b2o4b3o$23b2o7b2o2$16b3o19b3o$17bo21bo2$2b2o6b2o33b2o6b2o$bo2bo4bo2bo
+31bo2bo4bo2bo$6o2b6o29b6o2b6o$bo2bo4bo2bo31bo2bo4bo2bo$2b2o6b2o11b3o5b
+3o11b2o6b2o$23bobo5bobo$23b3o5b3o2$23b3o5b3o$23bobo5bobo$2b2o6b2o11b3o
+5b3o11b2o6b2o$bo2bo4bo2bo31bo2bo4bo2bo$6o2b6o29b6o2b6o$bo2bo4bo2bo31bo
+2bo4bo2bo$2b2o6b2o33b2o6b2o2$17bo21bo$16b3o19b3o2$23b2o7b2o$16b3o4b2o
+7b2o4b3o2$16bobo19bobo$16bobo19bobo2$16b3o19b3o3$16b3o19b3o$17bo21bo!

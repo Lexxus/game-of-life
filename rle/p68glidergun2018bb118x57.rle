@@ -1,0 +1,24 @@
+#N p68glidergun2018bb118x57.rle
+#C https://conwaylife.com/wiki/Period-68_glider_gun
+#C https://www.conwaylife.com/patterns/p68glidergun2018bb118x57.rle
+#C https://github.com/ceebo/glider_guns/commit/d504b133003c8c9fd74d36627d033f9bac8a2227
+x = 118, y = 57, rule = B3/S23
+73b2o14bo5bob2obo2bo2b2o3b2o$64bo9bo7bo6b3o3b2obob4o2bobobobo$64b3o7bo
+b2o2b3o9bo6bo4b2o2bobo$67bo7bo3bo11b2o7b3ob5o2bo2b2o$66b2o12bo21bo3b2o
+4bo2bo$77b3o16bo8bo2b7o$19b2o50bo23bobo11bo$11bo7bo9bo40bobo22bo2bo2bo
+2bo5b2ob2o$11b3o3bobo7b3o40bo2bo3b2o17b2o4b2o6b2ob2o$14bob3o7bo44b2o4b
+2o$13bob2o9b2o$13bo2bo$22bo62bo$21bobo59b3o5b2o$14bo2bo2bo2bo58bo7bobo
+23b2o$15b2o4b2o59b2o8bo23bo$114bobo$114b2o3$60b2o48b2o4b2o$61b2o46bo2b
+o3bo$2o38bo19bo11b2o35bobo5bo$bo27b2o7b3o30bobo5b2o29bo5b2o$bobo25bobo
+5bo33bo7b2o34bo$2b2o25bo7b2o31b2o42bob2o$114bobo$84bo24b2o2b2obo$2o4b
+2o72b2obobo23b2o2bo2b2o$bo3bo2bo70bobobobo2b2o23b2o$o5bobo64bo2bo2bobo
+bobobobo$2o5bo63b3o2b4ob2o2bobo24bo3b2o$2bo67bo9bo4bob2o23bo4bo$2obo
+53b2o11b2o6bobo3b2o2bo5bo16b2ob3o$bobo53b2o19b2o6bo6bo16bobobo$bob2o2b
+2o77b2o5b3o13bo2bo2b2o$2o2bo2b2o58b2o40b2obobo2bo$3b2o14bo6bo7bo31bo2b
+o30b2o10bo3b2o$20bo4bo3b2o2b3o29b2o33bo8b2obo$2o3bo12b3o4bo6bob2o30b2o
+3bo25b2obo8b2obobo$o4bo20bo5b2ob2o30bo4bo23bo2bo13b2o$b3ob2o23bobo37b
+3o24b2o$3bobobo22bobo49b2o$b2o2bo2bo21b2o14b2o34b2o$o2bobob2o37bobo$2o
+3bo42bo$5bob2o39b2o$3bobob2o23b2obo33b2o3bo$3b2o25b2obobo33bo3bobo$33b
+3o20b2o12bo3bobo$30b3o22bobo13bo3bobob2o$55bo13bob4o2bob2o$54b2o12bobo
+3bobo$68bobo2bo2b2ob2o$36bo32bo3b2o2bobo$37bo39bobo10b2o$35b3o40bo11b
+2o!

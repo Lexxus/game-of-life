@@ -1,5 +1,12 @@
 [
   {
+    "id": "r-pentomino",
+    "name": "R-Pentomino",
+    "description": "A well-known pattern that evolves into a variety of shapes.",
+    "data": "b2o$2o$bo!",
+    "category": "methuselahs"
+  },
+  {
     "id": "101",
     "name": "101",
     "author": "Achim Flammenkamp",
@@ -4565,7 +4572,7 @@
     "wiki": "www.conwaylife.com/wiki/index.php?title=Acorn",
     "description": "A methuselah with lifespan 5206.",
     "data": "bo5b$3bo3b$2o2b3o!",
-    "category": "methuselahs"
+    "category": ["basics", "methuselahs"]
   },
   {
     "id": "acorn_synth",
@@ -5280,7 +5287,7 @@
     "wiki": "www.conwaylife.com/wiki/index.php?title=Beacon",
     "description": "A common period 2 oscillator.",
     "data": "2o2b$o3b$3bo$2b2o!",
-    "category": "oscillators"
+    "category": ["basics", "oscillators"]
   },
   {
     "id": "beaconandlonghook_synth",
@@ -5393,7 +5400,7 @@
     "wiki": "www.conwaylife.com/wiki/index.php?title=Beehive",
     "description": "An extremely common 6-cell still life.",
     "data": "b2ob$o2bo$b2o!",
-    "category": "still_lifes"
+    "category": ["basics", "still_lifes"]
   },
   {
     "id": "beehiveandcap",
@@ -5846,7 +5853,7 @@
     "wiki": "www.conwaylife.com/wiki/index.php?title=B-heptomino",
     "description": "A very common methuselah with lifespan 148 that often arises with the cell at top left shifted one space to the left, which does not affect the subsequent evolution.",
     "data": "ob2o$3ob$bo!",
-    "category": "methuselahs"
+    "category": ["basics", "methuselahs"]
   },
   {
     "id": "bheptomino_synth",
@@ -6234,7 +6241,7 @@
     "wiki": "www.conwaylife.com/wiki/index.php?title=Blinker",
     "description": "A period 2 oscillator that is the smallest and most common oscillator.",
     "data": "3o!",
-    "category": "oscillators"
+    "category": ["basics", "oscillators"]
   },
   {
     "id": "blinkerfuse",
@@ -6412,7 +6419,7 @@
     "wiki": "www.conwaylife.com/wiki/index.php?title=Block",
     "description": "An extremely common 4-cell still life.",
     "data": "2o$2o!",
-    "category": "still_lifes"
+    "category": ["basics", "still_lifes"]
   },
   {
     "id": "block2queenbeeshuttle",
@@ -6621,7 +6628,7 @@
     "wiki": "www.conwaylife.com/wiki/index.php?title=Block-laying_switch_engine",
     "description": "A diagonal period 288 c/12 block-laying puffer.",
     "data": "18bo10b$b3o8bo5bo10b$o3bo6bo7bo9b$b2o9b4o2b2o9b$3b2ob2o9b3o9b$5b2o11bobo8b$19bo7b2o$19bo7b2o11$7b2o20b$7b2o20b7$15b2o12b$15b2o!",
-    "category": "puffers"
+    "category": ["basics", "puffers"]
   },
   {
     "id": "blocklayingswitchenginepredecessor",
@@ -6841,7 +6848,7 @@
     "wiki": "www.conwaylife.com/wiki/index.php?title=Boat",
     "description": "The only 5-cell still life.",
     "data": "2ob$obo$bo!",
-    "category": "still_lifes"
+    "category": ["basics", "still_lifes"]
   },
   {
     "id": "boatamphisbaena",
@@ -10315,7 +10322,7 @@
     "wiki": "https://www.conwaylife.com/wiki/index.php?title=Die_hard",
     "description": "A methuselah that dies completely. It has lifespan 130.",
     "data": "6bob$2o6b$bo3b3o!",
-    "category": "methuselahs"
+    "category": ["basics", "methuselahs"]
   },
   {
     "id": "diehard1192",
@@ -10747,7 +10754,7 @@
     "wiki": "https://www.conwaylife.com/wiki/index.php?title=Eater_1",
     "description": "The first discovered eater and a 7-cell still life.",
     "data": "2o2b$obob$2bob$2b2o!",
-    "category": "still_lifes"
+    "category": ["basics", "still_lifes"]
   },
   {
     "id": "eater1edgeshooters",
@@ -11170,7 +11177,7 @@
     "wiki": "www.conwaylife.com/wiki/index.php?title=Edna",
     "description": "A methuselah with lifespan 31,192.",
     "data": "2bo2bo2bo5bo4bo$2b2o4bo2bo2b2obo2b$b4ob2ob4obobobob$2obo5b2ob2o2b3ob$8bo2bo2b3o3b$3ob2o3bo2bo2bo3bo$b4o5bo2b3o2b2o$obo2bo3bo5bobo2b$2obob2ob3obo7b$2bo2b2o5bobo2bobo$2o2bobob2o3bo2b2o2b$4bobo3bobo4b2ob$bo2bobo4bo2b2o4b$3o3bo3bo4b4ob$2ob2o6bo4bo2bo$5bo3bobo6b2o$6bo2bo5bobo2b$8bo2bo2bobo3b$2b4obo2bob2o5bo$ob2o2bo6b2ob3o!",
-    "category": "methuselahs"
+    "category": ["basics", "methuselahs"]
   },
   {
     "id": "edna26",
@@ -12565,7 +12572,7 @@
     "wiki": "www.conwaylife.com/wiki/index.php?title=Glider",
     "description": "The smallest, most common, and first discovered spaceship. Diagonal, has period 4 and speed c/4.",
     "data": "bob$2bo$3o!",
-    "category": "spaceships"
+    "category": ["basics", "spaceships"]
   },
   {
     "id": "gliderbeehivecollisions",
@@ -12853,7 +12860,7 @@
     "wiki": "www.conwaylife.com/wiki/index.php?title=Gosper_glider_gun",
     "description": "A true period 30 glider gun. The first known gun and the first known finite pattern with unbounded growth.",
     "data": "24bo11b$22bobo11b$12b2o6b2o12b2o$11bo3bo4b2o12b2o$2o8bo5bo3b2o14b$2o8bo3bob2o4bobo11b$10bo5bo7bo11b$11bo3bo20b$12b2o!",
-    "category": "guns"
+    "category": ["basics", "guns"]
   },
   {
     "id": "gosperglidergungliderdestruction",
@@ -13467,7 +13474,8 @@
     "name": "Herschel",
     "wiki": "www.conwaylife.com/wiki/index.php?title=Herschel",
     "description": "A heptomino shaped like the lowercase letter h, which occurs at generation 20 of the B-heptomino.",
-    "data": "o2b$3o$obo$2bo!"
+    "data": "o2b$3o$obo$2bo!",
+    "category": ["basics", "methuselahs"]
   },
   {
     "id": "herscheldescendant",
@@ -14188,7 +14196,7 @@
     "wiki": "www.conwaylife.com/wiki/index.php?title=Heavyweight_spaceship",
     "description": "A very well-known period 4 c/2 orthogonal spaceship.",
     "data": "3b2o2b$bo4bo$o6b$o5bo$6o!",
-    "category": "spaceships"
+    "category": ["basics", "spaceships"]
   },
   {
     "id": "hwss2mwssdownconverter",
@@ -15285,7 +15293,7 @@
     "wiki": "www.conwaylife.com/wiki/index.php?title=Loaf",
     "description": "A very common 7-cell still life.",
     "data": "b2ob$o2bo$bobo$2bo!",
-    "category": "still_lifes"
+    "category": ["basics", "still_lifes"]
   },
   {
     "id": "loafbacktieloaf",
@@ -15308,7 +15316,7 @@
     "wiki": "https://www.conwaylife.com/forums/viewtopic.php?f=2&t=1031#p7450",
     "description": "small c/7 orthogonal spaceship found 17 February 2013",
     "data": "b2o2bob2o$o2bo2b2o$bobo$2bo$8bo$6b3o$5bo$6bo$7b2o!",
-    "category": "spaceships"
+    "category": ["basics", "spaceships"]
   },
   {
     "id": "loafereaterandtoh",
@@ -16269,7 +16277,7 @@
     "wiki": "www.conwaylife.com/wiki/index.php?title=Lightweight_spaceship",
     "description": "A very well-known period 4 c/2 orthogonal spaceship.",
     "data": "bo2bo$o4b$o3bo$4o!",
-    "category": "spaceships"
+    "category": ["basics", "spaceships"]
   },
   {
     "id": "lwssgliderbounce",
@@ -17273,7 +17281,7 @@
     "wiki": "www.conwaylife.com/wiki/index.php?title=Middleweight_spaceship",
     "description": "A very well-known period 4 c/2 orthogonal spaceship.",
     "data": "3bo2b$bo3bo$o5b$o4bo$5o!",
-    "category": "spaceships"
+    "category": ["basics", "spaceships"]
   },
   {
     "id": "mwssandhwssdraggingblock",
@@ -26335,7 +26343,7 @@
     "wiki": "www.conwaylife.com/wiki/index.php?title=Pentadecathlon",
     "description": "10 cells placed in a row evolve into this object, which is the most natural oscillator of period greater than 3. In fact, it is the fifth or sixth most common oscillator overall, being about as frequent as the clock, but much less frequent than the blinker, toad, beacon or pulsar.",
     "data": "2bo4bo2b$2ob4ob2o$2bo4bo!",
-    "category": "oscillators"
+    "category": ["basics", "oscillators"]
   },
   {
     "id": "pentadecathlonhasslingalongbarge",
@@ -28094,7 +28102,7 @@
     "wiki": "www.conwaylife.com/wiki/Pufferfish",
     "description": "An almost natural c/2 puffer, discovered in November 2014.",
     "data": "3bo7bo$2b3o5b3o$b2o2bo3bo2b2o$3b3o3b3o2$4bo5bo$2bo2bo3bo2bo$o5bobo5bo$2o4bobo4b2o$6bobo$3bobo3bobo$4bo5bo!",
-    "category": "puffers"
+    "category": ["basics", "puffers"]
   },
   {
     "id": "pufferfishbreeder",
@@ -28164,7 +28172,7 @@
     "wiki": "www.conwaylife.com/wiki/index.php?title=Pulsar",
     "description": "A period 3 oscillator. Despite its size, this is the fourth most common oscillator (and by far the most common of period greater than 2).",
     "data": "2b3o3b3o2b2$o4bobo4bo$o4bobo4bo$o4bobo4bo$2b3o3b3o2b2$2b3o3b3o2b$o4bobo4bo$o4bobo4bo$o4bobo4bo2$2b3o3b3o!",
-    "category": "oscillators"
+    "category": ["basics", "oscillators"]
   },
   {
     "id": "pulsarlikeoscillators",
@@ -28488,7 +28496,8 @@
     "name": "Queen bee",
     "wiki": "www.conwaylife.com/wiki/index.php?title=Queen_bee",
     "description": "A pattern that lays a beehive on either side of itself before exploding.",
-    "data": "3bo3b$2bobo2b$bo3bob$2b3o2b$2o3b2o!"
+    "data": "3bo3b$2bobo2b$bo3bob$2b3o2b$2o3b2o!",
+    "category": "basics"
   },
   {
     "id": "queenbeeloop",
@@ -28506,7 +28515,7 @@
     "wiki": "www.conwaylife.com/wiki/index.php?title=Queen_bee_shuttle",
     "description": "A period 30 oscillator.",
     "data": "9bo12b$7bobo12b$6bobo13b$2o3bo2bo11b2o$2o4bobo11b2o$7bobo12b$9bo!",
-    "category": "oscillators"
+    "category": ["basics", "oscillators"]
   },
   {
     "id": "queenbeeshuttlepair",
@@ -29883,7 +29892,7 @@
     "wiki": "www.conwaylife.com/wiki/Simkin_glider_gun",
     "description": "A true period 120 glider gun, found on April 28, 2015.",
     "data": "2o5b2o$2o5b2o2$4b2o$4b2o5$22b2ob2o$21bo5bo$21bo6bo2b2o$21b3o3bo3b2o$26bo4$20b2o$20bo$21b3o$23bo!",
-    "category": "guns"
+    "category": ["basics", "guns"]
   },
   {
     "id": "simkinglidergun1",
@@ -30937,7 +30946,7 @@
     "wiki": "www.conwaylife.com/wiki/index.php?title=Switch_engine",
     "description": "A methuselah with lifespan 3911 that can be used to make c/12 diagonal puffers and spaceships.",
     "data": "bobo2b$o5b$bo2bob$3b3o!",
-    "category": "methuselahs"
+    "category": ["basics", "methuselahs"]
   },
   {
     "id": "switchenginechannel",
@@ -31547,7 +31556,7 @@
     "wiki": "www.conwaylife.com/wiki/index.php?title=Toad",
     "description": "A period 2 oscillator. The second most common oscillator (after the blinker).",
     "data": "b3o$3o!",
-    "category": "oscillators"
+    "category": ["basics", "oscillators"]
   },
   {
     "id": "toadescorts",
@@ -32602,7 +32611,7 @@
     "wiki": "www.conwaylife.com/wiki/index.php?title=Tub",
     "description": "A very common 4-cell still life.",
     "data": "bob$obo$bo!",
-    "category": "still_lifes"
+    "category": ["basics", "still_lifes"]
   },
   {
     "id": "tubbendlinetub",

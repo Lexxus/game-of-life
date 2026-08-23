@@ -1,0 +1,30 @@
+#N brain99g2022synthesis.rle
+#C https://conwaylife.com/wiki/Brain
+#C https://www.conwaylife.com/patterns/brain99g2022synthesis.rle
+#C https://conwaylife.com/forums/viewtopic.php?p=154110#p154110
+#C The 99-glider continuous synthesis of Brain
+x = 295, y = 271, rule = B3/S23
+26bo241bo$27bo239bo$25b3o239b3o5$30bo233bo$31bo231bo$29b3o231b3o2$46bo
+bo$41bo5b2o$39bobo5bo$22bo8bo8b2o221bo8bo$23bo8bo229bo8bo$21b3o6b3o
+229b3o6b3o$18bo257bo$16bobo257bobo$17b2o257b2o3$22bo249bo$23bo247bo$
+21b3o247b3o17$26bo241bo$24bobo241bobo$20bo4b2o241b2o4bo$21b2o249b2o$
+20b2o251b2o7$41bo$42bo$40b3o3$53bo11bo163bo11bo6bo$51bobo12b2o159b2o
+12bobo3bo$52b2o11b2o161b2o11b2o4b3o13$77bo139bo$78b2o135b2o$77b2o137b
+2o5$70bo153bo$71b2o149b2o$70b2o5bo139bo5b2o$75bobo139bobo$76b2o139b2o
+3$207bo$205b2o$206b2o3$92bo$93b2o94bo$92b2o93b2o$188b2o$119bo$120b2o$
+110bo8b2o80bo$111b2o87bo$110b2o88b3o$170bo$168b2o$98bo70b2o$99bo90bo$
+97b3o89bo$125bo63b3o3bobo$123bobo69b2o$124b2o70bo$109bo61bo$110bo58b2o
+11bo$102bobo3b3o59b2o10bobo$103b2o77b2o$103bo2$117bo$115bobo$116b2o41$
+111b2o$112b2o$93b3o15bo9b2o49b2o$95bo24bobo49bobo$94bo27bo49bo$187b2o$
+186b2o$97b2o89bo15b3o$96bobo105bo$98bo17b3o86bo$118bo$117bo$201b2o$
+201bobo$181b3o17bo$181bo$182bo3$181bo$104b2o74b2o$105b2o73bobo$104bo$
+175b2o7bo$175bobo5b2o$175bo7bobo3$105b2o$104bobo$106bo6$78b2o135b2o$
+79b2o133b2o$78bo15b2o112bo7bo$95b2o110b2o$94bo112bobo2$63bo27b2o6b3o
+129bo$63b2o27b2o7bo128b2o$62bobo26bo8bo129bobo3$206b3o$206bo$207bo3$
+71b2o$70bobo$72bo$75b2o$76b2o$75bo139b2o10b2o$215bobo9bobo$215bo11bo$
+223b2o$222b2o$73b2o149bo$36bo35bobo$36b2o36bo$35bobo2$68b2o$69b2o155b
+3o$68bo157bo5bo$227bo3b2o$231bobo8$55b3o179b3o$57bo179bo$50bo5bo181bo
+5bo$50b2o191b2o$15b3o31bobo191bobo31b3o$17bo259bo$16bo261bo3$57bo$57b
+2o$56bobo3$28b3o211bo21b3o$30bo210b2o21bo$3o26bo211bobo21bo26b3o$2bo
+289bo$bo291bo8$24b2o243b2o$25b2o11b2o228b2o$24bo7b2o3bobo221b2o7bo$33b
+2o4bo220b2o$32bo218b3o8bo$251bo$14b2o236bo$13bobo$15bo!

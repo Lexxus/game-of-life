@@ -1,0 +1,13 @@
+#N p168rpentominohassler.rle
+#C https://conwaylife.com/wiki/52P84
+#C https://www.conwaylife.com/patterns/p168rpentominohassler.rle
+x = 69, y = 59, rule = B3/S23
+36bo$34b3o$33bo$5b2o26b2o$6bo$6bobo16b2o$7b2o15b2o17b2o$23bob2o14bo2bo
+$24bo2$41b2obo$20bo22bobo2b2o$18b2obo22bo4bo$19b2o15b2o7bo$18b2o16bobo
+6bo2bo$38bo$10b2o26b2o13bo$11bo40bo$8b3o42b2ob2o$8bo43bo4bo$51b3ob3o$
+51bo4bo$51b2ob2o$56bo$55bo$bo2bo31b3o23b2o$4bo31bo23bo2bo$o4bo30bo$2o
+2bobo30b2obo$5bob2o18b2o11b2o18b2obo$28bob2o30bobo2b2o$32bo30bo4bo$5bo
+2bo23bo31bo$5b2o23b3o31bo2bo$13bo$12bo$13b2ob2o$12bo4bo$11b3ob3o$11bo
+4bo43bo$11b2ob2o42b3o$16bo40bo$15bo13b2o26b2o$30bo$20bo2bo6bobo16b2o$
+23bo7b2o15b2o$19bo4bo22bob2o$19b2o2bobo22bo$24bob2o2$44bo$24bo2bo14b2o
+bo$24b2o17b2o15b2o$42b2o16bobo$62bo$34b2o26b2o$35bo$32b3o$32bo!

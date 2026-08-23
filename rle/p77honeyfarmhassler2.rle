@@ -1,0 +1,13 @@
+#N p77honeyfarmhassler2.rle
+#C https://conwaylife.com/wiki/Honey_farm_hasslers
+#C https://www.conwaylife.com/patterns/p77honeyfarmhassler2.rle
+x = 62, y = 32, rule = B3/S23
+35b2o$17b2o16bo$13b2o3bo14bobo4b2o$13bo2bo16b2o5bobo$14b4o24bo2b2o$41b
+2obobo$16b2o26bo$15bo2bo22b4o$15bobo23bo3b2o$16bo25b3o2bo$7bo4b2o30bob
+2o$5bobo4bobo11b3o15bo$3bo2bo6b3o9bo3bo13b2o$2b3obobo5b2o8bo5bo22bo4b
+2o$b2o3b4o3b2o9bo5bo2b3o15bobo4bobo$2o5bobob3o10bo5bobo3bo12bo2bo6b3o$
+3o6bo2bo12bo3bobo5bo10b3obobo5b2o$bobo4bobo15b3o2bo5bo9b2o3b4o3b2o$2b
+2o4bo22bo5bo8b2o5bobob3o$17b2o13bo3bo9b3o6bo2bo$17bo15b3o11bobo4bobo$
+14b2obo30b2o4bo$14bo2b3o25bo$15b2o3bo23bobo$17b4o22bo2bo$17bo26b2o$15b
+obob2o$15b2o2bo24b4o$19bobo5b2o16bo2bo$20b2o4bobo14bo3b2o$26bo16b2o$
+25b2o!

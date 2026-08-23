@@ -1,0 +1,11 @@
+#N barberpoles.rle
+#C https://conwaylife.com/wiki/Barberpole
+#C https://www.conwaylife.com/patterns/barberpoles.rle
+x = 137, y = 16, rule = B3/S23
+2o4b2o5b2o6b2o7b2o8b2o9b2o10b2o11b2o12b2o13b2o14b2o$obo3bobo4bobo5bobo
+6bobo7bobo8bobo9bobo10bobo11bobo12bobo13bobo2$2bobo3bobo4bobo5bobo6bob
+o7bobo8bobo9bobo10bobo11bobo12bobo13bobo$3b2o6bo$10b2o5bobo5bobo6bobo
+7bobo8bobo9bobo10bobo11bobo12bobo13bobo$18b2o8bo$27b2o7bobo7bobo8bobo
+9bobo10bobo11bobo12bobo13bobo$37b2o10bo$48b2o9bobo9bobo10bobo11bobo12b
+obo13bobo$60b2o12bo$73b2o11bobo11bobo12bobo13bobo$87b2o14bo$102b2o13bo
+bo13bobo$118b2o16bo$135b2o!

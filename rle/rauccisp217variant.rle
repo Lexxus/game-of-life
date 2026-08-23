@@ -1,0 +1,14 @@
+#N rauccisp217variant.rle
+#C https://conwaylife.com/wiki/Raucci%27s_p217
+#C https://www.conwaylife.com/patterns/rauccisp217variant.rle
+x = 72, y = 72, rule = B3/S23
+29b3o4b3o$22b2o4bo2b2o2b2o2bo4b2o$22b2o5bobo4bobo5b2o$30bo6bo6$30bo6bo
+$22b2o5bobo4bobo5b2o$22b2o4bo2b2o2b2o2bo4b2o$29b3o4b3o10$60b2o7b2o$60b
+2o7b2o2$30b2o$b2o7b2o15b5o9b3o$b2o7b2o15b5o8bo3b2o$26bob4o8bo2b3o14bo
+9bo$26bo3b2o8b2ob3o13bobo7bobo$26bo2bo12b5o12bo2bo5bo2bo$27b3o12b5o12b
+3o7b3o$bo9bo48bo9bo$obo7bobo$o2bo5bo2bo$3o7b3o47bo9bo$bo9bo47b3o7b3o$
+59bo2bo5bo2bo$59bobo7bobo$bo9bo48bo9bo$3o7b3o12b5o12b3o$o2bo5bo2bo12b
+5o12bo2bo$obo7bobo13b3ob2o8b2o3bo$bo9bo14b3o2bo8b4obo$26b2o3bo8b5o15b
+2o7b2o$28b3o9b5o15b2o7b2o$40b2o2$b2o7b2o$b2o7b2o10$33b3o4b3o$26b2o4bo
+2b2o2b2o2bo4b2o$26b2o5bobo4bobo5b2o$34bo6bo6$34bo6bo$26b2o5bobo4bobo5b
+2o$26b2o4bo2b2o2b2o2bo4b2o$33b3o4b3o!

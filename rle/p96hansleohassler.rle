@@ -1,0 +1,11 @@
+#N p96hansleohassler.rle
+#C https://conwaylife.com/wiki/P156_Hans_Leo_hassler
+#C https://www.conwaylife.com/patterns/p96hansleohassler.rle
+x = 43, y = 33, rule = B3/S23
+12b2o$12b2obo15bo$16bo13bobo$8bo4bo11bo$7bobo4bob2o5b3o4bo7b2o$16b2o4b
+o7b2o6bobo$9bo12b2o3b5o3b2obobo$8b2o17b2ob2o3bobobo$8b5o17bo6bo$b2o5b
+2ob2o22bo2bo$obo6bo28bo$obob2o28bo3bo$bobobo12b3o8bobo2bo3bo$3bo14bobo
+8bo2bo5bo$2bo2bo3bobo6b3o8bobo3bo2bo$2bo5bo2bo25bo$2bo3bo2bobo23bobobo
+$2bo3bo28b2obobo$2bo28bo6bobo$2bo2bo22b2ob2o5b2o$3bo6bo17b5o$bobobo3b
+2ob2o17b2o$obob2o3b5o3b2o12bo$obo6b2o7bo4b2o$b2o7bo4b3o5b2obo4bobo$15b
+o11bo4bo$8bobo13bo$9bo15bob2o$27b2o!
