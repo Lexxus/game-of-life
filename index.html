@@ -14,10 +14,10 @@
 
   <div id="controlPanel" class="control-panel opened">
     <div class="controls">
-      <button id="btnCtrlClose" class="btn mini icon-close m-right-05" />
-      <button class="btn icon-play action-start" title="Start/Stop">Start</button>
-      <button class="btn icon-next action-step" title="Step">Step</button>
-      <button class="btn icon-clear action-clear" title="Clear">Clear</button>
+      <button id="btnCtrlClose" class="btn mini m-right-05 icon icon-primary icon-arrow-bar-right" />
+      <button class="btn icon icon-play icon-primary action-start" title="Start/Stop" style="min-width: 71px">Start</button>
+      <button class="btn icon icon-next icon-primary action-step" title="Step">Step</button>
+      <button class="btn icon icon-danger icon-trash action-clear" title="Clear">Clear</button>
       <button id="btnRnd" class="btn">Rnd</button>
     </div>
     <div class="control-speed">
@@ -41,16 +41,16 @@
     </div>
   </div>
   <div id="controlPanelMini" class="control-panel-mini hidden">
-    <button id="btnCtrlOpen" class="btn mini icon-shift-left m-bottom-05" />
-    <button class="btn icon-play action-start" title="Start/Stop" />
-    <button class="btn icon-next action-step" title="Step" />
-    <button class="btn icon-clear action-clear" title="Clear" />
+    <button id="btnCtrlOpen" class="btn mini icon icon-primary icon-arrow-bar-left m-bottom-05" />
+    <button class="btn icon icon-primary icon-play action-start" title="Start/Stop" />
+    <button class="btn icon icon-primary icon-next action-step" title="Step" />
+    <button class="btn icon icon-danger icon-trash action-clear" title="Clear" />
   </div>
   <button id="btnPatterns" class="btn">Patterns</button>
   <div id="patternsPanel" class="patterns-panel drawer drawer-left">
     <div class="drawer-header">
       <h2 class="title">PATTERNS</h2>
-      <button id="btnClose" class="btn icon-close" />
+      <button id="btnClose" class="btn icon icon-primary icon-arrow-bar-left mini" />
     </div>
     <div class="patterns-panel-body">
       <form id="patternForm">
@@ -70,9 +70,9 @@
       </form>
       <div id="categoryDescription" class="patterns-category-description"></div>
       <div id="pageNav" class="patterns-page-nav">
-        <button id="btnPageNavPrev" class="btn" title="Prev">≪Prev</button>
+        <button id="btnPageNavPrev" class="btn icon icon-chevron-left" title="Prev">Prev</button>
         <span id="pageNums"></span>
-        <button id="btnPageNavNext" class="btn" title="Next">Next≫</button>
+        <button id="btnPageNavNext" class="btn icon-right icon-chevron-right" title="Next">Next</button>
       </div>
       <ul id="patterns" class="collection"></ul>
     </div>
