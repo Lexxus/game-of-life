@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   gd.canvas.width = w;
   gd.canvas.height = h;
-  gd.setX0Y0(Math.round(w / 2), Math.round(h / 2));
+  resetPosition();
 
   document.onselectstart = function() {
     return false;
@@ -99,13 +99,18 @@ document.addEventListener('DOMContentLoaded', () => {
     else zoomOut();
   });
 
+  document.getElementById('btnHome').onclick = () => {
+    resetPosition();
+    Life.refresh();
+  };
+
   renderPatternsPanel({
     onSave: handleSave,
     onPaste: handlePaste,
   });
 
   gd.canvas.onmousedown = function(e) {
-    if (!e.ctrlKey && allowDrawing) {
+    if (e.ctrlKey && allowDrawing) {
       const xy = gd.convertXY(e.pageX - this.offsetLeft, e.pageY - this.offsetTop);
 
       Life.createCell(xy.x, xy.y, true);
@@ -120,7 +125,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   gd.canvas.onmousemove = function(e) {
     if (isMoving) {
-      if (!e.ctrlKey && allowDrawing) {
+      if (e.ctrlKey && allowDrawing) {
         const xy = gd.convertXY(e.pageX - this.offsetLeft, e.pageY - this.offsetTop);
 
         Life.createCell(xy.x, xy.y, true, true);
@@ -135,7 +140,7 @@ document.addEventListener('DOMContentLoaded', () => {
       this.classList.remove('moving');
       isMoving = false;
     }
-    if (!e.ctrlKey && allowDrawing) return;
+    if (e.ctrlKey && allowDrawing) return;
     const byX = e.pageX - startX;
     const byY = e.pageY - startY;
 
@@ -145,15 +150,19 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     allowCycle = true;
   }
-  document.onkeydown = function(e) {
-    if (e.ctrlKey && allowDrawing) {
+  document.onkeydown = (e) => {
+    if (!e.ctrlKey && allowDrawing) {
       gd.canvas.classList.add('movable');
     }
   }
-  document.onkeyup = function(e) {
-    if (!e.ctrlKey && allowDrawing) {
+  document.onkeyup = (e) => {
+    if (e.ctrlKey && allowDrawing) {
       gd.canvas.classList.remove('movable');
     }
+  }
+
+  function resetPosition() {
+    gd.setX0Y0(Math.round(w / 2), Math.round(h / 2));
   }
 
   function handleStep() {

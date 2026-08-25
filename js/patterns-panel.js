@@ -255,8 +255,6 @@ export function renderPatternsPanel({ onSave, onPaste }) {
       ? patterns.filter((p) => ((Array.isArray(p.category) ? p.category.includes(categoryId) : p.category === categoryId) || (categoryId === 'other' && !p.category)))
       : patterns.filter((p) => query.length > 1 && p.name.toLowerCase().includes(queryLc));
 
-    console.log('Found %d patterns for category %s.', foundPatterns.length, categoryId);
-
     if (!category) {
       $description.innerHTML = `Search result for "<b>${query}</b>". Found <b>${foundPatterns.length}</b> patterns.`;
     } else {

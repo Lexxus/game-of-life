@@ -14,39 +14,42 @@
 
   <div id="controlPanel" class="control-panel opened">
     <div class="controls">
-      <button id="btnCtrlClose" class="btn mini m-right-05 icon icon-primary icon-arrow-bar-right" />
+      <button id="btnCtrlClose" class="btn mini m-right-05 icon icon-primary icon-arrow-bar-right" title="Hide control panel" />
       <button class="btn icon icon-play icon-primary action-start" title="Start/Stop" style="min-width: 71px">Start</button>
-      <button class="btn icon icon-next icon-primary action-step" title="Step">Step</button>
-      <button class="btn icon icon-danger icon-trash action-clear" title="Clear">Clear</button>
-      <button id="btnRnd" class="btn">Rnd</button>
+      <button class="btn icon icon-next icon-primary action-step" title="Step to next iteration">Step</button>
+      <button class="btn icon icon-danger icon-trash action-clear" title="Clear - remove all the cells">Clear</button>
+      <button id="btnRnd" class="btn" title="Put cells randomly">Rnd</button>
     </div>
     <div class="control-speed">
       <label>Speed: </label><input type="range" id="speed" min="1" max="50" value="3" />
-      <div class="speed-value" id="speedValue">50</div>
+      <span class="speed-value" id="speedValue">50</span>
     </div>
     <div class="info">
-      <label>Life cycle:</label><span id="life-cycle"></span><br />
-      <label title="live / total">Cells:</label><span id="cells"></span><br />
-      <label>Max cells:</label><span id="max-cells"></span><br />
-      <label>FPS:</label><span id="time"></span>
+      <div title="Current iteration"><label>Life cycle:</label><span id="life-cycle"></span></div>
+      <div title="Cells on the board: live / total"><label>Cells:</label><span id="cells"></span></div>
+      <div title="Maximum number of live cells"><label>Max cells:</label><span id="max-cells"></span></div>
+      <div title="minimum / current / maximum (how many iterations it would calculate in full gas)"><label>FPS:</label><span id="time"></span></div>
     </div>
     <div class="zoom">
       Zoom:
-      <button id="btnZoomOut" class="btn" style="border-radius: 6px 0 0 6px;">-</button>
-      <span id="zoomValue">6</span>
-      <button id="btnZoomIn" class="btn" style="border-radius: 0 6px 6px 0;">+</button>
+      <span>
+        <button id="btnZoomOut" class="btn zoom-btn" style="border-radius: 6px 0 0 6px;">-</button>
+        <span id="zoomValue" class="zoom-value">6</span>
+        <button id="btnZoomIn" class="btn zoom-btn" style="border-radius: 0 6px 6px 0;">+</button>
+      </span>
+      <button id="btnHome" class="btn icon icon-cross-hair" title="Move to the initial position" />
     </div>
     <div class="other-controls">
       <button id="btnSave" class="btn" title="Print current structure into browser's console in RLE format">Print pattern</button>
     </div>
   </div>
   <div id="controlPanelMini" class="control-panel-mini hidden">
-    <button id="btnCtrlOpen" class="btn mini icon icon-primary icon-arrow-bar-left m-bottom-05" />
+    <button id="btnCtrlOpen" class="btn mini icon icon-primary icon-arrow-bar-left m-bottom-05" title="Open control panel" />
     <button class="btn icon icon-primary icon-play action-start" title="Start/Stop" />
-    <button class="btn icon icon-primary icon-next action-step" title="Step" />
-    <button class="btn icon icon-danger icon-trash action-clear" title="Clear" />
+    <button class="btn icon icon-primary icon-next action-step" title="Step to next iteration" />
+    <button class="btn icon icon-danger icon-trash action-clear" title="Clear the field" />
   </div>
-  <button id="btnPatterns" class="btn">Patterns</button>
+  <button id="btnPatterns" class="btn" title="Open the panel with patterns library">Patterns</button>
   <div id="patternsPanel" class="patterns-panel drawer drawer-left">
     <div class="drawer-header">
       <h2 class="title">PATTERNS</h2>
@@ -78,8 +81,8 @@
     </div>
   </div>
   <footer class="footer">
-    <div class="help">Ctrl+LMouse to move the field</div>
-    <div class="about"><strong>Conway's Game of Life</strong> v2.0 <small>(by Oleksii Teterin, 2025)</small></div>
+    <div class="help">Ctrl+LMouse to draw cells</div>
+    <div class="about"><strong>Conway's Game of Life</strong> v2.1 <small>(by Oleksii Teterin, 2025)</small></div>
   </footer>
   <script type="module" src="js/index.js"></script>
 </body>
