@@ -98,14 +98,14 @@ body {
 }
 
 #btnPatterns {
-  background-color: #ffd;
+  background-color: #ddf;
   position: absolute;
   left: var(--pt-grid-size);
   top: var(--pt-grid-size);
 }
 
 .patterns-panel {
-  background-color: #fffff7;
+  background-color: #f5f5ff;
 }
 
 .patterns-panel-body {
