@@ -314,8 +314,7 @@ export function renderPatternsPanel({ onSave, onPaste }) {
         try {
           gd.context2d.scale(sc, sc);
         } catch(error) {
-          console.log('Scale:', sc, patternName);
-          console.error(error);
+          console.error('Pattern scaling failed:', sc, patternName);
         }
         img.src = canvas.toDataURL();
         $Patterns.appendChild($li);
