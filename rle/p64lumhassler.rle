@@ -1,0 +1,14 @@
+#N p64lumhassler.rle
+#C https://conwaylife.com/wiki/Period-64_lumps_of_muck_hasslers
+#C https://www.conwaylife.com/patterns/p64lumhassler.rle
+x = 47, y = 52, rule = B3/S23
+21b2o$21b2obo$25bo$22bo$23bob2o$25b2o3$20bo$19bobo2b2o$8bo2bo8bo2b3o3b
+2o$7bo4bo10b3o3b2o$6bo5bo$5b2ob2o28bo3bo$4bo7bo24bobobobo$3bo2b3obobo
+22b2o2bobo2b2o$4b3obob2o23b2ob2ob2ob2o$34bobo7bobo$4b3obob2o23bo2b2ob
+2o2bo$3bo2b3obobo$4bo7bo11b3o11b2ob2o$5b2ob2o12b2o2bo7bo2bobobobo2bo$
+6bo5bo9bo2b2o7bo3bo3bo3bo$7bo4bo9b3o$8bo2bo3$35bo2bo$22b3o9bo4bo$o3bo
+3bo3bo7b2o2bo9bo5bo$o2bobobobo2bo7bo2b2o12b2ob2o$4b2ob2o11b3o11bo7bo$
+34bobob3o2bo$bo2b2ob2o2bo23b2obob3o$obo7bobo$b2ob2ob2ob2o23b2obob3o$b
+2o2bobo2b2o22bobob3o2bo$3bobobobo24bo7bo$4bo3bo28b2ob2o$34bo5bo$16b2o
+3b3o10bo4bo$16b2o3b3o2bo8bo2bo$21b2o2bobo$26bo3$20b2o$20b2obo$24bo$21b
+o$22bob2o$24b2o!

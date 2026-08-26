@@ -1,0 +1,13 @@
+#N p92gourmetp152hybrid.rle
+#C https://conwaylife.com/wiki/Pi-heptomino_hasslers
+#C https://www.conwaylife.com/patterns/p92gourmetp152hybrid.rle
+x = 57, y = 32, rule = B3/S23
+33bo$31b3o$30bo$30b2o2$11b2o2b2o21bo$11bo2bo2bo19bobo$3bo8bob2obo19bob
+o$3b3o3b4obo2b2o17b2ob2o$6bobo7bo2bo$b3o2bob2ob3ob2obo17b2ob2o$o3bobo
+3bo5b3o16bobobo$o3b3o3bo6b2o17bo2bo3bo$bobobo3bo2b2obob2o18b2o3bobo6b
+2o$3bob6o3b2o2bo23bo2bo3bo2bo$bo2bo6b3o3bo23b2o3bo2b2obob2o$b2obob2o2b
+o3b2o24bo2b3o6bo2bo$4bo2bo3bo2bo25b2obo2b6obo$4b2o6bobo3b2o7b2o8b2o3bo
+b2o5bobobo$13bo3bo2bo6bobo6b3o3bo4bo3b2o3bo$17bobobo7bo6b2o6bo3bobobo
+3bo$16b2ob2o6bobo6b3ob5obobobo2b3o$27b2o8bo2bobo5bobo$16b2ob2o17b2o2bo
+b4o3b3o$17bobo19bob2obo8bo$17bobo19bo2bo2bo$18bo21b2o2b2o2$25b2o$26bo$
+23b3o$23bo!

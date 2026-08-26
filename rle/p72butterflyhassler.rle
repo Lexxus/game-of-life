@@ -1,0 +1,19 @@
+#N p72butterflyhassler.rle
+#C https://conwaylife.com/wiki/Butterfly_hasslers
+#C https://www.conwaylife.com/patterns/p72butterflyhassler.rle
+x = 101, y = 48, rule = B3/S23
+27bo$26bobo7bo$26bobo5b3o$24b2o2b2o3bo$23bo2b2o5b2o$23b3o3b4obo$26b2o
+2bo2bo20bo$25bo3bo23bobo$20bo4bobobo22bo3bo$20b3o30bo3bo$23bo2b3o25bo
+3bo23b2o$22b2o12b2o17bo3bo18b2obo2bo3bo2bo2bo$13b2o21bo19bobo20bob3obo
+2b7o$14bo19bobo20bo18b3o6bo13b2o$14bobo12bo4b2o40bo2b6ob11o2bo$3b2o10b
+2o11b3o11b2o33bo4bobobo5bo4bobo$2bo2bobo14bobo2bob3o10b2o36b2o3bo3b2o
+4bobob2o$o2bobob3o13bo2b3o2b2o34bob5o8b2o4bo2bo2bo5bo$4bo5bo16b2o2bo
+11bo14b3o13b2obo3b2o5bo6b2ob2o$ob2o5b2o17bob2o10bobo13bo2bo4bo9bo2bo8b
+o7bobo$bo27b2o10bo3bo15bo4bo9bo2bo8bo7bobo$41bo3bo14b2o12b2obo3b2o5bo
+6b2ob2o$41b2ob2o21bob5o8b2o4bo2bo2bo5bo$23b2ob2o52b2o3bo3b2o4bobob2o$
+23b2ob2o49bo4bobobo5bo4bobo$5b2ob2o66bo2b6ob11o2bo$5bo3bo66b3o6bo13b2o
+$5bo3bo10b2o27bo29bob3obo2b7o$6bobo10b2obo17b2o5b2obo27b2obo2bo3bo2bo
+2bo$7bo11bo2b2o16bo5bo35b2o$18b2o2b3o2bo13b3obobo2bo$7b2o10b3obo2bobo
+14bobo2bo$7b2o11b3o11b2o10b2o$15b2o4bo12bobo$14bobo19bo$14bo21b2o$13b
+2o12b2o$22b3o2bo$28b3o$21bobobo4bo$21bo3bo$17bo2bo2b2o$16bob4o3b3o$16b
+2o5b2o2bo$17bo3b2o2b2o$14b3o5bobo$14bo7bobo$23bo!

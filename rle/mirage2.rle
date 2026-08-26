@@ -1,0 +1,17 @@
+#N mirage2.rle
+#C https://conwaylife.com/wiki/Pure_glider_generator
+#C https://www.conwaylife.com/patterns/mirage2.rle
+x = 68, y = 46, rule = B3/S23
+17bo$14bo3bo3b2o$16bo3bo$15bo3bo3b2o$13bo3bo3bo$14bo3bo3bobo$16bo3bo$
+4bo10bo3bo$2bo3bo10bo3bo$bo3bo3bo8bo47bo$3bo3bo53bobo3bo$o3bo3bo52bo3b
+o$2bo3bo3bo53bo$bo3bo3bo52bo3bo$3bo3bo3bo51bo$4bo3bo29bo19bo$2bo3bo3bo
+12bo4bo6bo3bo3b2o7b2o3bo3bo$5bo3bo8bo6bo3bo7bo3bo13bo3bo$bobo3bo8bo3bo
+2bo3bo8bo3bo3b2o5b2o3bo3bo$3bo13bo3bo4bo7bo3bo3bo11bo3bo3bo$bo3bobo7bo
+3bo4bo3bo6bo3bo3bobo5bobo3bo3bo$18bo3bo2bo11bo3bo13bo3bo$16bo3bo6b2o7b
+o3bo6bobo6bo3bo$17bo3bo16bo3bo6bobo2bo3bo$9bo9bo5bo13bo7bo3bo5bo$7bo3b
+o4bobo4bo3bo16bo3bo$6bo3bo13bo3bo6bobo8bo3bo$8bo3bo9bo3bo11bo6bo3bo$5b
+o3bo3bo7bo3bo3bo6bo3bo2bo3bo3bo$7bo3bo11bo3bo7bo3bo4bo3bo3bo$6bo3bo2bo
+7bo2bo3bo8bo3bo4bo3bo$8bo17bo7bo3bo6bo3bo$36bo3bo6bo3bo$8bobo24bo3bo8b
+o$11bo25bo17bobo$9bo3bo43bobo$8bo3bo42bo3bo$10bo3bo37bo3bo$7bo3bo42bo
+3bo$9bo3bo39bo3bo$8bo3bo38bo3bo3bo$10bo41bo3bo3bo$54bo3bo$53bo3bo$55bo
+3bo$56bo!

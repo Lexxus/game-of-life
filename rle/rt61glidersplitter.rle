@@ -1,0 +1,12 @@
+#N rt61glidersplitter.rle
+#C https://conwaylife.com/wiki/Speed_tunnel
+#C https://www.conwaylife.com/patterns/rt61glidersplitter.rle
+x = 81, y = 33, rule = B3/S23
+17b2ob2o$18bobo$bo11b2obo5bob2o19bo25bo$2bo9bobob2o3b2obobo9bo8b3o22b
+obo$3o8bo6bobo6bo8b3o9bo21bob3o$11b7o3b7o11bo7b2o18b2obo4bo$38b2o27bo
+bobobobo$13b3o7b3o43bobob2o4b2o$12bo2bo3bo3bo2bo41bobo8bo$12b2o4bobo4b
+2o42bo7bobo$18bobo56b2o$19bo2$66b2o$53bo11bo2bo$26b2o24bobo11b2o$26b2o
+23bo2bo$52b2o$15bobo$16b2o31b2o$16bo21b2o8bobo$34bo3b2o8bo25b2o$17b2o
+5b2o7bobo11b2o12b2o10bobo$16bo2bo4bobo5bobo22b2obobo10b2o$12b2o3bobo6b
+o5bo24bob2obobo$8b2obobo4bo7b2o3b2o30b2o3b2o3b4o$9bobo9b2o45b2o4bo2bo
+$8bo2b2o8bo50bo3b2o$9b2o11b3o47b2o$11b2o11bo$11bo$12bo$11b2o!

@@ -1,0 +1,23 @@
+#N p73trafficlightpredecessorhassler.rle
+#C https://conwaylife.com/wiki/P73_lumps_of_muck_hassler
+#C https://www.conwaylife.com/patterns/p73trafficlightpredecessorhassler.rle
+x = 90, y = 90, rule = B3/S23
+24bo$24b3o$27bo$26b2o2$30bo$28b3o$35bo$27bo4bob3o$28bo4bo3bo7bo$29b3o
+3b2o7bobo3b2o$31bob3o9bo4bobo$34bo17bo$51b2ob2obo$36b2o16bob2o$35bo2bo
+15bo$26b2o8b2o5b2o8b2o$26bo15bo2bo$23b2obo16b2o$23bob2ob2o$28bo17bo$
+28bobo4bo9b3obo$29b2o3bobo7b2o3b3o$18b2o15bo7bo3bo4bo$2o16bo25b3obo4bo
+$bo17bo25bo$bobo12b4o30b3o$2b2o4bo7bo33bo$6bo2bo9b3o$6bo3bo8bo2bo30b2o
+$5b2o3bo10b2o30bo$10b2o42b3o$8bo47bo18b2o$9bobo45b2o16bo$8bo2b2o9bo35b
+o17bo$7b2ob2o3bo5bobo34bobo12b4o$8bobo3bobo5bo36b2o4bo7bo$9bo4bobo46bo
+2bo9b3o$15bo27b3o17bo3bo8bo2bo$42bo19b2o3bo10b2o$42b3o22b2o$65bo$17bo
+21b2o25bobo$16bobo4bo14bobo24bo2b2o9bo$10bo5bobo3bobo13bobo10bo12b2ob
+2o3bo5bobo$9bobo5bo3b2ob2o12bo10bobo13bobo3bobo5bo$10bo9b2o2bo24bobo
+14bo4bobo$21bobo25b2o21bo$24bo$21b2o22b3o$10b2o10bo3b2o19bo$10bo2bo8bo
+3bo17b3o27bo$11b3o9bo2bo46bobo4bo$16bo7bo4b2o36bo5bobo3bobo$13b4o12bob
+o34bobo5bo3b2ob2o$13bo17bo35bo9b2o2bo$14bo16b2o45bobo$13b2o18bo47bo$
+33b3o42b2o$36bo30b2o10bo3b2o$35b2o30bo2bo8bo3bo$68b3o9bo2bo$39bo33bo7b
+o4b2o$37b3o30b4o12bobo$44bo25bo17bo$36bo4bob3o25bo16b2o$37bo4bo3bo7bo
+15b2o$38b3o3b2o7bobo3b2o$40bob3o9bo4bobo$43bo17bo$60b2ob2obo$45b2o16bo
+b2o$44bo2bo15bo$35b2o8b2o5b2o8b2o$35bo15bo2bo$32b2obo16b2o$32bob2ob2o$
+37bo17bo$37bobo4bo9b3obo$38b2o3bobo7b2o3b3o$44bo7bo3bo4bo$53b3obo4bo$
+54bo$59b3o$59bo2$62b2o$62bo$63b3o$65bo!

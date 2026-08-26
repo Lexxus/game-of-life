@@ -1,0 +1,12 @@
+#N 200cellprepulsarshuttle26.rle
+#C https://conwaylife.com/wiki/P26_pre-pulsar_shuttle
+#C https://www.conwaylife.com/patterns/200cellprepulsarshuttle26.rle
+x = 37, y = 37, rule = B3/S23
+16bo3bo$10b2o4bo3bo4b2o$10bo5bo3bo5bo$7b2obo15bob2o$6bobob2o13b2obobo
+$6bobo5b3o3b3o5bobo$4b2o2bo5bobo3bobo5bo2b2o$3bo4b2o4b3o3b3o4b2o4bo$3b
+5o21b5o$7bo21bo$b4o27b4o$bo2bo27bo2bo2$15b2o3b2o$5b3o8bo3bo8b3o$5bobo
+5bo9bo5bobo$3o2b3o5b2o7b2o5b3o2b3o4$3o2b3o5b2o7b2o5b3o2b3o$5bobo5bo9b
+o5bobo$5b3o8bo3bo8b3o$15b2o3b2o2$bo2bo27bo2bo$b4o27b4o$7bo21bo$3b5o21b
+5o$3bo4b2o4b3o3b3o4b2o4bo$4b2o2bo5bobo3bobo5bo2b2o$6bobo5b3o3b3o5bobo
+$6bobob2o13b2obobo$7b2obo15bob2o$10bo5bo3bo5bo$10b2o4bo3bo4b2o$16bo3b
+o!

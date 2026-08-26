@@ -1,0 +1,10 @@
+#N grandfatherproblem22x22.rle
+#C https://conwaylife.com/wiki/Grandfather_problem
+#C https://www.conwaylife.com/patterns/grandfatherproblem22x22.rle
+x = 22, y = 22, rule = B3/S23
+4o11bobob3o$2o2b2ob3o5bo3bobo$2obob4o2bobo3b3obo$obob4ob3o3bob2obo$ob
+2ob2o4bob9o$ob3o2b4ob8obo$2ob3ob4o2bob3ob2o$3o2b3obobobobob2ob2o$2ob3o
+4bo2bo2bobo2bo$obo2bobob3obo3bo3bo$2ob4obob7ob2o$bobobo3b3obobob3obo$
+7obobo4bo2b3o$b5obo2b8o$2bob2ob5o2bobob2o$o2b2obo2b5o2b3obo$3bob3ob3o
+3b3obo$2b7o2b6obo$2b2ob2o3bob4ob3obo$o4bob6ob3obobo$obob3o3bobo2b3obob
+o$b2o3bob2o2bob2obo3bo!

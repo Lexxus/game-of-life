@@ -1,0 +1,18 @@
+#N 409p7.rle
+#O Matthias Merzenich, 2024
+#C https://conwaylife.com/wiki/409P7
+#C https://www.conwaylife.com/patterns/409p7.rle
+x = 25, y = 67, rule = B3/S23
+12bo$10bo3bo2$9bo5bo$9b2obob2o$10bobobo$11b3o$3b2o2b2o7b2o2b2o$3bo2bo
+b9obo2bo$2obob2obo7bob2obob2o$o2bo2bo2b7o2bo2bo2bo$2bobo3b2o5b2o3bobo
+$3bo4bobo3bobo4bo$9b2o3b2o$9bob3obo$10b5o4$9b2o3b2o$10b2ob2o$8b3o3b3o
+$7bo9bo$6bob2o5b2obo$6bo3bo3bo3bo$2b2o3bo9bo3b2o$2bo2bobobo5bobobo2bo
+$4b2obo2b5o2bob2o$5bob2o2b3o2b2obo$4bo2bo9bo2bo$4b2obo9bob2o$2b2o17b2o
+$bo2b5o7b5o2bo$2bobo2bo9bo2bobo$b2o2bo4b5o4bo2b2o$3bobobo9bobobo$3bob
+obo9bobobo$4bobo2bob3obo2bobo$6bob3obob3obo$5b2obo7bob2o$4bo15bo$4b2o
+bo2b5o2bob2o$7bo9bo$4b3o2bo5bo2b3o$3bo2bobobo3bobobo2bo$3b2o2b11o2b2o
+$12bo$3b5o9b5o$2bo4bo9bo4bo$3b3o2bo7bo2b3o$5b2o3bobobo3b2o$9bo5bo$9bo
+b3obo$12bo$3b2o4bo5bo4b2o$3bo2bo2b2o3b2o2bo2bo$2obobobo9bobobob2o$bo2b
+3o11b3o2bo$bo10bo10bo$2b5o4bobo4b5o$7bo3bobo3bo$4b3o3b2ob2o3b3o$4bo2b
+o9bo2bo$2bobob2o2b2ob2o2b2obobo$2b2o2bo4bobo4bo2b2o$6bobo2bobo2bobo$7b
+2o3bo3b2o!

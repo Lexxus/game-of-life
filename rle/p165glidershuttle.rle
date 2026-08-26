@@ -1,0 +1,11 @@
+#N p165glidershuttle.rle
+#O Robert Wainwright, 1989
+#C https://conwaylife.com/wiki/P165_glider_shuttle
+#C https://www.conwaylife.com/patterns/p165glidershuttle.rle
+x = 86, y = 70, rule = B3/S23
+19bo$18bobo$17bo3bo$17bo3bo$17bo3bo$17bo3bo$17bo3bo$17bo3bo$18bobo$19b
+o7$4b2o6b2o$2bo4bo2bo4bo$2bo4bo2bo4bo$2bo4bo2bo4bo$4b2o6b2o$34bo2b2o4b
+2o2bo$33bo3b3o2b3o3bo$34bo2b2o4b2o2bo7$40b2o$38bobobo$36bobobo$37b2o7$
+31bo2b2o4b2o2bo$30bo3b3o2b3o3bo$31bo2b2o4b2o2bo$65b2o6b2o$63bo4bo2bo4b
+o$63bo4bo2bo4bo$63bo4bo2bo4bo$65b2o6b2o7$59bo$58bobo$57bo3bo$57bo3bo$
+57bo3bo$57bo3bo$57bo3bo$57bo3bo$58bobo$59bo!

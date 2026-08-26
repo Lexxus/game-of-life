@@ -1,0 +1,12 @@
+#N p390gliderguntype1img.rle
+#C https://conwaylife.com/wiki/Intermitting_glider_gun
+#C https://www.conwaylife.com/patterns/p390gliderguntype1img.rle
+x = 66, y = 45, rule = B3/S23
+22bo$22b4o$6bo16b4o5b2o$5bobo5b2o8bo2bo5b2o$3b2o3bo14b4o$3b2o3bo4bobob
+2o3b4o17bo$3b2o3bo5b2o3bo2bo17b4o$5bobo10bo20b4o16bo$6bo8bo2bo13b2o5bo
+2bo8b2o5bobo$32b2o5b4o14bo3b2o$40b4o3b2obobo4bo3b2o$3bo39bo2bo3b2o5bo
+3b2o$b2ob2o19bo21bo10bobo$26bo20bo2bo8bo$o5bo17b3o2$2obob2o55bo$30bo9b
+o19b2ob2o$29b3o7bo$28b2ob2o6b3o17bo5bo$27b3o$28bob2o27b2obob2o$29b2o$
+30bo2$3b2o$3b2o4$34b3o24b2o$36bo24b2o$35bo4$16bo8bo2bo$15bobo10bo$13b
+2o3bo5b2o3bo2bo$8b2o3b2o3bo4bobob2o3b4o$8b2o3b2o3bo14b4o5b2o$15bobo5b
+2o8bo2bo5b2o$16bo16b4o18bo$32b4o20bo$32bo21b3o!

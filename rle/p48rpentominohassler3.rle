@@ -1,0 +1,10 @@
+#N p48rpentominohassler3.rle
+#C https://conwaylife.com/wiki/Period-48_R-pentomino_hasslers
+#C https://www.conwaylife.com/patterns/p48rpentominohassler3.rle
+x = 40, y = 34, rule = B3/S23
+26b2o$24b2obo$23bo2bo$23bo2bo4bo$23bo2bo3bobo$24b3o3b2o2$24b3o3b2o$23b
+o2bo3bobo$23bo2bo4bo$23bo2bo$2b2ob2o17b2obo$3bobo11bo8b2o$3bo11bobo$2o
+bo2bo8b3o16bo$bobob3o26b3o$bob2o3bo23b2o3bo$2bo3b2o23bo3b2obo$3b3o26b
+3obobo$5bo16b3o8bo2bob2o$22bobo11bo$12b2o8bo11bobo$12bob2o17b2ob2o$13b
+o2bo$8bo4bo2bo$7bobo3bo2bo$8b2o3b3o2$8b2o3b3o$7bobo3bo2bo$8bo4bo2bo$
+13bo2bo$12bob2o$12b2o!

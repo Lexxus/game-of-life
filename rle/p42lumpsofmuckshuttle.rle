@@ -1,0 +1,11 @@
+#N p42lumpsofmuckshuttle.rle
+#C https://conwaylife.com/wiki/Lumps_of_muck_hasslers
+#C https://www.conwaylife.com/patterns/p42lumpsofmuckshuttle.rle
+x = 42, y = 29, rule = B3/S23
+22b2o$22b2o3$22b3o$17b2o2bob2o8b2o$7b2o8b2o2b2o8b3o6b2o$2o6b3o10b2o7bo
+4bo5bo$o5bo4bo19b4obob3o$b3obob4o20bo4bobo$3bobo4bo22bobobo$4bobobo21b
+2o2b2o$6b2o2b2o4b3o6bo3b3o2b2o3bo$2bo3b2o2b3o3bo2b2o2bo2bo2b3o2b3obobo
+$bobob3o2b3o3b2o2bo3b2o3b3o2b3obobo$bobob3o2b3o5b3o8b3o2b2o3bo$2bo3b2o
+2b3o17b2o2b2o$6b2o2b2o21bobobo$4bobobo22bo4bobo$3bobo4bo20b4obob3o$b3o
+bob4o19bo4bo5bo$o5bo4bo8b4o7b3o6b2o$2o6b3o8bo4bo8b2o$7b2o9bobo3bo$17bo
+bo3bo$17bo$17bo$17bo2bo$18b2o!

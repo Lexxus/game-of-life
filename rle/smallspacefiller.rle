@@ -1,0 +1,10 @@
+#N smallspacefiller.rle
+#C https://conwaylife.com/wiki/Spacefiller
+#C https://www.conwaylife.com/patterns/smallspacefiller.rle
+x = 49, y = 26, rule = B3/S23
+20b3o3b3o$19bobbo3bobbo$4o18bo3bo18b4o$o3bo17bo3bo17bo3bo$o8bo12bo3bo
+12bo8bo$bobbobboobbo25bobboobbobbo$6bo5bo7b3o3b3o7bo5bo$6bo5bo8bo5bo8b
+o5bo$6bo5bo8b7o8bo5bo$bobbobboobbobboo4bo7bo4boobbobboobbobbo$o8bo3boo
+4b11o4boo3bo8bo$o3bo9boo17boo9bo3bo$4o11b19o11b4o$16bobo11bobo$19b11o$
+19bo9bo$20b9o$24bo$20b3o3b3o$22bo3bo$$21b3ob3o$21b3ob3o$20bobooboobo$
+20b3o3b3o$21bo5bo!

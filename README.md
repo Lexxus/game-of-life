@@ -8,7 +8,7 @@
 ## Feature
 
 * Unlimited grid size.
-* Library of cells structure patterns.
+* Library of structure patterns.
 
 ## Run locally
 
@@ -17,3 +17,4 @@ node server.mjs
 ```
 
 Open in the browser http://localhost:3000/
+

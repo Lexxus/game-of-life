@@ -1,0 +1,11 @@
+#N p48piheptominoshuttle.rle
+#C https://conwaylife.com/wiki/Pi-heptomino_hasslers
+#C https://www.conwaylife.com/patterns/p48piheptominoshuttle.rle
+x = 43, y = 21, rule = B3/S23
+26bo$10bo13b3o5bo$9bobo11bo7bobo$6bo2bobo11b2o6bobo2bo$5bobobob2o17b2o
+bobobo$4bobobobo2bo15bo2bobobobo$4bo3bo3bo17bo3bo3bo$2bobobobob2obo15b
+ob2obobobobo$bobobo2bob2o19b2obo2bobobo$bobobo3bo3b2o5b3o5b2o3bo3bobob
+o$2obo3bob2o2b3o3bo3bo3b3o2b2obo3bob2o$bobobo3bo3b2o4b2ob2o4b2o3bo3bob
+obo$bobobo2bob2o19b2obo2bobobo$2bobobobob2obo15bob2obobobobo$4bo3bo3bo
+17bo3bo3bo$4bobobobo2bo15bo2bobobobo$5bobobob2o17b2obobobo$6bo2bobo6b
+2o11bobo2bo$9bobo7bo11bobo$10bo5b3o13bo$16bo!

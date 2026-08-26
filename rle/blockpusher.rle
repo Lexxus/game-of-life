@@ -1,0 +1,30 @@
+#N blockpusher.rle
+#C https://conwaylife.com/wiki/Block_pusher
+#C https://www.conwaylife.com/patterns/blockpusher.rle
+x = 137, y = 145, rule = B3/S23
+40b2o$38bo2bo$37bo$37bo$27b2o8bo$15b2o9bo2b3o6bo2bo2b2o3b4o16b2o$15bo
+11b2o11b2o2bo4b2o2bo14bo$49b4o14bo$58bo8bo9b2o$57bo9bo9bo$57b3o8bo$
+69b2o$34b2o$34bo$32bobo$32b2o$27bo39b2o$9bo16b5o37bo$7b3o17bob2o37bob
+o$2o5bo2bo22b2o34b2o8bo$o6b3o23bo45b3o$9bo68bo2bo7b2o$33bo2bo42b3o7bo
+bo3bo$23b2o7bo2bo32b2o9bo10b2ob2o6b2o$5b2o16bo8bobo34bo24b2o5bo$5bo
+27bo17b2o$47b4o4b2o9bo2bo$33b2o12b3ob2o2bo11bo2bo$33bo18bo15bobo6b2o$
+69bo7bo$6bo37b2o$6bobo36bo22b2o$6b2o37bobo20bo$46b2o$58b2o5b2o$6b2o
+46b2o2bobo4bo$6bobo44bobo2bo20b2o11b2o10b2o$7b2o44b2o24bo2bo6b3o2bo9b
+o$19bo63bo8b2o$19b3o61bo$22bo60bo$21b2o49b2o5bo2bo$71bobo5b2o$71bo$
+70b2o$47b2o$47bo$5b2o3b2o9bo5bo$5bo5bo9bo5bo$22bo3bo$6bo3bo12b3o90b2o
+$7b3o84bo21bo$74bo18bobo18bobo$72b3o7b2o12b2o6b2o8b2o$71bo10bo10b3o8b
+obo2bo$71b2o32b2o2bobo$109b2o2$8b2o104b2o$8bo14b2o89bo$23bo46bo$68bob
+o56b2o$34bo34b2o56bo$34b3o31b2o$15bo2bo18bo30b2o$10b2o2b2o3bo16b2o29b
+obo$10bo8bo47b2o42bo5bo10bo$5b2o8b4o92bo5bo10bo$5bo106bo3bo11bo$113b
+3o11bobo$28bo98bobo$26b3o42b2o55bo$25bo45bo$25b2o45b3o$38bobo33bo$38b
+o2bo$38bobo$39bo5b2o$20bo5bo12bo4bobo81bo$4b3o13bo5bo17bo67bo14bo$4bo
+bo14bo3bo17b2o66b3o13b3o$22b3o4bo81b3o$5bo23b3o$4bobo25bo6b2o68b2o3b
+2o$31b2o6bo69bo5bo11b2o3b2o$127bo5bo$6b3o$6b3o119bo3bo$5bo3bo119b3o$
+4bo5bo$5bo3bo99b2o$6b3o13bo87bo$21b3o10bo72b3o$22b2o9bobo71bo$33bobo
+96b3o$20bo12b3o96b3o$18b2obo11b3o95bo3bo$19b2o109bo5bo$131bo3bo$132b
+3o$31b2o83bo$7b2o23bo79b2o2b2ob3o$7bo21b3o45b2o33bo5b4o$29bo46bobo37b
+2o$20b2o56bo$20bo$54b2o$54bo$39bo58bo$38b2obo55bo$27b2o9bo3bo54b3o32b
+o$27bo10b2obo88bobo$39bo6b2o7bo75b2o$46bobo6bobo72b2o$48bo6b2o73b2o$
+48b2o79bobo$129b2o$55b2o49b2o$55bobo48bo$56b2o2$133b2o$133bo$134b3o$
+136bo$52b2o$53bo$50b3o$50bo5$67bo$66b2o$66bobo2$60b2o$60bob2obo$52b2o
+7b4o$52bo11b3o$71b2o$71bobo$73bo$73b2o!

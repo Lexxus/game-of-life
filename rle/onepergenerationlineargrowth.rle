@@ -1,0 +1,10 @@
+#N onepergenerationlineargrowth.rle
+#C https://conwaylife.com/wiki/One_per_generation
+#C https://www.conwaylife.com/patterns/onepergenerationlineargrowth.rle
+x = 53, y = 54, rule = B3/S23
+41bo$40bo$36bo3b3o$34b2o$35b2o11$47bobo$47b2o$48bo3$27b2o$26b2o$28bo
+22bo$30b2o5bo7bo4bo$29bo6b2o6bo5b3o$36bobo5b3o$28bo2bo$20b2o5b2o2bobo$
+19b2o5bo5bobo$21bo4bobo4bobo$23b2o2bo6bo$23b2o$27bo$26bobo$27bobo$3bo
+24bobo$3b2o24bo$2bobo19b2o$23b2o21b3o$25bo20bo$47bo$b2o$obo$2bo2$24b2o
+21b2o$23bobo19b2ob2o$15b2o8bo12b2o5b4o$14bobo21bobo5b2o$16bo21bo2$23b
+2o$22bobo$24bo!

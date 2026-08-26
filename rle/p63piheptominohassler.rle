@@ -1,0 +1,18 @@
+#N p63piheptominohassler.rle
+#C https://conwaylife.com/wiki/Lumps_of_muck_hasslers
+#C https://www.conwaylife.com/patterns/p63piheptominohassler.rle
+x = 59, y = 58, rule = B3/S23
+19bob2o4b2obo$19b2o2bo2bo2b2o$17b2o3bo4bo3b2o$16bo3b2ob4ob2o3bo$17b3ob
+obo2bobob3o$19bobob4obobo$21bo2b2o2bo$22b2o2b2o3$20b2o6b2o$20bobo4bobo
+$21b2o4b2o$24b2o$19b5o2b5o$18bo12bo$19b3o6b3o$22bo4bo$3b2o5bo8b3ob4ob
+3o8bo$bo2bo4bo8bo2bo6bo2bo5b3o$10bo2b2o3b2o10b2o4bo13bo4b2o$7b2obobo2b
+o6bo4bo8b2o10bobo4bobo$bo4b2o2b2o4bo7b2o20bo2bo6b3o$2bo2bobob2o34b3obo
+bo5b2o$3b2o2bo36b2o3b4o3b2o$8bo4bo2bo26b2o5bobob3o$7bo5b2o28b3o6bo2bo$
+23b2ob2o16bobo4bobo$23bo3bo4b3o10b2o4bo$7bo4b2o10b3o4bo3bo$5bobo4bobo
+16b2ob2o$3bo2bo6b3o28b2o5bo$2b3obobo5b2o26bo2bo4bo$b2o3b4o3b2o36bo2b2o
+$2o5bobob3o34b2obobo2bo$3o6bo2bo20b2o7bo4b2o2b2o4bo$bobo4bobo10b2o8bo
+4bo6bo2bobob2o$2b2o4bo13bo4b2o10b2o3b2o2bo$19b3o5bo2bo6bo2bo8bo4bo2bo$
+19bo8b3ob4ob3o8bo5b2o$31bo4bo$28b3o6b3o$27bo12bo$28b5o2b5o$33b2o$30b2o
+4b2o$29bobo4bobo$29b2o6b2o3$31b2o2b2o$30bo2b2o2bo$28bobob4obobo$26b3ob
+obo2bobob3o$25bo3b2ob4ob2o3bo$26b2o3bo4bo3b2o$28b2o2bo2bo2b2o$28bob2o
+4b2obo!

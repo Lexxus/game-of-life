@@ -1,0 +1,17 @@
+#N growingspaceshipc2andc5.rle
+#C https://conwaylife.com/wiki/Growing_spaceship
+#C https://www.conwaylife.com/patterns/growingspaceshipc2andc5.rle
+x = 39, y = 65, rule = B3/S23
+7b3o4b3o5b3o4b3o$7bo2bo2bo2bo5bo2bo2bo2bo$b3o3bo9bo3bo9bo3b3o$o2bo3bo
+4bo2bobo3bobo2bo4bo3bo2bo$3bo3bo3bobobob2ob2obobobo3bo3bo$3bo3bo3bo2b
+o2bo3bo2bo2bo3bo3bo$obo4bo4b6o3b6o4bo4bobo$7bo3b4obobobobob4o3bo$7bo
+3bo5b2ob2o5bo3bo$7bo9b2ob2o9bo$8bobo17bobo$18bobo$18bobo$11bobo2bobob
+obo2bobo$10b4o2bobobobo2b4o$14bobo5bobo$11b4obo5bob4o$10b5o2bo3bo2b5o
+$14b2o7b2o$14b2o7b2o$15b3o3b3o$18bobo$15b2obobob2o$15b3obob3o$19bo$
+18bobo$14bo3bobo3bo$13b2o9b2o$12bobob3ob3obobo$10b3o2bo2bobo2bo2b3o$
+10b2o4b2o3b2o4b2o$10b2o6bobo6b2o$11bo3b2obobob2o3bo$10b2ob2o3bobo3b2o
+b2o$10bo2bo3b2ob2o3bo2bo$9bobo15bobo$10bo3b4o3b4o3bo$14bob7obo$14bob
+7obo$18bobo$17b2ob2o$16bo5bo$14bob3ob3obo$12b2o11b2o$15bob2ob2obo$19b
+o$19bo$16b7o$18bobo$17bo3bo$18bobo$17b2ob2o$18b3o$18b3o2$16b2obob2o$
+16b3ob3o$15b2o5b2o$15b3o3b3o$14b2o7b2o2$14bo2bo3bo2bo$13b2o2b2ob2o2b
+2o$13b2o2b2ob2o2b2o$13bo2bo5bo2bo!

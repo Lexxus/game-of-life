@@ -1,0 +1,14 @@
+#N p24gliderlesslwssgun.rle
+#O Matthias Merzenich, 2023
+#C https://conwaylife.com/wiki/P24_gliderless_LWSS_gun
+#C https://www.conwaylife.com/patterns/p24gliderlesslwssgun.rle
+x = 39, y = 39, rule = B3/S23
+24b2o3b2o$2b2obo2bo15bobobo2bo$o2bob4o17bob4o$2o24bo2bo2b2o$4bob2obo9b
+2o3bobo3b2o2bo$2ob4ob2o9bo3b3o7b2o$o3bo12bobobob2o$b4o11bobo2bob2o$5b
+2o3b2o4bobob3o$3b4o3bobob2obobo$2bo3bo5bobo2bo12bo2bobo$bobo8bo3b2o10b
+2obob3o$bo2b2o3b3o8b2o7bo6bo$2b2obo4b2o8b2o6b2o5bo$5b3o4b3o5bo$6b2ob2o
+3b2o5bo7bo5b2o$b2ob2obob2o3b2o6b2o4bo6bo$obobo9b2o6b3o4b3obob2o$bo3b6o
+3bo14bobo2bo$7bo3bo9b2o$10bo10bo$10bo3bo6bo$6bo8bo$7b2o2bo3bo6bo2bo8b
+o2bo$5b2o9b2o8bo11bo$7bo5bo4bo3bo3bo7bo3bo$12bobo3bo4b4o8b4o$13bo4bo$
+7b2o3bo3b2o$6bobo3bo2bo$6bo4bo3bo$5b2o5bo2$8b2o8b2o$8bo2b6o2bo$9b2o6b
+2o$6b3o10b3o$6bo2bobo4bobo2bo$7b2o4b2o4b2o!

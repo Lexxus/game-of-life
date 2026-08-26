@@ -1,0 +1,11 @@
+#N piheptominoequivalents.rle
+#C https://conwaylife.com/wiki/Pi-heptomino
+#C https://www.conwaylife.com/patterns/piheptominoequivalents.rle
+x = 116, y = 200, rule = B3/S23
+71b3o$70bo3bo$70b2ob2o8$62bo9bo$60b2ob2o6b3o$60b2ob2o5b2ob2o8$62bo9bo
+19bo$b3o57bobo7bobo17bobo7b3o7b3o$2ob2o55b2ob2o5bo3bo15bo3bo6bo2bo6bo
+2bo$71bobo16bo3bo6bo3bo4bo4bo7$12bo9bo$b2obo6bobo7bobo37b3o7b3o$bobo7b
+obo7bo2bo36bobo7b3o$bobo7bobo7bo2bo36bobo7bobo7$o3bo$4bo6b3o18bo19bo9b
+o9bo9bo$b3o7b2o18b3o17b3o7b3o7b3o7b3o$b2o30bo17bo2bo6bobo$12b2o18bo39b
+o8bobo7$11bo2bo$11b2obo26b3o7b3o7b3o7b3o$12bo27bo3bo6bo2bo6bo2bo7bo$
+12b2o29bo10bo16bobo141$10b3o$9bo2bo$13bo$12b2o$12bo!

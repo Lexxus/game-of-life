@@ -1,0 +1,33 @@
+#N period56glidergun.rle
+#C https://conwaylife.com/wiki/P7_pipsquirter
+#C https://www.conwaylife.com/patterns/period56glidergun.rle
+x = 152, y = 145, rule = B3/S23
+71b2o$71b2o$57bo$57b3o$60bo9bob2o$59b2o9bobo$71bo$64bo6b2o$63bobo5b2o
+$63bo2bo4b2o$64b2o13b2o$78bobo$77b3o14bo$77b2o13b3o$80b2o9bo$79b3o9b
+2o$58b2o$57bobo9bobo15bo$59bo10b2o7b2o6bo$70bo8b2o4b3o5$69b2o13bo$69b
+obo10b2o$71bo11b2o$71b2o2$69b4o21b3o$44b2o23bo2bo21bo$43bobo24bo14b2o
+bo6bo$45bo21b3o15b2ob3o$67bo23bo$85b2ob3o$86bobo$72b2o2b3o7bobo$76b3o
+8bo$76b2o$75b2o$75bo3$108b3o$30b2o76bo$29bobo44b2o31bo$31bo32b2o9bobo
+4b2o$65bo11bo4b2o$65bobo14b2o$66b2o14bo$69b2o10bobo$69b2o10bob2o$71b
+3o$2bo65b2o2bo$b3o49bo2bo2bo8b2ob3o8b2o$3obo48b7o2bo6b2o11b2o$bo3bo
+54b3o7bo2b2o$2bo3bo48b2obo12b3o48b3o$3bob3o8b2o36bo3b3o11bo49bo$4b3o
+8bobo36bobo4bo61bo$5bo11bo35b2ob5obo$9bo44bo5bobo4b2o15b2o$8bobo43bo
+2b3o2b2o3b2o15bobo$9b2o42b2ob2obobo24bo$5b2o48bobobobo24b2o$4bobo48bo
+bobob2o80bo2b2o$4bo5b2o40b2obo4bo81bo3b2o2b2o$3b2o5b2o40bo2b2obobo81b
+o7b2o$54bo5b2o81b4o$55b4o3bo$59bob2o$57b2o3bo5b3o8b2o55b3o$23b2o33bob
+2o5bobo9bo56bo$22b2o34bobo6bo2bo6bobo57bo$24bo32b2o2bo5bo2bo6b2o63b2o
+$60b2o6bobo70bo2bo$67bo2bo69b2ob2o$55b2o11b2o72bo$54b3o11bo77b2o$53bo
+bo2bo2b2o22bo2bo2bo54bobo$53b2o2b2o2b2o19bo2b7o56bo$57b2o23b3o63b2o$
+86bob2o40bo$84b3o3bo39b2o$83bo4bobo38bobo$82bob5ob2o$37b2o26bo16bobo
+5bo$36b2o25b2o11b3o2b2o2b3o2bo$38bo25b2o10b3o4bobob2ob2o$76b2o5bobobo
+bo$49bo25bo6b2obobobo$49b3o21b2o2bo6bo4bob2o$52bo21bo3bo5bobob2o2bo$
+51b2o21bo2bo5b2o5bo$52b3o20b3o4bo3b4o$53b3o26b2obo$52b5o7b2o16bo3b2o
+28bo$51b2o3b2o7bo17b2obo29b2o$50b3o3b3o6bobo16bobo28bobo$51b2o3b2o8b
+2o15bo2b2o$52b5o4b2o20b2o$53b3o5bobo$54bo8bo$63b2o18bo2b2o$82bo3b2o2b
+2o$50bo31bo7b2o$49bobob2o28b4o$49bobobobo18b2o$46b2obobobobo2bo17b2o$
+46bo2bo2b2ob4o11b2o5bo$48b2o4bo14bo7bo24bo$54bobo12bo6bo25b2o$55b2o
+12bo3b2o26bobo8$80bo8bo$61b2o15b3o6bobo$60bo2bo5b2o6bo10b2o$63bo4b2o
+7b2o$63bo6bo$60b2obo22b2o$60b2o11b2o11b2o2b2o$70b2o2bo15bobo$70bo2bo
+17bo$61b2o8b3o20b3o$61b2o19b2o4b2o3bo$82bo6bo3bo3bo$80bobo3b3o4bo2bob
+o$80b2o4bo8bobo2bo$96bo3bo$100bo$97b3o$67b2o$68bo$65b3o$65bo$70b2o3b
+2o$71bo3bo8bo$68b3o5b3o6bo$68bo9bo4b3o!

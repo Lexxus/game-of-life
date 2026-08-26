@@ -1,0 +1,16 @@
+#N p28centuryhassler.rle
+#C https://conwaylife.com/wiki/Century_hassler
+#C https://www.conwaylife.com/patterns/p28centuryhassler.rle
+x = 49, y = 49, rule = B3/S23
+13b2o19b2o$13bobo2b2o9b2o2bobo$10bo4bo3bo9bo3bo4bo$10b5ob3o11b3ob5o$14b
+obo15bobo$10b5obo15bob5o$9bo5bo17bo5bo$9b2o2b2o19b2o2b2o2$6b2o33b2o$2b
+2obobo33bobob2o$3bobo12b3o7b3o12bobo$3bobo14bo7bo14bobo$2obobobo9bob2o
+7b2obo9bobobob2o$o2b3obo9b2o11b2o9bob3o2bo$b2o3bo35bo3b2o$3b3o16b2ob2o
+16b3o$3bo9b2o8bobo8b2o9bo$bobo7bo2bo6bobobobo6bo2bo7bobo$b2o8bobo7b2o
+3b2o7bobo8b2o$11b3o21b3o$18b2o9b2o$16bo2bo9bo2bo$16b3o11b3o2$16b3o11b
+3o$16bo2bo9bo2bo$18b2o9b2o$11b3o21b3o$b2o8bobo7b2o3b2o7bobo8b2o$bobo7b
+o2bo6bobobobo6bo2bo7bobo$3bo9b2o8bobo8b2o9bo$3b3o16b2ob2o16b3o$b2o3bo
+35bo3b2o$o2b3obo9b2o11b2o9bob3o2bo$2obobobo9bob2o7b2obo9bobobob2o$3bo
+bo14bo7bo14bobo$3bobo12b3o7b3o12bobo$2b2obobo33bobob2o$6b2o33b2o2$9b2o
+2b2o19b2o2b2o$9bo5bo17bo5bo$10b5obo15bob5o$14bobo15bobo$10b5ob3o11b3o
+b5o$10bo4bo3bo9bo3bo4bo$13bobo2b2o9b2o2bobo$13b2o19b2o!

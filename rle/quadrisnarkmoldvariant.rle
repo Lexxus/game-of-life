@@ -1,0 +1,10 @@
+#N quadrisnarkmoldvariant.rle
+#C https://conwaylife.com/wiki/Quadri-Snark
+#C https://www.conwaylife.com/patterns/quadrisnarkmoldvariant.rle
+x = 97, y = 88, rule = B3/S23
+o$b2o$2o10$12bo$13b2o$12b2o10$24bo$25b2o$24b2o10$36bo$37b2o$36b2o10$
+48bo$49b2o$48b2o10$60bo$61b2o$60b2o5$81b2o$80bo2bo$80bobobo$81bo2bo$
+85bo$72bo9bobo$73b2o5bo$72b2o6bo$80b2o9b2o$82bo8bobo$81b2o10bo$78b4ob
+2o8bob2o$78b2o2b2o6b2obobo$77b2obo2b2ob2o2b2obobo$78bo2bobo9bob2o$74b
+2o2bo4b2o5b4o2bo$73bobo14bo3b2o$73bo8bo9b2o$72b2o5bo2bo10bo$79bobo9bo$
+91b2o!

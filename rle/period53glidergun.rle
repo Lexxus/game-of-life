@@ -1,0 +1,14 @@
+#N period53glidergun.rle
+#O iNoMed, 2024
+#C https://conwaylife.com/wiki/Period-53_glider_gun
+#C https://www.conwaylife.com/patterns/period53glidergun.rle
+x = 55, y = 46, rule = B3/S23
+41bo$41b3o$44bo6b2o$43b2o5bobo$50bo$37b2o10b2o$37bobo$38b2o3b2o4b2o$
+34b2o12bobo$20b2o3b2o6bobo5bo2bo4bo$21bo2bobo6bo7bo8b3o$20bo3bo2b2ob2o
+bo6bo2bo8bo$14bo5b4obobob2obo8bob2o$2o10b3o8bob2o15b2o$bo9bo8b2o$bobo
+7b2o7bo14bo$2b2o13b2obo11b2ob2o$15bo2bob2o2b2o$15b2obo5bo2bo4bo2bo3b3o
+$18bo14b4o4bo6bo$18b2o8bo11b2o7b2o$48b2o$26b2o$8b3o14bo17b2o$7bo3bo31b
+o$6bo5bo31b3o$6bo5bo33bo$6b3ob3o8b3ob3o$21bo5bo$21bo5bo$22bo3bo$8bo14b
+3o$6b2o2$5bo8b2o$15bo$6bo2bo5bob2o$8b2o2b2obo2bo$13bob2o13b2o$13bo7b2o
+7bobo$12b2o8bo9bo$7b2obo8b3o10b2o$3b2obobob4o5bo$3bob2o2bo3bo$7bobo2bo
+$7b2o3b2o!

@@ -1,0 +1,10 @@
+#N p64phisparker.rle
+#C https://conwaylife.com/wiki/Pi-heptomino_hasslers
+#C https://www.conwaylife.com/patterns/p64phisparker.rle
+x = 46, y = 34, rule = B3/S23
+12bo3bo$11bobobobo$10bo2bobo2bo$9b2ob2ob2ob2o$8bo3bo3bo3bo$7bo2bob2ob
+2obo2bo$10bo7bo$12b2ob2o$7bo5bobo5bo$8b2ob2o3b2ob2o8bo$28bobo$28bobo$
+27b2ob3o$33bo$27b2ob3o$27b2obo$35bo$25bo8bobo5b3o$16b3o5b3o8bo9bo$15bo
+3bo3b5o13bo3bo$15b2ob2o3b3obo3b3o6bobo2bo$3b2o19b2ob8o3bo2bobo$2bo2bo
+19b3ob3o2bo3bo3bo$b2o35bo$3o5bo30b3o$o2bo3bobo$b3o3b2o24b2o$33b2o$b3o
+3b2o$o2bo3bobo$3o5bo$b2o$2bo2bo$3b2o!

@@ -1,0 +1,10 @@
+#N p80lumpsofmuckhassler4.rle
+#C https://conwaylife.com/wiki/Period-80_lumps_of_muck_hasslers
+#C https://www.conwaylife.com/patterns/p80lumpsofmuckhassler4.rle
+x = 54, y = 37, rule = B3/S23
+3b3o$2b2obo$bo2b2o$6o3bo21bo$bo2b2o2bobo20b3o$2b3o3b2o24bo$33b2o$2b3o
+3b2o$bo2b2o2bobo25b2o$6o3bo25bobo$bo2b2o13b2o14b2o$2b2obo13b2o$3b3o3$
+30b3o$30bo2b2o$30b2o2bo$19b3o10b3o$19bo2b2o$19b2o2bo$21b3o3$48b3o$33b
+2o13bob2o$17b2o14b2o13b2o2bo$16bobo25bo3b6o$16b2o25bobo2b2o2bo$44b2o3b
+3o$19b2o$19bo24b2o3b3o$20b3o20bobo2b2o2bo$22bo21bo3b6o$48b2o2bo$48bob
+2o$48b3o!

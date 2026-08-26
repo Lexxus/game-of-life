@@ -1,0 +1,13 @@
+#N p36gun47x30.rle
+#O iNoMed, 2024
+#C https://conwaylife.com/wiki/Period-36_glider_gun
+#C https://www.conwaylife.com/patterns/p36gun47x30.rle
+x = 47, y = 30, rule = B3/S23
+19b2o2b2ob2o$19bo2bobobobo$20b3obo2b3obo$17b3o2bob2o2bob2o2bo$16bo2bob
+2o2bo6b3o6b2o$16bo2bobo2b2ob5o8bo2bo$17b3o2b3o8b2o5bo2bo$20bobob5ob2ob
+obo2bob4ob2o$7b3o9b2obo4bobo5bo2b2o4bobo$7b2o14b3o2bobob3o6b2o$5bob2o
+4bo11b2o4b2o5b3obob2o$b2o5bo4bo23bo8bo$ob3o2bo5bo23bobo3b4o$o5bo5b2o
+22b2obobobo$b4o5bo25bo2bobob4o$4b2o3bo4bo22bobo2b2o2bo$4b2o3bo27bobobo
+bo$b3o7b3o8b3o12bobobo3bo$24bo12bobobobo$o21bobo11bo4bob2o$obo19b2o12b
+2obo2bo$b2o10b2o22bob2obo$12bobo22bo2bob2o$12bo25b2o$12b3o8b3o$21bo$2b
+o18bo4bo$2bobo17bo2bobo$bobo20bo2bo$3bo21b2o!

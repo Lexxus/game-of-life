@@ -1,0 +1,22 @@
+#N p27honeyfarmhassler2.rle
+#C https://conwaylife.com/wiki/Period-27_honey_farm_hasslers
+#C https://www.conwaylife.com/patterns/p27honeyfarmhassler2.rle
+x = 76, y = 62, rule = B3/S23
+10bob2o4b2obo32bob2o4b2obo$10b2o2bo2bo2b2o32b2o2bo2bo2b2o$8b2o3bo4bo3b
+2o28b2o3bo4bo3b2o$7bo3b2ob4ob2o3bo26bo3b2ob4ob2o3bo$8b3obo6bob3o28b3o
+bo6bob3o$10bobobo2bobobo32bobobo2bobobo$11b2o6b2o34b2o6b2o$13b6o38b6o
+3$11b2o6b2o34b2o6b2o$11bobo4bobo14bo4bo14bobo4bobo$12b3o2b3o14bobo2bo
+bo14b3o2b3o$15b2o17b2o4b2o17b2o$10b12o12b2o4b2o12b12o$9bo12bo10b2o6b2o
+10bo12bo$10b3o6b3o11bo8bo11b3o6b3o$13b6o14bo8bo14b6o$10b3ob4ob3o11b2o
+6b2o11b3ob4ob3o$9bo2b2ob2ob2o2bo11b2o4b2o11bo2b2ob2ob2o2bo$9b2o10b2o11b
+2o4b2o11b2o10b2o$34bobo2bobo$27bo7bo4bo7bo$25b3o20b3o$24bo26bo$16b3o5b
+2o24b2o5b3o$16bo42bo$16b2obo36bob2o$18b2o12b3o6b3o12b2o$3bobo20bo4bo3b
+o4bo3bo4bo20bobo$4bo20b2o3bo5bo2bo5bo3b2o20bo$2o23b2o3bo5bo2bo5bo3b2o
+23b2o$2o28bo5bo2bo5bo28b2o$8b2o21bo3bo4bo3bo21b2o$8bob2o20b3o6b3o20b2o
+bo$11bo52bo$9b3o18b2o12b2o18b3o$31bo12bo$28b3o14b3o$28bo18bo2$5b2o10b
+2o38b2o10b2o$5bo2b2ob2ob2o2bo38bo2b2ob2ob2o2bo$6b3ob4ob3o40b3ob4ob3o$
+9b6o46b6o$6b3o6b3o40b3o6b3o$5bo12bo38bo12bo$6b12o40b12o$11b2o50b2o$8b
+3o2b3o44b3o2b3o$7bobo4bobo42bobo4bobo$7b2o6b2o42b2o6b2o3$9b6o46b6o$7b
+2o6b2o42b2o6b2o$6bobobo2bobobo40bobobo2bobobo$4b3obo6bob3o36b3obo6bob
+3o$3bo3b2ob4ob2o3bo34bo3b2ob4ob2o3bo$4b2o3bo4bo3b2o36b2o3bo4bo3b2o$6b
+2o2bo2bo2b2o40b2o2bo2bo2b2o$6bob2o4b2obo40bob2o4b2obo!

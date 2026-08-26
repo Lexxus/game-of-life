@@ -1,0 +1,14 @@
+#N 232p7h3v0.rle
+#O Keith Amling, 2022
+#C https://conwaylife.com/wiki/232P7H3V0
+#C https://www.conwaylife.com/patterns/232p7h3v0.rle
+x = 49, y = 44, rule = B3/S23
+17b3o9b3o$16bo3bo7bo3bo$15bobo3bo5bo3bobo$15bo3b2o7b2o3bo$15b3o3bo5bo
+3b3o$14bo3b2ob3ob3ob2o3bo$14b2o2bo3b2ob2o3bo2b2o$13b3o3b5ob5o3b3o$21bo
+5bo$18bo11bo$13bo4bo11bo4bo$13bo4b4o5b4o4bo$17bo4bo3bo4bo$16b2ob3o5b3o
+b2o$16b2obo3bobo3bob2o$12b3o7b2ob2o7b3o$11bo3b2o4bobobobo4b2o3bo$10bo
+3bo19bo3bo$10bo9b3o3b3o9bo$14bo6b2o3b2o6bo$9bo12bo3bo12bo$9bo2b2o5bo9b
+o5b2o2bo$10b2o8bo7bo8b2o$8bo12bo5bo12bo$7b3o29b3o$6b2o2bo27bo2b2o$9b2o
+27b2o$9bo29bo2$6bo35bo$7b2o31b2o$5bo2bo31bo2bo$4bo39bo$3b2o39b2o$2b4o
+37b4o$bo45bo$b3o41b3o$o47bo$2b2o41b2o$4bo39bo$2b2o41b2o$3bo41bo$2bo43b
+o$2bo43bo!

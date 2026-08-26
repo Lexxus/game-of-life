@@ -1,0 +1,10 @@
+#N p42piheptominosparker.rle
+#C https://conwaylife.com/wiki/Pi-heptomino_hasslers
+#C https://www.conwaylife.com/patterns/p42piheptominosparker.rle
+x = 48, y = 32, rule = B3/S23
+15b2o$16bo26b2ob2o$16bobo25bobo$17b2o20bo2bo4bo$40b7o$41bo$44bo$37b2o
+4bobo$25b2o10b2o5b2o$2ob2o6bo13bobo$bobo7b3o13bo$o4bo2bo5bo10bobo7b6o$
+b7o5b2o10b2o8b6o$6bo$3bo$2bobo4b2o26b2o5b2o$2b2o5b2o26b2o4bobo$44bo$
+41bo$7b6o8b2o10b2o5b7o$7b6o7bobo10bo5bo2bo4bo$20bo13b3o7bobo$20bobo13b
+o6b2ob2o$2b2o5b2o10b2o$2bobo4b2o$3bo$6bo$b7o$o4bo2bo20b2o$bobo25bobo$
+2ob2o26bo$31b2o!

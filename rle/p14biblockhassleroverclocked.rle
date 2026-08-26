@@ -1,0 +1,11 @@
+#N p14biblockhassleroverclocked.rle
+#C https://conwaylife.com/wiki/Bi-block_hassler
+#C https://www.conwaylife.com/patterns/p14biblockhassleroverclocked.rle
+x = 26, y = 38, rule = B3/S23
+16b2o$12b2o6b2o$11bo10bo$11bobo6bobo$9b3obobo2bobob3o$8bo4b2ob2ob2o4bo$
+9b3obo6bob3o$11bo4b2o4bo$12bo3b2o3bo$13bo6bo$14b6o$11bo2b6o2bo$9b3o2b
+2o2b2o2b3o$8bo5b2o2b2o5bo$9b3o2b2o2b2o2b3o$11bo2b6o2bo$14b6o$13bo6bo$
+12bo3b2o3bo$11bo4b2o4bo$9b3obo6bob3o$8bo4b2ob2ob2o4bo$9b3obobo2bobob3o$
+11bobo6bobo$11bo10bo$12b2o6b2o$16b2o$2b2o5b2o$2b2o5b2o4bo$15b2o2$2b2o
+5b2o4b2o$bo2bo3bo2bo3bo$bo3bobo3bo$bo3bobo3bo$o2bobobobo2bo$bobobobobo
+bo$4bo3bo!

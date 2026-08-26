@@ -1,0 +1,11 @@
+#N wingspaceshipextended.rle
+#C https://conwaylife.com/wiki/Wing_(spaceship)
+#C https://www.conwaylife.com/patterns/wingspaceshipextended.rle
+x = 47, y = 47, rule = B3/S23
+28b2o$28bobo$28bo$31bo$24b3o4bobo$24bo6bo2bo3b3o$25bo7b2o2bo2b2o$27b3o
+7bo5b2o$20b2o15b2o4b3o$20bobo5bobo3b3o9bo$20bo8b2o2bo2bo6bo2bo$23bo9bo
+9bo$16b3o4bobo7b2o8bobo$16bo6bo2bo3b3o$17bo7b2o2bo2bo$19b3o7bo$12b2o
+15b2o$12bobo5bobo3b3o$12bo8b2o2bo2bo$15bo9bo$8b3o4bobo7b2o$8bo6bo2bo3b
+3o$9bo7b2o2bo2bo$11b3o7bo$4b2o15b2o$4bobo5bobo3b3o$4bo8b2o2bo2bo$7bo9b
+o$3o4bobo7b2o$o6bo2bo3b3o$bo7b2o2bo2bo$3b3o7bo$13b2o$4bobo3b3o$5b2o2bo
+2bo$9bo$9b2o$6b3o$5bo2bo$5bo$5b2o$6bo2$7b2ob3o$7b2o$8bo3bo$9b2o!

@@ -1,0 +1,15 @@
+#N p144uturnerhassler.rle
+#C https://conwaylife.com/wiki/U-turner_hasslers
+#C https://www.conwaylife.com/patterns/p144uturnerhassler.rle
+x = 50, y = 57, rule = B3/S23
+14b2o$13b3o20b2o$12bobo2bo2b2o10b2o2b2o2b2o$12b2o2b2o2b2o10bobo2bo2b2o
+$16b2o15b3o$34b2o2$31bo$19b2o10b2o$19b2o11bo$31bo$24b2o5b3o$24bo2bobo
+2b2o$13b2o9bob3o3b2o$13b2o13bobo$7bo21bo$7b2o$6b2obo28b2o$5bo2b3o2bo3b
+o19bo2bo$4bobobo4bo26bo$3bobobo5bo3bo19bo2bo$b3o2bo8bo9bo10b2ob2o3b3o
+$2bob2o6bo12bo10bo2bo4b3o$3b2o6bobo22bobo5b3o$4bo7bo24bo9b3o$47b3o$21b
+o6b3o9bo6b3o$20bo7b3o8bobo$9bo11bo5bobo10bo$8bobo16b2o$3o6bo$3o7bo$3o
+6bobo25bo7bo$3b3o6bo23bobo6b2o$3b3o3bobo25bo6b2obo$3b3o4bo32bo2b3o$42b
+obobo$33b3o5bobobo$10b2o21b2obo2b3o2bo$10b2o23b2o3bob2o$41b2o$20bo21b
+o$19bobo13b2o$16b2o3b3obo9b2o$16b2o2bobo2bo$16b3o5b2o$18bo$17bo11b2o$
+17b2o10b2o$18bo2$14b2o$14b3o15b2o$8b2o2bo2bobo10b2o2b2o2b2o$8b2o2b2o2b
+2o10b2o2bo2bobo$12b2o20b3o$34b2o!

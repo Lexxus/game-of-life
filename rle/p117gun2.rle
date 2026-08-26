@@ -1,0 +1,11 @@
+#N p117gun2.rle
+#C https://conwaylife.com/wiki/Period-117_glider_gun
+#C https://www.conwaylife.com/patterns/p117gun2.rle
+x = 47, y = 39, rule = B3/S23
+36b2o$35bo2bo$35bobo$35bo9b2o$35bo2bo6bo$35bo2bo4bobo$35bob3o3b2o$39b
+2o$12bo7b2o17b3o$12b3o5b2o17b2o$15bo19bob3o3b2o$14b2o19bo2bo4bobo$35bo
+2bo6bo$17bo17bo9b2o$16bobo16bobo$15bo3bo15bo2bo$15bo3bo16b2o$15bo3bo$
+16bobo$17bo2$10b2o$5bo4b2o28b2o$3b5o32b2o$2bo5bo$2bo2b3o26bo$b2obo28bo
+bo$o3bob2o24bo3bo$bobo7b4o17bo3bo$2ob5o2bo4bo16bo3bo$9bo6bo16bobo$2ob
+5o2bo4bo18bo$bobo7b4o4b2o$o3bob2o11bobo14b2o$b2obo16bo14bo$2bo2b3o13b
+2o7b2o5b3o$2bo5bo21b2o7bo$3b5o$5bo!

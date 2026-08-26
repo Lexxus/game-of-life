@@ -1,0 +1,11 @@
+#N achimsotherp16variant.rle
+#C https://conwaylife.com/wiki/Achim%27s_other_p16
+#C https://www.conwaylife.com/patterns/achimsotherp16variant.rle
+x = 47, y = 47, rule = B3/S23
+16b2o11b2o$16b2o11b2o2$16bo13bo$15bobo11bobo$14bo3bo9bo3bo$14bo2bo11bo
+2bo4$19b2o5b2o4$5b2o11b3o5b3o11b2o$4bo13bo2bo3bo2bo13bo$2obo15b3o3b3o
+15bob2o$2o2bobo33bobo2b2o$5bo8b2o15b2o8bo$10bo3bobo13bobo3bo$10bo3bobo
+13bobo3bo$15b2o13b2o4$15b2o13b2o$10bo3bobo13bobo3bo$10bo3bobo13bobo3bo
+$5bo8b2o15b2o8bo$2o2bobo33bobo2b2o$2obo15b3o3b3o15bob2o$4bo13bo2bo3bo
+2bo13bo$5b2o11b3o5b3o11b2o4$19b2o5b2o4$14bo2bo11bo2bo$14bo3bo9bo3bo$
+15bobo11bobo$16bo13bo2$16b2o11b2o$16b2o11b2o!

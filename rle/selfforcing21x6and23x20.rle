@@ -1,0 +1,13 @@
+#N selfforcing21x6and23x20.rle
+#C https://conwaylife.com/wiki/Unique_father_problem
+#C https://www.conwaylife.com/patterns/selfforcing21x6and23x20.rle
+x = 23, y = 31, rule = B3/S23
+bo2bob2o2bo2bo2bo2bobo$3b2o4b2ob2ob2ob2o$b2o2bob2o2bo2bo2bo2bo$2bo2b2o
+bo2bo2bo2bo2b2o$3b2o4b2ob2ob2ob2o$bobo2b2obo2bo2bo2bo2bo6$bobo2b2obo2b
+o2bo2bo2bo$2o2bob2o2bo2bo2bo2bob2o$3b2o4b2ob2ob2ob2o$b2o2bob2o2bo2bo2b
+o2bobo$obo2b2obo2bo2bo2bo2b2o$3b2o4b2ob2ob2ob2o$2obo2b2obo2bo2bo2bo2b
+2o$2o2bob2o2bo2bo2bo2bob2o$3b2o4b2ob2ob2ob2o$b2o2bob2o2bo2bo2bo2bobo$o
+bo2b2obo2bo2bo2bo2b2o$3b2o4b2ob2ob2ob2o$2obo2b2obo2bo2bo2bo2b2o$2o2bob
+2o2bo2bo2bo2bob2o$3b2o4b2ob2ob2ob2o$b2o2bob2o2bo2bo2bo2bobo$obo2b2obo
+2bo2bo2bo2b2o$3b2o4b2ob2ob2ob2o$2obo2b2obo2bo2bo2bo2b2o$bo2bob2o2bo2bo
+2bo2bobo!

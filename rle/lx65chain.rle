@@ -1,0 +1,12 @@
+#N lx65chain.rle
+#C https://conwaylife.com/wiki/Lx65_duplicator
+#C https://www.conwaylife.com/patterns/lx65chain.rle
+x = 66, y = 84, rule = B3/S23
+46b2o$46b2o$54b2o$54bo$47b2o3bobo$46bo2bo2b2o$42b2o2bobo$42b2o3bo3$58b
+o$35bo22bo$35bo22b3o3b2o$28b2o3b3o24bo3b2o$28b2o3bo9$42b2o$43bo8b2o$43b
+3o6bo$53b3o$28bo27bo$18b2o7bobo23b3o$18b2o7bobo21b3o$26b2obobo18bo$26b
+o3b2o18b2o$19b2o3bobo$18bo2bo2b2o$14b2o2bobo29bo$14b2o3bo29bobo$48bo2b
+o2b2o$49b2o3b2o$30bo$7bo22bo$7bo22b3o15b2o$2o3b3o24bo15b2o$2o3bo6$42b
+3o$42bo$41b2o$14b2o$15bo8b2o$15b3o6bo$25b3o13b2o$28bo12b2o$2o23b3o$bo
+21b3o$bobo18bo$2b2o18b2o3$22bo$21bobo$20bo2bo2b2o$21b2o3b2o$2bo$2bobo
+$2b3o15b2o$4bo15b2o7$14b3o$14bo$13b2o4$13b2o$13b2o!

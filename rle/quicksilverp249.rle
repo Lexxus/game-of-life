@@ -1,0 +1,12 @@
+#N quicksilverp249.rle
+#C https://conwaylife.com/wiki/Overclocking
+#C https://www.conwaylife.com/patterns/quicksilverp249.rle
+x = 115, y = 141, rule = B3/S23
+103b2o$103b2o2$71bo$69b3o$53bo14bo$53b3o12b2o$56bo$55b2o$73b3o4b2o$79b
+2ob2o$56b2o16bo8bo$56b2o16bobobo4bo$73bo8bo$73bo4b3o$72bo4bobo33b2o$
+72bo3bo36b2o$75bo2$72b2o$72bo19b2o$74bo16bobo$73b2o16bo$69b2o19b2o$69b
+o$70b3o$72bo6$78b2o$78bo$59b2o15bobo$59b2o15b2o3$45bo$44bo$44b3o7$58b
+2o$57bobo$57bo$56b2o9$68b2o$68b2o6$57b2o$58bo8bo10b2o$58bobo5bo11bo$
+59b2o5b3o7bobo$63b2o6bo4b2o$62bo2bo4bobo$63b2o5bobo$59b2o10bo$58bobo$
+58bo$57b2o3b3o$64bo7b2o$63bo8bo$73b3o$75bo3$101bobo$102b2o$102bo53$2o$
+b2o$o!

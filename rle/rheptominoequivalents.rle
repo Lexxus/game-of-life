@@ -1,0 +1,16 @@
+#N rheptominoequivalents.rle
+#C https://conwaylife.com/wiki/R-pentomino
+#C https://www.conwaylife.com/patterns/rheptominoequivalents.rle
+x = 186, y = 107, rule = B3/S23
+103b2o$102bobo$102bo2bo$103b2o$104bo6$103b2o58bo$102bo2bo56bob2o$102bo
+59bo$103b3o57bobo$164bo6$103bo50bo$102bob2o36b4o6b2obo6b3o$102bob2o37b
+3o7b2o7bob2o$103b2o39bo9bobo6b3o7$103bo37bo11bobo$102bobo37bo3bo6bo8b
+2o9bo8b2o$102bob2o37b3o7b3o7b2obo4b2ob2o6bob2o$103bo53bo6bo9bo9bo$157b
+o4$133bo$132bo$123bo8bo$102b3o17bobo7bo$102bobo17bobo$104bo18bo2bo6b3o
+8$2b2o99bo9bo$3b2o97b3o7b3o$4bo99bo8bo$3bo108bo7$2b2o9bo$bobo9b3o26b3o
+57b3o$4bo6bo29bo2bo58bo$2b2o39bo58bo6$obo$obo51bo18bo29bo$3bo16b2ob2o
+17b2o9bo9b2o8bo29bo$2b2o19b2o18b2o6bobo7bobo9bo28bobo$2b2o18bo17bobo9b
+o10bo7b2o$102b2o5$2o$3o17b2o$3bo19b2o7b2o8b2o48b3o7b3o$2b2o17bobo5bo3b
+o7bobo$2bo19bo10bo5bo3bo49bo7bo2bo$29bobo7bo52bo$92bo9b2o5$20b2obo69bo
+$21bobo8bo60bo$21b3o6b4o59bo$29b3obo$29b2o60b3o5$19bo$21bobo60bo7bo$
+21b3o58bobo8b2o$22bo8b3o$29b2o2bo48bo9bo$29bo52bo9bo$82bo9bo!

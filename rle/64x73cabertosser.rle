@@ -1,0 +1,17 @@
+#N 64x73cabertosser.rle
+#C https://conwaylife.com/wiki/Caber_tosser
+#C https://www.conwaylife.com/patterns/64x73cabertosser.rle
+x = 64, y = 73, rule = B3/S23
+17b3o$15b7o6bo$14b9o4bo$13bo7b3o2b2o$14b3o6bo3bo2bo$15b2o11b3o$18bo10b
+o$19bo18b2o$20bo17b2o4$obo$3o$2o15bo$17bo$16bo$3bo13b2o27bo$bobo12bo2b
+o27bo$b3o12bobo21bobo2bobo$4bo35bo4bo$5o12bo26bo$15bo2bo22b6o$16b4o23b
+2obo$18b2o$16bo$15b2o29bo$15bo2bo$16b3o24b3o$17bo27bo$44bo2$5b2o$5b2o
+2$49bo3bo$44bo2b2obobob2o2bo$42b2obobo2bobo2bobob2o$42b2o3bobo3bobo3b
+2o$44b2o2bo5bo2b2o$13b2o$13b2o$27b2o$17bo10bo$15bobo10bobo$16b2o11b2o
+4$44b2o2bo5bo2b2o$42b2o3bobo3bobo3b2o$11b2o8b3o5b2o11b2obobo2bobo2bobo
+b2o$7bo3b2o7bo8bo14bo2b2obobob2o2bo$3b2ob2o12bo2bo3bobo19bo3bo$2bobobo
+11b2o3bo3b2o$3b2ob2o9bo4bo18bo$4b2o11bo3bobo17bo$2bob3o10bo4bo17bo$2ob
+o4b3o7b2o4bo9b2o16b2o4bo$20bo3bo10bo12bo3b2o3bob2o$20bo3bo10bobo9bobo
+7bo$21b3o12b2o8b2ob2o8bo$27b2o12bo5bo2bo5b3o$14b2o11bobo10bob2o4bobo5b
+o$14b2o13bo10bob2o5bo8bo2b2o$29b2o10bobo11b4o4bo$41b2o12bo3bo2bo$41b4o
+16bo$43b2o$36b2o7bo$35bobo7bo3b2o$35bo8bo4b2o$34b2o!

@@ -1,0 +1,19 @@
+#N p52gun5.rle
+#C https://conwaylife.com/wiki/Period-52_glider_gun
+#C https://www.conwaylife.com/patterns/p52gun5.rle
+x = 73, y = 75, rule = B3/S23
+13b3o9b3o$14b3o7b3o$18bo2b2o$19b4o$19bo4bo$16b4o4bo13bo$7bo8bo3bo3bo
+14b2o$bob2obobo3b2o7bo16b2o$b2obobobo3bo2bo$5b2o2b2obob2o$b4o2bobo2bo
+2bobo14b2o$o3b4o2bob2o2b2o6bo6bo2bo$bo6b3o11b2obo6b2o$bo2bo2bo4b2o8bo
+2bo$2b2obo2bo4bo8b3o$2b3ob3o4bobo19b2o$14b2o19bo$bob2ob5o25b3o$b2ob2ob
+o3bo26bo12bo$b3o6b2o40b2o$51b2o$3bo2bo2$5b2o17b2o8b2o$2o3bo6b3o9bobo6b
+2o$o2b2o21bo8bo12bo$b3obo5bo2bo11b2o20b3o$4bo7b2o9bo27bo$b3o20bo25b2o$
+bo20b3o37b3o$61bo2bo$53b2o6bob2o$52bo2bo6bo6b2o$11bo41b2o14bobo$10bobo
+58bo$10bobo58b2o$11bo12b2o21b2o16bo$15b2o6b2o21b2o$15bobo7bo22bo12b2o
+5b2o$5bo11bo41b2o4bo4b2o$6b2o9b2o17bo26b2ob2o$5b2o30bo21bobo7bobo$35b
+3o21bo2bobobobo2bo$58b5obobob5o$58bo4bo3bo4bo$59b3obobobob3o$61bob2obo
+2bo$66bobo$66b2o$37b2o$25b2o9b2o$26bo11bo$18bo7bobo$19b2o6b2o20bo$18b
+2o12bo17bo$31bobo14b3o$31bobo$32bo3$44bo$39b2ob2obo$38bo3bo2bo$30b2o9b
+obob2o$29bo2bo6bo2b2o3bo$38b2o4b2o2bo$29b3o6bo2bobo2b3o13bo$38bo4b3o
+17bo$38bo2bobo2bo14b3o$38b2o4b3o$39bo2b2o$32b2o7bobob2o$32bo5bo3bo2bo$
+33b3o3b2ob2obo$35bo8bo!

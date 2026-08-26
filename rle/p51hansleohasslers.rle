@@ -1,0 +1,20 @@
+#N p51hansleohasslers.rle
+#C https://conwaylife.com/wiki/B-heptomino_hasslers
+#C https://www.conwaylife.com/patterns/p51hansleohasslers.rle
+x = 98, y = 43, rule = B3/S23
+50b2o31b2o$9bo40b2o31b2o$9b3o$12bo37b4o27b4o$11b2o11b2o12b2o10bo3bo25b
+o3bo10b2o$3b2o18bo15bo13bo27bo13bo$3b2o21bo12bobo11bo27bo11bobo$4bo17b
+o3bo13b2o10bo5bo17bo5bo10b2o$2b4obo5b3o4b2obo2bo22bobobo4b3o13b3o4bob
+obo$3b3o7bo2bo7bo18b3o2bo3bo8bo11bo8bo3bo2b3o$7b2o4bob2o3bo27bo11b2o11b
+2o11bo$21bo28bo33bo$6bobo12bo27b2o33b2o$6bo2bo11bo4b2o21b2o33b2o$21b2o
+2bo2bo19b2o4b2o6b3o5b3o6b2o4b2o$6bobo13bo2b4o25b2o6bo2bo3bo2bo6b2o$5b
+2o14bo4bobob2o30bob2o3b2obo$5b2o6bobo6b3obobo2bo7bo55bo$6b2o6b2o9bobo
+bo8bob2o51b2obo$3bo4bo5b2o3b2o3bo2bob2o6b2ob3o49b3ob2o$3b5o16b3o13bob
+o49bobo$41b2o49b2o$5b3o16b5o$b2obo2bo3b2o3b2o5bo4bo33bo9bo$2bobobo9b2o
+6b2o$o2bobob3o6bobo6b2o25b2o27b2o$2obobo4bo14b2o25bobo25bobo$3b4o2bo13b
+obo26b3ob2o19b2ob3o$3bo2bo2b2o42b2obo21bob2o$4b2o4bo11bo2bo29bo23bo$10b
+o12bobo$10bo28b2o53b2o$11bo3b2obo4b2o14b2o4b2o41b2o4b2o$7bo7bo2bo7b3o
+15b2o43b2o$5bo2bob2o4b3o5bob4o14b2o43b2o$5bo3bo17bo16bo45bo$5bo21b2o12b
+2obo45bob2o$8bo18b2o9b4o7b3o31b3o7b4o$6b2o11b2o16bob2o2b3o43b3o2b2obo
+$19bo18bo5b2o7b2o25b2o7b2o5bo$20b3o21b3o6bobo23bobo6b3o$22bo24bo7bo23b
+o7bo$46b2o7b2o21b2o7b2o!

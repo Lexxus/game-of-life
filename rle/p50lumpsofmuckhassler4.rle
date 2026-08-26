@@ -1,0 +1,14 @@
+#N p50lumpsofmuckhassler4.rle
+#C https://conwaylife.com/wiki/P50_traffic_jam
+#C https://www.conwaylife.com/patterns/p50lumpsofmuckhassler4.rle
+x = 59, y = 62, rule = B3/S23
+9b2o4b2o$9bobo2bobo$11b4o$9bo2b2o2bo$3b2o4bo2b2o2bo$2bo2bo5bo2bo$bo4bo
+$o6bo$o6bo4bo$bo4bo3bobo$2bo2bo3bo3bo$3b2o5bobo$11bo2$42b2o4b2o$42bobo
+2bobo$44b4o$42bo2b2o2bo$42bo2b2o2bo4b2o$44bo2bo5bo2bo$52bo4bo$51bo6bo$
+51bo6bo$12bo39bo4bo$11bobo20b2o10b3o4bo2bo$10bo3bo19b2o18b2o$11bobo30b
+o5bo$12bo8b3o20bo5bo$21bobo20bo5bo$21bo2bo$22bobo9b3o9b3o$10b3o9b3o9bo
+bo$34bo2bo$8bo5bo20bobo$8bo5bo20b3o8bo$8bo5bo30bobo$3b2o18b2o19bo3bo$
+2bo2bo4b3o10b2o20bobo$bo4bo39bo$o6bo$o6bo$bo4bo$2bo2bo5bo2bo$3b2o4bo2b
+2o2bo$9bo2b2o2bo$11b4o$9bobo2bobo$9b2o4b2o2$47bo$46bobo5b2o$45bo3bo3bo
+2bo$46bobo3bo4bo$46bo4bo6bo$51bo6bo$52bo4bo$44bo2bo5bo2bo$42bo2b2o2bo
+4b2o$42bo2b2o2bo$44b4o$42bobo2bobo$42b2o4b2o!

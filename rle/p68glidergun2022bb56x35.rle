@@ -1,0 +1,14 @@
+#N p68glidergun2022bb56x35.rle
+#C https://conwaylife.com/wiki/Period-68_glider_gun
+#C https://www.conwaylife.com/patterns/p68glidergun2022bb56x35.rle
+#C https://gitlab.com/hatsya/open-source/catagolue/-/jobs/3000752250
+x = 56, y = 35, rule = B3/S23
+25b2o$18b2o3bo2bo10bo$18b2o3b2o10b3o$23b3o8bo$25bo7bobo$7bo11b2o4bobob
+o2b3obo3b2o$6bobo8b2o2bo6b2ob4ob3o2bo$7bo18bo3b2o7b2o$16bo9bob2o5b2o2b
+o$16bo2bo6bobo6bobobo6bo$9bo4bo23bo5b3o4b2o$9bo3bobo3bo23bo3b2o2bobo$
+9bo5b4o24b3o3bobobo$9b2o36b2obobo$9b2o34bo4bo$42bo2bo3bo2bo$2o3b3o37bo
+3bo$2o43bo3bo$33b3o5bo3bo3bo4b2o$41bo3bo3bo4b2o$30b2o13bo3bo$30b2o13bo
+3bo$4b2o16b4o5bo10bo2bo3bo2bo$4b2o6bo8bo3bobo3bo13bo4bo$11bobo12bo4bo
+15b2obobo$9b3o2bo6bo2bo18b3o3bobobo$4bo3bo3bobo9bo18bo3b2o2bobo$4b2o2b
+o2b2ob2o17bo10b3o4b2o$bo2b2o3b2o2bo5bo2b2o8bobo11bo$b3o2bo2b2o2b2o5b2o
+11bo$6bo3bo4bo26bo$3b3o9b3o25b2o$3bo12b2o3b2o19b2o$14bo2bo3b2o$14b2o!

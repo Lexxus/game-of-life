@@ -1,0 +1,19 @@
+#N greyshipwithwick.rle
+#C https://conwaylife.com/wiki/Greyship
+#C https://www.conwaylife.com/patterns/greyshipwithwick.rle
+x = 62, y = 66, rule = B3/S23
+24bo12bo$23b3o10b3o$23bob2o8b2obo$24b3o8b3o$24b3o8b3o$24b3o8b3o$26b4o
+2b4o$27b3o2b3o$27b3o2b3o2$28bo4bo$27bobo2bobo$25b2ob6ob2o$25b2o8b2o$
+23bo4b6o4bo$23b5o2b2o2b5o$21bo6b2o2b2o6bo$21b7o6b7o$19bo8b2o2b2o8bo$
+19b9o2b2o2b9o$17bo10bo4bo10bo$17b11o2b2o2b11o$15bo12b6o12bo$15b13o6b
+13o$13bo14bo4bo14bo$13b15o6b15o$11bo16b6o16bo$11b17o6b17o$bo7bo18b2o2b
+2o18bo7bo$3o6b19o6b19o6b3o$ob2o3bo20b6o20bo3b2obo$b3o3b21o6b21o3b3o$b
+3obo22b6o22bob3o$b2o2b23o2b2o2b23o2b2o$6bo21b2o2b2o21bo$8b20o6b20o$6b
+2o20b2o2b2o20b2o$6b22o2b2o2b22o$5bo2bo19bo4bo19bo2bo$10b18o2b2o2b18o$
+4b2o3bo18b6o18bo3b2o$10b18o6b18o$10b2o16bo4bo16b2o$11bob15o6b15obo$11b
+o16b6o16bo$10bo3b14o6b14o3bo$11bobo14b2o2b2o14bobo$9b2o3b14o6b14o3b2o$
+14bo14b4o14bo$14bo2b12ob2ob12o2bo2$13b2o4b11o2b11o4b2o$15bo2bo24bo2bo$
+14bo4b8o8b8o4bo$18b2o7b2o4b2o7b2o$16b2o2bob4o10b4obo2b2o$16b2obo8b6o8b
+ob2o$17b4o2b2o3b6o3b2o2b4o$18bobo3bo3b2o2b2o3bo3bobo$18b2obo3bo10bo3bo
+b2o$21bo3bo10bo3bo$17bo3b2obo12bob2o3bo$18b4o2bo3bo4bo3bo2b4o$24bo3bo
+4bo3bo$24bo12bo$25bobo6bobo!

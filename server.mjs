@@ -12,7 +12,9 @@ const mimeTypes = {
   '.jpg':  'image/jpeg',
   '.gif':  'image/gif',
   '.svg':  'image/svg+xml',
-  '.ico':  'image/x-icon'
+  '.ico':  'image/x-icon',
+  '.txt':  'text/plain',
+  '.rle':  'text/plain',
 };
 
 const publicDir = cwd();
@@ -44,3 +46,4 @@ const server = createServer(async (req, res) => {
 server.listen(3000, 'localhost', () => {
   console.log('Listening on http://localhost:3000');
 });
+

@@ -1,0 +1,12 @@
+#N 77p6h1v1pushalong.rle
+#C https://conwaylife.com/wiki/77P6H1V1
+#C https://www.conwaylife.com/patterns/77p6h1v1pushalong.rle
+x = 91, y = 45, rule = B3/S23
+89bo$88bobo$86b2o2bo2$85bo$82b2o2b2o$82b2o$82bo$80bobo$80b2o$78bo2bo$
+77bo4bo$76bo5bo$73bo3bo$72bobo3b2o$71b2ob2o$70b2o4bobo$69b2o7bo$68bo9b
+o$69b2o$70bo$67bo3bo$66bobo$65bo3bob3o$69bo$63b2o$64b2o$60b4o2b2o$60b
+2o2$59bo$57bo2bo$57bo2bo$56bo$25b3o9b2o11b4obo$13b2obo8bo11bobo3bo2bo
+3b2o4b2o$3b2o8b2obo8b2o7b2o4bob2o2b2o2b2o$bo3bo3b3o3bob2o12b5o2bo2b2o
+4bo4bo$bo3b2ob3o6b3o2b2obo4b2obo5b3o2bo4bobo2b2o$o7b2o9bo2b2ob2o3bo15b
+2ob3o$4ob2o5bo4b7ob2o4b2o3b6o7bobo$2b2o8bo3bobo9bo2bo2bobobo2bo9b2o$7b
+o8b2o10bo3bobo2b2o5bo4bobo$8bo29bo11b2o$38bo!

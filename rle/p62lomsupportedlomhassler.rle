@@ -1,0 +1,14 @@
+#N p62lomsupportedlomhassler.rle
+#C https://conwaylife.com/wiki/Lumps_of_muck_hasslers
+#C https://www.conwaylife.com/patterns/p62lomsupportedlomhassler.rle
+x = 84, y = 63, rule = B3/S23
+19bo$19b3o$22bo$21b2o2$24b2o$23bo2bo$23bobo$24bo3b2obo$28bob2o4$22bobo
+$22bobo$21b3o13b2o$37b2o$8b2o$7bo2bo24b4o$6b2ob2o4b2o18bo2b3o$2b2o5b2o
+4b2o16bobo5bo$bobo16b2o4b2o5b2o5b2o24bo$bo18b2o4b2ob2o35b3o$2o24bo2bo
+39bo$27b2o39b2o2$13b3o55b2o$12bobo55bo2bo$12bobo28b3o24bobo$43bo2b2o
+23bo3b2obo$43b2o2bo27bob2o$36b3o6b3o$5b2obo27bo2b2o$5bob2o3bo23b2o2bo$
+11bobo24b3o28bobo$10bo2bo55bobo$11b2o55b3o2$14b2o39b2o$14bo39bo2bo24b
+2o$15b3o35b2ob2o4b2o18bo$17bo24b2o5b2o5b2o4b2o16bobo$42bo5bobo16b2o4b
+2o5b2o$43b3o2bo18b2o4b2ob2o$45b4o24bo2bo$74b2o$45b2o$45b2o13b3o$59bobo
+$59bobo4$52b2obo$52bob2o3bo$58bobo$57bo2bo$58b2o2$61b2o$61bo$62b3o$64b
+o!

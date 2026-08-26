@@ -1,0 +1,11 @@
+#N p4assistedperiod56glidergun.rle
+#C https://conwaylife.com/wiki/P4-assisted_period-28_glider_gun
+#C https://www.conwaylife.com/patterns/p4assistedperiod56glidergun.rle
+x = 37, y = 30, rule = B3/S23
+3bob2o$3b2obo10b2o$b2o14b2o$o3b2o$ob2obo3b2o$b2o5bobo$3bo4bo23b2ob2o$
+3bo2bo3bo15b2obobobobo$3b2obobo16bo7bo2bo$3bo4bo16b2o4bo2b3o$2b3o4bo2b
+o13bob4o$3bo4bo7bob2o4bo6bob2o$3b2obobo7bobo7bo3bo4bo$3bo2bo3bo4b2obo
+7bo4bob3o$3bo4bo13bo2bo$b2o5bobo15bo4bob3o$ob2obo3b2o15bo3bo4bo$o3b2o
+18bo6bob2o$b2o15bo7bob4o$3b2obo12b2o4b2o4bo2b3o$3bob2o6b2o3b2o5bo7bo2b
+o$14bo11b2obobobobo$11b3o18b2ob2o$11bo2$15b2o$11b2obo2bob2o$11bo4bo2b
+2o$15bo$12bobo!

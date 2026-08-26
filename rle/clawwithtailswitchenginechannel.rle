@@ -1,0 +1,16 @@
+#N clawwithtailswitchenginechannel.rle
+#C https://conwaylife.com/wiki/Claw_with_tail
+#C https://www.conwaylife.com/patterns/clawwithtailswitchenginechannel.rle
+x = 117, y = 117, rule = B3/S23
+88b2o$89bo23bo$89bob2o18b3o$90bo2bo16bo$92b2o16b2o4$80b2o$81bo$81bob2o
+$82bo2bo$84b2o3$112b2o$72b2o38bobo$73bo40bo$73bob2o36bo$74bo2bo36b3o$
+76b2o38bo3$104b2o$64b2o38bobo$65bo40bo$65bob2o36bo$66bo2bo36b3o$68b2o
+38bo3$96b2o$56b2o38bobo$57bo40bo$57bob2o36bo$58bo2bo36b3o$60b2o38bo3$
+88b2o$48b2o38bobo$49bo40bo$49bob2o36bo$50bo2bo36b3o$52b2o38bo3$80b2o$
+40b2o38bobo$41bo40bo$41bob2o36bo$42bo2bo36b3o$44b2o38bo3$72b2o$32b2o38b
+obo$33bo40bo$33bob2o36bo$34bo2bo36b3o$36b2o38bo3$64b2o$24b2o38bobo$25b
+o40bo$25bob2o36bo$26bo2bo36b3o$28b2o38bo3$56b2o$16b2o38bobo$17bo40bo$
+17bob2o36bo$18bo2bo36b3o$20b2o38bo3$48b2o$8b2o38bobo$9bo40bo$9bob2o36b
+o$10bo2bo36b3o$12b2o38bo3$40b2o$2o38bobo$bo40bo$bob2o36bo$2bo2bo36b3o
+$4b2o38bo3$32b2o$32bobo$34bo$33bo$34b3o$36bo2$12bobo$15bo8b2o$11bo2bo
+9bobo$10b3o13bo$25bo$26b3o$28bo3$16b2o$16bobo$18bo$17bo$18b3o$20bo!

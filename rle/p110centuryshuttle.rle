@@ -1,0 +1,12 @@
+#N p110centuryshuttle.rle
+#C https://conwaylife.com/wiki/Jason%27s_p22
+#C https://www.conwaylife.com/patterns/p110centuryshuttle.rle
+x = 72, y = 25, rule = B3/S23
+17bo36bo$16bobo6b2o18b2o6bobo$13b2o3bo6bo20bo6bo3b2o$7b2o5b3o6bobo20b
+obo6b3o5b2o$6bo2bo7bo5b2o22b2o5bo7bo2bo$7b2o9b2o32b2o9b2o$7b2o9b2o32b
+2o9b2o$2b2o5bo7bo2bo30bo2bo7bo5b2o$bobo6b3o5b2o32b2o5b3o6bobo$bo6bo3b
+2o17bob2o2b2obo17b2o3bo6bo$2o6bobo18bo3b2o2b2o3bo18bobo6b2o$9bo19bo12b
+o19bo$30bo10bo$19bo32bo$2o16bobo30bobo16b2o$bo19bo28bo19bo$bobo13bo2b
+o30bo2bo13bobo$2b2o4b3o5b2o36b2o5b3o4b2o$7bo2bo8bo32bo8bo2bo$7bo8bo2b
+o32bo2bo8bo$9b2o5b3o4b2o22b2o4b3o5b2o$6bo2bo13bobo20bobo13bo2bo$5bo19b
+o20bo19bo$6bobo16b2o18b2o16bobo$7bo56bo!

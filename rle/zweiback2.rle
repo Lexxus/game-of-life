@@ -1,0 +1,12 @@
+#N zweiback2.rle
+#C https://conwaylife.com/wiki/Zweiback
+#C https://www.conwaylife.com/patterns/zweiback2.rle
+x = 41, y = 25, rule = B3/S23
+10bo$8b5o17bo$7bo5bo14b5o$7bo2b2obo13bo5bo$3bob3obobob2o12bob2o2bo$3b
+2o4bo2bo13b2obobob3obo$6b2obob2o15bo2bo4b2o$b5obobob3o14b2obob2o$o2bo
+5bobo2bo12b3obobob5o$2o2b5o2bo14bo2bobo5bo2bo$4bo3b4o17bo2b5o2b2o$3b2o
+5bobo3bo12b4o3bo$3b2o5bobo3bo2b2o3bo3bobo5b2o$4bo3b4o6bo2bo2bo3bobo5b
+2o$2o2b5o2bo7bobo7b4o3bo$o2bo5bobo2bo5bo8bo2b5o2b2o$b5obobob3o12bo2bob
+o5bo2bo$6b2obob2o14b3obobob5o$3b2o4bo2bo15b2obob2o$3bob3obobob2o13bo2b
+o4b2o$7bo2b2obo12b2obobob3obo$7bo5bo13bob2o2bo$8b5o14bo5bo$10bo17b5o$
+30bo!

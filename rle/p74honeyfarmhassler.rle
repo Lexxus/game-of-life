@@ -1,0 +1,19 @@
+#N p74honeyfarmhassler.rle
+#C https://conwaylife.com/wiki/Beluchenko%27s_other_p37
+#C https://www.conwaylife.com/patterns/p74honeyfarmhassler.rle
+x = 104, y = 73, rule = B3/S23
+85bo$83b3o$82bo$76b2o4b2o$75bo2bo$70b2o2b2obo$70b2o3b2o5$81bo6bo$80bob
+o4b2o$79bo17b2o$80bobo14b2o$68b2o11bo$69bo$75bo8bo13bo$57b2o17bo6bo2bo
+10b3o$44b2o12bo15bobo7b2o11bo2bo$45bo12bobo14bo22bobo$44bo14b2o8bobo
+27bo$44b2o2b2o18bo3bo17bo$47bobo19bobo17bobo$42b4obo22bo17bo3bo$42bo2b
+ob2o12bo27bobo8b2o$28bo21b3o7bobo22bo14bobo$26b3o20bo3bo6bo2bo11b2o7bo
+bo15bo$25bo22bo5bo6b3o10bo2bo6bo17b2o$19b2o4b2o21bo5bo7bo13bo8bo$18bo
+2bo26bo5bo36bo$13b2o2b2obo28bo3bo25bo11b2o$13b2o3b2o30b3o9b2o14bobo$
+62b2o17bo$72b2o4bobo$72bo6bo2$24bo6bo$23bobo4b2o$22bo17b2o$23bobo14b2o
+9b3o30b2o3b2o$11b2o11bo25bo3bo28bob2o2b2o$12bo36bo5bo26bo2bo$18bo8bo
+13bo7bo5bo21b2o4b2o$2o17bo6bo2bo10b3o6bo5bo22bo$bo15bobo7b2o11bo2bo6bo
+3bo20b3o$bobo14bo22bobo7b3o21bo$2b2o8bobo27bo12b2obo2bo$11bo3bo17bo22b
+ob4o$12bobo17bobo19bobo$13bo17bo3bo18b2o2b2o$4bo27bobo8b2o14bo$3bobo
+22bo14bobo12bo$3bo2bo11b2o7bobo15bo12b2o$4b3o10bo2bo6bo17b2o$5bo13bo8b
+o$34bo$22bo11b2o$5b2o14bobo$5b2o17bo$15b2o4bobo$15bo6bo5$27b2o3b2o$26b
+ob2o2b2o$25bo2bo$20b2o4b2o$21bo$18b3o$18bo!

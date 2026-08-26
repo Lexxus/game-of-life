@@ -1,0 +1,19 @@
+#N p47bheptominohassler.rle
+#C https://conwaylife.com/wiki/P47_pre-pulsar_shuttle
+#C https://www.conwaylife.com/patterns/p47bheptominohassler.rle
+x = 83, y = 65, rule = B3/S23
+12bo4bo47bo4bo$10b3o4b3o43b3o4b3o$9bo10bo41bo10bo$9b2o8b2o41b2o8b2o3$
+6b3o12b3o35b3o12b3o$14b2o51b2o$14b2o51b2o2$bo9bo6bo9bo25bo9bo6bo9bo$ob
+o7bo8bo7bobo23bobo7bo8bo7bobo$bo8bo8bo8bo25bo8bo8bo8bo$10bo8bo43bo8bo$
+11bo6bo45bo6bo2$11bo6bo45bo6bo$10bo8bo43bo8bo$bo8bo8bo8bo25bo8bo8bo8bo
+$obo7bo8bo7bobo23bobo7bo8bo7bobo$bo9bo6bo9bo25bo9bo6bo9bo2$14b2o51b2o$
+14b2o21bo7bo21b2o$6b3o12b3o13b3o3b3o13b3o12b3o$38bobobobo$39b2ob2o$9b
+2o7b2o43b2o7b2o$9bo8b2o10bob3o13b3obo10b2o8bo$10b3o19b2obo11bob2o19b3o
+$12bo19b2o15b2o19bo4$12bo19b2o15b2o19bo$10b3o19b2obo11bob2o19b3o$9bo8b
+2o10bob3o13b3obo10b2o8bo$9b2o7b2o43b2o7b2o$39b2ob2o$38bobobobo$6b3o12b
+3o13b3o3b3o13b3o12b3o$14b2o21bo7bo21b2o$14b2o51b2o2$bo9bo6bo9bo25bo9bo
+6bo9bo$obo7bo8bo7bobo23bobo7bo8bo7bobo$bo8bo8bo8bo25bo8bo8bo8bo$10bo8b
+o43bo8bo$11bo6bo45bo6bo2$11bo6bo45bo6bo$10bo8bo43bo8bo$bo8bo8bo8bo25bo
+8bo8bo8bo$obo7bo8bo7bobo23bobo7bo8bo7bobo$bo9bo6bo9bo25bo9bo6bo9bo2$
+14b2o51b2o$14b2o51b2o$6b3o12b3o35b3o12b3o3$9b2o8b2o41b2o8b2o$9bo10bo
+41bo10bo$10b3o4b3o43b3o4b3o$12bo4bo47bo4bo!

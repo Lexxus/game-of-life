@@ -1,0 +1,13 @@
+#N p48honeyfarmhassler6.rle
+#C https://conwaylife.com/wiki/Period-48_honey_farm_hasslers
+#C https://www.conwaylife.com/patterns/p48honeyfarmhassler6.rle
+x = 44, y = 38, rule = B3/S23
+20b4o$16b2obo4bo$15bo3bo4bo$15bo4b2o$15bo2bo4b2o5b2ob2o3b2ob2o$15bo2bo
+3bo2bo3bo5bobo5bo$16b2o4bo2bo8b2ob2o$6b2o11b2o4bo6bo7bo$5bobo8bo4bo3bo
+3bo2bob2ob2obo2bo$4b3o9bo4bob2o5bo3bo3bo3bo$4b2o11b4o10b2ob2ob2ob2o$7b
+2o23bo2bobo2bo$6b3o24bobobobo$34bo3bo$15b3o$6b2o6bo3bo$6b2o5bo5bo$13bo
+5bo6b3o$13bo5bo5bo3bo$14bo3bo5bo5bo$15b3o6bo5bo$24bo5bo5b2o$25bo3bo6b
+2o$26b3o$5bo3bo$4bobobobo24b3o$3bo2bobo2bo23b2o$2b2ob2ob2ob2o10b4o11b
+2o$bo3bo3bo3bo5b2obo4bo9b3o$o2bob2ob2obo2bo3bo3bo4bo8bobo$3bo7bo6bo4b
+2o11b2o$5b2ob2o8bo2bo4b2o$o5bobo5bo3bo2bo3bo2bo$b2ob2o3b2ob2o5b2o4bo2b
+o$22b2o4bo$19bo4bo3bo$19bo4bob2o$20b4o!

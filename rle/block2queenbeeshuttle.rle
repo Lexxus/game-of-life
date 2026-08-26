@@ -1,0 +1,13 @@
+#N block2queenbeeshuttle.rle
+#C https://conwaylife.com/wiki/Queen_bee_shuttle
+#C https://www.conwaylife.com/patterns/block2queenbeeshuttle.rle
+x = 208, y = 91, rule = B3/S23
+62b2o$62b2o$132bo$7b2o122b2o$7b2o122bobo2$125b3o$127bo$3bo122bo$4bo179b
+3o6b3o$2b3o140b2o39bo6bo$145bobo37bo8bo10b2o$145bo59bobo$6bo198bo$4bo
+bo$5b2o59bo48b3o64b2o$65b2o50bo65b2o$65bobo48bo65bo2$59b3o$61bo$60bo$
+5b2o123b2o63b2o$4bobo72b2o49b2o63b2o$6bo72bobo$79bo$b2o49b3o$obo51bo$
+2bo50bo30$187b2o$187b2o$67b2o66b2o$67b2o66b2o5$194bo$194bobo$16b2o108b
+o67b2o$6b3o6b2o110b2o$8bo8bo108b2o63b2o$7bo182b2o$133bo58bo$131bobo51b
+2o$132b2o52b2o$74b2o109bo$74bobo$65b3o6bo$3bo63bo$3b2o15bo45bo67b2o$2b
+obo14b2o54bo57bobo$19bobo52b2o59bo$74bobo115bo$191b2o$191bobo$11b2o$11b
+2o49b3o$64bo$63bo63bo$127b2o$126bobo!

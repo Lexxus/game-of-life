@@ -1,0 +1,10 @@
+#N p83glidergun.rle
+#C https://conwaylife.com/wiki/62P83
+#C https://www.conwaylife.com/patterns/p83glidergun.rle
+x = 66, y = 30, rule = B3/S23
+19b2o$6b2o11bo$7bo9bobo7b2o$7bobo7b2o7bobo21b2o$8b2o16bobobo6b2o11bo$
+25b2o2b2o7bo9bobo$26bo11bobo7b2o$23b3o13b2o$23bo32b2o$57bo$2o52b3o$2o
+11bo40bo$11b2ob2o$14bo5bo$19b2ob2o20bo$21bo20b2ob2o$45bo5bo$50b2ob2o$
+11bo40bo11b2o$9b3o52b2o$8bo$8b2o32bo$25b2o13b3o$16b2o7bobo11bo$15bobo
+9bo6bobo3b3o$15bo11b2o6b2o5bo13b2o$14b2o19bo11b2o7bobo$46bobo9bo$46bo
+11b2o$45b2o!

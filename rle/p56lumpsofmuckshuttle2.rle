@@ -1,0 +1,15 @@
+#N p56lumpsofmuckshuttle2.rle
+#C https://conwaylife.com/wiki/Period-56_lumps_of_muck_hasslers
+#C https://www.conwaylife.com/patterns/p56lumpsofmuckshuttle2.rle
+x = 79, y = 24, rule = B3/S23
+34bo7bo17b2o$34b3o3b2o14b2obo2bo3bo2bo2bo$37bo4b2o13bob3obo2b7o$36b2o
+3bo12b3o6bo13b2o$17b2o35bo2b6ob11o2bo$6bo2bo2bo3bo2bob2o32bo4bobobo5bo
+4bobo$6b7o2bob3obo16b3o17b2o3bo3b2o4bobob2o$2o13bo6b3o13bobo4bob5o8b2o
+4bo2bo2bo5bo$bo2b11ob6o2bo12bo2bo11b2obo3b2o5bo6b2ob2o$bobo2bo5bo3bo5b
+o14bobo4bo9bo2bo8bo7bobo$2ob3o3b2o3b2o2b4o8b2o5b3o4bo9bo2bo8bo7bobo$o
+4bo2bo2bo6b3o7bo2bo20b2obo3b2o5bo6b2ob2o$b2ob2o2bo17b3o16bob5o8b2o4bo
+2bo2bo5bo$2bobo3bo13b2obo2bob2o26b2o3bo3b2o4bobob2o$2bobo3bo13b2obo2bo
+b2o23bo4bobobo5bo4bobo$b2ob2o2bo17b3o25bo2b6ob11o2bo$o4bo2bo2bo6b3o7bo
+2bo22b3o6bo13b2o$2ob3o3b2o3b2o2b4o8b2o25bob3obo2b7o$bobo2bo5bo3bo5bo
+33b2obo2bo3bo2bo2bo$bo2b11ob6o2bo35b2o$2o13bo6b3o12bo3b2o$6b7o2bob3obo
+13b2o4bo$6bo2bo2bo3bo2bob2o14b2o3b3o$17b2o17bo7bo!

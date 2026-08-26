@@ -1,0 +1,24 @@
+#N sealtagalong2.rle
+#C https://conwaylife.com/wiki/Seal
+#C https://www.conwaylife.com/patterns/sealtagalong2.rle
+x = 88, y = 74, rule = B3/S23
+13b2o$12bo2bo$11b2obo$11b2o20b2o$9b2o21b3ob3o$9bobo22bo3b2o$9bobo19b2o
+b2o2bo2bobo$13bo17bo6bob4o$5b2o7bo22b2obo2bo$4bo2bo6bob2o2b2o9bo4b2o3b
+ob2o$7bo5b2o3b2o3bo7b2o8bobo2bo$2b2o3bo6b4o2bo10bo2b5ob3o4bo$bo5bo13bo
+2bo7bo9bo4bo$o5b5o12b2o7b2obo2bo3bo3bo$bo2bo6bo5b2o14bo9b2o$8b3o6b2o4b
+3o14b2o2b2o4bo$9b2o3b2o2bo7bo6bo3b2obo4b3o2bo$13bobo4b4o10b2obob5o5bob
+2o$9b2o2bob2ob2ob4o13b2ob2ob2ob2o2b3o$9b2ob6obob2obo3bo19bobo4bo$10b3o
+4b3o4b2o3bob2o6b2o4bobo3b6o$11bo10bo2bobo2bo13bo7b2o$14bo4bo10bo13bo3b
+o$13b3o7bo20bo4bo3b3o6bo$13bo4bobob2obo4bo14b5o3b2ob2o2b2ob2o$14bo3b3o
+2bob7obo14b2obo2bob2o2bo$16bo4b2o2bo4b2ob2o12b2o5bo4bo2b3o$20bo2bo22b
+3obobobobo$20bobob2o27bo2bo$20bo4bo23bobo$20bo4b2o4bob3o14bo$21bo4b2o
+2b2obob2o$27bo3bob4ob2o12b3o$28bobobo5b5o9b3o$26b2o2bob2o5b3ob2o$34b2o
+4bo2b3o5b2o$30bo4bo4bo3b3o4b2o$32bo7bo5bo5bo3bo2b2o$33b3o8b4o7bo2bobo$
+35b2o5b2o3b2o6bo2b3o$35bo2bo6b3obo6bobo$34bo4bo4bo4bo$34bo5bo3bo3bo3b
+2o5b2o3bo$35bo5b3o7bo2bo3bo3b4o$37bob2ob3o5b2o2bo3b2obo5bo$37bo12b5obo
+b2ob4o2bo$37bo3b2o7b2o10bo2bo2bo$40b2o9b2o2bo3bo$40bo17b2o2bo8bo$56bo
+3bob2o6bobo$56b2obob6o2b2obo$58b3o3bo3b2o$60bo3bo4bo3b2o$59bo5bo3bo2bo
+2bo$59b2o4b4o3b2o$64b3o2bo2bo5bo$62bo3b4o3b2obo3bo$62bo3bo2b2o2b4o3bo$
+62bobob2obo3bobo4bo$66b2o2bo9bo$70bo2b3o3bo$65bobo$66bo5bo4bo$69b2obo
+3b2o2b2o$69b2ob2o5bo3b2o$69b2o6bob2ob2obo$71bo5b3o2b2o2bo$72bo4bo2bo3b
+o$78bo7b2o2$78b2o$78bo2bo$79bo$81b2o!

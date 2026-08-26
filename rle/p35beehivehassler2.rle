@@ -1,0 +1,12 @@
+#N p35beehivehassler2.rle
+#C https://conwaylife.com/wiki/P35_beehive_hassler
+#C https://www.conwaylife.com/patterns/p35beehivehassler2.rle
+x = 41, y = 28, rule = B3/S23
+30bo$28b5o$16b2o4b2o3bo5bo$16bobo2bobo3bob2o2bo$10bo7bo2bo4b2obobob3ob
+o$8b5o4bo4bo5bo2bo4b2o$7bo5bo3bo4bo5b2obob2o$7bo2b2obo3bo4bo4b3obobob
+5o$3bob3obobob2o4b2o5bo2bobo5bo2bo$3b2o4bo19bo2b5o2b2o$6b2obo19b4o3bo$
+b5obobo3bo10bo3bobo5b2o$o8bobobo10bo3bobo5b2o$2ob5o3b2o6b2o8b4o3bo$6bo
+bo3bo5bo2bo7bo2b5o2b2o$5bo6bo6b2o5bo2bobo5bo2bo$5bo6bo14b3obobob5o$6bo
+bo3bo15b2obob2o$2ob5o3b2o15bo2bo4b2o$o8bobobo12b2obobob3obo$b5obobo3bo
+5bo2bo4bob2o2bo$6b2obo7b3o2b3o2bo5bo$3b2o4bo8b2o2b2o4b5o$3bob3obobob2o
+4bo2bo7bo$7bo2b2obo3bobo2bobo$7bo5bo3b2o4b2o$8b5o$10bo!

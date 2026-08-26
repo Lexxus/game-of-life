@@ -363,3 +363,4 @@ class Cell {
 }
 
 export default Life;
+

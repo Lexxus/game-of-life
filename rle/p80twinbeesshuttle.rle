@@ -1,0 +1,10 @@
+#N p80twinbeesshuttle.rle
+#C https://conwaylife.com/wiki/Twin_bees_shuttle
+#C https://www.conwaylife.com/patterns/p80twinbeesshuttle.rle
+x = 56, y = 27, rule = B3/S23
+14b2o24b2o$13bo2bo22bo2bo$14bobo22bobo$3b2o10bo24bo10b2o$4bo46bo$3bo
+48bo$3b2o46b2o2$18b2o16b2o$2o4bo11bobo14bobo11bo4b2o$2o3bobo12bo14bo
+12bobo3b2o$5bobo10b3o14b3o10bobo$6bo42bo2$6bo42bo$5bobo10b3o14b3o10bob
+o$2o3bobo12bo14bo12bobo3b2o$2o4bo11bobo14bobo11bo4b2o$18b2o16b2o2$3b2o
+46b2o$3bo48bo$4bo46bo$3b2o10bo24bo10b2o$14bobo22bobo$13bo2bo22bo2bo$
+14b2o24b2o!

@@ -1,0 +1,15 @@
+#N p67bheptominohassler202304.rle
+#C https://conwaylife.com/wiki/B-heptomino_hasslers
+#C https://www.conwaylife.com/patterns/p67bheptominohassler202304.rle
+#C [[p67 B-heptomino hassler]]
+#C https://conwaylife.com/forums/viewtopic.php?p=160728#p160728
+x = 44, y = 44, rule = B3/S23
+20b2o$10b2o3b2o2bobo$10b2o3bo3bo4bo$16b3ob5o$10b4o4bobo$10bo2bo4bobob
+3o$19b2obo2bo$24b2o2bo$28b3o$31bo$12bobo15b2o6b2ob2o$26b2o11bob2o$9b2o
+3bo11b2o5bo5bo$8bobo27b2o$8bo6bo2b2o11bobo$7b2o7b3o10bo11b2o$11b2o4bo
+10bo11bobo$11b2o14b2o11bo$6b2o20b2o8b3o$2b2obobo21bo7bo3b2o$3bobo31b4o
+2bo$3bob2o33bob2o$2obo33b2obo$o2b4o31bobo$b2o3bo7bo21bobob2o$3b3o8b2o
+20b2o$3bo11b2o14b2o$bobo11bo10bo4b2o$b2o11bo10b3o7b2o$10bobo11b2o2bo6b
+o$4b2o27bobo$4bo5bo5b2o11bo3b2o$b2obo11b2o$b2ob2o6b2o15bobo$12bo$13b3o
+$15bo2b2o$18bo2bob2o$19b3obobo4bo2bo$23bobo4b4o$19b5ob3o$19bo4bo3bo3b
+2o$22bobo2b2o3b2o$22b2o!

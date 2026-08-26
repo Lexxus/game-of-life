@@ -1,0 +1,18 @@
+#N p106almostglidergun.rle
+#C https://conwaylife.com/wiki/Honey_farm_hasslers
+#C https://www.conwaylife.com/patterns/p106almostglidergun.rle
+x = 102, y = 49, rule = B3/S23
+3b2o2b2o3b2o$3bo3bobo2bo$4b3o2bo3bo$6bobob4o5bo$7b2obo8b3o10b2o$12b2o
+8bo9bo5bo7bo$13bo7b2o7bobo5b3o5b3o$13bob2o13b2o9bo7bo$8b2o2b2obo2bo21b
+2o6b2o10b2o$7bo2bo4bob2o41bo$7bo7bo26b3o13bobo$7bo6b2o26bo15b2o$7bobo
+33bo27b2o2b2o3b2o$7bobo61bo3bobo2bo$8bo15bo47b3o2bo3bo$23bobo48bobob4o
+5bo$22bo3bo48b2obo8b3o10b2o$22bo3bo53b2o8bo9bo$7b2ob2o10b2ob2o21b3o30b
+o7b2o7bobo$7bo3bo36bo2b2o28bob2o13b2o$7bo3bo36b2o2bo23b2o2b2obo2bo$8bo
+bo39b3o22bo2bo4bob2o$9bo15bo49bo7bo$24bobo48bo6b2o$24bobo48bobo$18b2o
+6bo48bobo$18bo7bo49bo15bo$15b2obo4bo2bo22b3o39bobo$15bo2bob2o2b2o23bo
+2b2o36bo3bo$2b2o13b2obo28b2o2bo36bo3bo$bobo7b2o7bo30b3o21b2ob2o10b2ob
+2o$bo9bo8b2o53bo3bo$2o10b3o8bob2o48bo3bo$14bo5b4obobo48bobo$20bo3bo2b
+3o47bo15bo$21bo2bobo3bo61bobo$20b2o3b2o2b2o27bo33bobo$42b2o15bo26b2o6b
+o$41bobo13b3o26bo7bo$41bo41b2obo4bo2bo$40b2o10b2o6b2o21bo2bob2o2b2o$
+52bo7bo9b2o13b2obo$53b3o5b3o5bobo7b2o7bo$55bo7bo5bo9bo8b2o$68b2o10b3o
+8bob2o$82bo5b4obobo$88bo3bo2b3o$89bo2bobo3bo$88b2o3b2o2b2o!

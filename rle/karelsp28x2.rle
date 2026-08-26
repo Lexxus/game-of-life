@@ -1,0 +1,12 @@
+#N karelsp28x2.rle
+#C https://conwaylife.com/wiki/Karel%27s_p28
+#C https://www.conwaylife.com/patterns/karelsp28x2.rle
+x = 61, y = 61, rule = B3/S23
+10b2o12b2o$10b2o12b2o5$12b2o8b2o$11bo2bo6bo2bo$11bo12bo$11bo12bo$2o10b
+o10bo10b2o$2o5b3o16b3o5b2o$6bo3bo14bo3bo$6bo22bo$7bo20bo7$7bo20bo$6bo
+22bo$6bo3bo14bo3bo$2o5b3o16b3o5b2o$2o10bo10bo10bobo12b2o$11bo12bo10b2o
+12b2o$11bo12bo$11bo2bo6bo2bo$12b2o8b2o2$37b2o8b2o$36bo2bo6bo2bo$36bo
+12bo$10b2o12b2o10bo12bo$10b2o12bobo10bo10bo10b2o$25b2o5b3o16b3o5b2o$
+31bo3bo14bo3bo$31bo22bo$32bo20bo7$32bo20bo$31bo22bo$31bo3bo14bo3bo$25b
+2o5b3o16b3o5b2o$25b2o10bo10bo10b2o$36bo12bo$36bo12bo$36bo2bo6bo2bo$37b
+2o8b2o5$35b2o12b2o$35b2o12b2o!

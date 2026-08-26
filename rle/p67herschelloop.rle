@@ -1,0 +1,18 @@
+#N p67herschelloop.rle
+#O David Buckingham, 1996
+#C https://conwaylife.com/wiki/P67_Herschel_loop
+#C https://www.conwaylife.com/patterns/p67herschelloop.rle
+#C [[p67 Herschel loop]]
+x = 72, y = 69, rule = B3/S23
+19bo20bo$5b2o11bobo7bo11b3o$6bo12bo6b3o14bo23b2o$6bobo16bo16b2o23bo$7b
+2o16b2o38bobo$17b2o42b2o2b2o$16bo2bo41b2o$16bo4bo26bo$17b6o22b5o$20bob
+2o26bo$5b2o13bobo9b2o14b2o$6bo13b2o10bo14b2o$6bobo37bo$7b2o3$20b2o$20b
+obo6b2o36b2o$22bo6bo19b2o9b2o5bobo$22b2o6bo17bobo18bo$29b2o17bo10bo2bo
+6b2o$12b2o33b2o4b2o$12b2o38bobo5b3o$14bo37bo$12b3o36b2o$11bobo4b2o$12b
+2o4bobo$11bo8bo$11bo8b2o$9bo3$70b2o$2b2o66bo$bobo64bobo$bo66b2o$2o3$
+62bo$50b2o8bo$51bo8bo$51bobo4b2o$52b2o4bobo$19b2o36b3o$19bo37bo$9b3o5b
+obo38b2o$17b2o4b2o33b2o$b2o6bo2bo10bo17b2o$2bo18bobo17bo6b2o$2bobo5b2o
+9b2o19bo6bo$3b2o36b2o6bobo$50b2o3$63b2o$25bo37bobo$23b2o14bo10b2o13bo$
+22b2o14b2o9bobo13b2o$21bo26b2obo$22b5o22b6o$23bo26bo4bo$9b2o41bo2bo$5b
+2o2b2o42b2o$4bobo38b2o16b2o$4bo23b2o16bo16bobo$3b2o23bo14b3o6bo12bo$
+29b3o11bo7bobo11b2o$31bo20bo!

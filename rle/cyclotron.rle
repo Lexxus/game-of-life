@@ -1,0 +1,37 @@
+#N cyclotron.rle
+#C https://conwaylife.com/wiki/Gliders_by_the_dozen
+#C https://www.conwaylife.com/patterns/cyclotron.rle
+x = 310, y = 212, rule = B3/S23
+58b2o$59bo175b2o$235bo$73b2o$74bo7$271b4o$53bo3bo213bo2b2o6b2o$54bobo
+215bo2b2o6bo$54bobo9b2o5b2o197bo2bo$54bobo9b2obobob2o198b2o$50bo2bo3bo
+2bo5bo2bobo2bo$51b3o3b3o6b3o3b3o198b2o$234b3o5b3o27bo2bo$234bo2b2ob2o
+2bo10bo16bo2b2o$235b3o3b3o11b2o14bo2b2o$236bo5bo28b4o4$201b2o14b3o8b2o
+$201bo17bo9bo$59bo159bo$58b2o158bo16bo$235b2o$74bo143bo$73b2o9b2o8b3o
+14b2o106bo$84bo9bo17bo106bo41b2o$94bo122b3o41bo$95bo2$95bo$94bo$94bo$
+94b3o5$300b2o$300bo$261bo7bo$260bobo5bobo$263bo3bo$40b2o218bo2bo3bo2bo
+$40bo220bobo3bobo$122b3o138b2ob2o$15b2o93b2o8bo4bo57b3o74b2ob2ob2ob2o$
+16bo93bo9bo5bo44b2o8bo4bo11b2o60b2o2bobo2b2o$125bo45bo9bo5bo11bo61b3o
+3b3o$123b2o61bo75bo5bo$184b2o$123b2o176bo5bo$125bo58b2o114b3o3b3o$120b
+o5bo11bo13b2o5b2o25bo74bo37bo3bobo3bo$120bo4bo11b2o14bo5bo21bo5bo73b2o
+36bo9bo$9bo5bo106b3o56bo4bo113b3o3b3o$8b3o3b3o48b3o115b3o$7b2obo3bob2o
+35b2o8bo4bo$39b3o5b3o3bo9bo5bo129bo$39b3o5b3o18bo128b2o$40b2o5b2o17b2o
+130b2o$42bo3bo61bobo$40bo2bobo2bo17b2o41b2o$39bo3bobo3bo18bo40bo35b3o
+3b3o5b3o3b3o114bobo$40bo2bobo2bo14bo5bo11bo63bo2bobo2bo5bo2bobo2bo114b
+2o$40b3o3b3o14bo4bo11b2o63bo7bo5bo7bo115bo24bo$65b3o239b2o4$48bo$47b2o
+2$8bo27bo236b3o$8b2o24bobo236bo$35b2o237bo2$229b2o$230bo2$153bo5bo$
+152b2o5b2o7$307b2o$308bo$224b2ob2o$224b2ob2o$224b2ob2o$222bob2ob2obo$
+222b3o3b3o$223bo5bo7$300b2o5b2o$299bo2bo3bo2bo$230bo71b2ob2o$229b2o70b
+obobobo$301bobobobo$299bo9bo8$308bo$307b2o4$53b2o$53bo2$152b2o5b2o$
+153bo5bo7$53bo7bo2$51b3o7b3o$52b2ob2ob2ob2o$53b3o3b3o$54bo5bo$b2o$bo$
+112b2o31bo7bo5bo7bo$111bobo31bo2bobo2bo5bo2bobo2bo$23bo89bo31b3o3b3o5b
+3o3b3o$23b2o$22bobo2$2bo5bo$b3o3b3o$o2b2ob2o2bo42bo124bob2o$3o5b3o42b
+2o69bo47b2o3bo2b2o2b3o$122bo2bo46bo4bo6b2o$122b5o10b2o14bo5bo17b2o3b3o
+$42b2o78b3ob2o10bo13b2o5b2o18bo3bo$42bo80b2obo$124b2o53bo3bo$177b2o3b
+3o$124b2o51bo6b2o14bo$123b2obo50bo2b2o2b3o12b2o$110bo11b3ob2o50bob2o$
+110b2o10b5o$122bo2bo$124bo4$9bo32b3o3b3o$8b2o32b3o3b3o$41bob2o3b2obo
+170bo$41bob2o3b2obo169b2o$42b2o5b2o169b2o$43bo5bo171b2o$92b2o2bobo$91b
+3obo3bo$90b2o6bo$91bob5o123b2o$92b3o116bo8b2o17bo$211b2o8b2o15b2o$92b
+3o127bo$75b2o14bob5o$42bo7bo25bo8bo4b2o6bo14bo$42b2o5b2o34b2o4b3obo3bo
+12b2o$92b2o2bobo7$69bo5bo$68b3o3b3o$68bob2ob2obo$39bo30b2ob2o$38b2o15b
+2o13b2ob2o$37b2o17bo13b2ob2o$38b2o4$38b2o$28bo8b2o$28b2o8b2o$39bo4$76b
+o$75b2o!

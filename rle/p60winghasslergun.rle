@@ -1,0 +1,12 @@
+#N p60winghasslergun.rle
+#C https://conwaylife.com/wiki/Wing_hasslers
+#C https://www.conwaylife.com/patterns/p60winghasslergun.rle
+x = 54, y = 38, rule = B3/S23
+16b2o11b2o$17bo11bo$16bo13bo$16b2o5bo5b2o$19b2obobob2o$14b5obobobobob
+5o$13bo4bo3bobo3bo4bo$14b3o3bobobobo3b3o6b2o$16bobob2o3b2obobo8bo$17b
+ob3o3b3obo7bobo$37b2o3$32b3o$34bo$2b2o6b2o21bo$bo2bo4bo2bo$6o2b6o8b2o
+5b2o$bo2bo4bo2bo9bobo3bo2bo10b2o6b2o$2b2o6b2o10bo2bo3bobo9bo2bo4bo2bo
+$23b2o5b2o8b6o2b6o$41bo2bo4bo2bo$20bo21b2o6b2o$19bo$19b3o3$15b2o$14bo
+bo7bob3o3b3obo$14bo8bobob2o3b2obobo$13b2o6b3o3bobobobo3b3o$20bo4bo3bo
+bo3bo4bo$21b5obobobobob5o$26b2obobob2o$23b2o5bo5b2o$23bo13bo$24bo11bo
+$23b2o11b2o!

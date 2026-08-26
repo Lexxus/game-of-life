@@ -1,0 +1,15 @@
+#N 246p41.rle
+#O Nico Brown, 2023
+#C https://conwaylife.com/wiki/246P41
+#C https://www.conwaylife.com/patterns/246p41.rle
+x = 74, y = 74, rule = B3/S23
+37bo$35b3o$34bo$19b2o5bo2b2o3b2o$20bo$20bobo$21b2o$32bo$30b2o$30b3o$
+31bo4$41bobo$34b2o6b2o12bo$34bo7bo11b3o$16b2o17b3o15bo$17bo19bo15b2o
+15bo$17bobo48b3o$18b2o47bo$26bo40b2o$25b3o$24bo2bo22b2o$25b2o5b2o7b2o
+6bob2o$32bobo6b2o6bo3bo$34bo15b3o$34b2o15bo2$64bo$15bo46b2obo$15b2o8b
+2o21b2o13b2o$14bobo8b2o22bo$46b3o8b2o11b2o$46bo9bobo11bobo$56bo15bo$
+55b2o15b2o$2o15b2o$bo15bo$bobo11bobo9bo$2b2o11b2o8b3o$24bo22b2o8bobo$
+9b2o13b2o21b2o8b2o$8bob2o46bo$9bo2$22bo15b2o$21b3o15bo$20bo3bo6b2o6bob
+o$21b2obo6b2o7b2o5b2o$22b2o22bo2bo$46b3o$5b2o40bo$6bo47b2o$3b3o48bobo$
+3bo15b2o15bo19bo$20bo15b3o17b2o$17b3o11bo7bo$17bo12b2o6b2o$30bobo4$42b
+o$41b3o$42b2o$41bo$51b2o$51bobo$53bo$38b2o3b2o2bo5b2o$39bo$36b3o$36bo!

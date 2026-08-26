@@ -1,0 +1,11 @@
+#N p32honeyfarmhassler16.rle
+#C https://conwaylife.com/wiki/Period-32_honey_farm_hasslers
+#C https://www.conwaylife.com/patterns/p32honeyfarmhassler16.rle
+x = 50, y = 47, rule = B3/S23
+15b2o$13b2obo$12bo2bo$12bo2bo4bo$12bo2bo3bobo$13b3o3b2o2$13b3o3b2o$12b
+o2bo3bobo$12bo2bo4bo$12bo2bo$13b2obo$15b2o5$10bo9b3o$2bo6bobo7bo3bo13b
+2o$b3o6bo7bo5bo12bo2bo$3obo13bo5bo$bo3bo7bo4bo5bo10bo8bo$2bo3bo4b2ob2o
+3bo3bo19b3o$3bob3o2bo4bo4b3o4b3o4bo4bo2b3obo$4b3o19bo3bo3b2ob2o4bo3bo
+$5bo8bo10bo5bo4bo7bo3bo$25bo5bo13bob3o$9bo2bo12bo5bo7bo6b3o$11b2o13bo
+3bo7bobo6bo$27b3o9bo5$33b2o$33bob2o$34bo2bo$29bo4bo2bo$28bobo3bo2bo$29b
+2o3b3o2$29b2o3b3o$28bobo3bo2bo$29bo4bo2bo$34bo2bo$33bob2o$33b2o!

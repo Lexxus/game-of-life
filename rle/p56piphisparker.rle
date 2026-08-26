@@ -1,0 +1,11 @@
+#N p56piphisparker.rle
+#C https://conwaylife.com/wiki/Period-56_pi-heptomino_hasslers
+#C https://www.conwaylife.com/patterns/p56piphisparker.rle
+x = 63, y = 41, rule = B3/S23
+47bo$45b3o$44bo$44b2o4b2o$16b2o32bo$16b2o15bo14bobo$33b3o12b2o$36bo$9b
+2o15b2o7bo$10bo15bo7bo$10bobo11bobo7b2o$11b2o11b2o$5bo$5b3o$8bo46b2o$
+7b2o45bo2bo$26bo26b6o$2o24bo10bo3b3o10bo2bo$bo34bobo4bo11b2o$bobo31bo
+2bo2b3o$2b2o21b2o9b2o21b2o$19b3o2bo2bo31bobo$6b2o11bo4bobo34bo$5bo2bo
+10b3o3bo10bo24b2o$4b6o26bo$5bo2bo45b2o$6b2o46bo$55b3o$57bo$37b2o11b2o$
+27b2o7bobo11bobo$28bo7bo15bo$27bo7b2o15b2o$26bo$13b2o12b3o$12bobo14bo
+15b2o$12bo32b2o$11b2o4b2o$18bo$15b3o$15bo!

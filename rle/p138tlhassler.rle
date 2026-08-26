@@ -1,0 +1,12 @@
+#N p138tlhassler.rle
+#C https://conwaylife.com/wiki/Gabriel%27s_p138
+#C https://www.conwaylife.com/patterns/p138tlhassler.rle
+x = 76, y = 44, rule = B3/S23
+62bo$61bobo2$61b3o$61bo$60bo$59bobo$35b2o22bobo2b3o$31b2obo25bo3b3o$31b
+2o2bo2bo13b2o$36bobo13b2o$37bo14b2o$46bobo$13bo22b2o7bo2bo$12bobo21b2o
+8bob2ob2o15b2o$50bo2bo13bo2bo$12b3o36b2o15b2ob2obo$14bo57bo2bo$15bo56b
+obo$14bobo17b3o30b2o$9b3o2bobo50b2o$9b3o3bo16bo5bo28b2o$22b2o8bo5bo15b
+3o3bo$22b2o8bo5bo15b3o2bobo$22b2o35bobo$27bobo4b3o23bo$27bo2bo28bo$6b
+2o15b2ob2obo27b3o$5bo2bo13bo2bo$bob2ob2o15b2o13b2o17bobo$o2bo33bobo18b
+o$bobo32b3o$7b2o27b2o$7b2o28bobo$7b2o29bobo2b2o$15bo3b3o17bo2bobo$14b
+obo2b3o18b4o$14bobo24b2o$15bo$16bo$16b3o2$16bobo$17bo!

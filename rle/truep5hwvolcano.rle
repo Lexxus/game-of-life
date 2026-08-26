@@ -1,0 +1,13 @@
+#N truep5hwvolcano.rle
+#C https://conwaylife.com/wiki/Heavyweight_volcano
+#C https://www.conwaylife.com/patterns/truep5hwvolcano.rle
+x = 32, y = 26, rule = B3/S23
+7bo$6bobo9bo4b2o$6bobo5b2obobo3bobo$4b2obob2o4bobobo6bo$3bo3bo3bo2bo2b
+ob2o3b2obo$3b4ob3o4b3o2bo2bo3bo$5bo2bo2b4o4b2o3bobob2o$6bo2bobo4b2obo
+5b2obo$b3ob2ob2obob2o2b2ob2obobo2bo$bo5bobobo2b2ob2o2b4obobob2o$b2o8b
+2ob2o2bo2bo3bo3bobo$bobobo2bo2bo2b2ob2o3b2obob2o$o3b3ob2o3bo3bo5bobob
+o$o3b3ob2o3bo3bo5bobobo$bobobo2bo2bo2b2ob2o3b2obob2o$b2o8b2ob2o2bo2bo
+3bo3bobo$bo5bobobo2b2ob2o2b4obobob2o$b3ob2ob2obob2o2b2ob2obobo2bo$6bo
+2bobo4b2obo5b2obo$5bo2bo2b4o4b2o3bobob2o$3b4ob3o4b3o2bo2bo3bo$3bo3bo3b
+o2bo2bob2o3b2obo$4b2obob2o4bobobo6bo$6bobo5b2obobo3bobo$6bobo9bo4b2o$
+7bo!

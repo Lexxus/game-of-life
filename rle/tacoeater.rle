@@ -1,0 +1,10 @@
+#N tacoeater.rle
+#C https://conwaylife.com/wiki/Taco
+#C https://www.conwaylife.com/patterns/tacoeater.rle
+x = 45, y = 38, rule = B3/S23
+8b2o25b2o$8bobo23bobo$2b2o5bo25bo5b2o$3bo37bo$2bo39bo$2b2o37b2o2$2b2o
+37b2o$2bobo35bobo$3bo37bo$3o39b3o$o43bo2$9bo25bo$8bobo23bobo$8bo2bo21b
+o2bo$9b2o23b2o2$8bo27bo$9bo25bo$8b2o25b2o$8bo4bo17bo4bo$12bobo15bobo$
+11bo21bo$12b2o17b2o$11bo21bo$12b3o15b3o2$12b2obo13bob2o$12bobobo11bob
+obo$14bo2b2o7b2o2bo$13bobo13bobo$15bo13bo$13b2o15b2o$17b2o7b2o$17b2ob
+o3bob2o$18bo7bo$19b3ob3o!

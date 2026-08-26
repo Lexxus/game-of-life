@@ -1,0 +1,15 @@
+#N 255p132.rle
+#O Christopher D'Agostino, 2022
+#C https://conwaylife.com/wiki/255P132
+#C https://www.conwaylife.com/patterns/255p132.rle
+x = 46, y = 46, rule = B3/S23
+32bo$30b3o$29bo$24b2o4bo$7bo2b2o12b2o5bo$7b4o6bo9b3obo$12b2obobobo5bo
+bob2o$9b2ob3o4bo5bob2o11b2o$9bo9bo20bo$10b3o3b2o9bo9b2obo$12bo13b3o7b
+obob2o$16bo19bobo2bo$13b3o19b2o3bo$2o32bo2b2o$bo2b2o22bo4b4obo$bobo2b
+o20bobo4b3o$2bob2obo21bo5b2o2b2o$4bo2b4o12b2o2bo$5bob5o11b3o11bo2bo$4b
+o3b3o13b2o12bo$3b3o32bo$3b3o21b3o$27b3o$26bobo12bo$26b2o13bo$7bo31bob
+o$7bo27bo2b2obo$5bo2bo24b3o2b2o$10bo24bo$5b2o3bo28b2o2bo$11b2o26bo2bo
+bo$7bo3b3o26b2o2bo$11bo18b2o12b2o$5b3ob2o$4bo2bobo7b3o12bo$4b2obobo19b
+3obo$5bob2o7bo3bo7bo4b3o$5bo20bo5bo3bo$4b2o10bo2bo6bo5b5o$15bo2b2o6bo
+bobo2bo$14bobobo2bo6bo4bob4o$14bob3o3bo11b2o2bo$15bobobobo$16bo$13b3o
+$13bo!

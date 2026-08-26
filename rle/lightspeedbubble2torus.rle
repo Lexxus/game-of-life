@@ -1,0 +1,13 @@
+#N lightspeedbubble2torus.rle
+#C https://conwaylife.com/wiki/Lightspeed_bubble
+#C https://www.conwaylife.com/patterns/lightspeedbubble2torus.rle
+x = 59, y = 44, rule = B3/S23:T59,44
+59o2$59o$53bo$20o2b3o2b3o2b3o2b8o2b4o3b5o$21b2o3b2o3b2o3b2o8b2o5bo$20o
+3b2o3b2o3b2o3b7o3bob2o2b5o$41bo8b2o$20o22b2obo6b7o$42bo12bo$20o22bo13b
+3o$42b2o5b2o4bo$20o22b2o3b2o3bob5o$42bo2bob2o3bo$20o22bo6b2o3b5o$42b2o
+10bo$20o22b2o10b5o$42bo6b2obo$20o22bo2bob2o3bob5o$42b2o3b2o6bo$20o22b
+2o5b2o5b3o$42bo12bo$20o22bo11b5o$42b2o5b2ob2o$20o22b2o3b2o3b2o2b3o$42b
+o2bob2o5b2o$20o22bo6b2o4b4o$42b2o$20o22b2o11b4o$42bo6b2o3b2o$20o22bo2b
+ob2o3b2o2b3o$42b2o3b2o3b2o$20o22b2o5b2o3b5o$42bo12bo$22o5bo5bo5bo2bob
+o11b3o$25b2o4b2o4b2o3bo3bobo7bo$24ob2ob2ob2ob2ob2ob9o7b3o$55bo$49o3b7o
+$50b2o$49o2b8o2$59o!
