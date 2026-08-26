@@ -4,6 +4,8 @@
 
 .theme-default {
   --color: #222;
+  --color-header: #337;
+  --color-active: #722;
 
   --icon-size: 16px;
   --icon-color-default: var(--color);
@@ -204,6 +206,15 @@
   cursor: grabbing;
 }
 
+.page-current:disabled {
+  border-color: transparent;
+  background-color: transparent;
+  opacity: 1;
+  box-shadow: none;
+  color: var(--color-active);
+  text-decoration: underline;
+}
+
 .collection {
   display: flex;
   flex-wrap: wrap;
@@ -246,7 +257,7 @@
 .drawer-header {
   display: flex;
   justify-content: space-between;
-  color: #337;
+  color: var(--color-header);
   padding: 5px;
   border-bottom: 1px solid #ccf;
 }

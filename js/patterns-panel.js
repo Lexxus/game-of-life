@@ -380,7 +380,7 @@ export function renderPatternsPanel({ onSave, onPaste }) {
           } else if (isShortMode) {
             if (i === rangeBtnIndex) {
               textContent = '...';
-              page = Math.floor((totalPages - i * 2) / 2) + i - 1;
+              page = Math.floor((totalPages - MAX_PAGES + 1) / 2) + i - 1;
             } else if (i > rangeBtnIndex) {
               textContent = totalPages - pages + i;
               page = textContent - 1;
@@ -401,7 +401,7 @@ export function renderPatternsPanel({ onSave, onPaste }) {
       $btn.textContent = textContent;
 
       if (isActive) {
-        $btn.className = 'page-current';
+        $btn.className += ' page-current';
         $btn.disabled = true;
       } else {
         $btn.dataset.page = page;
