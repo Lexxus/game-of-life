@@ -1,0 +1,11 @@
+#N p88piblonktiehassler.rle
+#C https://conwaylife.com/wiki/Blonk-tie_hasslers
+#C https://www.conwaylife.com/patterns/p88piblonktiehassler.rle
+x = 63, y = 51, rule = B3/S23
+9bo$7b3o$6bo$6b2o2$37bo6bo$3o32bobo4b3o$2o2bo31bobo2bo$3ob2o30bo4b2o$
+2b2ob2o$5bo$4bo$18bo6bo$18b3o4bobo$21bo2bobo$5bo14b2o4bo27bo$4bo47b3o$
+3b2ob2o43bo$4b2ob3o41b2o$5bo2b2o$7b3o26b2o$36bobo$38bo$2b2o32bobo$3bo
+32b2o24bo$3o57b3o$o24b2o32bo$24bobo32b2o$24bo$24bobo$25b2o26b3o$53b2o
+2bo$10b2o41b3ob2o$11bo43b2ob2o$8b3o47bo$8bo27bo4b2o14bo$36bobo2bo$35bo
+bo4b3o$37bo6bo$58bo$57bo$56b2ob2o$20b2o4bo30b2ob3o$21bo2bobo31bo2b2o$
+18b3o4bobo32b3o$18bo6bo2$55b2o$56bo$53b3o$53bo!

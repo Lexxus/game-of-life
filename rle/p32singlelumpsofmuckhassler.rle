@@ -1,0 +1,15 @@
+#N p32singlelumpsofmuckhassler.rle
+#C https://conwaylife.com/wiki/Lumps_of_muck_hasslers
+#C https://www.conwaylife.com/patterns/p32singlelumpsofmuckhassler.rle
+x = 46, y = 45, rule = B3/S23
+3b2o3b2o$3b2o3b2o4bo$12b2o$12b2o4b2o$6b2o4b2o4b2o$bo3b2ob3o2b2o14bo5bo
+$2b4o3b2o3b2o13bo5bo$2b3o10bo11b4o3b4o$14bo3b2o6b2o9b2o$5b2o6b2o3b2o5b
+3o2b2ob2o2b3o$2o3b2o6b2o10b2o3b2ob2o3b2o$2o3bo20b3obo3bob3o$4bo10b3o9b
+2o7b2o$4b2o3b2o3b4o10b3o3b3o$5b2o2b3ob2o3bo11b2ob2o$2o4b2o4b2o15bobobo
+bo$2o4b2o22bo3bo$6b2o$5bo4b2o3b2o$10b2o3b2o$22b3o$22bobo$21bo2bo$21bob
+o$21b3o$29b2o3b2o$29b2o3b2o4bo$38b2o$11bo3bo22b2o4b2o$10bobobobo15b2o
+4b2o4b2o$11b2ob2o11bo3b2ob3o2b2o$9b3o3b3o10b4o3b2o3b2o$8b2o7b2o9b3o10b
+o$7b3obo3bob3o20bo3b2o$6b2o3b2ob2o3b2o10b2o6b2o3b2o$6b3o2b2ob2o2b3o5b
+2o3b2o6b2o$7b2o9b2o6b2o3bo$8b4o3b4o11bo10b3o$10bo5bo13b2o3b2o3b4o$10bo
+5bo14b2o2b3ob2o3bo$26b2o4b2o4b2o$26b2o4b2o$32b2o$31bo4b2o3b2o$36b2o3b
+2o!

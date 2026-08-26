@@ -1,0 +1,24 @@
+#N p38almostgun.rle
+#C https://conwaylife.com/wiki/Period-38_honey_farm_hasslers
+#C https://www.conwaylife.com/patterns/p38almostgun.rle
+x = 121, y = 79, rule = B3/S23
+68b2o$68bobo$70bo$70b2o$77bo$68b4o5b2o$68bo2bo4bob2o$69bo$66b3o7bobo$
+66bo8bob2o$34bo22bo17bo$32b3o22b3o17b2o4b3o30b3o$31bo28bo10b2obo2bo13b
+2o5b2o2b2o5b2o$31b2o26b2o11bo3bo4bo5bo3bobo4b2o2b2o4bobo3bo5bo$73b3o5b
+o5bo3bob2o3b2o2b2o3b2obo3bo5bo$28b3o10b2o6b2o10b3o10bo6bo5bo4b3obobo4b
+obob3o4bo5bo$41b3o4b3o45b3o4b3o$26bo5bo4b3obobo4bobob3o4bo5bo6bo10b3o
+10b2o6b2o10b3o$26bo5bo3bob2o3b2o2b2o3b2obo3bo5bo5b3o$26bo5bo3bobo4b2o
+2b2o4bobo3bo5bo4bo3bo11b2o26b2o$36b2o5b2o2b2o5b2o13bo2bob2o10bo28bo$
+28b3o30b3o4b2o17b3o22b3o$71bo17bo22bo$57bo10b2obo8bo$49b3o5b3o8bobo7b
+3o$49bo10bo16bo$50bo8b2o6b2obo4bo2bo$68b2o5b4o$61b3o5bo$60bo3bo10b2o$
+59bo5bo10bo$59bo5bo10bobo$59bo5bo11b2o$60bo3bo$61b3o$72b2o$72bo$73b3o$
+75bo2$45bo$45b3o$48bo$47b2o$57b3o$56bo3bo$42b2o11bo5bo$42bobo10bo5bo$
+44bo10bo5bo$44b2o10bo3bo$51bo5b3o$42b4o5b2o$42bo2bo4bob2o6b2o8bo$43bo
+16bo10bo$40b3o7bobo8b3o5b3o$40bo8bob2o10bo$8bo22bo17bo$6b3o22b3o17b2o
+4b3o30b3o$5bo28bo10b2obo2bo13b2o5b2o2b2o5b2o$5b2o26b2o11bo3bo4bo5bo3bo
+bo4b2o2b2o4bobo3bo5bo$47b3o5bo5bo3bob2o3b2o2b2o3b2obo3bo5bo$2b3o10b2o
+6b2o10b3o10bo6bo5bo4b3obobo4bobob3o4bo5bo$15b3o4b3o45b3o4b3o$o5bo4b3ob
+obo4bobob3o4bo5bo6bo10b3o10b2o6b2o10b3o$o5bo3bob2o3b2o2b2o3b2obo3bo5bo
+5b3o$o5bo3bobo4b2o2b2o4bobo3bo5bo4bo3bo11b2o26b2o$10b2o5b2o2b2o5b2o13b
+o2bob2o10bo28bo$2b3o30b3o4b2o17b3o22b3o$45bo17bo22bo$42b2obo8bo$42bobo
+7b3o$51bo$41b2obo4bo2bo$42b2o5b4o$43bo$49b2o$50bo$50bobo$51b2o!

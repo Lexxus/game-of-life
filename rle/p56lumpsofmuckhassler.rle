@@ -1,0 +1,11 @@
+#N p56lumpsofmuckhassler.rle
+#C https://conwaylife.com/wiki/Lumps_of_muck_hasslers
+#C https://www.conwaylife.com/patterns/p56lumpsofmuckhassler.rle
+x = 37, y = 47, rule = B3/S23
+17b2o$16bo2bo$15bobobo$15bo2bo$14bo$15bobo$20bo$b2o5b2o8bo2bo$b2o5b2o
+8b2ob2o$21bo$18b3o6bo$19b2o5b3o$25b3obo$2b2o3b2o17bo3bo$b2o5b2o17bo3b
+o$o2bo3bo2bo17bob3o$obo5bobo18b3o$3o5b3o4b3o12bo$15bobo$15bo2bo$b2o5b
+2o6bobo$b2o5b2o6b3o4$18b3o6b2o5b2o$18bobo6b2o5b2o$18bo2bo$19bobo$6bo12b
+3o4b3o5b3o$5b3o18bobo5bobo$4b3obo17bo2bo3bo2bo$5bo3bo17b2o5b2o$6bo3bo
+17b2o3b2o$7bob3o$8b3o5b2o$9bo6b3o$15bo$14b2ob2o8b2o5b2o$15bo2bo8b2o5b
+2o$16bo$19bobo$22bo$18bo2bo$17bobobo$17bo2bo$18b2o!

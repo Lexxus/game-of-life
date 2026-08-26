@@ -1,0 +1,10 @@
+#N glidershipcollisions.rle
+#C https://conwaylife.com/wiki/Collisions_of_a_glider_with_common_objects
+#C https://www.conwaylife.com/patterns/glidershipcollisions.rle
+x = 98, y = 97, rule = B3/S23
+3bo30bo30bo30bo$2bo30bo30bo30bo$2b3o28b3o28b3o28b3o4$3b2o28b2o28b2o28b
+2o$2bobo27bobo27bobo27bobo$2b2o28b2o28b2o28b2o20$7bo30bo30bo$6bo30bo30b
+o$6b3o28b3o28b3o4$3b2o28b2o28b2o$2bobo27bobo27bobo$2b2o28b2o28b2o25$b
+o30bo30bo30bo$o30bo30bo30bo$3o28b3o28b3o28b3o3$2b2o28b2o28b2o28b2o$2b
+obo27bobo27bobo27bobo$3b2o28b2o28b2o28b2o21$5bo30bo30bo$4bo30bo30bo$4b
+3o28b3o28b3o3$2b2o28b2o28b2o$2bobo27bobo27bobo$3b2o28b2o28b2o!

@@ -1,0 +1,16 @@
+#N 394p132.rle
+#C https://conwaylife.com/wiki/255P132
+#C https://www.conwaylife.com/patterns/394p132.rle
+x = 50, y = 50, rule = B3/S23
+15b2o$11b2obobo$12bobo$12bo2bo$11b2obobob2ob2o$10bo3b2o3bobo7bo$11b3o
+5bobo7b3o$14b5obo5bo5bo$11b2obo2bo8b6obo$10bobob2o2b5o8bobo$10bo3bo3b
+o4bo2b2obo3b2o4b2o3bo$11b3ob2obob3o3b2o4bo5bo2bobobo2bo$13bo6bo7b2o2b
+o5bob2obob4o$30b2o5b2obo2bo$14bo4bo17bo4bob2ob2o$10bo5b2o19b2o3bobobo
+2bo$8b3o18bo7b2obobo2bo2b2o$7bo3b2o15bob2o5b2obobo$6bob2obobo13b2ob2o
+5b2obobo2bo$6bobobobo12b5o7bo2bo2b3o$5b2obo16b3o9b2obobo$8bo2bo14b2o10b
+obo2b3o$8bobo27bobo4bo$7b2ob2o17b3o7bo$29b3o$28bobo$10bo17b2o8b2ob2o$
+4bo4bobo27bobo$4b3o2bobo26bo2bo$7bobob2o28bob2o$4b3o2bo2bo24bobobobo$
+4bo2bobob2o23bobob2obo$7bobob2o24b2o3bo$2o2bo2bobob2o26b3o$o2bobobo3b
+2o19b2o5bo$b2ob2obo4bo17bo4bo$6bo2bob2o5b2o$b4obob2obo5bo2b2o7bo6bo$b
+o2bobobo2bo5bo4b2o3b3obob2ob3o$5bo3b2o4b2o3bob2o2bo4bo3bo3bo$16bobo8b
+5o2b2obobo$16bob6o8bo2bob2o$17bo5bo5bob5o$18b3o7bobo5b3o$20bo7bobo3b2o3bo$27b2ob2obobob2o$34bo2bo$35bobo$33bobob2o$33b2o!

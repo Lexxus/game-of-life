@@ -1,0 +1,17 @@
+#N p56rpentominohassler2.rle
+#C https://conwaylife.com/wiki/Century_hasslers
+#C https://www.conwaylife.com/patterns/p56rpentominohassler2.rle
+x = 63, y = 60, rule = B3/S23
+33bo$32b2o$30b2ob2o$32bo$27b2o3b2o7b2o$16b2o12bob2o6bobo$17bo12b2o8b3o
+$17bobo8b2o4b2o8b2o$18b2o8b2o4b2o8bobo$21b3o8b2o12bo$21bobo6b2obo12b2o
+$21b2o7b2o3b2o$31bo10bo3b2o5b2o$29b2ob2o6b3o3b2o5b2o$30b2o7bo$30bo8b2o
+2$21bo$20b3o11b3o10b2o3b2o$12b2o4b2o3bob2o9bo9b2o5b2o$12b2o4bo2b2o2b2o
+9bo8bo2bo3bo2bo$18bob2o10bob2o9bobo5bobo$31b2o12b3o5b3o3$18bob2o24b2o
+5b2o$10bob2o4bo2b2o2b2o19b2o5b2o$8b3ob2o4b2o3bob2o$7bo12b3o34bo$7b2o12b
+o33b3o$5b3o46bo$4bobo5b2o31b2o7b2o$4bo2bo5bo31bo6b3o$5b2o6bobo6bo20bo
+bo5bobo$14b2o6bo20b2o6bo2bo$18b3o31b2o$19b4o$21b3o$7b2o16bo$2b2o2b2o2b
+o6bo3b3obo$o4b2o2b2o5b2o3bo32b2o$o5bo2bo3b2o3bo16bo13b2o2b2o2bo$b2o3b
+o2bo5bo9bo9b2o10bo4b2o2b2o$5b2o2b2o4bo9bo9b2o10bo5bo2bo3b2o$5bo2b2o2b
+2o26b2o6b2o3bo2bo5bo$7b2o31bobo9b2o2b2o4bo$39bo2bo9bo2b2o2b2o$40b2o12b
+2o$40bo2$9b2o$8bo2bo$9bobo44b2o$8b3o44bo2bo$7b2o47bobo$8bo46b3o$5b3o46b
+2o$5bo49bo$52b3o$52bo!

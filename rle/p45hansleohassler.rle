@@ -1,0 +1,10 @@
+#N p45hansleohassler.rle
+#C https://conwaylife.com/wiki/B-heptomino_hasslers
+#C https://www.conwaylife.com/patterns/p45hansleohassler.rle
+x = 53, y = 38, rule = B3/S23
+30bo$29b3o$28b5o7$28b5o$29b3o$30bo2$5bo2bob2obo2bo27b2o3b2o$4b2o2bo4bo
+2b2o25bo2bobo2bo$5bo2bob2obo2bo26bob2ob2obo$42b2o2bobo2b2o$33b3o5bo2bo
+bo3bo$2o11bo21bo5b2obob2ob2o$obo8b4o7bobo3bo4bobo5bo2bobo4b2o$bo8b5o
+13bo4b2o6b9obo$10bobobo10bob2o12b2o5bo2bo$9b3o11bo17bo2bobo3bo$24b2o
+15b2ob2ob3o$30b3o9bo4bo$30b3o9bob3o$31bo11b2o$31bo$10b2o19bo$10b2o18bo
+bo3$30bobo$31bo$31bo$31bo$30b3o$30b3o!

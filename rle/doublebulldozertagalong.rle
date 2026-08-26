@@ -1,0 +1,12 @@
+#N doublebulldozertagalong.rle
+#C https://conwaylife.com/wiki/Bulldozer
+#C https://www.conwaylife.com/patterns/doublebulldozertagalong.rle
+x = 42, y = 41, rule = B3/S23
+5b8o16b8o$4bob6obo14bob6obo$4b3o4b3o14b3o4b3o$7bo2bo20bo2bo$6bo4bo18b
+o4bo$6b2o2b2o18b2o2b2o3$6b2o2b2o18b2o2b2o2$5bo2b2o2bo16bo2b2o2bo$8b2o
+22b2o$6b6o18b6o3$obo12bobo6bobo12bobo$o2bo10bo2bo6bo2bo10bo2bo$o2bo2b
+6o2bo2bo6bo2bo2b6o2bo2bo2$2b3o8b3o10b3o8b3o$3bobob4obobo12bobob4obobo
+$5bo2b2o2bo16bo2b2o2bo$5bo6bo16bo6bo$6b2o2b2o18b2o2b2o2$6bo4bo18bo4bo
+$6b6o18b6o$5b2ob2ob2o16b2ob2ob2o$3bob2o4b2obo12bob2o4b2obo$3bob2o4b2o
+bo12bob2o4b2obo$2b2o10b2o10b2o10b2o3$15bo10bo$14bobo8bobo$15b2o8b2o$20b
+2o$20b2o$17b8o$16bobo4bobo$17b2o4b2o!

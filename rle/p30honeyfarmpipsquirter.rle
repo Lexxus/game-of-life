@@ -1,0 +1,10 @@
+#N p30honeyfarmpipsquirter.rle
+#C https://conwaylife.com/wiki/Period-30_honey_farm_hasslers
+#C https://www.conwaylife.com/patterns/p30honeyfarmpipsquirter.rle
+x = 28, y = 32, rule = B3/S23
+bo19bo4b2o$b3o16bobo2bobo$4bo15bob4o$3b2o12bo2bobo2bobo$17bo3bo4b2o$
+16bo3bo$15b2o$8bo6b2obo$7bobo4b2o2b3o$6bo3bo3b3obo$6bo3bo3b3obo$6bo3bo
+3b2o2b3o$7bobo5b2obo$8bo6b2o$16bo3bo$17bo3bo4b2o$17bo2bobo2bobo$5b4o
+11bob4o$4b6o10bobo2bobo$3bob4obo10bo4b2o$b3o6b3o$o4bo3bo3bo$b5o2bo2bob
+o$9bob2o$3b2ob4o$2bo3bo3b3o$2bobob4o3bo$b2ob2obo3b2o$9bobo$9bobo$7bobo
+b2o$7b2o!

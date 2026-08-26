@@ -1,0 +1,13 @@
+#N p174centuryshuttle.rle
+#C https://conwaylife.com/wiki/Century_hassler
+#C https://www.conwaylife.com/patterns/p174centuryshuttle.rle
+x = 50, y = 50, rule = B3/S23
+20b2o$19bobo$19bo$17b2ob4o$13b2obobobo2bo$13b2obo4bo2b2o$16bob2o2b2o2b
+o$16bobob2o2b2obo$17bo5bo3bo$18b3obob3o$20bobobo2$21b3o2$39b2o3bo$38bo
+2bobobo2bo$38bob2obob4o$37b2o4bo$37bo2bobob5o$38bobobobobo2bo$39bo2bo
+2bo2b2o$38bobob2o$10bo28b2obo2bo$4bo4bobo25bo2bob4o$4b3o2bobo25b2obobo
+$7bobob2o25bobo2b3o$4b4obo3bo24bobo4bo$4bo2bobo3bo6b3o16bo$6b2obo3bo6b
+o2bo$2o2bo2bo5bo8b2o$o2bobobo2bo2bo$b5ob2obo2bo$6bo2bob2o$b4obob2obo$b
+o2bobobo2bo12bo3bo$5bo3b2o12bo5bo$24bo3bo3$25b5o$23b3obob3o$22bo4bo4bo
+$22bob2o2bob2obo$23bo2b2o3bobo$24b2o2bo2bobob2o$26bo4bobob2o$26b4ob2o$
+30bo$28bobo$28b2o!

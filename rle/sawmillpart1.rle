@@ -1,0 +1,23 @@
+#N sawmillpart1.rle
+#C https://conwaylife.com/wiki/Sawmill
+#C https://www.conwaylife.com/patterns/sawmillpart1.rle
+x = 199, y = 180, rule = B3/S23
+78bo7bo$77b3o5bobo$76b2ob4o2bo2bo$77b3o2bo$78bo2b2o2bo$82b2obobo$86bo
+10b2o$97b2o5$62bo$61b3o$60b2ob2o40b2o$61b3o41b2o$62bo$62bobo$62b4o$65b
+o2$61b2ob2o5b3o$60bo5bo46b2o$61bo3bo9b2o36b2o$62bo14bo$71b4obo$52bo7bo
+10b5o$51b3o5bobo$50b2ob4o2bo2bo39bo$51b3o2bo14bobo27bobo$52bo2b2o2bo
+11bobo27bo2b2o$56b2obobo10bo26b7o$60bo10bobo24bo2bo3bo$72b2o23b3o2b7o$
+72bo26b3o2bo$95bo4b2ob2o$94b2o5b3obo2bo$93bob2o5b3ob2o$93bo2b2o7bo$91b
+4ob3o$90bo2bobo2b2o$56bo34bobobob3o$55b4o6b2o25b2ob3obo$54bo4bo4b3ob2o
+22b4o2bobo$53b2o10b2ob3o24bo3bo$54bobob2o4b3ob2o25bo3bo$55b3o6b2o29bo
+2bo$56bo5$59b2o$59b2o$76bo$75bobo$75bo2b2o$73b7o$72bo2bo3bo$71b3o2b7o$
+67b2o4b3o2bo$67b2o5b2ob2o$75b3obo2bo$76b3ob2o$79bo4$75b2o$75b2o36$188b
+2o$188b2o8$189bo$188b3o$187b5o$156bo29b2o3b2o$155b2o$155bobo2$188b3o$
+188b3o2$191bo$190bobo$189bo3bo$190b3o$183bo4b2o3b2o$183bobo$183b2o7$
+188b2o8bo$174b2o13bo6b3o$186b3o6bo$186bo8b2o4$176bo$174b3o$173bo$173b
+2o11bo$185b2o3b2o3b2o$185bobo$4b2o155bo29bo3bo$3bo2bo153bo31b3o$3bo2bo
+153b3o8bo8bo11b3o$b2ob2ob2o161b3o7b2o$o2bo2bo2bo159b5o5bobo$o2bo2bo2bo
+158bobobobo16bo$b2ob2ob2o159b2o3b2o15b3o$3bo2bo182bo3bo$3bo2bo184bo$4b
+2o167b2o13bo5bo$173b2o13bo5bo$175bo13bo3bo$173b3o14b3o$171bo$171b5o$
+172b2o3$170b2o3b2o$171b5o$171b2ob2o$171b2ob2o14b2o$172b3o15b2o6$173b2o
+$173b2o!

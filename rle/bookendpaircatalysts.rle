@@ -1,0 +1,16 @@
+#N bookendpaircatalysts.rle
+#C https://conwaylife.com/wiki/Cis-mirrored_bookend
+#C https://www.conwaylife.com/patterns/bookendpaircatalysts.rle
+x = 91, y = 52, rule = B3/S23
+70b2o3b2o$70bobobobo$12b2o3b2o38b2o13bobo13b2o$12bobobobo38b2obo10b2ob
+2o10bob2o$14bobo44bo23bo$13b2ob2o40bo29bo$bo27bo29bob2o21b2obo$obo3b3o
+13b3o3bobo30b2o6b3o3b3o6b2o$bo4bobo13bobo4bo39bobo3bobo$6b3o13b3o44b3o
+3b3o4$6b3o13b3o35b3o21b3o$bo4bobo13bobo4bo33bo19bo$obo3b3o13b3o3bobo
+28bo3bo19bo3bo$bo27bo28bobo2bo19bo2bobo$13b2ob2o38bo2bobo23bobo2bo$14b
+obo39bo3bo10b2ob2o10bo3bo$12bobobobo37bo15bobo15bo$12b2o3b2o38b3o10bob
+obobo10b3o$70b2o3b2o14$26bo2bo31bo2bo$25bo4bo11b2o3b2o11bo4bo$24bo5bo
+11bobobobo11bo5bo$23b2ob2o16bobo16b2ob2o$22bo7bo12b2ob2o12bo7bo$21bo2b
+3obobo29bobob3o2bo$22b3obob2o10b3o5b3o10b2obob3o$39bo3bo3bo3bo$22b3obo
+b2o8bo5bobo5bo8b2obob3o$21bo2b3obobo7bo5bobo5bo7bobob3o2bo$22bo7bo7bo
+5bobo5bo7bo7bo$23b2ob2o11bo3bo3bo3bo11b2ob2o$24bo5bo9b3o5b3o9bo5bo$25b
+o4bo29bo4bo$26bo2bo31bo2bo$34b2o19b2o$34b2o19b2o!

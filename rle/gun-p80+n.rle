@@ -1,0 +1,19 @@
+#C This pattern demonstrates the existence of guns of all periods
+#C greater than or equal to 80.
+#C This pattern produces a period-80 gun. To increase the period by N:
+#C 1. Move the top 33 rows diagonally to the northeast by N cells.
+#C 2. Adjust the eight gliders so that they are separated by 80+N ticks.
+x = 242, y = 179, rule = B3/S23
+160b2o11bo$160b2o10bobo$172bobo2b2o3bo$171b2ob2o2bo2bobo$175bobo3bobo$
+171b2obo2b4obo$171b2obobo3bo$175bobo3bo$176bobo3bo$177bo3b2o47b2o$196b
+o33b2o$194b3o13bo$193bo16b3o$168b2o23b2o18bo$168b2o42b2o$153b2o$152bo
+2bo$151bob2o$151bo$150b2o$165b2o$165bo36b2o$166b3o33b2o$168bo10b2o$
+178bobo59b2o$178bo61b2o$177b2o10b2o$190bo$187b3o9b2o$187bo11bo19b2o$
+197bobo18bobo$197b2o19bo$217b2o$167b2o$167bo19b2o$165bobo18bobo$141bo
+23b2o19bo11bo$141b2o42b2o9b3o$140bobo52bo$195b2o10b2o$144b2o61bo$144b
+2o59bobo$205b2o10bo$182b2o33b3o$182b2o36bo$219b2o$234b2o$234bo$231b2ob
+o$230bo2bo$231b2o$216b2o$191b2o23b2o$192bo$189b3o$154b2o33bo$121bo32b
+2o47b2o3bo$121b2o80bo3bobo$120bobo81bo3bobo$205bo3bobob2o$203bob4o2bob
+2o$202bobo3bobo$202bobo2bo2b2ob2o$203bo3b2o2bobo$211bobo10b2o$212bo11b
+2o11$101bo$101b2o$100bobo18$81bo$81b2o$80bobo18$61bo$61b2o$60bobo18$
+41bo$41b2o$40bobo18$21bo$21b2o$20bobo18$bo$b2o$obo!

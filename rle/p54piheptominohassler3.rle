@@ -1,0 +1,11 @@
+#N p54piheptominohassler3.rle
+#C https://conwaylife.com/wiki/Period-54_pi-heptomino_hasslers
+#C https://www.conwaylife.com/patterns/p54piheptominohassler3.rle
+x = 60, y = 36, rule = B3/S23
+12bo$12b3o$15bo$14b2o$6b2o$7bo$7bobo$8b3ob2o$10b2obo$5b2o3b2o28b2o$5b
+2o4bobo26bobo$12b2o6b2ob2o17bo$6bo13bo3bo16b2ob2obo3b2o$5bobo13b3o20b
+ob2o3bobo$2o2bo2bo36bo7b3o$2obo6b2o31b2o8b2o$4b2o3b4o38bobo$8bo2bobo32b
+2o2bobo$7bobo2b2o32bobo2bo$6bobo38b4o3b2o$5b2o8b2o31b2o6bob2o$5b3o7bo
+36bo2bo2b2o$6bobo3b2obo20b3o13bobo$7b2o3bob2ob2o16bo3bo13bo$17bo17b2o
+b2o6b2o$17bobo26bobo4b2o$18b2o28b2o3b2o$46bob2o$46b2ob3o$50bobo$52bo$
+52b2o$44b2o$44bo$45b3o$47bo!

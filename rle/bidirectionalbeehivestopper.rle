@@ -1,0 +1,19 @@
+#N bidirectionalbeehivestopper.rle
+#C https://conwaylife.com/wiki/Beehive_stopper
+#C https://www.conwaylife.com/patterns/bidirectionalbeehivestopper.rle
+x = 89, y = 86, rule = B3/S23
+bo51bo$2bo51bo$3o49b3o6$31b2o50b2o$31bo51bo$20bo8bobo33bo15bobo$19bo9b
+2o33bo16b2o$19b3o42b3o2$32b2o50b2o$31bobo49bobo$13b2o16bo33b2o16bo$12b
+o2bo14b2o32bo2bo14b2o$13b2o50b2o$33b2o50b2o$34bo51bo$31b3o49b3o$31bo
+51bo$32b2o50b2o$33bo51bo$22b2o5b2o2bob2o37b2o5b2o2bob2o$21bo2bo4bobobo
+b2o36bo2bo4bobobob2o$17b2o3bobo6bobo35b2o3bobo6bobo$16bobo4bo7bobo34bo
+bo4bo7bobo$16bo9b2o4bo35bo9b2o4bo$14bob2o8bo39bob2o8bo$13bobo11b3o35bo
+bo11b3o$13bo2b2o11bo35bo2b2o11bo$14bobo49bobo$13b2o2bo47b2o2bo$16b2o
+50b2o15$bo51bo$2bo51bo$3o49b3o6$31b2o50b2o$31bo51bo$29bobo49bobo$29b2o
+50b2o3$32b2o50b2o$31bobo49bobo$13b2o16bo33b2o16bo$12bo2bo14b2o32bo2bo
+14b2o$13b2o50b2o$33b2o50b2o$34bo51bo$31b3o49b3o$6b3o22bo23b3o25bo$8bo
+23b2o23bo26b2o$7bo25bo22bo28bo$22b2o5b2o2bob2o37b2o5b2o2bob2o$21bo2bo
+4bobobob2o36bo2bo4bobobob2o$17b2o3bobo6bobo35b2o3bobo6bobo$16bobo4bo7b
+obo34bobo4bo7bobo$16bo9b2o4bo35bo9b2o4bo$14bob2o8bo39bob2o8bo$13bobo
+11b3o35bobo11b3o$13bo2b2o11bo35bo2b2o11bo$14bobo49bobo$13b2o2bo47b2o2b
+o$16b2o50b2o!

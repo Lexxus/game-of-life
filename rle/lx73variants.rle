@@ -1,0 +1,13 @@
+#N lx73variants.rle
+#C https://conwaylife.com/wiki/Lx73
+#C https://www.conwaylife.com/patterns/lx73variants.rle
+x = 128, y = 33, rule = B3/S23
+12b2o48b2o48b2o$13bo49bo49bo$13b3o47b3o47b3o7$121b2o$121b2o$23b2o48b2o
+$22bo2bo46bobo44b6o$22bobobo45bo46bo2bo2bo$21b2obobo44b2obo2bo43bob2o$
+21bo3bob2o42bo2b4o42bobo2b3o$22b2obo2bo43b2o45b2obobo2bo$21bo2bobobob
+2o39bo2b4o42bo3bo$21b2obobobo2bo39b2obo3bobo40b2obobo$o21bo6b2o19bo21b
+o4bob2o19bo21bo2b2o$obo19bob5o21bobo19bob2obo22bobo17bobo$3o20bo4bo21b
+3o17b2obo3bo22b3o17b2o$2bo21b4o24bo18bobo2b2ob2o21bo$71bobobo2bobo$26b
+2o41b2o2bo2bobo$26b2o42bobo5bo$70bob5ob2o$14b2o48b2o5bo6bo35b2o$14bo
+49bo7b2o2bobo35bo$15b3o47b3o6b4o37b3o$17bo49bo2b3o44bo$70bo2b7o$73bo2b
+o2bo!

@@ -1,0 +1,11 @@
+#N p112pufferblinker.rle
+#C https://conwaylife.com/wiki/P112_puffer
+#C https://www.conwaylife.com/patterns/p112pufferblinker.rle
+x = 22, y = 67, rule = B3/S23
+8b3o3b3o$2b3o2bo2bo3bo2bo$bo2bo5bo3bo$4bo5bo3bo$o3bo5bo4bobo$4bo2bo2b
+o$bobo4b3o6$6bo$5bobo3b2o$5bobo2b2obo3b3o$6bo3b2obo3bo2bo$12bo4bo$17b
+o3bo$17bo3bo$17bo$8b2o8bobo$7bo2bo$8b2o4$10bo$9b5o3b3o$7bo3b3o2bo2bo$
+7bobo9bo$15bo3bo$15bo3bo$19bo$12b2o2bobo$10b2o2bo$10b2o3bo$13bobo$11b
+o3bo$11bo2bo$12b3o4$10bo$9bobo$8bo2bo$9b2o5$11bo$10b3o$9b2o2bo$8b2o4b
+o$9bob4o$9b2o$10bobo$5bo5bobo$4b3o5bo$3b3obo$2bo4b2o$b2o4bo$2bob2obo$
+7bo$4b3o$5bo!

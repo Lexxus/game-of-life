@@ -1,0 +1,12 @@
+#N p160piorbitalp152hybrid.rle
+#C https://conwaylife.com/wiki/Pi-heptomino_hasslers
+#C https://www.conwaylife.com/patterns/p160piorbitalp152hybrid.rle
+x = 64, y = 42, rule = B3/S23
+22bo$22bo4b2o$22bo4bobo$15b2o12bo2bo$14bo2bo2b5o4bobobo$14b3o2b6obo2bo
+bob3o$17b8o2bobobo4bo11b2o8b2o$16bo10bobobo3b2o10bo2bo5bo2bo$16b2o10bo
+bo25b3o$29bo17bo2bo4bo$49b2o2bob6o$52b4o4bo$49bobobo3bo2bob2o$48bo7b5o
+b2o$9b2o36bo4bo$9b2o36b2obo5b3o$21b3o23bo2bo5bo2bo$20bo3bo23b2o8b2o$
+20b2ob2o6$4b2o8b2o$4bo2bo5bo2bo$5b3o5bob2o36b2o$11bo4bo36b2o$2ob5o7bo$
+2obo2bo3bobobo$3bo4b4o$3b6obo2b2o$8bo4bo2bo17bo$5b3o25bobo10b2o$4bo2bo
+5bo2bo10b2o3bobobo10bo$4b2o8b2o11bo4bobobo2b8o$28b3obobo2bob6o2b3o$30b
+obobo4b5o2bo2bo$31bo2bo12b2o$34bobo4bo$35b2o4bo$41bo!

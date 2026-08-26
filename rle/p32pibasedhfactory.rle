@@ -1,0 +1,10 @@
+#N p32pibasedhfactory.rle
+#C https://conwaylife.com/wiki/Period-32_pi-heptomino_hasslers
+#C https://www.conwaylife.com/patterns/p32pibasedhfactory.rle
+x = 37, y = 31, rule = B3/S23
+26bo5bo$26bo5bo$24b4o3b4o$4bo3bo14b2o9b2o$3bobobobo12b3o2b2ob2o2b3o$4b
+2ob2o13b2o3b2ob2o3b2o$23b3obo3bob3o$bo9bo12b2o7b2o$o11bo12b3o3b3o$o3b
+2ob2o3bo14b2ob2o$b3obobob3o14bobobobo$2b2obobob2o16bo3bo$3b2o3b2o5b3o$
+14bo3bo$14b2ob2o2$6b2o$5b4o$4b3ob2o$4bo3b3o7b2o2bo$2b3o5bobo$4bob3ob2o
+bo4bo3bo$6b2o3b2o5bo$19bobo$6b2o3b2o$4bob3ob2obo5bo3bo$2b3o5bobo10bo$
+4bo3b3o11bo$4b3ob2o13b3o$5b4o16bo$6b2o!

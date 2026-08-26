@@ -1,0 +1,11 @@
+#N p38twopondandtwoblockreaction.rle
+#C https://conwaylife.com/wiki/44P38
+#C https://www.conwaylife.com/patterns/p38twopondandtwoblockreaction.rle
+x = 62, y = 42, rule = B3/S23
+8bo$8bo$8bo$5bo$5bo4b3o2$2b2o4bo$bobo3bobo$bo8bo24bobo10bobo$2o32bo2bo
+10bo2bo$10bo22b2obo12bob2o$8b2o15b3o11b2o4b2o11b3o$6bo8b2o24bo2bo$6b2o
+7b2o7bo3bo3bob4obobo2bobob4obo3bo3bo$9bo14bo3bo4bo3bob2o4b2obo3bo4bo3b
+o$10bo27b3o4b3o$15b2o4b2o2bo3bo7b2o8b2o7bo3bo$14bo2bo2bo2bo5bo6b2o10b
+2o6bo$7bo3bo2bo2bo2bo2bo4bo7b2o10b2o7bo$12bo2b2o4b2o6b3o22b3o$31bo22bo
+2$12bo8b2o$7bo3bo9b2o3$10bo$9bo$6b2o$6bo$8b2o$10bo$2o$bo8bo$bobo3bobo$
+2b2o4bo2$5bo4b3o$5bo$8bo$8bo$8bo!

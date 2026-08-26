@@ -1,0 +1,10 @@
+#N bx106fx119.rle
+#C https://conwaylife.com/wiki/Bx106
+#C https://www.conwaylife.com/patterns/bx106fx119.rle
+x = 91, y = 54, rule = B3/S23
+27bo59bo$18b2o5b3o50b2o5b3o$18b2o4bo53b2o4bo$24b2o58b2o2$8bo59bo$8bo
+14b2o43bo14b2o$6b3o9b2o3b2o41b3o9b2o3b2o$6bo11b2o46bo11b2o7$2o58b2o$bo
+59bo$bobo57bobo$2b2o58b2o2$26bo59bo$26b3o57b3o2$28bo59bo2$2bo59bo$2bob
+o57bobo$2b3o57b3o$4bo59bo13$27b2o58b2o$27bobo57bobo$29bo59bo$29b2o58b
+2o$12b2o58b2o$12bobo57bobo$13b2o58b2o11b2o$87bo$23b2o62bob2o$23bo60b2o
+b2obo$24b3o58bo$26bo56bobo$83b2o!

@@ -1,0 +1,10 @@
+#N p26queenbeeshuttle.rle
+#C https://conwaylife.com/wiki/Queen_bee_shuttle
+#C https://www.conwaylife.com/patterns/p26queenbeeshuttle.rle
+x = 33, y = 22, rule = B3/S23
+9bo13bo$8bobo11bobo$5bo2bo2bo9bob2o2bo$5b3o4bo7bobo2b3o$8b3obo7bob2o$
+3b5obobo9bo3b5o$2bo6bo13bobo4bo$o2bo2bo2b5obobob8o2bo2bo$2ob4obo3bob2o
+b2obo5bo2bob2o$3bo2bo3bo11bo3bo2bo$3bo2bo2b3o9b4ob4o$bobo2b3o5b2o10bo
+2bobo$b2o4bobo4bobo6bo6b2o$5bo2bobo6bo4bobobo$5bo3bo4bo2bo5bo3b2o$4bo
+12bo$2bo11bobo12bo$3bo10b2o9bo3bobo$2obo2b3o15bo2bobo$3bob3o16bo2bobob
+2o$bobo22bo2bo$2b2o25b2o!

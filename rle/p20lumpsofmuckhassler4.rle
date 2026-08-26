@@ -1,0 +1,12 @@
+#N p20lumpsofmuckhassler4.rle
+#C https://conwaylife.com/wiki/Lumps_of_muck_hasslers
+#C https://www.conwaylife.com/patterns/p20lumpsofmuckhassler4.rle
+x = 45, y = 36, rule = B3/S23
+30b2o$30bo$17b2o12bo$18bo5bo5b2o$17bo5bobob2o$17b2o4bobobob5o$20b2obob
+obo6bo$b2o12b5obobob2o2bob3o8b2o$2bo11bo6bobo5b3o10bo$bo13b3obo2b2o19b
+o$b2o6b2o6b3o14b2o6b2o$3bo4bo2bo21bo2bo4bo$b4o35b4o$o43bo$2o4bo3bobo
+19bobo3bo4b2o$6b4obo21bob4o$20b3o$10b2o8bo2b2o8b2o$10b2o8b2o2bo8b2o$
+22b3o$6b4obo21bob4o$2o4bo3bobo19bobo3bo4b2o$o43bo$b4o35b4o$3bo4bo2bo
+21bo2bo4bo$b2o6b2o14b3o6b2o6b2o$bo19b2o2bob3o13bo$2bo10b3o5bobo6bo11bo
+$b2o8b3obo2b2obobob5o12b2o$10bo6bobobob2o$11b5obobobo4b2o$16b2obobo5bo
+$13b2o5bo5bo$13bo12b2o$14bo$13b2o!

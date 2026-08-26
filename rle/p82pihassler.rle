@@ -1,0 +1,11 @@
+#N p82pihassler.rle
+#O Entity Valkyrie, 2022
+#C https://conwaylife.com/wiki/P82_pi-heptomino_hassler
+#C https://www.conwaylife.com/patterns/p82pihassler.rle
+x = 43, y = 47, rule = B3/S23
+32b2o$32bo$33bo$20bo11b2o$20b3o11b2o$23bo8b2o2bo$22b2o9bobo$17b2o12bo
+bob2o$18bo12b2o$18bobo$19b2o4b2o$24bobo$23b2o$24bobo13bo$25b2o13bobo$
+39bobo$17b2o22bo$17b2o$12bo$12b3o$15bo$14b2o4$27b2o$27bo$28b3o$30bo$24b
+2o$bo22b2o$bobo$obo13b2o$2bo13bobo$18b2o$16bobo$16b2o4b2o$22bobo$10b2o
+12bo$6b2obobo12b2o$7bobo9b2o$6bo2b2o8bo$7b2o11b3o$9b2o11bo$9bo$10bo$9b
+2o!

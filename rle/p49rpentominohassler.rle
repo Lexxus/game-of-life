@@ -1,0 +1,12 @@
+#N p49rpentominohassler.rle
+#O Luke Kiernan, 2022
+#C https://conwaylife.com/wiki/P49_R-pentomino_hassler
+#C https://www.conwaylife.com/patterns/p49rpentominohassler.rle
+x = 55, y = 35, rule = B3/S23
+15b4o$14bo3bo$14bo4bo$15bobob2o$19bobo$18b2o2bo$14b2o2bo$18bo2b2o$14bo
+2b2o27bobo3b2o$15bobo27bo2bo2bo2bo$16b2obobo22bo9bo$17bo4bo20b4o4bo2bo
+$18bo3bo7b2o9b2o3b4o3b2o$18b4o7bo2bo8bo2bo4b4o$28b2ob2o8bo9bo$30bo10bo
+2bo2bo2bo$42b2o3bobo2$5bobo3b2o$4bo2bo2bo2bo10bo$3bo9bo8b2ob2o$2b4o4bo
+2bo8bo2bo7b4o$2o3b4o3b2o9b2o7bo3bo$o2bo4b4o20bo4bo$o9bo22bobob2o$o2bo
+2bo2bo27bobo$b2o3bobo27b2o2bo$32b2o2bo$36bo2b2o$32bo2b2o$33bobo$34b2ob
+obo$35bo4bo$36bo3bo$36b4o!

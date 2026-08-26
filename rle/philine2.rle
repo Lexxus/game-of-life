@@ -1,0 +1,55 @@
+#N philine2.rle
+#C https://conwaylife.com/wiki/Phi_line
+#C https://www.conwaylife.com/patterns/philine2.rle
+x = 320, y = 261, rule = B3/S23
+277b3o$275b7o6bo$274b9o4bo$273bo7b3o2b2o$274b3o6bo3bo2bo$275b2o11b3o$
+278bo10bo$279bo18b2o$280bo17b2o7$298b3o5b2o$295b2obobo5b2o$295bo2bobo$
+284bob2o5b3o$278b2o4bobo3b2ob2o$278b2o6b2ob3o2bo2$271bo9bo2bo$280bo3bo
+$267bo7bo8bo$267bo8bo2bo3b2o$266bo4b2o3bo3b2obo$267bobo6bo$267bob2o2$
+272bo9$278b2o$278b2o$262b3o$262bobo$262bobo$262bo4b2o$261b3o3b2o$267bo
+$263b4o19b2o$264b2o20b2o$172b3o89bo2$170bo5bo88bo$170b7o12bo73bobo$
+172bo17b2o70b4o$172bo3bo13b2o70b3o$171bo17b2obo71bo$172bo18b3o$173bo4b
+o11bob2o$173bo4bo11b2o60b3o6bo$172b2obobo12bo6b2o54b2o3b2obo$171bobo
+22bo2bo52b2o5bobo$172bo24b2o58b3obo$260b2o2$230bo$230bo7bo$230bo5b3o$
+205b2o22b2o3bobo$187b3o14bo2bo27bo2bo$189bo15b2o27bo2b2o38bo$188b3o58b
+2o24b2o$249b2o25b2o3$182bo65bo10b2o$174b3o3b4o29b2o33bo3bobo$174bobo3b
+2ob2o27bo2bo30b2obob2o2bo$174b3o2bo33b2o32b6o2bo$179b2o3bo63bo5b2o$
+180b4o67bobo$181b3o54b2o3b2o6bo$152bo79bo3b4o3bobo$152bo5b3o71bob2o2bo
+2bo3bo$151bobo3b2o2bo59b2o9bob2o4bo3b2o7b2o$152bo3bo5bo57bo2bo12bo3bo
+12b2o$152bo3bo64b2o18bo11b2o$157bo2b2o$158b2o11b2o76b2o2bo$171b2o77b3o
+$251bo$237b2o$174bo54b2o6b2o7bobo$173b5o50bo2bo17bo$173bo2b3o50b2o18bo
+$168b2o8b2o69bo$175bo2bo67b2ob2o$165bo9b3o69bobo$155b2o9b2o7b2o71bo$
+154bob3o8b2o$154bo3bo10bo67b2o$155b2obo5b5o6b2o59bo2bo$156bo10bo6bo2bo
+59b2o22bo$173b2ob2o81b2o$172bobo85b2o$171b2o$171bo3bo$172bo2bo$159b2o
+11b3o70b2o$159b2o83bo2bo$171bo73b2o$171bo$168b2o$168b2o$168bo2bo$169b
+3o$170bo82b2o$252bo2bo$160bo92b2o$159bobo$159bobo$159bo2bo$160bobo92b
+2o$163bo91bobo$162b2o92b2o3b2o5b2o5b2o$162bo13b2o82bo2bo4b2o5bo$176b2o
+83b2o10bobo$273b2o$269b2o$160bo108bobo$159bobo108bo$161bo$161bo73b3o
+35b3o$161bo22b2o51bo35b3o$184b2o50bo36b3o$162bo113b3o$158b2ob3o112b3o$
+160b3ob2o110b3o$163bo$302b2o$286b2o14bo$153bo19b2o111b2o12bobo$152bobo
+16bo128b2o5b2o$151b2ob2o15bo4bo130b2o$152bo2bo23bo107bo$154b3o13bo8bo
+106bo26b3o$154bobo13b2obobobobo107bo6b2o11b2o3bo$155b2o15bo121b2o10bob
+o3bo3bo$155b2o46b3o71b3o14bo10b2o5bo2bobo$205bo71bo16b3o17bobo2bo$204b
+o73bo16bobo3b2o12bo3bo$295bo2bo4bo5bo9bo$152bobo141bobo4bo4bobo5b3o$
+152bo2bo119bo20b2o2bo2bo5bo$151b2ob2o119b3o16b3o3bob2o$134bo15b5o123bo
+15b3o2b2o2bo$131b4o16b3o123b2o15b2o4b3o$152bo148bo$279b3o5bo16b2o$278b
+o3b5o2bo14bobo$134bobo141bob6o3bo5b2o9bo$116b3o6bo9bo13b2o128b4o4bo8bo
+9b2o$115bo4bo3bobo6b2o13bo2bo131b3o2bo4b3o$115bo4b2o3bo7bo2bo11bo132b
+2obob2o3bo2bo$115bo6bo9b2ob2o10b3o21b3o106bobobo3b5o3bo$116b3obo2bobo
+21b2o24bo106bo2bob2o8b2o$120b5o25b2o20bo108bobobob3ob2o$125bo23bo2bo
+129bo6bob2o$94bo7bo$93b3o5bobo43b2o$92b2ob4o2bo2bo42bo2bo$93b3o2bo49b
+3o40b2o$94bo2b2o2bo88bobo$98b2obobo88bo$102bo10b2o18b2o$113b2o18b2o3$
+114b3o$114b3o$120b3o$118bo3bo$116b2obob2o18b2o$98bo17bo24b2o$97b4o6b2o
+8b2o$78bo17bo4bo4b3ob2o$64b2o7b2o2bobo15b2o10b2ob3o4bo$64b3o6b4o3bo15b
+obob2o4b3ob2o3b4o40b2o$64b2obobo7bo19b3o6b2o7b2o2bo38bobo$67b2o10bob2o
+15bo15bo4bo40bo$79bobo31b2obob2o$80bo8b2o21b4o$89b2o21b4o$115b2o$101b
+2o13b2o$101b2o12bo2$111b3o$89b2o$87b3ob2o4b2o10bo4bo$87bobob2o4b2o10bo
+$85b2obo24b2o$78b2o3bo26b2ob2o$69b2o5bo3bobo29bo14b2o$69b2o6b2obob3o
+41bobo$77bo3b4o43bo$75bo$74bobo$73bo$57bobo6bobo4bo$45b2o9bo9bobo4bobo
+$57bo2bo6bo6bo$44bo3bo10b3o$49bo$42bo7bo$41bo4bo$42bobobo4bo$42bo8bo$
+43bo4b2obo$44bob2ob3o43b2o$45b3ob2o43bobo$96bo4$24bobo17bobo$24b3o16b
+5o$24b2o15b7o$39bo2b3o$39bobo$27bo11bobob3o$25bobo4b2o6b3ob2o$3bo21b3o
+16b2o$4o24bo11b2o2bo$24b5o14b2o$17b3o20b3o20b2o$40b2o20bobo$3bobo12b2o
+44bo$4bo13b2o$2b2o13bo2bo$2bo2bo11bo28b2o7bo$b2ob2o10b3o27b2o7bo$16b2o
+37b2obo$19b2o37bo$18bo2bo31b2obo2bo$53b8o$16b2o36b4o3bo$16bo2bo39bobo$
+17b3o40bo4$6b2o$6b2o7$14b2o$14b2o!

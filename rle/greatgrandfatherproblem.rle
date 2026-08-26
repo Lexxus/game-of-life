@@ -1,0 +1,14 @@
+#N greatgrandfatherproblem.rle
+#C https://conwaylife.com/wiki/Grandfather_problem
+#C https://www.conwaylife.com/patterns/greatgrandfatherproblem.rle
+x = 29, y = 29, rule = B3/S23
+3obob4obobo4bo2bo2bo3bo$3obob2ob2ob2o5b3obobobo$2bo6b2obo2b2o2b3o4b3o$
+4b3o2bobo2bo2b4o2bob3o$bo2b3o11bobob3ob3o$5o2b2ob3o5bo3bob2obo$2bobobo
+b4o2bobo3b3ob3o$3bobob4ob3o3bob2obob2o$2bo2b2ob2o4bob9o2b2o$2bo2b3o2b
+4ob8ob2obo$4bob3ob4o2bob3ob2o2b3o$bo2b2o2b3obobobobob2ob4obo$3b2ob3o4b
+o2bo2bobo2bo$o2bobo2bobob3obo3bo3bo2b2o$4bob4obob7ob2o2bo2bo$bo2bobobo
+3b3obobob3ob5o$2b8obobo4bo2b3ob3o$o3b5obo2b8o4b2obo$o4bob2ob5o2bobob2o
+2b3o$ob2o2b2obo2b5o2b3obo$o5bob3ob3o3b3obo2b2o$2bo2b7o2b6obo6bo$2o3b2o
+b2o3bob4ob3obobobo$b3o4bob6ob3obobo3b2o$2b2obob3o3bobo2b3obob2ob2o$2bo
+b2o3bob2o2bob2obo3b2ob2o$7o5b5obo2bo2bob3o$7ob2ob2o4b2o3bob5o$bob2ob2o
+bob4o3bo4b2ob3o!

@@ -1,0 +1,12 @@
+#N p59twirlingttetsonsii.rle
+#C https://conwaylife.com/wiki/Twirling_T-tetsons_2
+#C https://www.conwaylife.com/patterns/p59twirlingttetsonsii.rle
+x = 51, y = 47, rule = B3/S23
+23b2o$23bo2b2o$24b2ob3o$19b2o4bo4bo$19b2o3bo2b3o$24bo2bo2$3bo16b2o$2bo
+bo14bo2bo$2bobo14bobo3bo$b2ob2o14bo3bobo$bo8bo14bo$2bob2o3bobo$obob2o
+4bo$2o$8bo29bo$7bobo26b3o$3b2o2bo2bo24bo$3b2o3b2o25b2o$16b3o3b3o$16bob
+o3bobo$16b3o3b3o14bo$38bobo$11bo27bo$10bobo$11bo14b3o3b3o$26bobo3bobo$
+26b3o3b3o$14b2o25b2o3b2o$15bo24bo2bo2b2o$12b3o26bobo$12bo29bo$49b2o$
+40bo4b2obobo$39bobo3b2obo$25bo14bo8bo$24bobo3bo14b2ob2o$25bo3bobo14bob
+o$28bo2bo14bobo$29b2o16bo2$23bo2bo$21b3o2bo3b2o$20bo4bo4b2o$21b3ob2o$
+23b2o2bo$26b2o!

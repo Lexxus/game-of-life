@@ -1,0 +1,11 @@
+#N p224lomhassler.rle
+#C https://conwaylife.com/wiki/Lumps_of_muck_hasslers
+#C https://www.conwaylife.com/patterns/p224lomhassler.rle
+x = 44, y = 44, rule = B3/S23
+16bo$15b2o$14bob2o$13b3o2bo15bo$15bobobo$16bobobo11b3obo$17bo2b3o8bob
+2o$5bo12b2obo9b2obo$19b2o8bob3o$3bob3o11bo$5b2obo22bo$5bob2o$6b3obo$40b
+o$8bo31b2o$39b2obo$38bo2b3o$37bobobo$36bobobo$24b3o7b3o2bo$35bob2o$6b
+o7b3o7bo11b2o$6b2o5bo3bo19bo$5b2obo4b2ob2o$4bo2b3o2bo4bo$3bobobo4b2ob
+2o10bo$2bobobo5bo3bo8bobo$3o2bo7b3o9bo$bob2o$2b2o31bo$3bo$33bob3o$35b
+2obo$12bo22bob2o$24bo11b3obo$10b3obo8b2o$9bob2o9bob2o12bo$9b2obo8b3o2b
+o$7bob3o11bobobo$24bobobo$9bo15bo2b3o$26b2obo$27b2o$27bo!

@@ -1,0 +1,25 @@
+#N period41glidergun.rle
+#O iNoMed, 2023
+#C https://conwaylife.com/wiki/Period-41_glider_gun
+#C https://www.conwaylife.com/patterns/period41glidergun.rle
+x = 112, y = 106, rule = B3/S23
+71bo$71b3o$74bo$73b2o13b2o$88bo$86bobo$86b2o$76bo$75bobo$74bo3bo$74bo
+3bo$74bo3bo$55bo19bobo$55b3o18bo$58bo$41bo15b2o14b2o$41b3o19bobo8bo$44b
+o18b2o6b3o17b2o$43b2o19bo6bo9b3o7bo$56bo23bo3bo4bobo$57b2o20bo5bo3b2o
+$57b2o10b2o7bo3bo3bo$47b2o20b2o7bo2bobo2bo$46b2obo4bo23bo3bo3bo$47bob
+2o2b2o20b2o2bo5bo$48b2o4bo19bobo3bo3bo$74bo6b3o$73b2o$62b2o27bo$34bo27b
+o27b2o$32b3o5b2o11b2o8b3o24bobo$31bo7bobo11bobo9bo16b2o$16b2o13b2o6bo
+8bo6bo26b2o$17bo20b2o9bo5b2o$17bobo27b3o$18b2o$28bo$27bo$29bo$27b3o70b
+3o$93b2o5bo9b2o$66b2o26bo6bo8bo$66b2o16bo9bobo11bobo$40bo16bobo24b3o8b
+2o11b2o$5b2o24b2o5bobo17b2o27bo$6bo24bo7b2o17bo27b2o$4bo13b2o12b3o40b
+2o$2b4o15b2o11bo31b3o6bo$bo14b2obo45bo3bo3bobo19bo4b2o$o2b3o10b2o3bob
+2o39bo5bo2b2o20b2o2b2obo$b2o2bo10b2obo3b2o38bo3bo3bo23bo4bob2o$3b2o16b
+ob2o38bo2bobo2bo7b2o20b2o$3bo14b2o43bo3bo3bo7b2o10b2o$4bo6b3o7b2o26bo
+9b2o3bo5bo20b2o$b3o7bo38b2o6bobo4bo3bo23bo$bo5b2o3bo11bo24b2o7bo7b3o9b
+o6bo19b2o$8bo14bobo31b2o17b3o6b2o18bo$5b3o15b2o50bo8bobo19b3o$5bo69b2o
+14b2o15bo$91bo$73bo18b3o$48b2o22bobo19bo$47bobo21bo3bo$22b2o24bo11bo10b
+o3bo$21b2o38bo9bo3bo$23bo26b2o7b3o10bobo$53b2o18bo$48b2obo$48b2o3bob2o
+$48b2obo3b2o$53bob2o18b2o$38bo11b2o23bo$38b3o12b2o9bo11b3o$32b2o7bo20b
+obo13bo$32bobo5b2o21b2o$32bo4$43b3o$43bo$45bo$44bo28bo$53b2o19b2o$53b
+obo17b2o$55bo$40b2o13b2o$41bo$38b3o$38bo3$84bo$85bo$83b3o9$93bobo$94b
+2o$94bo!

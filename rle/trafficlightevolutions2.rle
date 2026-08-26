@@ -1,0 +1,20 @@
+#N trafficlightevolutions2.rle
+#C https://conwaylife.com/wiki/Traffic_light
+#C https://www.conwaylife.com/patterns/trafficlightevolutions2.rle
+x = 154, y = 147, rule = B3/S23
+72bo$72bo$72bo2$68b3o3b3o2$72bo$72bo$72bo3$71b3o2$69bo5bo$69bo5bo$69bo
+5bo2$71b3o4$72bo$71b3o$70bobobo$69b3ob3o$70bobobo$71b3o$72bo5$71b3o$
+70bo3bo$70bo3bo$70bo3bo$71b3o6$2b2o68bo$b2obo66b3o$2ob2o65b2ob2o$ob2o
+67b3o$b2o69bo6$2b2o68bo$bo2bo66bobo$o3bo65bo3bo$o2bo67bobo$b2o69bo6$2b
+2o$bo2bo56b3o7b3o77b3o$ob2o57b3o7bobo77b3o$ob2o57b3o7b3o77bobo$bo150bo
+6$2b2o58bo9bo79bo$bo2bo47bo9bo9bo69bo9bo$ob2o47b3o8bo8bobo67b3o8bo$obo
+47bo3bo7bo9bo69bo8bobo$bo60bo9bo79bo6$2b2o58bo9bo$bo2bo56bobo7bobo$o2b
+o137b3o$obo58bo9b3o66bobobo$bo60b2o6$3bo$b2obo66b3o17b3o37b3o$bobo67b
+3o17b2o38b2o$obo69bo19b2o38bo$bo131bo6$82bo39bo$12b2o58bo9bo7bo3bo17b
+2o8bo$11b2o7b5o46b3o8bo8b3o17b2obo7bo7bobobo$22bo58bobo38b2o$13bo99bo
+4$90bo3bo$89bobobobo$42bo47b5o$42bo28bobo17b3o$31b3o6b2ob2o27bo19bo8bo
+bobo24bobobo$32bo39bo$32bo4$90b2ob2o$53bo35bo5bo$42bo8bo2bo6bobo8bo17b
+o3bo$30bo3bo6bobo47b3o$51b3o7b3o7b3o27bobobo24bobobo$31b3o6b2ob2o5$90b
+2ob2o$53bo36b2ob2o$51b3o16bobobo15b2ob2o$41b3o7b3o17b3o18bo$41bobo8bo
+19bo57bobobo$40b2ob2o58bo$103bo$102bo$101bo$101b2o$53b2o$70bo3bo$42bo
+9bo17bo3bo$42bo8b3o17b3o$41bobo87b2o$41bobo89b4o$41bobo!

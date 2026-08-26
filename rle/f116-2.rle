@@ -1,0 +1,10 @@
+#N f116-2.rle
+#C https://conwaylife.com/wiki/F116
+#C https://www.conwaylife.com/patterns/f116-2.rle
+x = 99, y = 55, rule = B3/S23
+o$b2o$2o16$50bo2bo$54bo$55b2o$49bob2o6bo$49bo2bo3bo$48bo3bob3o$47bo11b
+o2bo$50b3obo3bo3b3o$50bo3bo2bo7bo$47bo6b2obo6b2o$50b2o$52bo$30bo22bo2b
+o$31b2o10bo$30b2o9b3o$40bo$40b2o$25b2o70bo$26bo69bobo$26bob2o66bobo$
+27bo2bo66bo$28b2o56bo$43b2o41bo$43b2o41b3o$88bo4$51bo3b2o$50bobo3bo22b
+2o$46b2obobo3bo17b2o5bo$46b2obo4bo18bobob3o$50b5obo9b2o7bobo$42b2obob
+2obo4bobo8b2o7b2o$42bob2obo2bob2o2bo$35b2o12b2obob2o$35b2o!

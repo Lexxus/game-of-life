@@ -1,0 +1,11 @@
+#N 23x23maxdensity.rle
+#C https://conwaylife.com/wiki/Density
+#C https://www.conwaylife.com/patterns/23x23maxdensity.rle
+x = 23, y = 23, rule = B3/S23
+2ob2ob2obob2obob2ob2obo$bob2obob3obob2obobob2o$o5bo5bo4bobo$6ob5ob5obo
+b2o$5bobo3bobo5bob2o$4obo2b2obobob5o$o2bob2obobobobobo3b3o$bobobo2bobo
+bobo3b2o2bo$2obo2b3obobob4obobo$3b3o3bobobo3bobob2o$3o3b3o2bo2b3o2bobo
+$o2b3o3b2ob2o3b3o2bo$bobo2b3o2bo2b3o3b3o$2obobo3bobobo3b3o$bobob4obobo
+b3o2bob2o$o2b2o3bobobobo2bobobo$3o3bobobobobob2obo2bo$3b5obobob2o2bob
+4o$2obo5bobo3bobo$2obob5ob5ob6o$3bobo4bo5bo5bo$2obobob2obob3obob2obo$o
+b2ob2obob2obob2ob2ob2o!

@@ -1,0 +1,10 @@
+#N bananasparker1.rle
+#C https://conwaylife.com/wiki/Period-7_sparkers
+#C https://www.conwaylife.com/patterns/bananasparker1.rle
+x = 42, y = 17, rule = B3/S23
+4b2obobobo$4bob2ob2obo3b2o$8bo3bo3bo4b2o$5b2o3b2ob2obo5bo5b2o3bobo$5bo
+b3obobobo4bo4bo2bobobob2o$7bo11bob5o4bobo$7b2o3bo6bobo4b4obob5o$6b2ob
+2o3bo3b2o3b2obo4bo4bobo$bo3bo6b2o3bo3bobo2b2o2bobobo3bo2bo$o2bobob2o3b
+o4b5obo3bo2bobobo2bob3o$obobobobo4bo3bo3bobo3bobobobo4bo$2bobobobob5ob
+ob4obobobobobobobo3bo$obob2obob2o4b2obo3bobobo3b2obob4o$2o5bo4b2o5bo2b
+o2bo8bo$7bob2obo7bobo13bo$8bobobo8bo13b2o$11bo!

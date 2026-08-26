@@ -1,0 +1,14 @@
+#N p86trafficlighthassler.rle
+#C https://conwaylife.com/wiki/Century_hassler
+#C https://www.conwaylife.com/patterns/p86trafficlighthassler.rle
+x = 91, y = 44, rule = B3/S23
+40bo$40bobo$39bobo$41bo33bo$74bobo$72b3obo$38bo32bo4bob2o$37bobo31bobo
+bobobo$37bobo32b2obobo$38bo37bobo$23bo40b2o11bo$22bobo41bo$20b3obo13b
+3o11b2o10bo2bo$19bo4bob2o10bobo12bo10bo$19bobobobobo10b3o12bobo9bo$20b
+2obobo28b2o6b2o12b3o$24bobo36bo12b2ob2o$12b2o11bo39b2o8bo$14bo50b2o9b
+2o$2o10bo2bo51bo8b2o$bo10bo49b2ob2o12bo$bobo9bo50b3o12b2o6b2o$2b2o6b2o
+12b3o50bo9bobo$11bo12b2ob2o49bo10bo$13b2o8bo51bo2bo10b2o$13b2o9b2o50bo
+$15bo8b2o39bo11b2o$10b2ob2o12bo36bobo$12b3o12b2o6b2o28bobob2o$25bo9bob
+o12b3o10bobobobobo$26bo10bo12bobo10b2obo4bo$23bo2bo10b2o11b3o13bob3o$
+24bo41bobo$13bo11b2o40bo$12bobo37bo$13bobob2o32bobo$11bobobobobo31bobo
+$11b2obo4bo32bo$14bob3o$14bobo$15bo33bo$49bobo$48bobo$50bo!

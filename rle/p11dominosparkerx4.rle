@@ -1,0 +1,11 @@
+#N p11dominosparkerx4.rle
+#C https://conwaylife.com/wiki/P11_domino_sparker
+#C https://www.conwaylife.com/patterns/p11dominosparkerx4.rle
+x = 29, y = 32, rule = B3/S23
+4b2o4b2o5b2o4b2o$4b2o5bo5bo5b2o$10bo7bo$4b4o2b2o5b2o2b4o$3bo4bobo2bobo
+2bobo4bo$3b4obo3b2ob2o3bob4o$b2o3bo2bo9bo2bo3b2o$o2b2obo2bo9bo2bob2o2b
+o$2obobo17bobob2o$3bobobo13bobobo$3bo3bo3b2o3b2o3bo3bo$4b2o3b4o3b4o3b
+2o$13bobo$9bo2bo3bo2bo$10b3o3b3o3$10b3o3b3o$9bo2bo3bo2bo$13bobo$4b2o3b
+4o3b4o3b2o$3bo3bo3b2o3b2o3bo3bo$3bobobo13bobobo$2obobo17bobob2o$o2b2ob
+o2bo9bo2bob2o2bo$b2o3bo2bo9bo2bo3b2o$3b4obo3b2ob2o3bob4o$3bo4bobo2bobo
+2bobo4bo$4b4o2b2o5b2o2b4o$10bo7bo$4b2o5bo5bo5b2o$4b2o4b2o5b2o4b2o!

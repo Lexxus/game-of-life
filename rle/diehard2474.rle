@@ -1,0 +1,16 @@
+#N diehard2474.rle
+#C https://conwaylife.com/wiki/Die_hard
+#C https://www.conwaylife.com/patterns/diehard2474.rle
+x = 32, y = 32, rule = B3/S23
+7b2o2b3o4b2obobo3b2o$b2o3bob2obo2bobobob2o2b3ob3o$b4ob3obo2bo2b2o2b3ob
+ob2ob2o$2obo2b2o3b2ob2ob3obobo4b2o$obo3bob5o2bobob2obo2b2o2bo$b2ob5o3b
+o2bob2o2bobo2bo$bo2bo2bo6bo3b4ob2ob5o$b2o3bobob5obob6ob2ob2obo$o2bob3o
+bo3b2obo3bobobob2ob3o$2bobo2b2o8b2obo2bo3bo2bo$4ob3o2b2obo2bobob2o2bo
+2bobo$b2obob5o3bob3o2bo2bo2b2ob2o$o2b2ob2o5bo2bo7bob3o2bo$2obob3ob3ob
+3o2b2obob2o4bobo$2b4o3bobo2bob3obo2b3o2bobo$b2o4b2ob3ob3obo7b3o$3b3o7b
+ob3ob3ob2o4b2o$bobo2b3o2bob3obo2bobo3b4o$obo4b2obob2o2b3ob3ob3obob2o$o
+2b3obo7bo2bo5b2ob2o2bo$2ob2o2bo2bo2b3obo3b5obob2o$2bobo2bo2b2obobo2bob
+2o2b3ob4o$bo2bo3bo2bob2o8b2o2bobo$3ob2obobobo3bob2o3bob3obo2bo$ob2ob2o
+b6obob5obobo3b2o$b5ob2ob4o3bo6bo2bo2bo$5bo2bobo2b2obo2bo3b5ob2o$2bo2b
+2o2bob2obobo2b5obo3bobo$2b2o4bobob3ob2ob2o3b2o2bob2o$b2ob2obob3o2b2o2b
+o2bob3ob4o$b3ob3o2b2obobobo2bob2obo3b2o$3b2o3bobob2o4b3o2b2o!

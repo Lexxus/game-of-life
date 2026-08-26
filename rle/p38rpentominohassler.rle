@@ -1,0 +1,10 @@
+#N p38rpentominohassler.rle
+#C https://conwaylife.com/wiki/44P38
+#C https://www.conwaylife.com/patterns/p38rpentominohassler.rle
+x = 46, y = 42, rule = B3/S23
+o42bo$3o38b3o$3bo36bo$2b2o36b2o3$13b2o14b2o$12bobo14bobo$b3o2bobo2bo2b
+o14bo2bo2bobo2b3o$6bobo3b2o16b2o3bobo2$5b2o30b2o$5bo17bo14bo$22bobo2$
+20bo2bobo$13b2o5b2o$13b2o2$18b3o$25b2o$19b2o$25b3o2$31b2o$24b2o5b2o$
+20bobo2bo2$21bobo$7bo14bo17bo$7b2o30b2o2$8bobo3b2o16b2o3bobo$3b3o2bobo
+2bo2bo14bo2bo2bobo2b3o$14bobo14bobo$15b2o14b2o3$4b2o36b2o$5bo36bo$2b3o
+38b3o$2bo42bo!

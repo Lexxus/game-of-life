@@ -1,0 +1,14 @@
+#N cappeduturnerp380gun.rle
+#C https://conwaylife.com/wiki/U-turner_hasslers
+#C https://www.conwaylife.com/patterns/cappeduturnerp380gun.rle
+x = 65, y = 62, rule = B3/S23
+18bo$18b3o$21bo5b2o$20b2o4bob3o16bo$26bo4bo5b2o6b3o$23b2obob3o6b2o5bo
+$23bo2bobo15b2o$24b2o5$59bo$13bob2o42bo3b2o$13b2obo42bo4bo$62b2o$22b2o
+$22b2o33b2ob2o$56bobob2o$57b3o$59bob2o$58b2ob2o$59b3o$53bo8bo$11bo20b
+2o18b3o6bobo$10bobo19bo18b2ob2o6bo$10bobo17bobo17b3ob3o$9b2ob2o16b2o19b
+2ob2o2b2o$7bo44b3o4bo$7b4ob2o39bo3bo2b2o$2b2o6bob2o38b2o3b3o2bo$2bo2b
+3o43b2obo6b2o$3b2o2bo43b2ob4o$5bo51bo$5b2o3b2o21b2o16b2ob2o$9bobo20bo
+bo17bobo$2bo5bo23bo19bobo$bobo7bo19b2o20bo$2bo8bo$3b3o2bobo$2b2ob2o$2b
+2obo16b3o$5b3o14b3o$3b2obobo12bobo$3b2ob2o13b2o18b2o$41b2o$b2o$o4bo42b
+ob2o$2o3bo42b2obo$5bo5$39b2o$19b2o15bobo2bo$20bo5b2o6b3obob2o$17b3o6b
+2o5bo4bo$17bo16b3obo4b2o$36b2o5bo$44b3o$46bo!

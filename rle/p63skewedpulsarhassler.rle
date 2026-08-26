@@ -1,0 +1,15 @@
+#N p63skewedpulsarhassler.rle
+#C https://conwaylife.com/wiki/P21_honey_farm_hassler
+#C https://www.conwaylife.com/patterns/p63skewedpulsarhassler.rle
+x = 53, y = 39, rule = B3/S23
+12b2o$11bobo$11bo13bob2o4b2obo$9b3o13b2o2bo2bo2b2o$5b2o16b2o3bo4bo3b2o
+$4bo6b3o8bo3b2ob4ob2o3bo$4bo4b2o2bo9b3obobo2bobob3o$2b3o7bo12bo3bo2bo
+3bo12b2o$o2b3o7b3o11b2ob2ob2o13bobo$obo2bo3bo5bo14b2o16bo$o2bo6bo35b3o
+$2b2o2bo35b2o$4b2o2b2o31bo6b3o$4bobobo32bo4b2o2bo$bo37b3o7bo$obo2b3o6b
+o11b3o8bo2b3o7b3o$bo6b3o2bobo10bobo8bobo2bo3bo5bo$14bo11b3o8bo2bo6bo$
+7bobobo27b2o2bo$6b2o2b2o29b2o2b2o$9bo2b2o27bobobo$5bo6bo2bo8b3o11bo$o
+5bo3bo2bobo8bobo10bobo2b3o6bo$3o7b3o2bo8b3o11bo6b3o2bobo$3bo7b3o37bo$
+2bo2b2o4bo32bobobo$2b3o6bo31b2o2b2o$9b2o35bo2b2o$4b3o35bo6bo2bo$4bo16b
+2o14bo5bo3bo2bobo$2bobo13b2ob2ob2o11b3o7b3o2bo$2b2o12bo3bo2bo3bo12bo7b
+3o$14b3obobo2bobob3o9bo2b2o4bo$13bo3b2ob4ob2o3bo8b3o6bo$14b2o3bo4bo3b
+2o16b2o$16b2o2bo2bo2b2o13b3o$16bob2o4b2obo13bo$39bobo$39b2o!

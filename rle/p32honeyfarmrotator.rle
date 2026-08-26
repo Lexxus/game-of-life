@@ -1,0 +1,10 @@
+#N p32honeyfarmrotator.rle
+#C https://conwaylife.com/wiki/Honey_farm_hasslers
+#C https://www.conwaylife.com/patterns/p32honeyfarmrotator.rle
+x = 30, y = 30, rule = B3/S23
+12b2o9b2o$11bo2bo7bo2bo$11b3o9b3o$14b9o$b2o10bo2b5o2bo$obo10b2o2b3o2b
+2o$obob2o$bobobo$3bo$3b2o5b3o$3b3o3bo3bo$3b3o2bo5bo12b2o$3b3o2bo5bo12b
+obo$3b2o3bo5bo9b2obobo$3bo5bo3bo3b3o4bobobo$bobobo4b3o3bo3bo5bo$obob2o
+9bo5bo3b2o$obo12bo5bo2b3o$b2o12bo5bo2b3o$16bo3bo3b3o$17b3o5b2o$26bo$
+24bobobo$24b2obobo$6b2o2b3o2b2o10bobo$6bo2b5o2bo10b2o$7b9o$4b3o9b3o$4b
+o2bo7bo2bo$5b2o9b2o!

@@ -1,0 +1,15 @@
+#N p59dependentreflectorloop.rle
+#C https://conwaylife.com/wiki/Honey_farm_hasslers
+#C https://www.conwaylife.com/patterns/p59dependentreflectorloop.rle
+x = 53, y = 53, rule = B3/S23
+26bo$25bobo$25bob3o$22b2obo4bo$22bobobobobo$24bobob2o4b2o$10b2o11bobo
+8bo$11bo12bo7bobo$11bobo18b2o$12b2o7b3o12b2o$20bo3bo11b2o8bo$19bo5bo18b
+3o$19bo5bo17bo$19bo5bo17b2o$20bo3bo$9b2o10b3o$9b2o$5bo$5b3o$8bo15b2o4b
+2o7b3o$7b2o15bo5b2o6bo3bo$19b2o4b3o9bo5bo$3b2o14b2o6bo9bo5bo4b2o$2bo2b
+o31bo5bo2bo2bo$2bob2o26b2o4bo3bo2bob2o$b2o18b2o8bobo5b3o4bo2b3o$o3b2o
+15bo9bo15b2o3bo$b3o2bo4b3o5bobo8b2o18b2o$4b2obo2bo3bo4b2o26b2obo$3bo2b
+o2bo5bo31bo2bo$3b2o4bo5bo9bo6b2o14b2o$9bo5bo9b3o4b2o$10bo3bo6b2o5bo15b
+2o$11b3o7b2o4b2o15bo$45b3o$47bo$42b2o$29b3o10b2o$28bo3bo$8b2o17bo5bo$
+9bo17bo5bo$6b3o18bo5bo$6bo8b2o11bo3bo$15b2o12b3o7b2o$19b2o18bobo$18bo
+bo7bo12bo$18bo8bobo11b2o$17b2o4b2obobo$22bobobobobo$22bo4bob2o$23b3ob
+o$25bobo$26bo!

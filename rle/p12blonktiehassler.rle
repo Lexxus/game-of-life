@@ -1,0 +1,12 @@
+#N p12blonktiehassler.rle
+#C https://conwaylife.com/wiki/Blonk-tie_hasslers
+#C https://www.conwaylife.com/patterns/p12blonktiehassler.rle
+x = 42, y = 39, rule = B3/S23
+20b2o$16b2obobo$17bobo$17bob2o$16b2obobob2ob2o$15bo3b2o3bobo$16b3o3bo
+bobo$19b7o$16b2o$15bobob2ob6o$15bo5bobo4bo$16b3obobo2b3o$18b2o4b2o5b2o
+3bo$10bo19bo2bobobo2bo$4bo4bobo18bob2obob4o$4b3o2bobo17b2obo2bo$7bobo
+b2o15bo2bob2ob5o$4b4obo3bo14bo2bo2bobobo2bo$4bo2bobo3bo3b2ob3o5bo5bo2b
+o2b2o$6b2obo3bo3b2o4b2o3bo3bob2o$2o2bo2bo5bo5b3ob2o3bo3bobo2bo$o2bobo
+bo2bo2bo14bo3bob4o$b5ob2obo2bo15b2obobo$6bo2bob2o17bobo2b3o$b4obob2ob
+o18bobo4bo$bo2bobobo2bo19bo$5bo3b2o5b2o4b2o$14b3o2bobob3o$13bo4bobo5b
+o$14b6ob2obobo$24b2o$16b7o$15bobobo3b3o$15bobo3b2o3bo$14b2ob2obobob2o$21b2obo$22bobo$20bobob2o$20b2o!

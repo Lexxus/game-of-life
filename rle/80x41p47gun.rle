@@ -1,0 +1,14 @@
+#N 80x41p47gun.rle
+#C https://conwaylife.com/wiki/Period-47_glider_gun
+#C https://www.conwaylife.com/patterns/80x41p47gun.rle
+x = 80, y = 41, rule = B3/S23
+17b2o$5bo11bo$5b3o6b2obo$8bo4bo2bo$7b2o4b2o45bo7bo$59bobo5bobo$28b2o
+30bo7bo$22b2o5bo$22bobob3o$24bobo$23bobo6b2o21bo17bo$24bo7bo22bo17bo$
+10bo19bobo22bo5bo5bo5bo$9b3o18b2o19b2o7b3o3b3o7b2o$8bo3bo30b2o5bobo6b
+2ob2ob2ob2o6bobo$8b2ob2o30bo6bo9b3o3b3o9bo$21b2ob2o15bobo5b2o10bo5bo
+10b2o$21bo3bo15b2o$2b2o18b3o31b2o13b2o$bobo19bo13bo18b2o13b2o$bo7bo26b
+obo$2o6bobo24bo3bo9b2o10bo5bo10b2o$7bobo26bobo11bo9b3o3b3o9bo$5b3obobo
+25bo12bobo6b2ob2ob2ob2o6bobo$4bo5b2o39b2o7b3o3b3o7b2o$4b2o28b2o19bo5bo
+5bo5bo$35bo19bo17bo$19b2o4b2o5b3o20bo17bo$17bo2bo4bo6bo$16bob2o6b3o$
+16bo11bo16b2o$15b2o27bo2bo12bo7bo$44b3o12bobo5bobo$60bo7bo4$42b2o$43bo
+$40b3o5b2o$40bo7b2o!

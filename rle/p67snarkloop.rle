@@ -1,0 +1,15 @@
+#N p67snarkloop.rle
+#O Mike Playle, 2013
+#C https://conwaylife.com/wiki/P67_Snark_loop
+#C https://www.conwaylife.com/patterns/p67snarkloop.rle
+x = 89, y = 89, rule = B3/S23
+39b2o$39bobo$41bo4b2o$37b4ob2o2bo2bo$37bo2bobobobob2o$40bobobobo$41b2o
+bobo$45bo2$31b2o$32bo7b2o$32bobo5b2o$33b2o3$39b3o$41bo$40bo2$43b2o$43b
+o$44b3o$46bo8bo$56b2o$55b2o7$23bo55bo$23b2o52b3o$22bobo51bo$76b2o3$84b
+2o$85bo$3b2o68bo11bob2o$4bo66bobo3b2o4b3o2bo$2bo69b2o3b2o3bo3b2o$2b5o
+14b2o59b4o$7bo13bo46b2o15bo$4b3o12bobo45bobo12b3o$3bo15b2o46bo13bo$3b
+4o59b2o14b5o$b2o3bo3b2o3b2o69bo$o2b3o4b2o3bobo66bo$2obo11bo68b2o$3bo$
+3b2o3$11b2o$12bo51bobo$9b3o52b2o$9bo55bo7$32b2o$31b2o$33bo8bo$42b3o$45b
+o$44b2o2$48bo$47bo$47b3o3$54b2o$47b2o5bobo$47b2o7bo$56b2o2$43bo$42bob
+ob2o$42bobobobo$39b2obobobobo2bo$39bo2bo2b2ob4o$41b2o4bo$47bobo$48b2o
+!

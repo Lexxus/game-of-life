@@ -1,0 +1,15 @@
+#N p80procrastinatorhassler.rle
+#C https://conwaylife.com/wiki/Procrastinator_hasslers
+#C https://www.conwaylife.com/patterns/p80procrastinatorhassler.rle
+x = 73, y = 37, rule = B3/S23
+23b2o8bobo2bo$33b3obob2o$22bo3bo5bo6bo$21bo4bo6bo5b2o$20bobobo$19bobo
+bo8b2o5bo$3bob2o10bo4bo10bo6bo$3b2obo10bo3bo10b2obob3o10b2o$b2o31bo2b
+obo10b2obo$o3b2o13b2o6bo26bo$ob2obo3b2o14b3o23bo14b2obo$bo2bo3bobo13b
+o27bob2o10bob2o$3bo3bo6bo9b2o16bo11b2o14b2o$2b2obo3bo3bo28b3o22b2o3bo
+$2b4o3bo22bo12bo16b2o3bob2obo$5bob3o6bo15b3o9b2o16bobo3bo2bo$2bobo3b2o
+6b2o17bo29bo3bo$5bob3o5b2o16b3o27bo3bob2o$2b4o3bo53bo3b4o$2b2obo3bo46b
+2o5b3obo$3bo3bo47b2o6b2o3bobo$bo2bo3bobo16b2o27bo6b3obo$ob2obo3b2o16b
+o35bo3b4o$o3b2o22b3o28bo3bo3bob2o$b2o14b2o11bo16b2o9bo6bo3bo$3b2obo10b
+2obo27bo13bobo3bo2bo$3bob2o14bo23b3o14b2o3bob2obo$18bo26bo6b2o13b2o3b
+o$19bob2o10bobo2bo31b2o$21b2o10b3obob2o10bo3bo10bob2o$32bo6bo10bo4bo10b
+2obo$33bo5b2o8bobobo$48bobobo$32b2o5bo6bo4bo$33bo6bo5bo3bo$32b2obob3o$34bo2bobo8b2o!

@@ -1,0 +1,14 @@
+#N p330lomhassler.rle
+#C https://conwaylife.com/wiki/B-heptomino_hasslers
+#C https://www.conwaylife.com/patterns/p330lomhassler.rle
+x = 116, y = 65, rule = B3/S23
+99bo$98b3o$97b2ob2o$96b3ob3o$96b3ob3o$96b3ob3o$96b3ob3o$97b2ob2o$98b3o
+$60b2o37bo$25b3o16b2o14b2o$25b3o16bo$25bob2o13bobo5b2o$28bo7bo5b2o6b2o
+7b3o43b2o6b2o$26b2o2bo4b3o21b2obo2b2o37bo2bo4bo2bo$27b3o4bo2b2o22b2o2b
+2o37bo2bo4bo2bo$21b2o5bo7bo24b2o41bo2bo4bo2bo$20bobo13b2obo65b2o6b2o$
+20bo16b3o$19b2o16b3o10$52b3o$52bobo$52bo2bo4b3o$53bobo4bobo$53b3o4bo2b
+o$61bobo$61b3o10$76b3o16b2o$76b3o16bo$b2o6b2o65bob2o13bobo$o2bo4bo2bo
+41b2o24bo7bo5b2o$o2bo4bo2bo37b2o2b2o22b2o2bo4b3o$o2bo4bo2bo37b2o2bob2o
+21b3o4bo2b2o$b2o6b2o43b3o7b2o6b2o5bo7bo$64b2o5bobo13b2obo$71bo16b3o$54b
+2o14b2o16b3o$16bo37b2o$15b3o$14b2ob2o$13b3ob3o$13b3ob3o$13b3ob3o$13b3o
+b3o$14b2ob2o$15b3o$16bo!

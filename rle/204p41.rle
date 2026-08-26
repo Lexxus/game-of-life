@@ -1,0 +1,14 @@
+#N 204P41
+#O Nico Brown
+#C Discovered on July 21, 2023
+#C This was the first period-41 oscillator to be found.
+#C https://conwaylife.com/wiki/204P41
+x = 73, y = 61, rule = B3/S23
+34bo$32b3o$31bo$16b2o13b2o$17bo$17bobo$18b2o$28bo$27bo$29bo$27b3o4$40b
+o$5b2o24b2o5bobo$6bo24bo7b2o$4bo13b2o12b3o$2b4o15b2o11bo$bo14b2obo$o2b
+3o10b2o3bob2o$b2o2bo10b2obo3b2o$3b2o16bob2o$3bo14b2o$4bo6b3o7b2o26bo$b
+3o7bo38b2o$bo5b2o3bo11bo24b2o$8bo14bobo$5b3o15b2o$5bo2$67bo$48b2o15b3o
+$47bobo14bo$22b2o24bo11bo3b2o5bo$21b2o38bo7b3o$23bo26b2o7b3o6bo$53b2o
+14bo$48b2obo16b2o$48b2o3bob2o10bo2b2o$48b2obo3b2o10b3o2bo$53bob2o14bo$
+38bo11b2o15b4o$38b3o12b2o13bo$32b2o7bo24bo$32bobo5b2o24b2o$32bo4$43b3o
+$43bo$45bo$44bo$53b2o$53bobo$55bo$40b2o13b2o$41bo$38b3o$38bo!

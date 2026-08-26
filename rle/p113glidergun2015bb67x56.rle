@@ -1,0 +1,15 @@
+#N p113glidergun2015bb67x56.rle
+#C https://conwaylife.com/wiki/Period-113_glider_gun
+#C https://www.conwaylife.com/patterns/p113glidergun2015bb67x56.rle
+#C https://github.com/ceebo/glider_guns/tree/61b42158e7bcfe1196f45647cf0a721ab58cf1cf
+x = 67, y = 56, rule = B3/S23
+41bo11b2o$40bobo10b2o$32bo3b2o2bobo$31bobo2bo2b2ob2o$17b2o12bobo3bobo$
+18bo13bob4o2bob2o$18bobo13bo3bobob2o$19b2o12bo3bobo$32bo3bobo$32b2o3bo
+$5b2o$5b2o2$45b2o$45b2o$34bo16b2o7b2o$32b2ob2o14bobo5bo2bo$2o27b5o17bo
+8b2obo$2o27bo2bo30bo$29bo2bo30b2o$30b2o16b2o$49bo$20b2o24b3o$20b2o11b
+2o11bo10bo$33bo22bobo$34b3o19bo2bo$36bo21bo2$17bo44b2o$18b2o22b2o17bo
+2bo$17b2o24bo17bobo$43bobo16bo$33bo10b2o12b3o$31b3o24b2o$30bo$30b2o$
+15b2o48b2o$16bo48b2o$16bob2o$17bo2bo$18b2o16b3o$31bo6bo$31bo4bobo$36b
+2o$30bobo$30bobo$42bo3b2o$41bobo3bo$40bobo3bo$36b2obobo3bo$36b2obo2b4o
+bo5b2o$40bobo3bobo5bo$36b2ob2o2bo2bobo2b3o$37bobo2b2o3bo3bo13bo$25b2o
+10bobo26bo$25b2o11bo25b3o!

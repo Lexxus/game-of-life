@@ -1,0 +1,10 @@
+#N p16singlelumpsofmuckhassler3.rle
+#C https://conwaylife.com/wiki/Period-16_lumps_of_muck_hasslers
+#C https://www.conwaylife.com/patterns/p16singlelumpsofmuckhassler3.rle
+x = 36, y = 29, rule = B3/S23
+34bo$4bo3bo23b3o$3bobobobo21bo$4b2ob2o23bo$31b2o$26bo2b2o2b2o$5o3b5o
+16b4o2bo$ob4ob4obo12b2o2bo2bobo$2obobobobob2o13bo6bo$bobobobobobo11b3o
+3bo$2b3o3b3o10bo4bobobo$3bo5bo4b3o4bobob2o2bobo$14bo2b2o2bo2b3o4bo$14b
+2o2bo12b2o$4b2o10b3o$3b4o$2b3ob2o$2bo3b3o$3o5bobo9bo$2bob3ob2obo7bobo$
+4b2o3b2o7bo3bo$17bo3bo$4b2o3b2o5bo3bo$2bob3ob2obo3bo3bo$3o5bobo5bobo$
+2bo3b3o8bo$2b3ob2o$3b4o$4b2o!

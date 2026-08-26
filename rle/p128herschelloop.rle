@@ -1,0 +1,22 @@
+#N p128herschelloop.rle
+#C https://conwaylife.com/wiki/Period-256_glider_gun
+#C https://www.conwaylife.com/patterns/p128herschelloop.rle
+x = 126, y = 63, rule = B3/S23
+37b3o$36bo$36bo3bo$36bo2bobo$20b4o14bobo2bo$16b2obo4bo14bo3bo$15bo3bo
+4bo18bo$15bo4b2o18b3o65b2o$15bo2bo4b2o83b2o5b2o$15bo2bo3bo2bo65b3o21b
+2o$16b2o4bo2bo65b3o$19b2o4bo65b3o$16bo4bo3bo58b2o8b3o16b2o$16bo4bob2o
+59b2o8b3o16b2o$17b4o73b3o22b2o$53b4o62b2o$49b2obo4bo20b2o$48bo3bo4bo
+20b2o$13bo34bo4b2o27b2o$4b3o4b2ob2o9bo3bo18bo2bo4b2o24b2o15bo$7bo4bo2b
+o8bo4bobo16bo2bo3bo2bo29bo10bobo$3bo3bo5b2obo6b3o3b3o17b2o4bo2bo29bo
+10b3o19b3o$2bobo2bo8bo5bo8bo20b2o4bo42bo19b3o$o2bobo9b2o32bo4bo3bo18b
+2o42b3o$o3bo44bo4bob2o19b2o39b3o$o49b4o64b3o$b3o98b2o14b3o$103bo$98b3o
+2b2o$96b3obo3bo$13b2o81bo4bob2o$13b2o33b2o50bobo$48b2o48b2obo4bo$98bo
+3bob3o$98b2o2b3o$99bo$59b3o20b3o14b2o$9b4o49bo19b3o$5b2obo4bo44bo3bo
+19b3o39b2o$4bo3bo4bo32b2o9bobo2bo16b3o42b2o$4bo4b2o20bo8bo5bo8bo2bobo
+18b3o19bo$4bo2bo4b2o17b3o3b3o6bob2o5bo3bo19b3o19b3o10bo$4bo2bo3bo2bo
+16bobo4bo8bo2bo4bo45bobo10bo$5b2o4bo2bo18bo3bo9b2ob2o4b3o44bo15b2o$8b
+2o4bo34bo69b2o$5bo4bo3bo108b2o$5bo4bob2o109b2o$6b4o72b2o$42b4o36b2o22b
+3o$38b2obo4bo41b2o16b3o8b2o$37bo3bo4bo41b2o16b3o8b2o$37bo4b2o65b3o$37b
+o2bo4b2o62b3o$37bo2bo3bo2bo38b2o21b3o$38b2o4bo2bo38b2o5b2o$20b3o18b2o
+4bo45b2o$19bo18bo4bo3bo$19bo3bo14bo4bob2o$19bo2bobo14b4o$21bobo2bo$22b
+o3bo$26bo$23b3o!

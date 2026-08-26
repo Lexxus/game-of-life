@@ -1,0 +1,11 @@
+#N 25x25maxdensity.rle
+#C https://conwaylife.com/wiki/Density
+#C https://www.conwaylife.com/patterns/25x25maxdensity.rle
+x = 25, y = 25, rule = B3/S23
+ob2ob2obob2ob2obob2ob2obo$2obobob3obobob3obobob2o$3bobo5bobo5bobo3b$2o
+bob7ob7obob2o$2obo8bo8bob2o$3b8o2b9o3b$3o3bo3b3o9b3o$o2b2o3bo4b9o2bo$b
+obob8o8bobob$2obobo7b7obob2o$o2bobob6o6bobo2bo$bobobobo4bob4obobobob$
+2obobobob2obobo2bobobob2o$o2bobob2obobobo2bobobo2bo$bobobo4bobob4obobo
+bob$2obob6obo5b2obob2o$bobo8b5o4bobob$o2b9o4b6o2bo$3o9b3o7b3o$3b9o2b8o
+3b$2obo8bo8bob2o$2obob7ob7obob2o$3bobo5bobo5bobo3b$2obobob3obobob3obob
+ob2o$ob2ob2obob2ob2obob2ob2obo!

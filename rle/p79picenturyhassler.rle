@@ -1,0 +1,13 @@
+#N p79picenturyhassler.rle
+#C https://conwaylife.com/wiki/Century_hassler
+#C https://www.conwaylife.com/patterns/p79picenturyhassler.rle
+x = 50, y = 53, rule = B3/S23
+24bo$23bobo$24bo2$22b5o7b2o$21bo4bo7bo2b2o$20bo2bo11b2ob3o$17bo2bob2o
+17bo$16bobobo5bo8b2ob3o$17bo2bo4bobo7b2obo$20b2o2bo2bo$25b2o2$20b2o$
+20bobo10bo$21b2o11bo$31bob2o$30bo2bo$31bobo$7b2o$6bo2bob2o$6bob2obobo
+31bo$2b2ob2obo4bo14b2ob2o11bobo$3bobo2bob3o15bo3bo11bobo$3bo2b3obo18b
+3o11b2obobo$bobo36bo6bobo$obob6o30b6obobo$obo6bo36bobo$bobob2o11b3o18b
+ob3o2bo$3bobo11bo3bo15b3obo2bobo$3bobo11b2ob2o14bo4bob2ob2o$4bo31bobob
+2obo$37b2obo2bo$41b2o$16bobo$16bo2bo$15b2obo$15bo11b2o$16bo10bobo$28b
+2o2$23b2o$22bo2bo2b2o$11bob2o7bobo4bo2bo$9b3ob2o8bo5bobobo$8bo17b2obo
+2bo$9b3ob2o11bo2bo$11b2o2bo7bo4bo$14b2o7b5o2$25bo$24bobo$25bo!

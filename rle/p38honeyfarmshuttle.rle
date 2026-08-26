@@ -1,0 +1,10 @@
+#N p38honeyfarmshuttle.rle
+#C https://conwaylife.com/wiki/Honey_farm_shuttles
+#C https://www.conwaylife.com/patterns/p38honeyfarmshuttle.rle
+x = 38, y = 30, rule = B3/S23
+21b2o$22bo2bo$19b3o3b3o$7b2o9bo3b3o3bo$8bo2bo6b2obo3b3o$5b3o3b3o8b2ob
+o$4bo3b3o3bo2bob2obobo$4b2obo3b3o3b2ob2o$8b2obo22bo$3bob2obobo22bobo$
+3b2ob2o26bo$11bo$10bobo13bo$o8bo3bo11bobo6b2o$3o6bo3bo10bo3bo5bo$3bo5b
+o3bo10bo3bo6b3o$2b2o6bobo11bo3bo8bo$11bo13bobo$26bo$3bo26b2ob2o$2bobo
+22bobob2obo$3bo22bob2o$16b2ob2o3b3o3bob2o$13bobob2obo2bo3b3o3bo$12bob
+2o8b3o3b3o$10b3o3bob2o6bo2bo$9bo3b3o3bo9b2o$10b3o3b3o$12bo2bo$15b2o!

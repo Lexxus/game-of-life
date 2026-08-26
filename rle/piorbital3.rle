@@ -1,0 +1,12 @@
+#N piorbital3.rle
+#C https://conwaylife.com/wiki/Pi_orbital
+#C https://www.conwaylife.com/patterns/piorbital3.rle
+x = 47, y = 47, rule = B3/S23
+13b3o3b2o$19bobo10b2o$7b2o12bo10b2o$6bo2bo11bob2o$6b3o2b7obobob2o$9b2o
+8bobo$8bo10bobo20b2o$8b2obo4bo3bo21bobo$13bo25b2obobo$39bobobo$41bo$
+40bo2bo$40bo$b2o11bo25bo5bo$b2o10bobo24bo5bo$12bo3bo23bo5bo$12bo3bo24b
+obo$12b2ob2o24bobo$41bo$40b2o3b2o$39bo3bo2bo$40b6o$3b2o$3b2o37b2o$42b
+2o$b6o$o2bo3bo$2o3b2o$5bo$3bobo24b2ob2o$3bobo24bo3bo$o5bo23bo3bo$o5bo
+24bobo10b2o$o5bo25bo11b2o$6bo$3bo2bo$5bo$3bobobo$2bobob2o25bo$2bobo21b
+o3bo4bob2o$3b2o20bobo10bo$25bobo8b2o$22b2obobob7o2b3o$22b2obo11bo2bo$
+13b2o10bo12b2o$13b2o10bobo$26b2o3b3o!

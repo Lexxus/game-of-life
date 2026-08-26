@@ -1,0 +1,47 @@
+#N irrational5p60version.rle
+#C https://conwaylife.com/wiki/Phi_line
+#C https://www.conwaylife.com/patterns/irrational5p60version.rle
+#N p60 version of Irrational 5
+#C Two puffers move east, producing a westward MWSS and a boat
+#C every 60 gens.  Two stationary guns produce a glider every 60
+#C gens and an eastward MWSS every 120 gens; half of the gliders
+#C delete the MWSSs while the other half escape.  But when a
+#C westward MWSS reaches the guns, it deletes 2 consecutive gliders,
+#C allowing one eastward MWSS to escape and suppressing one output
+#C glider.  When an eastward MWSS hits a boat, it becomes a NEward
+#C glider which deletes one westward MWSS.  Thus, each westward
+#C MWSS that reaches the guns causes the deletion of a later
+#C westward MWSS.  Specifically, if the westward MWSSs are
+#C numbered starting at 3, then, for each integer  K >= 2,  MWSS
+#C number  floor(K phi)  causes the deletion of MWSS number
+#C floor(K (phi+1)),  where  phi = (1 + sqrt(5))/2.  Also, a glider
+#C escapes from the bottom of the pattern about generation
+#C 120 floor(K (phi+1)).  Relative to a complete p120 glider stream,
+#C the resulting stream of gliders has density  1/(phi+1) =
+#C (3 - sqrt(5))/2 ~ 0.381966.
+#O Dean Hickerson, 1/2/1999
+x = 151, y = 91, rule = B3/S23
+105b2o$103b2ob2o13b2o$103b4o13b4o$104b2o14b2ob2o$122b2o4$119b2o$113b3o
+3bobo$92bo17b3o6bob2o$33bo59b2o15bo9b2o$32bobo57b2o16b3o7bo$15b2o15b2o
+bo$15bobo14b2ob2o3b2o39b2o$6bo11bo13b2obo5bo36b3ob2o37b2o$6b2o7bo2bo
+13bobo43b5o29b4o4b4o7b2o$18bo14bo45b3o25bo3bo3bo4b2ob2o4b2ob2o13b2o$
+15bobo90bo6bo6b2o5b4o13b4o$15b2o87bo3bo5bo15b2o14b2ob2o$105b4o39b2o$
+100b3o$98b2ob2o$100b3o18bo$34bo70b4o13b2o$35bo41bo26bo3bo12b2o23b2o$
+33b3o42b2o28bo38b2o$12bobo62b2o28bo38b2o$10bo3bo101bo29bo$3b2o5bo15b2o
+89b2o$3bo5bo16bo2bo86b2o$10bo19bo116b2o$10bo3bo15bo107b4o4b4o$12bobo
+15bo99bo6bo3bo4b2ob2o$26bo2bo6b2o93bo9bo6b2o$26b2o8bobo88bo3bo8bo$38bo
+89b4o$38b2o83b3o$30b2o68b3o18b2ob2o$30bo2bo65bobob2o18b3o$16bobo15bo6b
+2o56bo3bobo22b4o$14bo3bo15bo7bo56bobo3bo21bo3bo$14bo19bo65b2obobo25bo$
+7bo5bo16bo2bo68b3o25bo$7b2o5bo15b2o22b4o$14bo3bo34b6o$16bobo34b4ob2o$
+57b2o57bo$117bo$51bo14b2o45bo3bo$49b3o10b4ob2o15b4o26b4o$48bo13b6o15bo
+3bo21b3o$48b2o13b4o20bo19b2ob2o$86bo22b3o13b2o8bo$114b4o6b4o8bo$113bo
+3bo6b2ob2o3bo3bo$68b2o28b2o17bo8b2o5b4o$68bobo27bobo15bo$9b2o23b2o33bo
+29bo$9bobo22bo$2o10bo14bo4bobo70b2o17b2o$o8bo2bo13bobo3b2o70bobo16b2o
+7b3o$12bo13b2obo76bo17bo2bo6bo$9bobo14b2ob2o94bo6bobo$9b2o15b2obo97b2o
+3b2o$26bobo81b2o$27bo19b2o60bobo$47bo63bo23bo$136bo$132bo3bo$48bo67b4o
+13b4o$17b2o27bob2o65bo3bo$17bobo26bo72bo$8b2o10bo14bo10bo71bo$8bo8bo2b
+o13bobo9bo2bo$20bo13b2obo9b2o$17bobo14b2ob2o4bo$17b2o15b2obo4b2o$34bob
+o$35bo31b2o9b2o$66b2o9bobo$61bo6bo7b3o$38bo21bobo12b3o$37bobo18b2o3bo
+12b3o$37b2obo8bobo6b2o3bo13bobo5b2o$25b2o10b2ob2o6bo2bo6b2o3bo14b2o5bo
+bo$25bo11b2obo6b2o6b2o3bobo24bo$37bobo5b2o3bo3bo2bo3bo25b2o$38bo8b2o6b
+2o$48bo2bo$49bobo!

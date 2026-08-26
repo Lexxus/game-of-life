@@ -1,0 +1,13 @@
+#N p140rpentominohassler.rle
+#C https://conwaylife.com/wiki/R-pentomino_hasslers
+#C https://www.conwaylife.com/patterns/p140rpentominohassler.rle
+x = 57, y = 45, rule = B3/S23
+21b2o11b2o$20b4o9b4o$19bobob2o7b2obobo$19b2o3b2o5b2o3b2o$24bo7bo$26bo
+3bo$23b3o5b3o$22b2o2b2ob2o2b2o$19b2o2b2o7b2o2b2o$21b3o9b3o$20bo15bo$
+22bo11bo$21b2o3b2ob2o3b2o$22b2obobobobob2o$23b4o3b4o$17b2o5b2o5b2o5b2o
+$17b2o19b2o2$7b2o39b2o$2o6b3o35b3o6b2o$o5bo4bo33bo4bo5bo$b3obob4o35b4o
+bob3o$3bobobo13bo13bo13bobobo$3bo2bobobo10b2o11b2o10bobobo2bo$7bo3bo8b
+o2bo9bo2bo8bo3bo$2bo3bo4bo9bobo9bobo9bo4bo3bo$bobo2bo4bo9b2o11b2o9bo4b
+o2bobo$bobo2bo4bo33bo4bo2bobo$2bo3bo4bo33bo4bo3bo$7bo3bo33bo3bo$3bo2bo
+bobo35bobobo2bo$3bobobo41bobobo$b3obob4o35b4obob3o$o5bo4bo33bo4bo5bo$
+2o6b3o35b3o6b2o$7b2o39b2o6$23b2o7b2o$23bo9bo$24b3o3b3o$26bo3bo!

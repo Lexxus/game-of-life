@@ -1,0 +1,21 @@
+#N period51glidergun.rle
+#C https://conwaylife.com/wiki/Hotcrystal0_reaction
+#C https://www.conwaylife.com/patterns/period51glidergun.rle
+x = 89, y = 87, rule = B3/S23
+17bo3b2o$16bobobo2bob2obo$14b3obob4obob2o$13bo3b2o$13bob2obo$14bobob3o
+3bo2b2o$16bobobo2b3o2bo$16bob2o2b2ob3o$12b2o3bo4bo$12bo2bobo7bo$8b2o4b
+2o2b2o$3b2o3bo6bo3bo17b3o$2bo2bo4bob3o4bobo14bo2bo$2bobo4b3obo6b2o14bo
+3bo6bobo$b2ob4o7bo19b2o11b2o$o7b2o4b2o7b2o10b3o10bo$b2o3b2o2bo12b2o$3b
+3obo2b3o26b2o$b3obo7bo25bo$o3bo3bo3b2o10bo7b2o6b3o$o3b2o2bo13b4o5b2o9b
+o$b5o2b2o5b2o5b2obo7bo$4b2o2b2o5b2o4b2o3bo$b2o4b2o$bo5bo$2bo2bobo53bo$
+b2o2b2o18b2o35bo$25bo34b3o$26b3o$19b2o7bo$18b2o17bo$20bo14bobo$36b2o6b
+3o$44bo$12b2ob2o28bo$10b2ob2o$10bo$10bobo4b2o61b3o$11b2o4bobo53bo$19bo
+44bo9b2o5b2o$19b2o43b3o6b2o$67bo$31b3o32b2o$31bo16bobo31b2o$32bo16b2o
+7bo10b3o10b2o$49bo7b2o11b2o$13bobo41bobo6bo3bo14b2o$14b2o51bo2bo14bobo
+$14bo52b3o17bo$87b2o$81bo$84bo$79b3ob2o2b2o$78bo2b3o2bobo$45bo32b2o2bo
+3b2o$44b2o16bo$44bobo16bo18bo3b2o$61b3o18bob2o2bo$27bo54bo4b2o$28bo49b
+2o5bo$26b3o50bob8o$88bo$39b2o40b2ob2o$40bo41bobo$40bobo4b2o33bobo$41b
+2o4bobo33bo$49bo$45b2ob2o$43b2ob2o3$39bo$40b2o$39b2o3$53b2o4b2o$52bobo
+3bo$37bo14bo8bo$37bo13b2o6bo2bo$43b2o5b2o2bob2o2bob3o$43b2o5b2o2b2o2bo
+bo4bo$51bo2b3o3bob3o$46b2o3bo3b2o3bobo$46bo7bobo3bo$47b3o2bobobobobo$
+49bo2b2o3b2ob2o!

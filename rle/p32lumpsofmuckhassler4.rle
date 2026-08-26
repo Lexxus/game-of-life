@@ -1,0 +1,14 @@
+#N p32lumpsofmuckhassler4.rle
+#C https://conwaylife.com/wiki/Period-32_lumps_of_muck_hasslers
+#C https://www.conwaylife.com/patterns/p32lumpsofmuckhassler4.rle
+x = 57, y = 39, rule = B3/S23
+20b3o15b3o$20b3o14bo$20b3o14bo3bo$23b3o11bo2bobo$23b3o13bobo2bo$23b3o
+14bo3bo$44bo$4bo3bo32b3o$3bobobobo9bo$4b2ob2o9bobobobo12bo$19bobo3bo2b
+2o6bobo$22bobo3b2o7bo3b2o3b2o$5o3b5o10bo16b2o4b2o$ob4ob4obo27b2o$2obob
+obobob2o27b3o$bobobobobobo29b2o$2b3o3b3o20b3o7bo$3bo5bo3b2o16bo2b2o5b
+4o$13b4o14b2o2bo4bo3bo$13bo2bo4b3o9b3o4bo2bo$12bo3bo4bo2b2o14b4o$12b4o
+5b2o2bo16b2o3bo5bo$15bo7b3o20b3o3b3o$14b2o29bobobobobobo$14b3o27b2obob
+obobob2o$15b2o27bob4ob4obo$9b2o4b2o16bo10b5o3b5o$9b2o3b2o3bo7b2o3bobo$
+18bobo6b2o2bo3bobo$19bo12bobobobo9b2ob2o$37bo9bobobobo$13b3o32bo3bo$
+12bo$12bo3bo14b3o$12bo2bobo13b3o$14bobo2bo11b3o$15bo3bo14b3o$19bo14b3o
+$16b3o15b3o!

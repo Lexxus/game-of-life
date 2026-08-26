@@ -1,0 +1,19 @@
+#N lumpsofmuckequivalents.rle
+#C https://conwaylife.com/wiki/Lumps_of_muck
+#C https://www.conwaylife.com/patterns/lumpsofmuckequivalents.rle
+x = 193, y = 97, rule = B3/S23
+102bo$101bobo$100b2ob2o$100bo2bo$99b2ob2o$100bobo$101bo4$191bo$101b3o
+86bobo$101bobo86bobo$100bo2bo85bo2bo$100bobo86bobo$100b3o86bobo$190bo
+4$92bo$92bo9bo87b3o$91bobo7b3o86b3o$90bobo7bo2bo$90b3o7b3o86b3o$91bo9b
+o87b3o6$91b3o$101b3o$90bo2bo6bo2bo$90b3o7b3o7$92bo$91b3o8b2o48b2o18bo
+9b2o$90bob2o7b2o47b2obo16b2ob2o5b2obo$90b2o8b2o48b2o18b2o9b2o6$41bo$
+91bo10bo40bo38bo$31b3o8b2o48b2o8bo39bo9bo20bo5bo3bo$30bo3bo5bobo46bo2b
+o8b2o37bo2bo7bob2o16bobo6bo2bo$30bo9b2o48b2o9bo39bo8b2o18b2obo7b2o$31b
+o69bo38bo12b2o5$40bo$40bobo49bo9bo18b2o$2bo21bo7b2o8bo47bobo8bobo19bo
+38bo$b3o6b5o5b4o7b2obo5bobo46bo2bo58b3o7bobo$5o6b3o6b3obo5b2o2bo5b2o
+48b2o8bobo17b3o28bob2o5bo2b2o$3b2o7b2o18bo68bo49bob2o5bo2b2o5$62bo$52b
+o39bo29bo$24b2o7bo16b3o7b3o27b3o8b3o17b2o$20b2obo7b2obo15b2o8b2o28bo
+10b2o18b2o29bo$20b2o2b2o5bo2bo15bo9bo29b2o8b3o17b2o28b2ob2o$31bobo119b
+o$152bo5$71bobo28bo10bo$33bo37bo9b3o7b3o8bo9bo$32bobo35bo9b2o8b2o8bo2b
+o7b2o$31b2obo35b2o9bo8bo10bo9bo$31bobo67bo8bo7$33bo67b3o$32bobo$32bobo
+65b3o$30bo2bo$30bo!

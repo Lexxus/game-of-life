@@ -1,0 +1,16 @@
+#N squaredancestabilization.rle
+#C https://conwaylife.com/wiki/Squaredance
+#C https://www.conwaylife.com/patterns/squaredancestabilization.rle
+x = 40, y = 40, rule = B3/S23
+12bob2o4bob2o4bob2o$12b2obo4b2obo4b2obo2$12b3o5b3o5b3o$11bo2bo4bo2bo4b
+o2bo$11bo7bo7bo$13bo7bo7bo$9b2o6b2o6b2o$2o11b2o6b2o6b2o$o2b2o3bo2bo4bo
+2bo4bo2bo4bo$bobo2bobo2bo4bo2bo4bo2bo4bo$2obo9b2o6b2o6b2o3b2o$4b2o3b2o
+6b2o6b2o9bob2o$7bo4bo2bo4bo2bo4bo2bobo2bobo$7bo4bo2bo4bo2bo4bo2bo3b2o
+2bo$9b2o6b2o6b2o11b2o$2o11b2o6b2o6b2o$o2b2o3bo2bo4bo2bo4bo2bo4bo$bobo
+2bobo2bo4bo2bo4bo2bo4bo$2obo9b2o6b2o6b2o3b2o$4b2o3b2o6b2o6b2o9bob2o$7b
+o4bo2bo4bo2bo4bo2bobo2bobo$7bo4bo2bo4bo2bo4bo2bo3b2o2bo$9b2o6b2o6b2o
+11b2o$2o11b2o6b2o6b2o$o2b2o3bo2bo4bo2bo4bo2bo4bo$bobo2bobo2bo4bo2bo4bo
+2bo4bo$2obo9b2o6b2o6b2o3b2o$4b2o3b2o6b2o6b2o9bob2o$7bo4bo2bo4bo2bo4bo
+2bobo2bobo$7bo4bo2bo4bo2bo4bo2bo3b2o2bo$9b2o6b2o6b2o11b2o$13b2o6b2o6b
+2o$10bo7bo7bo$12bo7bo7bo$9bo2bo4bo2bo4bo2bo$9b3o5b3o5b3o2$8bob2o4bob2o
+4bob2o$8b2obo4b2obo4b2obo!

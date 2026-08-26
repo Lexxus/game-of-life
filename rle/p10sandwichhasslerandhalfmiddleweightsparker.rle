@@ -1,0 +1,13 @@
+#N p10sandwichhasslerandhalfmiddleweightsparker.rle
+#C https://conwaylife.com/wiki/Period-10_sparkers
+#C https://www.conwaylife.com/patterns/p10sandwichhasslerandhalfmiddleweightsparker.rle
+x = 40, y = 31, rule = B3/S23
+12bo7bo6bo$11bobo8bo3bobo$b2o4b3obo5bo4bo5bob3o4b2o$bo2bo10b2o6b2o10bo
+2bo$2b4o4b2o3b2o6b2o3b2o4b4o$5bobob3o5bo4bo5b3obobo$2b5obo8bo13bob5o$
+2bo3bo4b2o6bo7b2o4bo3bo$5b2obob3o14b3obob2o$5bobobobo16bobobobo$6bo2bo
+20bo2bo$2o7b2o18b2o7b2o$o2bobo2b2o20b2o2bobo2bo$b2ob2o3bo20bo3b2ob2o$
+2bo3b2o24b2o3bo$o2b4o26b4o2bo$2obo3bobo20bobo3bob2o$bobo2b2o24b2o2bobo
+$o2b2ob2o24b2ob2o2bo$obo2bo3bo20bo3bo2bobo$bobob4obo18bob4obobo$3bo6bo
+18bo6bo$3bo3b2ob2o16b2ob2o3bo$b2ob2obobo20bobob2ob2o$2bobo2bobo20bobo
+2bobo$2bo4bob2o18b2obo4bo$obo2bo2bo2bo16bo2bo2bo2bobo$2ob2ob2o2b2o16b
+2o2b2ob2ob2o$3bobo28bobo$3bobo28bobo$4bo30bo!

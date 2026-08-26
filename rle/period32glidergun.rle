@@ -1,0 +1,15 @@
+#N period32glidergun.rle
+#C https://conwaylife.com/wiki/P32_honey_farm_hassler
+#C https://www.conwaylife.com/patterns/period32glidergun.rle
+x = 43, y = 43, rule = B3/S23
+o23b2o2$3b2obobob2o11bo3bo$3bob2ob2obo10bo4bo$7bo13bobobo$4b2o3b2o9bob
+obo9bo2bo3b2o$4bob3obo7bo4bo8b8o2bo$b2obo5bob2o4bo3bo8bo8b2o$b2obob2ob
+o2b3o15bo2bob2obo$3bo3b2o6bo4b2o9b3ob2o3b2o$b2obob2ob5o14b4o4bobobo$b
+2obo2bo3bo3b2o11b2o5bob2obo$4bobo3bo3b2o14bo3bobobob2o$b2obobobob3obo
+14b2obo2bo2bo2bo$bobo3bobo2bobo5b3o4bo2b5o3b2o$9bobo2b2o4b3o6bo$8b2ob
+2o8bo5bo2b5o3b2o$29b2obo2bo2bo2bo$2b3o25bo3bobobob2o$bo9b2o15b2o5bob2o
+bo$bo3bo5b2o15b4o4bobobo$bo2bobo24b3ob2o3b2o$3bobo2bo17bo3bo2bob2obo$
+4bo3bo15bobo4bo8b2o$8bo8b3o5b2o5b8o2bo$5b3o9b3o14bo2bo3b2o$16bo3bo$17b
+3o3bo$17b3o3b3o$26bo$25b2o7bo$20b2o2bo2b2o3bobo$14bobo3bo4bobobo3b2o$
+16bo6b3o2bobo$12b2o4bo7bobobo$11bo4bo4b3o2bo2bo$10bob8obobo2bo$10bo8bo
+bo2b2o$8b2ob11o20bo$7bo2bo4bo2bo21bobo$7b2o2bo4bo24b2o$12bobobo$14bo!

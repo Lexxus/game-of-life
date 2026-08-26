@@ -1,0 +1,12 @@
+#N period61glidergun2023.rle
+#C https://conwaylife.com/wiki/Honey_farm_hasslers
+#C https://www.conwaylife.com/patterns/period61glidergun2023.rle
+x = 47, y = 44, rule = B3/S23
+7bob2o$7b2obo2$5b5o4b2o$4bo4bo5bo$3bo2bo8bob2ob2obo$3bob2o9bobobob2o$
+2obo5bo7bo$bobo4bobo$o2b2o2bo2bo14b2o9b2o$2o6b2o15bo10b2o$23bobo4b2o$
+23b2o4bobo2b4o$29bobobo4bo$30bobobobobo$32bobob2o4b2o$12bo18bobo8bo$
+12bo19bo7bobo$40b2o$17bo$11bo3b2obo$15bo2bo10b3o$4b2o9b3o10bo2bo$4b2o
+22bob2o3bo$29bo2$14bo19bo$13bobo18bo$9b2obobo31bo$8bobobobobo27bobo$8b
+o4bobobo27b2o$9b4o2bobo4b2o$15b2o4bobo$9b2o10bo15b2o$9b2o9b2o14bo2bo2b
+2o$36bobo4bo$29bo7bo5bob2o$23b2obobobo9b2obobo$23bob2ob2obo8bo2bo2bo$
+31bo5bo4bo2b2o$31b2o4b5o2$36bob2o$36b2obo!

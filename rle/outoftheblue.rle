@@ -1,0 +1,11 @@
+#N outoftheblue.rle
+#C https://conwaylife.com/wiki/Out_of_the_blue
+#C https://www.conwaylife.com/patterns/outoftheblue.rle
+x = 122, y = 49, rule = B3/S23
+76b2o5b2o$72b2o2b2o5b2o2b2o$72b2o13b2o6$77bo5bo$76b3o3b3o$76bob2ob2obo
+$78b2ob2o$78b2ob2o$78b2ob2o5$63b2o$62bo11b4o$61bo2b2o7b6o$61bo2bo7b2o
+2b3o$52bo8bobo7b3o4b2o$50b3o9b2o7b2o5b2o$49bo20b3o4b3o$50b3o9b2o13b2o
+4b2o$52bo8bobo9b2obo6b2o$61bo2bo5bo4b2o$61bo2b2o5b2o2bo$62bo10b2o$63b
+2o2$2b2o44b2o44b2o$o4bo40bo4bo40bo4bo$6bo17b6o22bo17b6o22bo17b6o$o5bo
+16bo5bo16bo5bo16bo5bo16bo5bo16bo5bo$b6o22bo17b6o22bo17b6o22bo$23bo4bo
+40bo4bo40bo4bo$25b2o44b2o44b2o6$73b2o$72b3o$72b2obo$73b3o$74bo!

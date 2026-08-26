@@ -1,0 +1,12 @@
+#N p256hfactory.rle
+#C https://conwaylife.com/wiki/Lx65_duplicator
+#C https://www.conwaylife.com/patterns/p256hfactory.rle
+x = 75, y = 75, rule = B3/S23
+52b2o$51bo2bo$52b2o12$23b2o$23b2o8b2o23bo$15b2o17bo21b3o$16bo17bobo18b
+o$16bobo3b2o11b2o18b2o$17b2o2bo2bo$bo5b2o13bobo2b2o$obo2b2obo14bo3b2o
+10b3o13bo$obo2bo33bob2o11bobo$bo3bobo32bob2o9bo2bo2b2o$6b2o2bobo27bob
+o11b2o3b2o$11b2o22bo4b2o$11bo23bobo$35b2o16b2o$53b2o5$59bo$57b3o$56bo
+$56b2o2$17b2o$18bo$15b3o$15bo5$20b2o$20b2o3$14b2o3b2o$14b2o2bo2bo51bo
+$18bobo51bobo$19bo26b2o3bo20bobo$46b2o2bobo20bo$50bo2bo2b2o$18b2o18b2o
+11b2o3bobo$19bo18bobo17bo$16b3o21bo17b2o$16bo23b2o8b2o$50b2o12$21b2o$
+20bo2bo$21b2o!

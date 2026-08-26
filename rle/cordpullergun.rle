@@ -1,0 +1,13 @@
+#N cordpullergun.rle
+#C https://conwaylife.com/wiki/Intermittent_stream
+#C https://www.conwaylife.com/patterns/cordpullergun.rle
+x = 55, y = 69, rule = B3/S23
+37bo$35b3o$34bob$34b2ob6$29b2o3b2ob$29bobobobo$30b5o$31b3ob$32bo6$34b
+2o$34bo$35b3o$14bo22bo$10b2o2b2ob3o$10b2o4b4o$14b2o2$8bo29bo2bo$6b3o
+28bo3b2o2b2o$5bo31bo7bo$5b2o19bo11b4o8b2o$24b3o23bo$23bo12bo1$23b2o3b
+o6b2o$28b3o4bobob$31bo$30b2o$2o3b2o$9b3o$o5bo4bo6b2o3b2o$10bo8b5o$b2o
+b2o14b3o$3bo17bo8b2o3b2o12b5o$15b3o12bo5bo11bob3obo$15bo33bo3bo$5bo
+10bo14bo3bo14b3o$4bobo25b3o16bo$3bo3bo41b2o$3b5o40bobo$2b2o3b2o39bobo
+$3b5o41bo$4b3o11b3o$5bo$18bobo14bo10b2obob2o$17b5o11b2ob2o8bo5bo$16b
+2o3b2o24bo3bo$16b2o3b2o9bo5bo9b3o2$32b2o3b2o3$5b2o$5bo2$18b2o28b2o$
+18bo29bo2$35b2o$35bo!

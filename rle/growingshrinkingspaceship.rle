@@ -1,0 +1,24 @@
+#N growingshrinkingspaceship.rle
+#C https://conwaylife.com/wiki/Growing/shrinking_spaceship
+#C https://www.conwaylife.com/patterns/growingshrinkingspaceship.rle
+x = 253, y = 123, rule = B3/S23
+186b6o$186bo5bo$186bo$187bo4bo$189b2o$157b2o$156b2ob3o$157b5o$158b2ob
+2o$162bo$160b2ob2o10b3o$161bob2o12bo8b2o$157b4o3bo11bo7bo4bo$156b4ob
+3o19bo$155b2ob2o2b2o19bo5bo$156b2o4bo20b6o$162bo$149b4o$149bo3bo19b6o
+$149bo23bo5bo25bo$150bo2bo9b2o8bo30bo$162b2o10bo4bo24b3o$136b2o26bo
+11b2o$135b4o$134b2ob2o11bo$135b2o5bo2bo3bob4o$141bo3bo4b2o3bo$140b2o
+4bo4bo4bo$141bo3bo4b2o$135b2o5bo2bo3bob2obo$134b2ob2o11bo3bobo$135b4o
+16b2o$136b2o$148b3o$147b5o$146b2ob3o$147b2o$223bo$155b4o63bo$155bo3bo
+62b3o$155bo$156bo2bo11$249b3o$5o243b5o$o4bo241b2ob3o$o240bo6b2o$bo3bo
+234bo$3bo236b3o$2b3o$b4o$2ob2o$b2o4b3ob3ob3ob3ob3ob3ob3ob3ob3ob3ob3ob
+3ob3ob3ob3ob3ob3ob3ob3ob3ob3ob3ob3ob3ob3ob3ob3ob3ob3ob3ob3ob3ob3ob3ob
+3ob3ob3ob3ob3ob3ob3ob3ob3ob3ob3ob3ob3ob3ob3ob3ob3ob3ob3ob3ob3ob3ob3ob
+3ob3ob3o4$240b3o$2b6o232bo$2bo5bo232bo6b2o$2bo244b2ob3o$3bo4bo239b5o$
+5b2o242b3o11$156bo2bo$155bo$155bo3bo62b3o$155b4o63bo$223bo$147b2o$
+146b2ob3o$147b5o$148b3o$136b2o$135b4o16b2o$134b2ob2o11bo3bobo$135b2o
+5bo2bo3bob2obo$141bo3bo4b2o$140b2o4bo4bo4bo$141bo3bo4b2o3bo$135b2o5bo
+2bo3bob4o$134b2ob2o11bo$135b4o$136b2o26bo11b2o$162b2o10bo4bo24b3o$
+150bo2bo9b2o8bo30bo$149bo23bo5bo25bo$149bo3bo19b6o$149b4o$162bo$156b
+2o4bo20b6o$155b2ob2o2b2o19bo5bo$156b4ob3o19bo$157b4o3bo11bo7bo4bo$
+161bob2o12bo8b2o$160b2ob2o10b3o$162bo$158b2ob2o$157b5o$156b2ob3o$157b
+2o$189b2o$187bo4bo$186bo$186bo5bo$186b6o!

@@ -1,0 +1,11 @@
+#N p42rpentominohassler2.rle
+#C https://conwaylife.com/wiki/Period-42_R-pentomino_hasslers
+#C https://www.conwaylife.com/patterns/p42rpentominohassler2.rle
+x = 47, y = 29, rule = B3/S23
+13b2o$13b2o$13b2o24b2o4b2o$13bo24bo2bo2bobo$12bobo23b2obo2bo$13bobob3o
+5bo12bo2bo2bobo$14bob4o3b3o14bo4b2o$2o4b2o7bo6bo11bob2o$obo2bo2bo13b2o
+11b2o$2bo2bob2o26bo$obo2bo2bo27bobo$2o4bo28bo3bo$9b2obo13bo8bo3bo$10b
+2o14b3o7bobo$11bo7bo7bo7bo$8bobo7b3o14b2o$7bo3bo8bo13bob2o$7bo3bo28bo
+4b2o$8bobo27bo2bo2bobo$11bo26b2obo2bo$10b2o11b2o13bo2bo2bobo$9b2obo11b
+o6bo7b2o4b2o$2o4bo14b3o3b4obo$obo2bo2bo12bo5b3obobo$2bo2bob2o23bobo$ob
+o2bo2bo24bo$2o4b2o24b2o$32b2o$32b2o!

@@ -1,0 +1,13 @@
+#N 244p7h3v0.rle
+#C https://conwaylife.com/wiki/232P7H3V0
+#C https://www.conwaylife.com/patterns/244p7h3v0.rle
+x = 51, y = 52, rule = B3/S23
+19b3o9b3o$18bo3bo7bo3bo$17bobo3bo5bo3bobo$17bo3b2o7b2o3bo$17b3o3bo5bo
+3b3o$16bo3b2ob3ob3ob2o3bo$16b2o2bo3b2ob2o3bo2b2o$15b3o3b5ob5o3b3o$23bo
+5bo$20bo11bo$15bo4bo11bo4bo$15bo4b4o5b4o4bo$19bo4bo3bo4bo$18b2ob3o5b3o
+b2o$18b2obo3bobo3bob2o$14b3o7b2ob2o7b3o$13bo3b2o4bobobobo4b2o3bo$12bo
+3bo19bo3bo$12bo9b3o3b3o9bo$16bo6b2o3b2o6bo$11bo12bo3bo12bo$11bo2b2o5bo
+9bo5b2o2bo$12b2o8bo7bo8b2o$10bo12bo5bo12bo$9b3o29b3o$8b2o2bo27bo2b2o$
+11b2o27b2o$11bo29bo2$8bo35bo$9b2o31b2o$7bo2bo31bo2bo$6bo39bo$5b2o39b2o
+$4b4o37b4o$3bo45bo$3b3o41b3o$2bo47bo$4b2o41b2o$6bo39bo$4b2o41b2o$5bo
+41bo$4bo43bo$4bo43bo$2b2o$2obo$o$2o$bo3bo$4bo$o2bo$o!

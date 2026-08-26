@@ -1,0 +1,14 @@
+#N 232p7h3v0puffer.rle
+#C https://conwaylife.com/wiki/232P7H3V0
+#C https://www.conwaylife.com/patterns/232p7h3v0puffer.rle
+x = 51, y = 43, rule = B3/S23
+19bo11bo$18bobo9bobo$17b2ob2o7b2ob2o$17bo15bo$17b3o2bo5bo2b3o$15bo7bo
+3bo7bo$16b2o2b2ob2ob2ob2o2b2o$16bobo4bo3bo4bobo$13b3ob3o2b2o3b2o2b3ob
+3o$13b2ob4ob3o3b3ob4ob2o$14b4o4b2o3b2o4b4o$15bo5b2o5b2o5bo$19bo2bo5bo
+2bo$18b3obo5bob3o$17bo5b2ob2o5bo$16b3ob2ob2ob2ob2ob3o$13b2ob2o15b2ob2o
+$12b2ob2ob2ob4ob4ob2ob2ob2o$22b2o3b2o$13bo23bo$10b2ob2o6bo7bo6b2ob2o$
+11b2o8b2o5b2o8b2o2$22b3ob3o$9bo31bo$8b3o29b3o$7b2ob2o12b3o12b2ob2o$6b
+3o14bo3bo14b3o$6b2o14bo5bo14b2o$6b3o15bobo15b3o$8bo14bobobo14bo$24bobo
+$7b2o13b2obob2o13b2o$4b2obo13bobobobobo13bob2o$4bo2bo12bobo5bobo12bo2b
+o$6bo17b3o17bo$2b2o16b2o2b3o2b2o16b2o$bob2o41b2obo$bob2o41b2obo$2o47b
+2o$2obo43bob2o$2b3o41b3o$2b3o41b3o!
