@@ -169,7 +169,7 @@ document.addEventListener('DOMContentLoaded', () => {
     showInfo(Life.cycle());
   }
 
-  function handleStart(e) {
+  function handleStart() {
     allowDrawing = false;
 
     if (isPaused) {
@@ -275,6 +275,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function handlePaste(cells, width, height) {
+    handleClear();
     const xShift = Math.floor(width / 2);
     const yShift = Math.floor(height / 2);
     cells.forEach(([x, y]) => {

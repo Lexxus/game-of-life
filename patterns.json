@@ -18,13 +18,16 @@
     "id": "103p4h1v0",
     "name": "103p4h1v0",
     "wiki": "https://conwaylife.com/wiki/C/4_orthogonal",
-    "data": "10b2o$5b3o2b3o$7bo2b2obobo4bo$5b2o5b3o6bo$b2o2bo2b3obo3b4obo4bo$2ob2o5bo4b2o3b3obobo$bo3bo9bo8bobo$2o3bo$bo3bo9bo8bobo$2ob2o5bo4b2o3b3obobo"
+    "description": "repeatedly attaching a tagalong can produce arbitrarily large c/4 orthogonal spaceships",
+    "data": "10b2o$5b3o2b3o$7bo2b2obobo4bo$5b2o5b3o6bo$b2o2bo2b3obo3b4obo4bo$2ob2o5bo4b2o3b3obobo$bo3bo9bo8bobo$2o3bo$bo3bo9bo8bobo$2ob2o5bo4b2o3b3obobo$b2o2bo2b3obo3b4obo4bo$5b2o5b3o6bo$7bo2b2obobo4bo$5b3o2b3o$10b2o!",
+    "category": "spaceships"
   },
   {
     "id": "103p69",
     "name": "103p69",
     "wiki": "https://conwaylife.com/wiki/55P23",
-    "data": "23bo$22bobo$21bobobo$21bo3bo$13b2o4b2ob2ob2o$13bo2bobobo3bo$15b2obo3bobo$16bobo2b2ob2o$4bo10b2o3bo2bo$4b3o4b2o4b2ob2obo$7bo3b2o6bo2bo$6b2o13bo$22b3o$18b2o4bo$2b2o14bo$2bo13bobo$4bo11b2o$3b2o6bo$2bo6b3o$bob2o4bobo$o2bobo5bo$2o2bo2$15b2o$8b2o5bobo$9bo7bo$6b3o8b2o$6bo!"
+    "data": "23bo$22bobo$21bobobo$21bo3bo$13b2o4b2ob2ob2o$13bo2bobobo3bo$15b2obo3bobo$16bobo2b2ob2o$4bo10b2o3bo2bo$4b3o4b2o4b2ob2obo$7bo3b2o6bo2bo$6b2o13bo$22b3o$18b2o4bo$2b2o14bo$2bo13bobo$4bo11b2o$3b2o6bo$2bo6b3o$bob2o4bobo$o2bobo5bo$2o2bo2$15b2o$8b2o5bobo$9bo7bo$6b3o8b2o$6bo!",
+    "category": ["oscilators", "agars"]
   },
   {
     "id": "104p177",
@@ -63,16 +66,20 @@
   },
   {
     "id": "104p32",
-    "name": "104p32",
+    "name": "104p32 honey farm hassler",
+    "author": "David Raucci",
     "wiki": "https://conwaylife.com/wiki/P32_honey_farm_hassler",
-    "data": "6bo35bo$5bob2o12b2o3b2o12b2obo$4bo3bo12bobobobo12bo3bo$4bo5bo12bobo12bo5bo$bo2bo5bo11b2ob2o11bo5bo2bo$obo7bo27bo7bobo$b2o2b4o11bo7bo11b4o2b2o$19bobo5bobo$b2o2b4o9bo3bo3bo3bo9b4o2b2o$obo7bo7bo3bo3bo3bo7bo7bobo$bo2bo5bo7bo3bo3bo3bo7bo5bo2bo$4bo5bo8bobo5bobo8bo5bo$4bo3bo11bo7bo11bo3bo$5bob2o31b2obo$6bo35bo$13b2o19b2o$13b2o19b2o!"
+    "description": "Original 104-cell dimerized form of p32 honey farm hassler, found by Raucci - a period-32 oscillator, sparker, and 'honey farm' hassler",
+    "data": "6bo35bo$5bob2o12b2o3b2o12b2obo$4bo3bo12bobobobo12bo3bo$4bo5bo12bobo12bo5bo$bo2bo5bo11b2ob2o11bo5bo2bo$obo7bo27bo7bobo$b2o2b4o11bo7bo11b4o2b2o$19bobo5bobo$b2o2b4o9bo3bo3bo3bo9b4o2b2o$obo7bo7bo3bo3bo3bo7bo7bobo$bo2bo5bo7bo3bo3bo3bo7bo5bo2bo$4bo5bo8bobo5bobo8bo5bo$4bo3bo11bo7bo11bo3bo$5bob2o31b2obo$6bo35bo$13b2o19b2o$13b2o19b2o!",
+    "category": "oscillators"
   },
   {
     "id": "104p9",
     "name": "104p9",
     "author": "wwei23, 2020",
     "wiki": "https://conwaylife.com/wiki/104P9",
-    "data": "8b2o$6bo4bo$2b2o10b2o$2bo2bo6bo2bo$3b3ob4ob3o$6bo4bo$3b3o6b3o$2bo12bo$3b5o2b5o$8b2o$5b2o4b2o$4bobo4bobo$4b2o6b2o3$6b2o2b2o$5bo2b2o2bo$3bobob4obobo$b3obobo2bobob3o$o3b2ob4ob2o3bo$b2o3bo4bo3b2o$3b2o2bo2bo2b2o$3bob2o4b2obo!"
+    "data": "8b2o$6bo4bo$2b2o10b2o$2bo2bo6bo2bo$3b3ob4ob3o$6bo4bo$3b3o6b3o$2bo12bo$3b5o2b5o$8b2o$5b2o4b2o$4bobo4bobo$4b2o6b2o3$6b2o2b2o$5bo2b2o2bo$3bobob4obobo$b3obobo2bobob3o$o3b2ob4ob2o3bo$b2o3bo4bo3b2o$3b2o2bo2bo2b2o$3bob2o4b2obo!",
+    "category": "oscillators"
   },
   {
     "id": "105p25",
@@ -104,14 +111,16 @@
     "name": "108p59",
     "author": "Mitchell Riley, 2022",
     "wiki": "https://conwaylife.com/wiki/108P59",
-    "data": "20b2o9bo$21bo7b3o$21bobo4bo$22b2o4b2o4$25bo$24bobo$2o22bobo$bo23bo$bobo17b2o$2b2o16bobo$20bobo$8b2o11bo$7bo2bo$8b2o$2b2o$3bo7b3o$3o8bo2bo$o11b2o13b2o11bo$26bo2bo8b3o$27b3o7bo$37b2o$31b2o$30bo2bo$19bo11b2o$18bobo$18bobo16b2o$18b2o17bobo$15bo23bo$14bobo22b2o$14bobo$15bo4$11b2o4b2o"
+    "description": "a period-59 oscillator found in its original 108-cell form by Mitchell Riley on September 14, 2022",
+    "data": "20b2o9bo$21bo7b3o$21bobo4bo$22b2o4b2o4$25bo$24bobo$2o22bobo$bo23bo$bobo17b2o$2b2o16bobo$20bobo$8b2o11bo$7bo2bo$8b2o$2b2o$3bo7b3o$3o8bo2bo$o11b2o13b2o11bo$26bo2bo8b3o$27b3o7bo$37b2o$31b2o$30bo2bo$19bo11b2o$18bobo$18bobo16b2o$18b2o17bobo$15bo23bo$14bobo22b2o$14bobo$15bo4$11b2o4b2o$12bo4bobo$9b3o7bo$9bo9b2o!",
+    "category": "oscillators"
   },
   {
     "id": "10cellinfinitegrowth",
     "name": "10-cell infinite growth",
     "author": "Paul Callahan",
     "wiki": "www.conwaylife.com/wiki/index.php?title=Infinite_growth",
-    "description": "A 10-cell infinite growth pattern found in 1997. No pattern with fe wer cells can exhibit infinite growth.",
+    "description": "A 10-cell infinite growth pattern found in 1997. No pattern with fewer cells can exhibit infinite growth.",
     "data": "6bob$4bob2o$4bobob$4bo3b$2bo5b$obo!"
   },
   {
@@ -127,7 +136,8 @@
     "id": "10x10maxdensity",
     "name": "10x10maxdensity",
     "wiki": "https://conwaylife.com/wiki/Density",
-    "data": "2obob2ob2o$2ob2ob2obo!"
+    "data": "2obob2ob2o$2ob2ob2obo!",
+    "category": "still_lifes"
   },
   {
     "id": "110p62",
@@ -142,7 +152,9 @@
     "name": "112P15",
     "author": "thunk",
     "wiki": "https://conwaylife.com/wiki/112P15",
-    "data": "6bo11bo$7b2o7b2o$3bobob2o7b2obobo$2bobo15bobo$3bo17bo$2bo19bo$o9b2ob2o9bo$b2o8bobo8b2o$b2o6bobobobo6b2o$8bobo3bobo$6bo2bo5bo2bo$6b3o7b3o2$6b3o7b3o$6bo2bo5bo2bo$8bobo3bobo$b2o6bobobobo6b2o$b2o8bobo8b2o$o9b2ob2o9bo$2bo19bo$3bo17bo$2bobo15bobo$3bobob2o7b2obobo$7b2o7b2o$6bo11bo!"
+    "description": "an unnamed period-15 oscillator found by Maia Karpovich on April 4, 2016",
+    "data": "6bo11bo$7b2o7b2o$3bobob2o7b2obobo$2bobo15bobo$3bo17bo$2bo19bo$o9b2ob2o9bo$b2o8bobo8b2o$b2o6bobobobo6b2o$8bobo3bobo$6bo2bo5bo2bo$6b3o7b3o2$6b3o7b3o$6bo2bo5bo2bo$8bobo3bobo$b2o6bobobobo6b2o$b2o8bobo8b2o$o9b2ob2o9bo$2bo19bo$3bo17bo$2bobo15bobo$3bobob2o7b2obobo$7b2o7b2o$6bo11bo!",
+    "category": "oscillators"
   },
   {
     "id": "112p15_synth",
@@ -185,13 +197,8 @@
     "name": "112p57",
     "author": "Mitchell Riley, 2022",
     "wiki": "https://conwaylife.com/wiki/112P57",
-    "data": "8bo$8bo$8bo$4bo2b2o$4bo8bo$4bo4bo3b3o$6b2o8bo13b2o$7b2obo4b2o13bo$5bo4b2o16bobo$5b2o13b2o6b2o$19b2o$19bobo9b2o$20bo5bo3bobo$25bobo2b2o$24bo2o$3b2o6b2o13b2o$2bobo16b2o4bo$2bo13b2o4bob2o$b2o13bo8b2o$17b3o3bo4bo$19bo8bo$24b2o2bo$24bo$24bo$24bo!"
-  },
-  {
-    "id": "113p18",
-    "name": "113p18",
-    "wiki": "https://conwaylife.com/wiki/117P18",
-    "data": "3bob2o4b2obo$3b2o2bo2bo2b2o$b2o3bo4bo3b2o$o3b2ob4ob2o3bo$b3obobo2bobob3o$3bobobo2bobobo$6bo4bo$7bo2bo$7bo2bo3$14b2o$10b2o2b2o$9b2o$10bo$5b2o4ob2o3bo$4b2o3bo4bo3b2o$6b2o2bo2bo2b2o$6bob2o4b2obo!"
+    "data": "8bo$8bo$8bo$4bo2b2o$4bo8bo$4bo4bo3b3o$6b2o8bo13b2o$7b2obo4b2o13bo$5bo4b2o16bobo$5b2o13b2o6b2o$19b2o$19bobo9b2o$20bo5bo3bobo$25bobo2b2o$24bo$24bo$24bob2o$6b2o17b2o$5b2obo$8bo$8bo$b2o2bobo$obo3bo5bo$2o9bobo$12b2o$3b2o6b2o13b2o$2bobo16b2o4bo$2bo13b2o4bob2o$b2o13bo8b2o$17b3o3bo4bo$19bo8bo$24b2o2bo$24bo$24bo$24bo!",
+    "category": "oscillators"
   },
   {
     "id": "114p6h1v0",
@@ -232,9 +239,11 @@
   {
     "id": "115p106",
     "name": "115p106",
-    "author": "Nico Brown, 2022",
+    "author": "Nora Brown, 2022",
     "wiki": "https://conwaylife.com/wiki/115P106",
-    "data": "18b2o$18bo$16bobo$11b2o3b2o$13bo8bo6bo$14bo5b3o4b3o$11bobo5bo6bo$12bo6b2o5b2o$39b2o$34b2o2bo2bo$34bobo2b2o$37b2o$38bo$2b2ob2o13bobobo13bob2o$o2bob2o14bo3b2o8b2obo2bo$2obo16bobobo10b2ob2o$3bo$3b2o$b2o2bobo$o2bo2b2o$b2o26b3o$14b2o5b2o$15bo6bo10bo$12b3o4b3o11bo$12bo6bo13bo$24b2o$23bobo3b3o$23bo$22b2o!"
+    "description": "period-106 oscillator discovered by Nora Brown on October 1, 2022",
+    "data": "18b2o$18bo$16bobo$11b2o3b2o$13bo8bo6bo$14bo5b3o4b3o$11bobo5bo6bo$12bo6b2o5b2o$39b2o$34b2o2bo2bo$34bobo2b2o$37b2o$38bo$2b2ob2o13bobobo13bob2o$o2bob2o14bo3b2o8b2obo2bo$2obo16bobobo10b2ob2o$3bo$3b2o$b2o2bobo$o2bo2b2o$b2o26b3o$14b2o5b2o$15bo6bo10bo$12b3o4b3o11bo$12bo6bo13bo$24b2o$23bobo3b3o$23bo$22b2o!",
+    "category": "oscillators"
   },
   {
     "id": "116p101",
@@ -242,13 +251,15 @@
     "author": "iNoMed, 2023",
     "wiki": "https://conwaylife.com/wiki/116P101",
     "description": "[[116P101]]",
-    "data": "23b2o$23bo2b2o$24b2ob3o$15b2o13bo$4b2o10bo7b2ob3o$5bo10bobo5b2obo$5bobo9b2o$6b2o6$32b2o$10b2o20b2o$9bo2bo31b2o$9bo34bo$9bo3bo18b3o7bobo$9bo4bo16bo3bo6b2o2$2b2o6bo3bo16bo4bo$bobo7b3o18bo3bo$bo34bo$2o31bo2bo$12b2o20b2o$12b2o6$38b2o$27b2o9bobo$18bob2o5bobo10bo$16b3ob2o7bo10b2o$15bo13b2o$16b3ob2o$18b2o2bo$21b2o!"
+    "data": "23b2o$23bo2b2o$24b2ob3o$15b2o13bo$4b2o10bo7b2ob3o$5bo10bobo5b2obo$5bobo9b2o$6b2o6$32b2o$10b2o20b2o$9bo2bo31b2o$9bo34bo$9bo3bo18b3o7bobo$9bo4bo16bo3bo6b2o2$2b2o6bo3bo16bo4bo$bobo7b3o18bo3bo$bo34bo$2o31bo2bo$12b2o20b2o$12b2o6$38b2o$27b2o9bobo$18bob2o5bobo10bo$16b3ob2o7bo10b2o$15bo13b2o$16b3ob2o$18b2o2bo$21b2o!",
+    "category": "oscillators"
   },
   {
     "id": "116p112",
     "name": "116p112",
     "wiki": "https://conwaylife.com/wiki/LCM_oscillator",
-    "data": "9b2o$9bo$2o4b2obo$o2b2o3bo$b2o2$b2o$obobo3b2o$o3b2obo2bo$b4o10b2o$10bo4bo$3b2o3bo3bo3b3o$3bo5bob5o2bo$5bo10bo$4b2o3b5o2b2o$8bo5bobo2bo$4b2o3b2o2b2o3b2o$4bo2bobo5bo$6b2o2b4obo$7bo$5bo2b5obo9b2o$5b3o3bobo5b3o2b2o$8bo10bo$7b2o9bobo$14b2ob2o$14b2o3bo!"
+    "data": "9b2o$9bo$2o4b2obo$o2b2o3bo$b2o2$b2o$obobo3b2o$o3b2obo2bo$b4o10b2o$10bo4bo$3b2o3bo3bo3b3o$3bo5bob5o2bo$5bo10bo$4b2o3b5o2b2o$8bo5bobo2bo$4b2o3b2o2b2o3b2o$4bo2bobo5bo$6b2o2b4obo$7bo$5bo2b5obo9b2o$5b3o3bobo5b3o2b2o$8bo10bo$7b2o9bobo$14b2ob2o$14b2o3bo!",
+    "category": "oscillators"
   },
   {
     "id": "117p18",
@@ -297,13 +308,15 @@
     "id": "11x11maxdensity",
     "name": "11x11maxdensity",
     "wiki": "https://conwaylife.com/wiki/Density",
-    "data": "2ob2ob2ob2o$2ob2ob2ob2o2$2ob2ob2ob2o$2ob2ob2ob2o2$2ob2ob2ob2o$2ob2ob2ob2o2$2ob2ob2ob2o$2ob2ob2ob2o!"
+    "data": "2ob2ob2ob2o$2ob2ob2ob2o2$2ob2ob2ob2o$2ob2ob2ob2o2$2ob2ob2ob2o$2ob2ob2ob2o2$2ob2ob2ob2o$2ob2ob2ob2o!",
+    "category": "still_lifes"
   },
   {
     "id": "120p7",
     "name": "120p7",
     "wiki": "https://conwaylife.com/wiki/120P7",
-    "data": "8bo7bo$6bo3bo3bo3bo$5bo4bo3bo4bo$11bobo$7b3obobob3o$2bo4bo3bobo3bo4bo$bo9bobo9bo$4b2o5bobo5b2o$o3bo6bobo6bo3bo$4bo5bo3bo5bo$b2o6bo5bo6b2o$3b6o7b6o2$3b6o7b6o$b2o6bo5bo6b2o$4bo5bo3bo5bo$o3bo6bobo6bo3bo$4b2o5bobo5b2o$bo9bobo9bo$2bo4bo3bobo3bo4bo$7b3obobob3o$11bobo$5bo4bo3bo4bo$6bo3bo3bo3bo$8bo7bo!"
+    "data": "8bo7bo$6bo3bo3bo3bo$5bo4bo3bo4bo$11bobo$7b3obobob3o$2bo4bo3bobo3bo4bo$bo9bobo9bo$4b2o5bobo5b2o$o3bo6bobo6bo3bo$4bo5bo3bo5bo$b2o6bo5bo6b2o$3b6o7b6o2$3b6o7b6o$b2o6bo5bo6b2o$4bo5bo3bo5bo$o3bo6bobo6bo3bo$4b2o5bobo5b2o$bo9bobo9bo$2bo4bo3bobo3bo4bo$7b3obobob3o$11bobo$5bo4bo3bo4bo$6bo3bo3bo3bo$8bo7bo!",
+    "category": "oscillators"
   },
   {
     "id": "120p7sparker",
@@ -402,7 +415,9 @@
     "name": "128p10.2",
     "author": "Nicolay Beluchenko, 2009",
     "wiki": "https://conwaylife.com/wiki/128P10.2",
-    "data": "13b2o5b2o$13b2o5b2o4$14b2o3b2o$13bo2bobo2bo$12bo3bobo3bo$16bobo$13b3o3b3o3$7bo4b2o7b2o4bo$2o4bo2bo2b2o7b2o2bo2bo4b2o$2o3bo3bo15bo3bo3b2o$5bo3bo15bo3bo$6b3o17b3o2$6b3o17b3o$5bo3bo15bo3bo$2o3bo3bo15bo3bo3b2o$2o4bo2bo2b2o7b2o2bo2bo4b2o$7bo4b2o7b2o4bo3$13b3o3b3o$16bobo$12bo3bobo3bo"
+    "description": "Period-10 quasi-shuttle oscillator. It was found by Nicolay Beluchenko on March 26, 2009. It is not considered a true shuttle because the active region does not flip halfway through the oscillator's period",
+    "data": "13b2o5b2o$13b2o5b2o4$14b2o3b2o$13bo2bobo2bo$12bo3bobo3bo$16bobo$13b3o3b3o3$7bo4b2o7b2o4bo$2o4bo2bo2b2o7b2o2bo2bo4b2o$2o3bo3bo15bo3bo3b2o$5bo3bo15bo3bo$6b3o17b3o2$6b3o17b3o$5bo3bo15bo3bo$2o3bo3bo15bo3bo3b2o$2o4bo2bo2b2o7b2o2bo2bo4b2o$7bo4b2o7b2o4bo3$13b3o3b3o$16bobo$12bo3bobo3bo$13bo2bobo2bo$14b2o3b2o4$13b2o5b2o$13b2o5b2o!",
+    "category": "oscillators"
   },
   {
     "id": "128p13.1",
@@ -417,13 +432,16 @@
     "id": "12x12maxdensity",
     "name": "12x12maxdensity",
     "wiki": "https://conwaylife.com/wiki/Density",
-    "data": "2ob2ob2o2b2o4b2obob2ob2obo$bob2obobo2bo4bob3obobob2o$o5bobobo11bobo$4ob2obob2o5b6obob2o$3bobo2bobo5bo6b2ob2o$2obobob2obo5b6o$2obobo2bob2o10b6o$3bob3o8b2ob2o6bo$4o4b4o4b2obob6o$o3b3obo2bo7bobo$bobo2bobobo5b2obobob3obo$2ob2o2b2ob2o4bob2ob2obob2o!"
+    "data": "2ob2ob2o2b2o4b2obob2ob2obo$bob2obobo2bo4bob3obobob2o$o5bobobo11bobo$4ob2obob2o5b6obob2o$3bobo2bobo5bo6b2ob2o$2obobob2obo5b6o$2obobo2bob2o10b6o$3bob3o8b2ob2o6bo$4o4b4o4b2obob6o$o3b3obo2bo7bobo$bobo2bobobo5b2obobob3obo$2ob2o2b2ob2o4bob2ob2obob2o!",
+    "category": "still_lifes"
   },
   {
     "id": "1308p7",
     "name": "1308p7",
     "wiki": "https://conwaylife.com/wiki/754P7",
-    "link": "1308p7.rle"
+    "description": "Very large period-7 oscillator and high-clearance heavyweight sparker. It was originally found in a dual form by Aleph on January 17, 2021",
+    "link": "1308p7.rle",
+    "category": "oscillators"
   },
   {
     "id": "131c31climber",
@@ -454,7 +472,8 @@
     "name": "132p7",
     "author": "Dongook Lee, 2016",
     "wiki": "https://conwaylife.com/wiki/132P7",
-    "data": "4bo3b2o3bo$3bobobo2bobobo$3bobo6bobo$b3obo6bob3o$o4bob4obo4bo$b3obob4obob3o$3bo2b2o2b2o2bo$6bo4bo$7bo2bo$8b2o$3bo10bo$b3o10b3o$o5b6o5bo$b3o10b3o$3bo10bo$8b2o$7bo2bo$6bo4bo$3bo2b2o2b2o2bo$b3obob4obob3o$o4bob4obo4bo$b3obo6bob3o$3bobo6bobo$3bobobo2bobobo$4bo3b2o3bo!"
+    "data": "4bo3b2o3bo$3bobobo2bobobo$3bobo6bobo$b3obo6bob3o$o4bob4obo4bo$b3obob4obob3o$3bo2b2o2b2o2bo$6bo4bo$7bo2bo$8b2o$3bo10bo$b3o10b3o$o5b6o5bo$b3o10b3o$3bo10bo$8b2o$7bo2bo$6bo4bo$3bo2b2o2b2o2bo$b3obob4obob3o$o4bob4obo4bo$b3obo6bob3o$3bobo6bobo$3bobobo2bobobo$4bo3b2o3bo!",
+    "category": "oscillators"
   },
   {
     "id": "134c41climber",
@@ -466,7 +485,8 @@
     "id": "134p19",
     "name": "134p19",
     "wiki": "https://conwaylife.com/wiki/Honey_farm_hasslers",
-    "data": "10b2o$10bobo$13bo2b2o$11b2obo2bo$10bobob2o$11bo$21b2o$21bo$6bo5b3o4bobo$5bobo3bo3bo3b2o4bo$5b2o3bo5bo7bobo$3b2o5bo5bo7bobo$2bo2b2o3bo5bo6b2ob3o$bobo2bo4bo3bo13bo$o2b2o7b3o8b2ob3o$2o21b2obo$6bob2o21b2o$4b3ob2o8b3o7b2o2bo$3bo13bo3bo4bo2bobo$4b3ob2o6bo5bo3b2o2bo$6bobo7bo5bo5b2o$6bobo7bo5bo3b2o$7bo4b2o3bo3bo3bobo$11bobo4b3o5bo$11bo$10b2o$21bo$17b2obobo"
+    "data": "10b2o$10bobo$13bo2b2o$11b2obo2bo$10bobob2o$11bo$21b2o$21bo$6bo5b3o4bobo$5bobo3bo3bo3b2o4bo$5b2o3bo5bo7bobo$3b2o5bo5bo7bobo$2bo2b2o3bo5bo6b2ob3o$bobo2bo4bo3bo13bo$o2b2o7b3o8b2ob3o$2o21b2obo$6bob2o21b2o$4b3ob2o8b3o7b2o2bo$3bo13bo3bo4bo2bobo$4b3ob2o6bo5bo3b2o2bo$6bobo7bo5bo5b2o$6bobo7bo5bo3b2o$7bo4b2o3bo3bo3bobo$11bobo4b3o5bo$11bo$10b2o$21bo$17b2obobo$15bo2bob2o$15b2o2bo$20bobo$21b2o!",
+    "category": "oscillators"
   },
   {
     "id": "134p25",
@@ -509,16 +529,19 @@
   },
   {
     "id": "139p7h1v0",
-    "name": "139p7h1v0",
+    "name": "139p7h1v0 - Motor grader",
     "author": "Caleb R. Hilton, 2024",
     "wiki": "https://conwaylife.com/wiki/139P7H1V0",
-    "data": "4bo9bo$6bo5bo$bo5bo3bo5bo$8bobo$2ob3ob2ob2ob3ob2o2$4bo9bo$3bobo7bobo$2bo4b2ob2o4bo$2o3b4ob4o3b2o$o3bo9bo3bo$2bo13bo$2bo13bo2$3b5o3b5o$7bo3bo$8bobo3$5b9o2$4bobo5bobo$3b2o9b2o$3b3o7b3o$3b2o9b2o$2bo2bobo3bobo2bo$b2o5bobo5b2o$2bobo2bo3bo2bobo$5b2o5b2o2$2bo2b2o5b2o2bo$2bo2b2o5b2o2bo$6bo5bo$3b2o9b2o$3bo11bo!"
+    "description": "Motor grader is a c/7 orthogonal spaceship discovered by Caleb R. Hilton with qfind on April 17, 2024",
+    "data": "4bo9bo$6bo5bo$bo5bo3bo5bo$8bobo$2ob3ob2ob2ob3ob2o2$4bo9bo$3bobo7bobo$2bo4b2ob2o4bo$2o3b4ob4o3b2o$o3bo9bo3bo$2bo13bo$2bo13bo2$3b5o3b5o$7bo3bo$8bobo3$5b9o2$4bobo5bobo$3b2o9b2o$3b3o7b3o$3b2o9b2o$2bo2bobo3bobo2bo$b2o5bobo5b2o$2bobo2bo3bo2bobo$5b2o5b2o2$2bo2b2o5b2o2bo$2bo2b2o5b2o2bo$6bo5bo$3b2o9b2o$3bo11bo!",
+    "category": "spaceships"
   },
   {
     "id": "139p7h1v0pushalongs",
     "name": "139p7h1v0pushalongs",
     "wiki": "https://conwaylife.com/wiki/139P7H1V0",
-    "link": "139p7h1v0pushalongs.rle"
+    "link": "139p7h1v0pushalongs.rle",
+    "category": "spaceships"
   },
   {
     "id": "13enginecordership",
@@ -532,19 +555,22 @@
     "id": "13loop",
     "name": "13loop",
     "wiki": "https://conwaylife.com/wiki/Xs15_3lkia4z32",
-    "data": "2o$o2b2o$b2o2bo$4bo$b3o$o$2o!"
+    "data": "2o$o2b2o$b2o2bo$4bo$b3o$o$2o!",
+    "category": "still_lifes"
   },
   {
     "id": "13loop2",
     "name": "13loop2",
     "wiki": "https://conwaylife.com/wiki/Thirteen_loop",
-    "data": "4b2o$2obobo$bobo$bo2bo$2bobo$3bo!"
+    "data": "4b2o$2obobo$bobo$bo2bo$2bobo$3bo!",
+    "category": "still_lifes"
   },
   {
     "id": "13x13maxdensity",
     "name": "13x13maxdensity",
     "wiki": "https://conwaylife.com/wiki/Density",
-    "data": "15b$b2ob2obob2ob2ob$b2obob3obob2ob$4bo5bo4b$b3ob5ob3ob$bo2bo5bo2bob$2bobo2b2obobo2b$b2obobobobob2ob$2bobobobobobo2b$bo2bobobobo2bob$b4obobob4ob$7bo7b$b5obob2ob2ob$bo2bob2ob2ob2ob$15b$!"
+    "data": "15b$b2ob2obob2ob2ob$b2obob3obob2ob$4bo5bo4b$b3ob5ob3ob$bo2bo5bo2bob$2bobo2b2obobo2b$b2obobobobob2ob$2bobobobobobo2b$bo2bobobobo2bob$b4obobob4ob$7bo7b$b5obob2ob2ob$bo2bob2ob2ob2ob$15b$!",
+    "category": "still_lifes"
   },
   {
     "id": "144p24",
@@ -567,20 +593,25 @@
   {
     "id": "14911m",
     "name": "14911m",
+    "author": "Simon Ekström",
     "wiki": "https://conwaylife.com/wiki/One-cell-thick_pattern",
-    "data": "4o2b4o3b5o2b5o2b3o2b6o!"
+    "description": "Unidimensional methuselah with lifespan 14,911 generations, discovered by Simon Ekström on 2017",
+    "data": "4o2b4o3b5o2b5o2b3o2b6o!",
+    "category": "methuselahs"
   },
   {
     "id": "14p2.1",
     "name": "14p2.1",
     "wiki": "https://conwaylife.com/wiki/14P2.1",
-    "data": "2ob3o$o$bo3bo$6bo$b3ob2o!"
+    "data": "2ob3o$o$bo3bo$6bo$b3ob2o!",
+    "category": "oscillators"
   },
   {
     "id": "14p2.3",
     "name": "14p2.3",
     "wiki": "https://conwaylife.com/wiki/14P2.3",
-    "data": "3o$5b2o$b2obobo2$2bobo$5bo$4b2o!"
+    "data": "3o$5b2o$b2obobo2$2bobo$5bo$4b2o!",
+    "category": "oscillators"
   },
   {
     "id": "14p2.3_synth",
@@ -594,7 +625,8 @@
     "id": "14p2.4",
     "name": "14p2.4",
     "wiki": "https://conwaylife.com/wiki/14P2.4",
-    "data": "b3o2$2o2bobo$5bo$bo4b2o$3bo$3bobo!"
+    "data": "b3o2$2o2bobo$5bo$bo4b2o$3bo$3bobo!",
+    "category": "oscillators"
   },
   {
     "id": "14p2.4_synth",
@@ -608,7 +640,8 @@
     "id": "14x14maxdensity",
     "name": "14x14maxdensity",
     "wiki": "https://conwaylife.com/wiki/Density",
-    "data": "2ob2ob2ob2ob2o$2ob2ob2ob2ob2o2$4ob6ob2o$o2bobo4bob2o$bobobob2obo$2obobob2obob2o$bobobo4bob2o$o2bob6o$4o8b2o$4b7ob2o$2o2bo5bo$obobob3obob2o$b2ob2obob2ob2o!"
+    "data": "2ob2ob2ob2ob2o$2ob2ob2ob2ob2o2$4ob6ob2o$o2bobo4bob2o$bobobob2obo$2obobob2obob2o$bobobo4bob2o$o2bob6o$4o8b2o$4b7ob2o$2o2bo5bo$obobob3obob2o$b2ob2obob2ob2o!",
+    "category": "still_lifes"
   },
   {
     "id": "150p3",
@@ -628,7 +661,8 @@
     "id": "15bentpaperclip",
     "name": "15bentpaperclip",
     "wiki": "https://conwaylife.com/wiki/15-bent-paperclip",
-    "data": "2b2o$bob3o$o5bo$b4obo$3bobo!"
+    "data": "2b2o$bob3o$o5bo$b4obo$3bobo!",
+    "category": "still_lifes"
   },
   {
     "id": "15gsynthp46",
@@ -641,7 +675,8 @@
     "id": "15x15maxdensity",
     "name": "15x15maxdensity",
     "wiki": "https://conwaylife.com/wiki/Density",
-    "data": "2ob2ob2ob2o2b2o$2ob2ob2obobo2bo$9bobobo$10obob2o$o5bo4bobo$bob2o3b4o2bo$2obob3o4b3o$bobobo2b4o$o2bobobo4b3o$4obob5o2bo$5bo5bobo$4ob5obob2o$o2bo5bobo$bobob3obobob2o$2ob2obob2ob2obo!"
+    "data": "2ob2ob2ob2o2b2o$2ob2ob2obobo2bo$9bobobo$10obob2o$o5bo4bobo$bob2o3b4o2bo$2obob3o4b3o$bobobo2b4o$o2bobobo4b3o$4obob5o2bo$5bo5bobo$4ob5obob2o$o2bo5bobo$bobob3obobob2o$2ob2obob2ob2obo!",
+    "category": "still_lifes"
   },
   {
     "id": "160p10h2v0",
@@ -656,7 +691,8 @@
     "id": "163p4h1v0",
     "name": "163p4h1v0",
     "wiki": "https://conwaylife.com/wiki/C/4_orthogonal",
-    "data": "20bo$7b2o8b4o8b2o$7bo2b3o2b4o5b4obo$6bo7b2o2bo4bo7bo5bo$5b4obobo3bo2bo4b2o4b4obo2b2o$5b2o8bo2b2obo2bo2bobobob3o$4bo10b2obo9bo2bo$b3obo5bobo5bobob3o6b2o$o2bo7bo9bob3o$b3obo5bobo5bobob3o6b2o$4bo10b2obo9bo2bo$5b2o8bo2b2obo2bo2bobobob3o$5b4obobo3bo2bo4b2o4b4obo2b2o$6bo7b2o2bo4bo7bo5bo$7bo2b3o2b4o5b4obo$7b2o8b4o8b2o$20bo!"
+    "data": "20bo$7b2o8b4o8b2o$7bo2b3o2b4o5b4obo$6bo7b2o2bo4bo7bo5bo$5b4obobo3bo2bo4b2o4b4obo2b2o$5b2o8bo2b2obo2bo2bobobob3o$4bo10b2obo9bo2bo$b3obo5bobo5bobob3o6b2o$o2bo7bo9bob3o$b3obo5bobo5bobob3o6b2o$4bo10b2obo9bo2bo$5b2o8bo2b2obo2bo2bobobob3o$5b4obobo3bo2bo4b2o4b4obo2b2o$6bo7b2o2bo4bo7bo5bo$7bo2b3o2b4o5b4obo$7b2o8b4o8b2o$20bo!",
+    "category": "spaceships"
   },
   {
     "id": "168p22.1",
@@ -691,7 +727,8 @@
     "id": "16x16maxdensity",
     "name": "16x16maxdensity",
     "wiki": "https://conwaylife.com/wiki/Density",
-    "link": "16x16maxdensity.rle"
+    "link": "16x16maxdensity.rle",
+    "category": "still_lifes"
   },
   {
     "id": "17c45reaction",
@@ -702,13 +739,15 @@
   {
     "id": "17columnheavyweightvolcano",
     "name": "17columnheavyweightvolcano",
-    "data": "5bo$3b5o$2bo5bo$2bob2o2bo$b2obobob3obo$6bo4b2o$4bobob2o$3b2obobob5o$b2o3bo5bo2bo$b2obo2b4o3b2o$2o2b3o4bo$3o6bobo$3o6bobo$2o2b3o4bo$b2obo2b4o3b2o$b2o3bo5bo2bo$3b2obobob5o$4bobob2o$6bo4b2o$b2obobob3obo$2bob2o2bo$2bo5bo$3b5o$5bo!"
+    "data": "5bo$3b5o$2bo5bo$2bob2o2bo$b2obobob3obo$6bo4b2o$4bobob2o$3b2obobob5o$b2o3bo5bo2bo$b2obo2b4o3b2o$2o2b3o4bo$3o6bobo$3o6bobo$2o2b3o4bo$b2obo2b4o3b2o$b2o3bo5bo2bo$3b2obobob5o$4bobob2o$6bo4b2o$b2obobob3obo$2bob2o2bo$2bo5bo$3b5o$5bo!",
+    "category": "oscillators"
   },
   {
     "id": "17x17maxdensity",
     "name": "17x17maxdensity",
     "wiki": "https://conwaylife.com/wiki/Density",
-    "data": "ob2ob2obob2ob2obo$2obobob3obobob2o$3bobo5bobo$2obob7obob2o$2obo9bob2o$3b11o$3o11b3o$o2b11o2bo$2bo11bo$ob13obo$2o13b2o$3b11o$2obo9bob2o$2obob7obob2o$3bobo5bobo$2obobob3obobob2o$ob2ob2obob2ob2obo!"
+    "data": "ob2ob2obob2ob2obo$2obobob3obobob2o$3bobo5bobo$2obob7obob2o$2obo9bob2o$3b11o$3o11b3o$o2b11o2bo$2bo11bo$ob13obo$2o13b2o$3b11o$2obo9bob2o$2obob7obob2o$3bobo5bobo$2obobob3obobob2o$ob2ob2obob2ob2obo!",
+    "category": "still_lifes"
   },
   {
     "id": "180degreekickback",
@@ -721,7 +760,8 @@
     "name": "180p8",
     "author": "Arie Paap, 2019",
     "wiki": "https://conwaylife.com/wiki/180P8",
-    "data": "17b2o$6bo2bo2bo3bo2bob2o$6b7o2bob3obo$2o13bo6b3o$bo2b11ob6o2bo$bobo4bo5bobobo4bo$2obobo4b2o3bo3b2o$o5bo2bo2bo4b2o8b5obo$b2ob2o6bo5b2o3bob2o$2bobo7bo8bo2bo9bo$2bobo7bo8bo2bo9bo$b2ob2o6bo5b2o3bob2o$o5bo2bo2bo4b2o8b5obo$2obobo4b2o3bo3b2o$bobo4bo5bobobo4bo$bo2b11ob6o2bo$2o13bo6b3o$6b7o2bob3obo$6bo2bo2bo3bo2bob2o$17b2o!"
+    "data": "17b2o$6bo2bo2bo3bo2bob2o$6b7o2bob3obo$2o13bo6b3o$bo2b11ob6o2bo$bobo4bo5bobobo4bo$2obobo4b2o3bo3b2o$o5bo2bo2bo4b2o8b5obo$b2ob2o6bo5b2o3bob2o$2bobo7bo8bo2bo9bo$2bobo7bo8bo2bo9bo$b2ob2o6bo5b2o3bob2o$o5bo2bo2bo4b2o8b5obo$2obobo4b2o3bo3b2o$bobo4bo5bobobo4bo$bo2b11ob6o2bo$2o13bo6b3o$6b7o2bob3obo$6bo2bo2bo3bo2bob2o$17b2o!",
+    "category": "oscillators"
   },
   {
     "id": "186p24",
@@ -737,7 +777,9 @@
     "name": "186p7h2v0",
     "author": "Andrew J. Wade, 2020",
     "wiki": "https://conwaylife.com/wiki/186P7H2V0",
-    "data": "8bo15bo$7b3o4bo3bo4b3o$7b3o4b2ob2o4b3o$2b3o8bobobobo8b3o$2b3o9bo3bo9b3o$o3bo7bo7bo7bo3bo$4bo5b3o7b3o5bo$5bo4bo2b2o3b2o2bo4bo$o3bo5b6ob6o5bo3bo$b2o8bo9bo8b2o$2bo10bobobobo10bo$3b3o8b2ob2o8b3o$4bo23bo3$6bo19bobobo3bo17bo3bobo$8bo15bo2$6bob3o11b3obo$3b2obo19bob2o$3b2o23b2o2$7b2o15b2o$6b2obo13bob2o$4b3o2b2o11b2o2b3o$4b3o19b3o$10bo11bo$8b2o13b2o!"
+    "description": "2c/7 orthogonal spaceship that was found by Andrew J. Wade on March 22, 2020",
+    "data": "8bo15bo$7b3o4bo3bo4b3o$7b3o4b2ob2o4b3o$2b3o8bobobobo8b3o$2b3o9bo3bo9b3o$o3bo7bo7bo7bo3bo$4bo5b3o7b3o5bo$5bo4bo2b2o3b2o2bo4bo$o3bo5b6ob6o5bo3bo$b2o8bo9bo8b2o$2bo10bobobobo10bo$3b3o8b2ob2o8b3o$4bo23bo3$6bo19bo$4bobo19bobo$6bo19bo$3b3o21b3o$2bo27bo$3b2o23b2o2$bo2b2obo17bob2o2bo$bobo3bo17bo3bobo$8bo15bo2$6bob3o11b3obo$3b2obo19bob2o$3b2o23b2o2$7b2o15b2o$6b2obo13bob2o$4b3o2b2o11b2o2b3o$4b3o19b3o$10bo11bo$8b2o13b2o!",
+    "category": "spaceships"
   },
   {
     "id": "186p7h2v0pseudotagalong",
@@ -767,19 +809,22 @@
     "id": "18x18maxdensity",
     "name": "18x18maxdensity",
     "wiki": "https://conwaylife.com/wiki/Density",
-    "data": "ob2ob2ob2obob2ob2o$2obobob2ob3obob2o$3bobo8bo$2obob9ob3o$2obo4bo5bo2boo4b3o$bobobo2bob5o$o2bob2obo6b3o$4obo2b7o2bo$5bobo6bobo$6ob6obob2o$o5bo5bobo$bob2obob3obobob2o$2ob2ob2obob2ob2obo!"
+    "data": "ob2ob2ob2obob2ob2o$2obobob2ob3obob2o$3bobo8bo$2obob9ob3o$2obo4bo5bo2bo$3b4o3b3obobo$3o3b4o2bobob2o$o2b2o4bobo2bobo$bobob4o2b4o2bo$2obobo2bobo4b3o$bobobo2bob5o$o2bob2obo6b3o$4obo2b7o2bo$5bobo6bobo$6ob6obob2o$o5bo5bobo$bob2obob3obobob2o$2ob2ob2obob2ob2obo!",
+    "category": "still_lifes"
   },
   {
     "id": "1950p7",
     "name": "1950p7",
     "wiki": "https://conwaylife.com/wiki/754P7",
-    "link": "1950p7.rle"
+    "link": "1950p7.rle",
+    "category": "oscillators"
   },
   {
     "id": "19x19maxdensity",
     "name": "19x19maxdensity",
     "wiki": "https://conwaylife.com/wiki/Density",
-    "data": "2ob2ob2ob2obob2ob2o$2ob2ob2obob3obob2o$9bo5bo$2ob6ob5ob3o$2obo4bobo4bo2bo$3bob2obo2b3obobo$2obobo2b3o2bobob2o$2obo2b2o3b2o2bobo$3b3o2b3o2b3o2bo$3o3b2o3b2o3b3o$o2b3o2b3o2b3o$bobo2b2o3b2o2bob2o$2obobo2b3o2bobob2o"
+    "data": "2ob2ob2ob2obob2ob2o$2ob2ob2obob3obob2o$9bo5bo$2ob6ob5ob3o$2obo4bobo4bo2bo$3bob2obo2b3obobo$2obobo2b3o2bobob2o$2obo2b2o3b2o2bobo$3b3o2b3o2b3o2bo$3o3b2o3b2o3b3o$o2b3o2b3o2b3o$bobo2b2o3b2o2bob2o$2obobo2b3o2bobob2o$bobob2obo2b3obo$o2bo4bobo4bob2o$3ob5ob6ob2o$3bo5bo$2obob3obob2ob2ob2o$2ob2obob2ob2ob2ob2o!",
+    "category": "still_lifes"
   },
   {
     "id": "1beacon",
@@ -822,54 +867,62 @@
     "id": "2.2.4",
     "name": "2.2.4",
     "wiki": "https://conwaylife.com/wiki/2.2.4",
-    "data": "3bobo$bo2bo2bo$obobobobo$o3bo3bo$b2obob2o$4bo!"
+    "data": "3bobo$bo2bo2bo$obobobobo$o3bo3bo$b2obob2o$4bo!",
+    "category": "oscillators"
   },
   {
     "id": "2.2.5",
     "name": "2.2.5",
     "author": "Dean Hickerson, 1993",
     "wiki": "https://conwaylife.com/wiki/2.2.5",
-    "data": "2bo3b2o$b2o2bo2bo$b2o3b2o$ob4o$o5b2o$3bobo2bo$b2o3b2o!"
+    "data": "2bo3b2o$b2o2bo2bo$b2o3b2o$ob4o$o5b2o$3bobo2bo$b2o3b2o!",
+    "category": "oscillators"
   },
   {
     "id": "2.2.6",
     "name": "2.2.6",
     "author": "Dean Hickerson, 1993",
     "wiki": "https://conwaylife.com/wiki/2.2.6",
-    "data": "4bo$3bobo$2o2bo2b2o$ob2o4bo$2b2ob2o$o4b2obo$2o2bo2b2o$3bobo$4bo!"
+    "data": "4bo$3bobo$2o2bo2b2o$ob2o4bo$2b2ob2o$o4b2obo$2o2bo2b2o$3bobo$4bo!",
+    "category": "oscillators"
   },
   {
     "id": "2.3.3",
     "name": "2.3.3",
     "author": "Dean Hickerson, 1993",
     "wiki": "https://conwaylife.com/wiki/2.3.3",
-    "data": "bo4b2o$bo5bo$o2b2obo2$obo2b3o$2o!"
+    "data": "bo4b2o$bo5bo$o2b2obo2$obo2b3o$2o!",
+    "category": "oscillators"
   },
   {
     "id": "2.3.4",
     "name": "2.3.4",
     "author": "Dean Hickerson, 1993",
     "wiki": "https://conwaylife.com/wiki/2.3.4",
-    "data": "2b2o7bobo$3bo5bo2bo$2obob2o3bobob2o$3bobobob2obo$bobobo6bobo$3bo8b2o!"
+    "data": "2b2o7bobo$3bo5bo2bo$2obob2o3bobob2o$3bobobob2obo$bobobo6bobo$3bo8b2o!",
+    "category": "oscillators"
   },
   {
     "id": "2.3.5",
     "name": "2.3.5",
     "author": "Dean Hickerson, 1993",
     "wiki": "https://conwaylife.com/wiki/2.3.5",
-    "data": "7bo$b3o3bo$6bo2bo$2o2bo$5bo2b2o$o2bo$2bo3b3o$2bo!"
+    "data": "7bo$b3o3bo$6bo2bo$2o2bo$5bo2b2o$o2bo$2bo3b3o$2bo!",
+    "category": "oscillators"
   },
   {
     "id": "2.3.6",
     "name": "2.3.6",
     "wiki": "https://conwaylife.com/wiki/2.3.6",
-    "data": "5bo$5bo$b2obo2bo$bob3obo$3bo3bo$o3bo$ob3obo$o2bob2o$2bo$2bo!"
+    "data": "5bo$5bo$b2obo2bo$bob3obo$3bo3bo$o3bo$ob3obo$o2bob2o$2bo$2bo!",
+    "category": "oscillators"
   },
   {
     "id": "200cellprepulsarshuttle26",
     "name": "200cellprepulsarshuttle26",
     "wiki": "https://conwaylife.com/wiki/P26_pre-pulsar_shuttle",
-    "link": "200cellprepulsarshuttle26.rle"
+    "link": "200cellprepulsarshuttle26.rle",
+    "category": "oscillators"
   },
   {
     "id": "204p41",
@@ -893,7 +946,8 @@
     "id": "209p8",
     "name": "209p8",
     "wiki": "https://conwaylife.com/wiki/209P8",
-    "link": "209p8.rle"
+    "link": "209p8.rle",
+    "category": "oscillators"
   },
   {
     "id": "20cellquadraticgrowth",
@@ -921,20 +975,23 @@
     "id": "20p3",
     "name": "20p3",
     "wiki": "https://conwaylife.com/wiki/Period_3_oscillators",
-    "data": "11bobo$3b3obo2bo3bo$bo3bo3bo3bo$o3bo2bob3o$bobo!"
+    "data": "11bobo$3b3obo2bo3bo$bo3bo3bo3bo$o3bo2bob3o$bobo!",
+    "category": "oscillators"
   },
   {
     "id": "20p4",
     "name": "20p4",
     "author": "Dean Hickerson, 1992",
     "wiki": "https://conwaylife.com/wiki/20P4",
-    "data": "4bo$2b2obo$2o$bob2o$2bo2$5bo$3b2obo$6b2o$2bob2o$3bo!"
+    "data": "4bo$2b2obo$2o$bob2o$2bo2$5bo$3b2obo$6b2o$2bob2o$3bo!",
+    "category": "oscillators"
   },
   {
     "id": "20x20maxdensity",
     "name": "20x20maxdensity",
     "wiki": "https://conwaylife.com/wiki/Density",
-    "data": "2o2b2ob2obob2ob2ob2o$o2bobobob3obob2obob$bobobobo5bo5bo$2obobob6ob6o$bobobo6bobo5b$o2bob6obobob4o$4o6bobobobo2bo$4b5obobobobobob$4o4bobobobobob2o$o2bob2obobobobobobob$bobobobobobob2obo2bo$2obobobobobo4b4o$bobobobobob5o4b$o2bobobobo6b4o$4obobob6obo2bo$5bobo6bobobob$6ob6obobob2o$o5bo5bobobobob$bob2obob3obobobo2bo$2ob2ob2obob2ob2o2b2o!"
+    "data": "2o2b2ob2obob2ob2ob2o$o2bobobob3obob2obob$bobobobo5bo5bo$2obobob6ob6o$bobobo6bobo5b$o2bob6obobob4o$4o6bobobobo2bo$4b5obobobobobob$4o4bobobobobob2o$o2bob2obobobobobobob$bobobobobobob2obo2bo$2obobobobobo4b4o$bobobobobob5o4b$o2bobobobo6b4o$4obobob6obo2bo$5bobo6bobobob$6ob6obobob2o$o5bo5bobobobob$bob2obob3obobobo2bo$2ob2ob2obob2ob2o2b2o!",
+    "category": "still_lifes"
   },
   {
     "id": "21cellquadraticgrowth",
@@ -964,13 +1021,15 @@
     "id": "21p4.1",
     "name": "21p4.1",
     "wiki": "https://conwaylife.com/wiki/21P4.1",
-    "data": "5bo$5bobo$4bo$2b3o3bo$6bob3o$o2b2o4bobo$2o8b2o!"
+    "data": "5bo$5bobo$4bo$2b3o3bo$6bob3o$o2b2o4bobo$2o8b2o!",
+    "category": "oscillators"
   },
   {
     "id": "21x21maxdensity",
     "name": "21x21maxdensity",
     "wiki": "https://conwaylife.com/wiki/Density",
-    "data": "2ob2obob2ob2obob2ob2o$2obob3obobob3obob2o$3bo5bobo5bo$3ob5obob5ob3o$o2bo4bobo6bo2bo$bobob2obob6obobo$2obob2obo6bobob2o$bobo4b6obobobo$o2b5o5bobobo2bo$3o5b4obobob4o$3b5o3bobob2o$3o5b2obobo4b3o$o2b4obobobob4o2boo2bo$3ob6ob6ob3o$3bo5bobo5bo$2obob3obobob3obob2o$2ob2obob2ob2obob2ob2o"
+    "data": "2ob2obob2ob2obob2ob2o$2obob3obobob3obob2o$3bo5bobo5bo$3ob5obob5ob3o$o2bo4bobo6bo2bo$bobob2obob6obobo$2obob2obo6bobob2o$bobo4b6obobobo$o2b5o5bobobo2bo$3o5b4obobob4o$3b5o3bobob2o$3o5b2obobo4b3o$o2b4obobobob4o2bo$bobo2bobobobobo2bobo$2obobo2bobobo2bobob2o$bobob4obob4obobo$o2bo6bo6bo2bo$3ob6ob6ob3o$3bo5bobo5bo$2obob3obobob3obob2o$2ob2obob2ob2obob2ob2o!",
+    "category": "still_lifes"
   },
   {
     "id": "22cellquadraticgrowth",
@@ -1019,7 +1078,8 @@
     "name": "22p4.3",
     "author": "Dean Hickerson, 1990",
     "wiki": "https://conwaylife.com/wiki/22P4.3",
-    "data": "2b2o$2bobo$6b2o$3bo2bo$6b2o$bobobo2bo$3b2o2b2o$ob2o$bo!"
+    "data": "2b2o$2bobo$6b2o$3bo2bo$6b2o$bobobo2bo$3b2o2b2o$ob2o$bo!",
+    "category": "oscillators"
   },
   {
     "id": "22p4.3on56p27",
@@ -1031,7 +1091,8 @@
     "id": "22x22maxdensity",
     "name": "22x22maxdensity",
     "wiki": "https://conwaylife.com/wiki/Density",
-    "link": "22x22maxdensity.rle"
+    "link": "22x22maxdensity.rle",
+    "category": "still_lifes"
   },
   {
     "id": "230p8",
@@ -1045,7 +1106,9 @@
     "name": "232p7h3v0",
     "author": "Keith Amling, 2022",
     "wiki": "https://conwaylife.com/wiki/232P7H3V0",
-    "link": "232p7h3v0.rle"
+    "description": "3c/7 orthogonal spaceship with a tagalong on one side found by Keith Amling on February 23, 2022 and is currently the smallest known spaceship of this speed",
+    "link": "232p7h3v0.rle",
+    "category": "spaceships"
   },
   {
     "id": "232p7h3v0puffer",
@@ -1076,7 +1139,9 @@
     "id": "235c79climber",
     "name": "(23,5)c/79 Herschel climber",
     "wiki": "https://conwaylife.com/wiki/(23,5)c/79_Herschel_climber",
-    "data": "58bo$56b2o$57b2o41$32bo$32bobo$32b2o15$18bo$16b2ob2o$16b2ob2o$17bob3o$16b3o4$17b2o$17b2o2$16bo$15bob2ob2o$14b2o4b2o$14b2ob2o$16bo8$23bo$24bo"
+    "description": "A specific cellular automaton crawler reaction in Conway's Game of Life. Discovered by Nicolay Beluchenko in 2014, it consists of a Herschel polyomino tracking through a stream of gliders.",
+    "data_alt": "58bo$56b2o$57b2o41$32bo$32bobo$32b2o15$18bo$16b2ob2o$16b2ob2o$17bob3o$16b3o4$17b2o$17b2o2$16bo$15bob2ob2o$14b2o4b2o$14b2ob2o$16bo8$23bo$24bo",
+    "data": "15bobo15bo$15b2o15bobo$16bo15bo2bo$33b2o9$o$obo$3o$2bo!"
   },
   {
     "id": "23p2",
@@ -1107,7 +1172,8 @@
     "id": "23x23maxdensity",
     "name": "23x23maxdensity",
     "wiki": "https://conwaylife.com/wiki/Density",
-    "link": "23x23maxdensity.rle"
+    "link": "23x23maxdensity.rle",
+    "category": "still_lifes"
   },
   {
     "id": "244p3",
@@ -1119,7 +1185,9 @@
     "id": "244p7h3v0",
     "name": "244p7h3v0",
     "wiki": "https://conwaylife.com/wiki/232P7H3V0",
-    "link": "244p7h3v0.rle"
+    "description": "3c/7 orthogonal spaceship with a tagalong on one side found by Keith Amling on February 23, 2022",
+    "link": "244p7h3v0.rle",
+    "category": "spaceships"
   },
   {
     "id": "246p3",
@@ -1195,13 +1263,15 @@
     "name": "24p4.1",
     "author": "Dean Hickerson, 1989",
     "wiki": "https://conwaylife.com/wiki/24P4.1",
-    "data": "4bobo2bob3o$3bo2bobobobo$3bo$10bo$bobobobo2bo$3obo2bobo!"
+    "data": "4bobo2bob3o$3bo2bobobobo$3bo$10bo$bobobobo2bo$3obo2bobo!",
+    "category": "oscillators"
   },
   {
     "id": "24x24maxdensity",
     "name": "24x24maxdensity",
     "wiki": "https://conwaylife.com/wiki/Density",
-    "link": "24x24maxdensity.rle"
+    "link": "24x24maxdensity.rle",
+    "category": "still_lifes"
   },
   {
     "id": "255p132",
@@ -1262,7 +1332,8 @@
     "id": "25x25maxdensity",
     "name": "25x25maxdensity",
     "wiki": "https://conwaylife.com/wiki/Density",
-    "link": "25x25maxdensity.rle"
+    "link": "25x25maxdensity.rle",
+    "category": "still_lifes"
   },
   {
     "id": "26cellquadraticgrowth",
@@ -1413,7 +1484,8 @@
     "id": "28p7.3",
     "name": "28p7.3",
     "wiki": "https://conwaylife.com/wiki/28P7.3",
-    "data": "obo$2obo$3bo2b2o$2obobobo$o2bo2bo$2bo$4bo$2b3o2$6b2o$6bobo$8bo$8b2o!"
+    "data": "obo$2obo$3bo2b2o$2obobobo$o2bo2bo$2bo$4bo$2b3o2$6b2o$6bobo$8bo$8b2o!",
+    "category": "oscillators"
   },
   {
     "id": "28p7.3bumperbouncer",
@@ -1501,7 +1573,8 @@
     "id": "2by3groupofblocks",
     "name": "2by3groupofblocks",
     "wiki": "https://conwaylife.com/wiki/Bi-block",
-    "data": "2ob2ob2o$2ob2ob2o2$2ob2ob2o$2ob2ob2o!"
+    "data": "2ob2ob2o$2ob2ob2o2$2ob2ob2o$2ob2ob2o!",
+    "category": "still_lifes"
   },
   {
     "id": "2c3wire",
@@ -4453,7 +4526,8 @@
     "id": "99p18",
     "name": "99p18",
     "wiki": "https://conwaylife.com/wiki/117P18",
-    "data": "6bo$5bobo2b2o$5bobo3bo$3b2obob3o$2bobo3bo$bo2bobo$2b4obo$7bo2b2o$2b2obobo2b2o$o2bob2o$2obo$3bo$3b2o$13b2o$9b2o2b2o$8b2o$9bo$4b2o$4b2o$14b2oobo$8b3obob2o$7bo3bobo$7b2o2bobo$12bo!"
+    "data": "6bo$5bobo2b2o$5bobo3bo$3b2obob3o$2bobo3bo$bo2bobo$2b4obo$7bo2b2o$2b2obobo2b2o$o2bob2o$2obo$3bo$3b2o$13b2o$9b2o2b2o$8b2o$9bo$4b2o$4b2o$14b2o$15bo$15bob2o$12b2obo2bo$7b2o2bobob2o$7b2o2bo$11bob4o$12bobo2bo$10bo3bobo$8b3obob2o$7bo3bobo$7b2o2bobo$12bo!",
+    "category": "oscillators"
   },
   {
     "id": "9blocks",
@@ -33160,9 +33234,10 @@
   },
   {
     "id": "twoglidermess",
-    "name": "10gm",
+    "name": "Two-glider mess",
     "wiki": "https://conwaylife.com/ref/mniemiec/10/10gm.rle",
-    "data": "84bo$82bo2bo$3bobo80bo$4b2o75bo4bo$4bo76bo4bo$3o78bo3bo$2bo79bobo$bo!"
+    "data": "84bo$82bo2bo$3bobo80bo$4b2o75bo4bo$4bo76bo4bo$3o78bo3bo$2bo79bobo$bo!",
+    "category": "glider_synth"
   },
   {
     "id": "twoglidermess_synth",
