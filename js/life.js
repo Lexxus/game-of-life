@@ -73,7 +73,7 @@ export const Life = {
         i = this.cells.length;
       }
       this.pool[id] = i;
-      cell = new Cell(x, y, live, link);
+      cell = new Cell(x, y, link);
       this.cells[i] = cell;
       cell.update(live);
     }
@@ -148,10 +148,9 @@ export const Life = {
     const cells = this.cells;
 
     for (let i = 0, n = cells.length; i < n; ++i) {
-      if (cells[i]) {
-        const cell = cells[i];
-
-        if (cell.isLive) cell.impact();
+      const cell = cells[i];
+      if (cell && cell.isLive) {
+        cell.impact();
       }
     }
     this.isReady = true;
@@ -184,9 +183,9 @@ export const Life = {
     const cells = this.cells;
 
     for (let i = 0, n = cells.length; i < n; ++i) {
-      if (cells[i]) {
-        const cell = cells[i];
-        if (cell.isLive) this.gd.drawCell(cell.x, cell.y);
+      const cell = cells[i];
+      if (cell && cell.isLive) {
+        this.gd.drawCell(cell.x, cell.y);
       }
     }
   },
@@ -265,7 +264,7 @@ class Cell {
   linksCount = 0;
   nbh = null;
 
-  constructor(x, y, live, link) {
+  constructor(x, y, link) {
     this.x = x;
     this.y = y;
     this.id = x + 'n' + y;
@@ -273,9 +272,6 @@ class Cell {
     this.points = 0;
     this.linksCount = link ? 1 : 0;
     this.toDel = 0;
-
-    //if(live) this.alive();
-    //else this.die();
   }
 
   update(live) {
