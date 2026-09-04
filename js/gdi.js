@@ -4,6 +4,8 @@
  * @author Oleksii Teterin
  * @version 2.0
  */
+const DEFAULT_GRID_COLOR = '#F1F1F1';
+const DEFAULT_AXIOS_COLOR = '#E7E7E7';
 
 export class GDI {
   step = 1;
@@ -12,6 +14,8 @@ export class GDI {
   color = 'black';
   imgData = undefined;
   context2d = undefined;
+  gridColor = DEFAULT_GRID_COLOR;
+  axiosColor = DEFAULT_AXIOS_COLOR;
 
   constructor(canvasOrId, options) {
     const canvas = typeof canvasOrId === 'string' ? document.getElementById(canvasOrId) : canvasOrId;
@@ -29,6 +33,8 @@ export class GDI {
     this.x0 = options.x0 || 0;
     this.y0 = options.y0 || 0;
     this.color = options.color || 'black';
+    this.gridColor = options.gridColor || this.gridColor;
+    this.axiosColor = options.axiosColor || this.axiosColor;
 
     this.context2d.fillStyle = this.color;
   }
@@ -43,6 +49,7 @@ export class GDI {
     this.y0 += y;
   }
 
+  // convert screen coords into grid cell coords
   convertXY(x, y) {
     return {
       x: Math.floor((x - this.x0) / this.step),
@@ -75,7 +82,7 @@ export class GDI {
 
     ctx.clearRect(0, 0, w, h);
 
-    ctx.strokeStyle = '#F1F1F1';
+    ctx.strokeStyle = this.gridColor;
     ctx.beginPath();
 
     ctx.font = '7px Arial';
@@ -98,7 +105,7 @@ export class GDI {
     ctx.stroke();
 
     // draw axios
-    ctx.strokeStyle = '#E7E7E7';
+    ctx.strokeStyle = this.axiosColor;
     ctx.beginPath();
     ctx.moveTo(0, this.y0);
     ctx.lineTo(w, this.y0);

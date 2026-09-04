@@ -47,7 +47,7 @@ export const Life = {
   },
 
   createCell(x, y, live, link) {
-    const id = x + 'n' + y;
+    const id = createId(x, y);
     let i = this.pool[id];
     let cell;
 
@@ -65,10 +65,10 @@ export const Life = {
       } else if (link) {
         cell.linksCount++;
       }
-      cell.toDel = 0;
+      cell.staleFactor = 0;
     } else {
       if (this.holes.length) {
-        i = this.holes.shift();
+        i = this.holes.pop();
       } else {
         i = this.cells.length;
       }
@@ -95,7 +95,7 @@ export const Life = {
 
       if (cell) {
         cell.lifeCycle();
-        if (cell?.isLive) ++nLive;
+        if (cell.isLive) ++nLive;
       }
     }
     this.currentCycle++;
@@ -159,12 +159,13 @@ export const Life = {
   remove(cell) {
     if (cell.nbh) {
       for (let i = 0; i < 8; ++i) {
-        cell.nbh[i].linksCount--;
+        const nbh = cell.nbh[i];
+        if (nbh.linksCount > 0) nbh.linksCount--;
       }
       cell.nbh = null;
     }
     if (cell.linksCount === 0) {
-      if (cell.toDel++ > 5) {
+      if (cell.staleFactor++ > 5) {
         const id = cell.id;
         const i = this.pool[id];
 
@@ -194,7 +195,13 @@ export const Life = {
     const pattern = this.cells.filter((c) => c?.isLive)
       .map((c) => [c.x, c.y]);
 
-    console.log(this.convertCellsToData(pattern));
+    if (!pattern.length) {
+      return Promise.reject("No alive cells");
+    }
+    const patternRLE = this.convertCellsToData(pattern);
+
+    console.log(patternRLE);
+    return copyToClipboard(patternRLE);
   },
 
   convertCellsToData(cells) {
@@ -260,18 +267,25 @@ class Cell {
   y = 0;
   id = '';
   isLive = false;
+  // the main life factor:
+  // if it is not 2 or 3 the cell will die
   points = 0;
+  // number of cells pointing to this one
   linksCount = 0;
+  // neighborhoods
   nbh = null;
+  // to avoid frequently recreate cell
+  // do not remove it immediately but after some life cycles
+  staleFactor = 0;
 
   constructor(x, y, link) {
     this.x = x;
     this.y = y;
-    this.id = x + 'n' + y;
+    this.id = createId(x, y);
     this.isLive = false;
     this.points = 0;
     this.linksCount = link ? 1 : 0;
-    this.toDel = 0;
+    this.staleFactor = 0;
   }
 
   update(live) {
@@ -287,7 +301,7 @@ class Cell {
     if (!this.nbh) {
       const x = this.x;
       const y = this.y;
-      // neighborhood
+      // neighborhoods
       const nbh = [];
 
       nbh[0] = Life.createCell(x, y + 1, false, true);
@@ -301,6 +315,7 @@ class Cell {
       this.nbh = nbh;
     }
     this.isLive = true;
+    this.staleFactor = 0;
 
     Life.gd.drawCell(this.x, this.y);
   }
@@ -359,4 +374,12 @@ class Cell {
 }
 
 export default Life;
+
+function createId(x, y) {
+  return `${x}n${y}`;
+}
+
+async function copyToClipboard(text) {
+  return navigator.clipboard.writeText(text);
+}
 

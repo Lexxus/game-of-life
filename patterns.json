@@ -1213,7 +1213,7 @@
     "id": "24cellquadraticgrowth",
     "name": "24-cell quadratic growth",
     "author": "Michael Simkin",
-    "wiki": "www.conwaylife.com/wiki/24-cell_quadratic_growth",
+    "wiki": "https://conwaylife.com/wiki/24-cell_quadratic_growth",
     "description": "It had been the smallest known pattern, that exhibits quadratic population growth, before it was superseded by switch engine ping-pong.",
     "data": "39782bo$39782bo$39783b2o$39785bo$39785bo$39738bo46bo$39739bo45bo$39740bo$39739bo$39738bo$39740b3o101$2o$o28$19bo$18b3o$20bo!"
   },
@@ -2385,7 +2385,9 @@
   {
     "id": "3c7growingspaceship",
     "name": "3c7growingspaceship",
+    "author": "iNoMed",
     "wiki": "https://conwaylife.com/wiki/3c/7_orthogonal",
+    "description": "A flying wing-like growing spaceship, with the flying wing component moving at a speed of (16,2)c/50, constructed by iNoMed on January 5, 2021",
     "link": "3c7growingspaceship.rle",
     "category": "spaceships"
   },
@@ -8558,7 +8560,8 @@
     "id": "caterloopillar31c240",
     "name": "caterloopillar31c240",
     "wiki": "https://conwaylife.com/w/index.php?title=Centipede_caterloopillar",
-    "link": "caterloopillar31c240.rle"
+    "link": "caterloopillar31c240.rle",
+    "category": "spaceships"
   },
   {
     "id": "cauldron",

@@ -31,6 +31,17 @@
   --drawer-min-width: 200px;
 }
 
+@keyframes moveUpFade {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+}
+
 .icon::before,
 .icon-left::before {
   content: "";
@@ -266,5 +277,12 @@
   font-size: 18px;
   padding-left: var(--pt-grid-size);
   margin: 0;
+}
+
+.fade-up {
+  animation: moveUpFade 2s forwards;
+  position: absolute;
+  border: none;
+  background-color: #ee3 !important;
 }
 

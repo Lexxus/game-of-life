@@ -10,7 +10,7 @@
 </head>
 
 <body class="theme-default">
-  <canvas id="life"></canvas>
+  <canvas id="life" class="movable"></canvas>
 
   <div id="controlPanel" class="control-panel opened">
     <div class="controls">
@@ -21,7 +21,7 @@
       <button id="btnRnd" class="btn" title="Put cells randomly">Rnd</button>
     </div>
     <div class="control-speed">
-      <label>Speed: </label><input type="range" id="speed" min="1" max="50" value="3" />
+      <label>Speed: </label><input type="range" id="speed" min="1" max="50" value="5" />
       <span class="speed-value" id="speedValue">50</span>
     </div>
     <div class="info">
@@ -29,6 +29,7 @@
       <div title="Cells on the board: live / total"><label>Cells:</label><span id="cells"></span></div>
       <div title="Maximum number of live cells"><label>Max cells:</label><span id="max-cells"></span></div>
       <div title="minimum / current / maximum (how many iterations it would calculate in full gas)"><label>FPS:</label><span id="time"></span></div>
+      <div title="Current coordinates of center of the grid"><label>X:Y</label><span id="coords"></span></div>
     </div>
     <div class="zoom">
       Zoom:
@@ -37,10 +38,10 @@
         <span id="zoomValue" class="zoom-value">6</span>
         <button id="btnZoomIn" class="btn zoom-btn" style="border-radius: 0 6px 6px 0;">+</button>
       </span>
-      <button id="btnHome" class="btn icon icon-cross-hair" title="Move to the initial position" />
+      <button id="btnHome" class="btn icon icon-cross-hair" title="Move to the initial position. Keep SHIFT to move to the first alive cell. CTRL+SHIFT - move to the last alive cell." />
     </div>
     <div class="other-controls">
-      <button id="btnSave" class="btn" title="Print current structure into browser's console in RLE format">Print pattern</button>
+      <button id="btnSave" class="btn" title="Copy current structure into clipboard and browser's console in RLE format">Copy pattern</button>
     </div>
   </div>
   <div id="controlPanelMini" class="control-panel-mini hidden">
