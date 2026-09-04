@@ -13,14 +13,7 @@ export const Life = {
   // graphic driver
   gd: null,
 
-  // array of cells
-  cells: [],
-
-  // pool of links by cell ID to cell in the cells array
-  pool: {},
-
-  // array of indexes in cells array for dead cells
-  holes: [],
+  cells: new Map(),
 
   removed: 0,
   maxLiveCells: 0,
@@ -31,9 +24,7 @@ export const Life = {
 
   init: function (graphicDriver) {
     if (graphicDriver) this.gd = graphicDriver;
-    this.cells = [];
-    this.pool = {};
-    this.holes = [];
+    this.cells.clear();
     this.removed = 0;
     this.isReady = false;
     this.currentCycle = 0;
@@ -48,14 +39,9 @@ export const Life = {
 
   createCell(x, y, live, link) {
     const id = createId(x, y);
-    let i = this.pool[id];
-    let cell;
+    let cell = this.cells.get(id);
 
-    if (i >= 0) {
-      cell = this.cells[i];
-
-      if (!cell) throw new Error('Cell not found in pool: ' + id);
-
+    if (cell) {
       if (live) {
         if (!cell.isLive || link) {
           cell.alive();
@@ -67,14 +53,8 @@ export const Life = {
       }
       cell.staleFactor = 0;
     } else {
-      if (this.holes.length) {
-        i = this.holes.pop();
-      } else {
-        i = this.cells.length;
-      }
-      this.pool[id] = i;
       cell = new Cell(x, y, link);
-      this.cells[i] = cell;
+      this.cells.set(id, cell);
       cell.update(live);
     }
 
@@ -87,16 +67,15 @@ export const Life = {
     if (!this.isReady) {
       this.impact();
     }
-    const cells = this.cells;
     let nLive = 0
 
-    for (let i = 0, n = cells.length; i < n; ++i) {
-      const cell = cells[i];
-
-      if (cell) {
-        cell.lifeCycle();
-        if (cell.isLive) ++nLive;
-      }
+    let n = this.cells.size;
+    for (const cell of this.cells.values()) {
+      // .lifeCycle() mutates cells by adding new cells
+      // this skip iterating new cells
+      if (n-- <= 0) break;
+      cell.lifeCycle();
+      if (cell.isLive) ++nLive;
     }
     this.currentCycle++;
     const removedCells = this.removed;
@@ -112,7 +91,7 @@ export const Life = {
     return {
       cycle: this.currentCycle,
       liveCells: nLive,
-      totalCells: cells.length - this.holes.length,
+      totalCells: this.cells.size,
       removedCells,
       maxLiveCells: this.maxLiveCells,
       time: Date.now() - t
@@ -122,8 +101,8 @@ export const Life = {
   getInfo() {
     return {
       cycle: this.currentCycle,
-      liveCells: this.cells.reduce((n, c) => n + (c?.isLive ? 1 : 0), 0),
-      totalCells: this.cells.length - this.holes.length,
+      liveCells: this.cells.values().reduce((n, c) => n + (c.isLive ? 1 : 0), 0),
+      totalCells: this.cells.size,
       removedCells: this.removed,
       maxLiveCells: this.maxLiveCells
     };
@@ -133,23 +112,15 @@ export const Life = {
     if (!this.isReady) {
       this.impact();
     }
-    const cells = this.cells
-    let n = 0;
 
-    for (var id in cells) {
-      if (cells.hasOwnProperty(id)) {
-        cells[id].testCycle();
-        ++n;
-      }
-    }
+    this.cells.values().forEach((cell) => {
+      cell.testCycle();
+    });
   },
 
   impact() {
-    const cells = this.cells;
-
-    for (let i = 0, n = cells.length; i < n; ++i) {
-      const cell = cells[i];
-      if (cell && cell.isLive) {
+    for (const cell of this.cells.values()) {
+      if (cell.isLive) {
         cell.impact();
       }
     }
@@ -157,23 +128,19 @@ export const Life = {
   },
 
   remove(cell) {
-    if (cell.nbh) {
+    if (cell.nbh.length) {
       for (let i = 0; i < 8; ++i) {
         const nbh = cell.nbh[i];
         if (nbh.linksCount > 0) nbh.linksCount--;
       }
-      cell.nbh = null;
+      cell.nbh.length = 0;
     }
     if (cell.linksCount === 0) {
       if (cell.staleFactor++ > 5) {
-        const id = cell.id;
-        const i = this.pool[id];
-
         // highlight removed cell
         // this.gd.drawText(cell.x, cell.y, '+', '#FF8888');
-        this.holes.push(i);
-        this.pool[id] = undefined;
-        this.cells[i] = undefined;
+
+        this.cells.delete(cell.id);
         this.removed++;
       }
     }
@@ -181,19 +148,16 @@ export const Life = {
 
   refresh(zoom) {
     this.gd.drawGrid(zoom);
-    const cells = this.cells;
-
-    for (let i = 0, n = cells.length; i < n; ++i) {
-      const cell = cells[i];
-      if (cell && cell.isLive) {
+    this.cells.values().forEach((cell) => {
+      if (cell.isLive) {
         this.gd.drawCell(cell.x, cell.y);
       }
-    }
+    });
   },
 
   save() {
-    const pattern = this.cells.filter((c) => c?.isLive)
-      .map((c) => [c.x, c.y]);
+    const pattern = Array.from(this.cells.values().filter((c) => c.isLive)
+      .map((c) => [c.x, c.y]));
 
     if (!pattern.length) {
       return Promise.reject("No alive cells");
@@ -273,7 +237,7 @@ class Cell {
   // number of cells pointing to this one
   linksCount = 0;
   // neighborhoods
-  nbh = null;
+  nbh = [];
   // to avoid frequently recreate cell
   // do not remove it immediately but after some life cycles
   staleFactor = 0;
@@ -298,11 +262,11 @@ class Cell {
   alive() {
     if (this.isLive) return;
 
-    if (!this.nbh) {
+    if (!this.nbh.length) {
       const x = this.x;
       const y = this.y;
       // neighborhoods
-      const nbh = [];
+      const nbh = this.nbh;
 
       nbh[0] = Life.createCell(x, y + 1, false, true);
       nbh[1] = Life.createCell(x + 1, y + 1, false, true);
@@ -312,7 +276,6 @@ class Cell {
       nbh[5] = Life.createCell(x - 1, y - 1, false, true);
       nbh[6] = Life.createCell(x - 1, y, false, true);
       nbh[7] = Life.createCell(x - 1, y + 1, false, true);
-      this.nbh = nbh;
     }
     this.isLive = true;
     this.staleFactor = 0;
@@ -352,7 +315,7 @@ class Cell {
       color = '#FFFFFF';
     } else {
       Life.gd.clearCell(this.x, this.y);
-      color = this.nbh ? 'red' : '#777777';
+      color = this.nbh.length ? 'red' : '#777777';
     }
 
     Life.gd.drawText(this.x, this.y, this.linksCount, color);

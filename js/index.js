@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   document.getElementById('btnHome').onclick = (e) => {
     if (e.shiftKey) {
-      const cell = e.ctrlKey ? Life.cells.findLast((c) => c?.isLive) : Life.cells.find((c) => c?.isLive);
+      const cell = e.ctrlKey ? Array.from(Life.cells.values()).findLast((c) => c?.isLive) : Life.cells.values().find((c) => c?.isLive);
 
       if (cell) {
         moveToCell(cell);
@@ -137,9 +137,9 @@ document.addEventListener('DOMContentLoaded', () => {
   gd.canvas.onmousemove = function(e) {
     if (isMoving) {
       if (e.ctrlKey && allowDrawing) {
-        const xy = gd.convertXY(e.pageX - this.offsetLeft, e.pageY - this.offsetTop);
+        const {x, y} = gd.convertXY(e.pageX - this.offsetLeft, e.pageY - this.offsetTop);
 
-        Life.createCell(xy.x, xy.y, true, true);
+        Life.createCell(x, y, true, true);
         showInfo(Life.getInfo());
       } else {
         gd.moveBy(e.pageX - startX, e.pageY - startY);
@@ -242,6 +242,8 @@ document.addEventListener('DOMContentLoaded', () => {
     stopLife();
     Life.init();
     allowDrawing = true;
+    fps.min = 1000;
+    fps.max = 0;
     showInfo();
   }
 
