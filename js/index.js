@@ -6,7 +6,7 @@ import { renderPatternsPanel } from './patterns-panel.js';
  * Conway's Game of Life execution
  *
  * @author Oleksii Teterin
- * @version 2.0
+ * @version 2.2
  */
 document.addEventListener('DOMContentLoaded', () => {
   const MAX_SPEED = 1000;
@@ -19,8 +19,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const $Cells = document.getElementById('cells');
   const $MaxCells = document.getElementById('max-cells');
   const $Time = document.getElementById('time');
+  const $Coords = document.getElementById('coords');
   const $Zoom = document.getElementById('zoomValue');
   const $Speed = document.getElementById('speed');
+  const $StopOnCheckbox = document.getElementById('checkboxStopOn');
 
   const fps = { min: 1000, max: 0 };
 
@@ -99,13 +101,27 @@ document.addEventListener('DOMContentLoaded', () => {
     else zoomOut();
   });
 
-  document.getElementById('btnHome').onclick = () => {
+  document.getElementById('btnHome').onclick = (e) => {
+    if (e.shiftKey) {
+      const cell = e.ctrlKey ? Array.from(Life.cells.values()).findLast((c) => c?.isLive) : Life.cells.values().find((c) => c?.isLive);
+
+      if (cell) {
+        moveToCell(cell);
+        Life.refresh();
+        return;
+      }
+    }
     resetPosition();
     Life.refresh();
   };
 
+  document.querySelectorAll('[name=StopStable]')[1].onchange = (e) => {
+    $StopOnCheckbox.checked = e.target.checked;
+  }
+
+  document.getElementById('btnSave').onclick = function() { handleSave(this); }
+
   renderPatternsPanel({
-    onSave: handleSave,
     onPaste: handlePaste,
   });
 
@@ -126,9 +142,9 @@ document.addEventListener('DOMContentLoaded', () => {
   gd.canvas.onmousemove = function(e) {
     if (isMoving) {
       if (e.ctrlKey && allowDrawing) {
-        const xy = gd.convertXY(e.pageX - this.offsetLeft, e.pageY - this.offsetTop);
+        const {x, y} = gd.convertXY(e.pageX - this.offsetLeft, e.pageY - this.offsetTop);
 
-        Life.createCell(xy.x, xy.y, true, true);
+        Life.createCell(x, y, true, true);
         showInfo(Life.getInfo());
       } else {
         gd.moveBy(e.pageX - startX, e.pageY - startY);
@@ -147,22 +163,32 @@ document.addEventListener('DOMContentLoaded', () => {
     if (byX !== 0 || byY !== 0) {
       gd.moveComplete(byX, byY);
       Life.refresh();
+      const {x, y} = gd.convertXY(Math.round(w / 2), Math.round(h / 2));
+      updateCoords(x, y);
     }
     allowCycle = true;
   }
   document.onkeydown = (e) => {
-    if (!e.ctrlKey && allowDrawing) {
-      gd.canvas.classList.add('movable');
+    if (e.ctrlKey && allowDrawing) {
+      gd.canvas.classList.remove('movable');
     }
   }
   document.onkeyup = (e) => {
-    if (e.ctrlKey && allowDrawing) {
-      gd.canvas.classList.remove('movable');
+    if (!e.ctrlKey) {
+      gd.canvas.classList.add('movable');
     }
   }
 
   function resetPosition() {
     gd.setX0Y0(Math.round(w / 2), Math.round(h / 2));
+    updateCoords(0, 0);
+  }
+
+  function moveToCell(cell) {
+    const { x, y } = cell;
+
+    gd.setX0Y0(-x * gd.step + Math.round(w / 2), y * gd.step + Math.round(h / 2));
+    updateCoords(x, y);
   }
 
   function handleStep() {
@@ -185,8 +211,11 @@ document.addEventListener('DOMContentLoaded', () => {
           showInfo(info);
 
           if (info.liveCells < 1) stopLife();
+          // if structure is stable
           if (info.liveCells === live) {
-            if (--n === 0) {
+            // immediately stop if no cells die or born
+            // if the structure is oscillator or spaceship - stop after n iterations
+            if (info.isStable || (--n <= 0 && $StopOnCheckbox.checked)) {
               stopLife();
             }
           } else {
@@ -221,19 +250,25 @@ document.addEventListener('DOMContentLoaded', () => {
     stopLife();
     Life.init();
     allowDrawing = true;
+    fps.min = 1000;
+    fps.max = 0;
     showInfo();
   }
 
   function showInfo(info) {
-    $LifeCycle.innerHTML = info ? info.cycle : 0;
-    $Cells.innerHTML = info ? info.liveCells + ' / ' + info.totalCells : 0;
-    $MaxCells.innerHTML = info ? info.maxLiveCells : 0;
+    $LifeCycle.textContent = info ? info.cycle : 0;
+    $Cells.textContent = info ? `${info.liveCells} / ${info.totalCells}` : 0;
+    $MaxCells.textContent = info ? info.maxLiveCells : 0;
 
     const fc = Math.round(1000 / (info?.time || 1));
 
     if (fps.min > fc) fps.min = fc;
     if (fps.max < fc) fps.max = fc;
-    $Time.innerHTML = info ? fps.min + '/' + fc + '/' + fps.max : '';
+    $Time.textContent = info ? `${fps.min}/${fc}/${fps.max}` : '';
+  }
+
+  function updateCoords(x, y) {
+    $Coords.textContent = `${x} : ${y}`;
   }
 
   function stopLife() {
@@ -252,10 +287,18 @@ document.addEventListener('DOMContentLoaded', () => {
     gd.canvas.classList.remove('movable');
   }
 
+  function _zoomCenter(zm) {
+    const shiftX = Math.round(w / 2);
+    const shiftY = Math.round(h / 2);
+    const {x, y} = gd.convertXY(shiftX, shiftY);
+    gd.setX0Y0(-x * zm + shiftX, y * zm + shiftY);
+  }
+
   function zoomIn() {
     allowCycle = false;
     zoom++;
-    $Zoom.innerHTML = zoom;
+    $Zoom.textContent = zoom;
+    _zoomCenter(zoom);
     Life.refresh(zoom);
     allowCycle = true;
   }
@@ -265,13 +308,25 @@ document.addEventListener('DOMContentLoaded', () => {
       allowCycle = false;
       zoom--;
       $Zoom.innerHTML = zoom;
+      _zoomCenter(zoom);
       Life.refresh(zoom);
       allowCycle = true;
     }
   }
 
-  function handleSave() {
-    Life.save();
+  function handleSave(el) {
+    Life.save().then(() => {
+      const cEl = el.cloneNode();
+      const { top, left, width } = el.getBoundingClientRect();
+
+      cEl.style.top = `${top}px`;
+      cEl.style.left = `${left}px`;
+      cEl.style.width = `${width}px`;
+      cEl.textContent = 'copied';
+      cEl.classList.add('fade-up');
+      document.body.appendChild(cEl);
+      setTimeout(() => document.body.removeChild(cEl), 2e3);
+    }).catch(console.warn);
   }
 
   function handlePaste(cells, width, height) {
@@ -281,5 +336,6 @@ document.addEventListener('DOMContentLoaded', () => {
     cells.forEach(([x, y]) => {
       Life.createCell(x - xShift, y + yShift, true);
     });
+    showInfo(Life.getInfo());
   }
 });

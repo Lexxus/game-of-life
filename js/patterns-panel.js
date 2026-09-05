@@ -18,6 +18,30 @@ export const categories = {
     description: "An agar is a pattern that can tile the Life universe periodically both in space and in time.",
     link: "https://conwaylife.com/wiki/Agar",
   },
+  conduits: {
+    id: "conduits",
+    name: "Conduits",
+    description: "A conduit is an arrangement of still lifes and/or oscillators that move an active reaction to another location without themselves being permanently damaged.",
+    link: "https://conwaylife.com/wiki/Conduit",
+  },
+  crawlers: {
+    id: "crawlers",
+    name: "Crawlers",
+    description: "A crawler or climber is a reaction in which two objects (or groups of objects) collide, leaving one of the objects moved backwards or forwards to a degree, and the other forward. Crawler reactions are commonly used to create engineered spaceships, also known as caterpillars.",
+    link: "https://conwaylife.com/wiki/Crawler"
+  },
+  eaters: {
+    id: "eaters",
+    name: "Eaters",
+    description: "An eater is any catalyst that can delete residual patterns produced by certain reactions.",
+    link: "https://conwaylife.com/wiki/Eater"
+  },
+  fuses: {
+    id: "fuses",
+    name: "Fuses",
+    description: "A fuse is a wick that burns at one end.",
+    link: "https://conwaylife.com/wiki/Fuse",
+  },
   glider_synth: {
     id: "glider_synth",
     name: "Glider Synthesis",
@@ -29,18 +53,6 @@ export const categories = {
     name: "Guns",
     description: "Patterns that produce gliders.",
     link: "https://conwaylife.com/wiki/Gun",
-  },
-  conduits: {
-    id: "conduits",
-    name: "Conduits",
-    description: "A conduit is an arrangement of still lifes and/or oscillators that move an active reaction to another location without themselves being permanently damaged.",
-    link: "https://conwaylife.com/wiki/Conduit",
-  },
-  fuses: {
-    id: "fuses",
-    name: "Fuses",
-    description: "A fuse is a wick that burns at one end.",
-    link: "https://conwaylife.com/wiki/Fuse",
   },
   induction_coils: {
     id: "induction_coils",
@@ -66,11 +78,11 @@ export const categories = {
     description: "Patterns that move and leave a trail of debris.",
     link: "https://conwaylife.com/wiki/Puffer_train",
   },
-  rakes: {
-    id: "rakes",
-    name: "Rakes",
-    description: "A rake is a puffer whose debris consists of spaceships.",
-    link: "https://conwaylife.com/wiki/Rake",
+  breeders: {
+    id: "breeder",
+    name: "Quadratic growth",
+    description: "Quadratic growth is an infinite growth with a rate proportional to T2, where T is the number of ticks that a pattern has been run. A related term is breeder, which usually means an object that grows by creating an unbounded number of infinitely growing objects.",
+    link: "https://conwaylife.com/wiki/Quadratic_growth"
   },
   reflectors: {
     id: "reflectors",
@@ -78,23 +90,11 @@ export const categories = {
     description: "A stable or oscillating pattern that can reflect some specific type of spaceship (usually a glider) without suffering permanent damage.",
     link: "https://conwaylife.com/wiki/Reflector",
   },
-  spaceships: {
-    id: "spaceship",
-    name: "Spaceships",
-    description: "Patterns that move across the grid.",
-    link: "https://conwaylife.com/wiki/Spaceship",
-  },
-  spacefillers: {
-    id: "spacefiller",
-    name: "Spacefillers",
-    description: "A pattern that grows at a quadratic rate by filling the plane with an agar.",
-    link: "https://conwaylife.com/wiki/Spacefiller",
-  },
-  still_lifes: {
-    id: "still_life",
-    name: "Still Lifes",
-    description: "Patterns that do not change over time.",
-    link: "https://conwaylife.com/wiki/Still_life",
+  rakes: {
+    id: "rakes",
+    name: "Rakes",
+    description: "A rake is a puffer whose debris consists of spaceships.",
+    link: "https://conwaylife.com/wiki/Rake",
   },
   sawtooths: {
     id: "sawtooth",
@@ -102,11 +102,29 @@ export const categories = {
     description: "A pattern whose population grows without bound but does not tend to infinity.",
     link: "https://conwaylife.com/wiki/Sawtooth",
   },
+  spacefillers: {
+    id: "spacefiller",
+    name: "Spacefillers",
+    description: "A pattern that grows at a quadratic rate by filling the plane with an agar.",
+    link: "https://conwaylife.com/wiki/Spacefiller",
+  },
+  spaceships: {
+    id: "spaceship",
+    name: "Spaceships",
+    description: "Patterns that move across the grid.",
+    link: "https://conwaylife.com/wiki/Spaceship",
+  },
   sparks: {
     id: "spark",
     name: "Sparks",
     description: "Sparks are patterns that die.",
     link: "https://conwaylife.com/wiki/Spark",
+  },
+  still_lifes: {
+    id: "still_life",
+    name: "Still Lifes",
+    description: "Patterns that do not change over time.",
+    link: "https://conwaylife.com/wiki/Still_life",
   },
   tagalongs: {
     id: "tagalong",
@@ -143,19 +161,18 @@ async function loadPatterns(source) {
   }
 }
 
-loadPatterns('patterns.json');
+loadPatterns('/patterns.json');
 
 /**
  * Create Patterns Panel
- * @param { onSave, onPaste } params
- * @param { function } params.onSave - Function to print the current state in the console
+ * @param { onPaste } params
  * @param { function } params.onPaste - Function to paste a pattern on the grid
  * @returns { void }
  * @description Initializes the patterns panel, allowing users to select and paste patterns.
  * The panel displays a list of patterns with their previews. When a pattern is clicked, it is pasted onto the grid.
  * The panel can be toggled open or closed, and a save button is provided to print the current state into the console.
  */
-export function renderPatternsPanel({ onSave, onPaste }) {
+export function renderPatternsPanel({ onPaste }) {
   const $Panel = document.getElementById('patternsPanel');
   const $Form = document.getElementById('patternForm');
   const $Categories = document.getElementById('patternCategories');
@@ -167,6 +184,7 @@ export function renderPatternsPanel({ onSave, onPaste }) {
   canvas.width = PREVIEW_SIZE;
   canvas.height = PREVIEW_SIZE;
   const gd = new GDI(canvas);
+  const previewCache = {};
 
   let currentCategoryId = '';
   let currentQuery = '';
@@ -198,10 +216,6 @@ export function renderPatternsPanel({ onSave, onPaste }) {
   document.getElementById('btnClose').onclick = () => {
     $Panel.classList.remove('opened');
     document.getElementById('btnPatterns').classList.remove('btn-active');
-  }
-
-  document.getElementById('btnSave').onclick = () => {
-    onSave();
   }
 
   $Patterns.addEventListener('click', (e) => {
@@ -252,7 +266,7 @@ export function renderPatternsPanel({ onSave, onPaste }) {
 
     $Patterns.innerHTML = '';
     const foundPatterns = category
-      ? patterns.filter((p) => ((Array.isArray(p.category) ? p.category.includes(categoryId) : p.category === categoryId) || (categoryId === 'other' && !p.category)))
+      ? patterns.filter((p) => ((categoryId === 'other' && !p.category) || (Array.isArray(p.category) ? p.category.includes(categoryId) : p.category === categoryId)))
       : patterns.filter((p) => query.length > 1 && p.name.toLowerCase().includes(queryLc));
 
     if (!category) {
@@ -272,53 +286,73 @@ export function renderPatternsPanel({ onSave, onPaste }) {
       .sort((a, b) => a.name.localeCompare(b.name))
       .slice(iStart, iEnd)
       .forEach(async (pattern) => {
-        let data = pattern.data;
-        if (!data) {
-          if (!pattern.link) return;
-          const res = await fetch(`rle/${pattern.link}`);
-          const text = await res.text();
-          data = text.split(/\n\r?/).filter((l) => !l.match(/^\#|x/)).join('');
-          pattern.data = data;
-        }
         const $li = document.createElement('li');
-
-        const { cells, width, height } = convertToCells(data);
-        const w = Math.min(PREVIEW_SIZE, width);
-        const h = Math.min(PREVIEW_SIZE, height);
-        const scale = Math.max(1, Math.min(10, Math.floor(PREVIEW_SIZE / w), Math.floor(PREVIEW_SIZE / h)));
-        const previewWidth = width * scale > PREVIEW_SIZE ? width * scale : PREVIEW_SIZE;
-        const x0 = Math.floor(PREVIEW_SIZE / 2 - w * scale / 2);
-        const previewHeight = height * scale > PREVIEW_SIZE ? height * scale : PREVIEW_SIZE;
-        const y0 = previewHeight / 2 - Math.floor((height / 2 - 1) * scale);
-
-        canvas.width = previewWidth;
-        canvas.height = previewHeight;
         $li.className = 'pattern';
         $li.dataset.id = pattern.id;
         $li.title = pattern.description;
-
-        gd.clear('white');
-        gd.step = scale;
-        gd.setX0Y0(x0, y0);
 
         const patternName = pattern.wiki ? `<a href="${pattern.wiki}" target="_blank" rel="noreferrer">${pattern.name}</a>` : pattern.name;
         $li.innerHTML = `
           <h3 class="pattern-title" title="${pattern.name}">${patternName}</h3>
           <img class="preview" width="${PREVIEW_SIZE}" height="${PREVIEW_SIZE}" alt="${pattern.description || ''}" />
         `;
-
-        cells.forEach(([x, y]) => gd.drawCell(x, y));
-        const img = $li.querySelector('img');
-
-        const sc = Math.min(Math.min(1, PREVIEW_SIZE / width), Math.min(1, PREVIEW_SIZE / height));
-        try {
-          gd.context2d.scale(sc, sc);
-        } catch(error) {
-          console.error('Pattern scaling failed:', sc, patternName);
-        }
-        img.src = canvas.toDataURL();
         $Patterns.appendChild($li);
+
+        const img = $li.querySelector('img');
+        let imgSrc = previewCache[pattern.id];
+
+        if (!imgSrc) {
+          let data = pattern.data;
+          if (!data) {
+            if (!pattern.link) return;
+            const res = await fetch(`/rle/${pattern.link}`);
+            const text = await res.text();
+            data = text.split(/\n\r?/).filter((l) => !l.match(/^\#|x/)).join('');
+            pattern.data = data;
+          }
+          const { cells, width, height } = convertToCells(data);
+          const w = Math.min(PREVIEW_SIZE, width);
+          const h = Math.min(PREVIEW_SIZE, height);
+          const scale = Math.max(1, Math.min(10, Math.floor(PREVIEW_SIZE / w), Math.floor(PREVIEW_SIZE / h)));
+          const previewWidth = width * scale > PREVIEW_SIZE ? width * scale : PREVIEW_SIZE;
+          const x0 = Math.floor(PREVIEW_SIZE / 2 - w * scale / 2);
+          const previewHeight = height * scale > PREVIEW_SIZE ? height * scale : PREVIEW_SIZE;
+          const y0 = previewHeight / 2 - Math.floor((height / 2 - 1) * scale);
+
+          resetCanvas(previewWidth, previewHeight);
+
+          gd.step = scale;
+          gd.setX0Y0(x0, y0);
+
+          cells.forEach(([x, y]) => gd.drawCell(x, y));
+
+          const sc = Math.min(Math.min(1, PREVIEW_SIZE / width), Math.min(1, PREVIEW_SIZE / height));
+          try {
+            img.dataset.scale = sc;
+            gd.context2d.scale(sc, sc);
+          } catch(error) {
+            console.error('Pattern scaling failed:', sc, patternName);
+            resetCanvas(PREVIEW_SIZE, PREVIEW_SIZE);
+          }
+          imgSrc = canvas.toDataURL();
+
+          // Chrome does not throw error when canvas in error state
+          if (imgSrc.length < 20) {
+            resetCanvas(PREVIEW_SIZE, PREVIEW_SIZE);
+            imgSrc = canvas.toDataURL();
+          }
+          previewCache[pattern.id] = imgSrc;
+        }
+        img.src = imgSrc;
       });
+  }
+
+  function resetCanvas(w, h) {
+    // reset canvas
+    canvas.width = w;
+    canvas.height = h;
+    gd.context2d = canvas.getContext('2d');
+    gd.clear('white');
   }
 
   function handlePageClick({ currentTarget }) {
