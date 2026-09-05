@@ -3,7 +3,7 @@
  * http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
  *
  * @author Oleksii Teterin
- * @version 2.0
+ * @version 2.2
  */
 
 /**
@@ -68,15 +68,17 @@ export const Life = {
       this.impact();
     }
     let nLive = 0
+    let isMutated = false;
 
     let n = this.cells.size;
     for (const cell of this.cells.values()) {
       // .lifeCycle() mutates cells by adding new cells
       // this skip iterating new cells
       if (n-- <= 0) break;
-      cell.lifeCycle();
+      isMutated = cell.lifeCycle() || isMutated;
       if (cell.isLive) ++nLive;
     }
+    console.log('isMutated:', isMutated);
     this.currentCycle++;
     const removedCells = this.removed;
 
@@ -94,7 +96,8 @@ export const Life = {
       totalCells: this.cells.size,
       removedCells,
       maxLiveCells: this.maxLiveCells,
-      time: Date.now() - t
+      time: Date.now() - t,
+      isStable: !isMutated,
     }
   },
 
@@ -323,16 +326,24 @@ class Cell {
 
   lifeCycle() {
     const p = this.points;
+    let isMutated = false;
 
     if (p < 2 || p > 3) {
-      if (this.isLive) this.die();
+      if (this.isLive) {
+        this.die();
+        isMutated = true;
+      }
       if (p === 0) {
         Life.remove(this);
+        isMutated = true;
       }
     } else if (p === 3) {
+      isMutated = !this.isLive;
       this.alive();
     }
     this.points = 0;
+
+    return isMutated;
   }
 }
 

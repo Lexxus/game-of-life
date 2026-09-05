@@ -6,7 +6,7 @@ import { renderPatternsPanel } from './patterns-panel.js';
  * Conway's Game of Life execution
  *
  * @author Oleksii Teterin
- * @version 2.0
+ * @version 2.2
  */
 document.addEventListener('DOMContentLoaded', () => {
   const MAX_SPEED = 1000;
@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const $Coords = document.getElementById('coords');
   const $Zoom = document.getElementById('zoomValue');
   const $Speed = document.getElementById('speed');
+  const $StopOnCheckbox = document.getElementById('checkboxStopOn');
 
   const fps = { min: 1000, max: 0 };
 
@@ -114,6 +115,10 @@ document.addEventListener('DOMContentLoaded', () => {
     Life.refresh();
   };
 
+  document.querySelectorAll('[name=StopStable]')[1].onchange = (e) => {
+    $StopOnCheckbox.checked = e.target.checked;
+  }
+
   document.getElementById('btnSave').onclick = function() { handleSave(this); }
 
   renderPatternsPanel({
@@ -169,7 +174,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
   document.onkeyup = (e) => {
-    if (e.ctrlKey) {
+    if (!e.ctrlKey) {
       gd.canvas.classList.add('movable');
     }
   }
@@ -206,8 +211,11 @@ document.addEventListener('DOMContentLoaded', () => {
           showInfo(info);
 
           if (info.liveCells < 1) stopLife();
+          // if structure is stable
           if (info.liveCells === live) {
-            if (--n === 0) {
+            // immediately stop if no cells die or born
+            // if the structure is oscillator or spaceship - stop after n iterations
+            if (info.isStable || (--n <= 0 && $StopOnCheckbox.checked)) {
               stopLife();
             }
           } else {

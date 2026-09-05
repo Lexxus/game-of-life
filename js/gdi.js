@@ -2,7 +2,7 @@
  * Graphic Display Interface
  *
  * @author Oleksii Teterin
- * @version 2.0
+ * @version 2.2
  */
 const DEFAULT_GRID_COLOR = '#F1F1F1';
 const DEFAULT_AXIOS_COLOR = '#E7E7E7';
