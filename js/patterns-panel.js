@@ -161,7 +161,7 @@ async function loadPatterns(source) {
   }
 }
 
-loadPatterns('/patterns.json');
+loadPatterns('patterns.json');
 
 /**
  * Create Patterns Panel
