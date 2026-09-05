@@ -18,6 +18,30 @@ export const categories = {
     description: "An agar is a pattern that can tile the Life universe periodically both in space and in time.",
     link: "https://conwaylife.com/wiki/Agar",
   },
+  conduits: {
+    id: "conduits",
+    name: "Conduits",
+    description: "A conduit is an arrangement of still lifes and/or oscillators that move an active reaction to another location without themselves being permanently damaged.",
+    link: "https://conwaylife.com/wiki/Conduit",
+  },
+  crawlers: {
+    id: "crawlers",
+    name: "Crawlers",
+    description: "A crawler or climber is a reaction in which two objects (or groups of objects) collide, leaving one of the objects moved backwards or forwards to a degree, and the other forward. Crawler reactions are commonly used to create engineered spaceships, also known as caterpillars.",
+    link: "https://conwaylife.com/wiki/Crawler"
+  },
+  eaters: {
+    id: "eaters",
+    name: "Eaters",
+    description: "An eater is any catalyst that can delete residual patterns produced by certain reactions.",
+    link: "https://conwaylife.com/wiki/Eater"
+  },
+  fuses: {
+    id: "fuses",
+    name: "Fuses",
+    description: "A fuse is a wick that burns at one end.",
+    link: "https://conwaylife.com/wiki/Fuse",
+  },
   glider_synth: {
     id: "glider_synth",
     name: "Glider Synthesis",
@@ -29,18 +53,6 @@ export const categories = {
     name: "Guns",
     description: "Patterns that produce gliders.",
     link: "https://conwaylife.com/wiki/Gun",
-  },
-  conduits: {
-    id: "conduits",
-    name: "Conduits",
-    description: "A conduit is an arrangement of still lifes and/or oscillators that move an active reaction to another location without themselves being permanently damaged.",
-    link: "https://conwaylife.com/wiki/Conduit",
-  },
-  fuses: {
-    id: "fuses",
-    name: "Fuses",
-    description: "A fuse is a wick that burns at one end.",
-    link: "https://conwaylife.com/wiki/Fuse",
   },
   induction_coils: {
     id: "induction_coils",
@@ -66,11 +78,11 @@ export const categories = {
     description: "Patterns that move and leave a trail of debris.",
     link: "https://conwaylife.com/wiki/Puffer_train",
   },
-  rakes: {
-    id: "rakes",
-    name: "Rakes",
-    description: "A rake is a puffer whose debris consists of spaceships.",
-    link: "https://conwaylife.com/wiki/Rake",
+  breeders: {
+    id: "breeder",
+    name: "Quadratic growth",
+    description: "Quadratic growth is an infinite growth with a rate proportional to T2, where T is the number of ticks that a pattern has been run. A related term is breeder, which usually means an object that grows by creating an unbounded number of infinitely growing objects.",
+    link: "https://conwaylife.com/wiki/Quadratic_growth"
   },
   reflectors: {
     id: "reflectors",
@@ -78,23 +90,11 @@ export const categories = {
     description: "A stable or oscillating pattern that can reflect some specific type of spaceship (usually a glider) without suffering permanent damage.",
     link: "https://conwaylife.com/wiki/Reflector",
   },
-  spaceships: {
-    id: "spaceship",
-    name: "Spaceships",
-    description: "Patterns that move across the grid.",
-    link: "https://conwaylife.com/wiki/Spaceship",
-  },
-  spacefillers: {
-    id: "spacefiller",
-    name: "Spacefillers",
-    description: "A pattern that grows at a quadratic rate by filling the plane with an agar.",
-    link: "https://conwaylife.com/wiki/Spacefiller",
-  },
-  still_lifes: {
-    id: "still_life",
-    name: "Still Lifes",
-    description: "Patterns that do not change over time.",
-    link: "https://conwaylife.com/wiki/Still_life",
+  rakes: {
+    id: "rakes",
+    name: "Rakes",
+    description: "A rake is a puffer whose debris consists of spaceships.",
+    link: "https://conwaylife.com/wiki/Rake",
   },
   sawtooths: {
     id: "sawtooth",
@@ -102,11 +102,29 @@ export const categories = {
     description: "A pattern whose population grows without bound but does not tend to infinity.",
     link: "https://conwaylife.com/wiki/Sawtooth",
   },
+  spacefillers: {
+    id: "spacefiller",
+    name: "Spacefillers",
+    description: "A pattern that grows at a quadratic rate by filling the plane with an agar.",
+    link: "https://conwaylife.com/wiki/Spacefiller",
+  },
+  spaceships: {
+    id: "spaceship",
+    name: "Spaceships",
+    description: "Patterns that move across the grid.",
+    link: "https://conwaylife.com/wiki/Spaceship",
+  },
   sparks: {
     id: "spark",
     name: "Sparks",
     description: "Sparks are patterns that die.",
     link: "https://conwaylife.com/wiki/Spark",
+  },
+  still_lifes: {
+    id: "still_life",
+    name: "Still Lifes",
+    description: "Patterns that do not change over time.",
+    link: "https://conwaylife.com/wiki/Still_life",
   },
   tagalongs: {
     id: "tagalong",
