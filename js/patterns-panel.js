@@ -305,7 +305,7 @@ export function renderPatternsPanel({ onPaste }) {
           let data = pattern.data;
           if (!data) {
             if (!pattern.link) return;
-            const res = await fetch(`/rle/${pattern.link}`);
+            const res = await fetch(`rle/${pattern.link}`);
             const text = await res.text();
             data = text.split(/\n\r?/).filter((l) => !l.match(/^\#|x/)).join('');
             pattern.data = data;
